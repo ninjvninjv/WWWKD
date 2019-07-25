@@ -1,0 +1,81 @@
+title: multidayevent
+icon: ˇ
+
+status:
+  draft: true
+  listed: true
+
+options:
+  url: false
+  delete: false
+
+columns:
+  - width: 1/2
+        sections:
+            content:
+                type: fields
+                fields:
+                    kind:
+                        label: Kind
+                        type: radio
+                        options:
+                            seminar: Seminar
+                            workshop: Workshop
+                            conference: Conference
+                            rundgang: Rundgang
+                            basic: Basic course
+                            exhibition: Exhibition
+            gallery:
+                headline: Gallery
+                type: files
+                layout: list
+                template: gallery
+                back: white
+
+ 
+  - width: 1/2
+      sections:
+        information:
+            type: fields
+            fields:
+              texttitle:
+                label: Title
+                type: text
+                placeholder: Best Seminar Ever
+              prof:
+                label: Professor/ Initiator
+                type: pages
+                layout: listed
+                templates: person
+              students:
+                label: Students
+                type: pages
+                layout: listed
+                templates: student
+              begindate:
+                label: beginning date
+                type: date
+                width: 1/2
+              enddate:
+                label: end date
+                type: date
+                width: 1/2
+              start:
+                label: start time
+                type: time
+                width: 1/2
+              end:
+                label: end time
+                type: time
+                width: 1/2
+              link:
+                label: Links
+                type: structure
+                fields:
+                  url:
+                    label: URL
+                    type: url
+              about:
+                label: About
+                type: textarea
+

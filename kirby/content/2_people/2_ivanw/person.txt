@@ -1,0 +1,41 @@
+Title: ivanw
+
+----
+
+Job: prof
+
+----
+
+Status: yes
+
+----
+
+Prename: Ivan
+
+----
+
+Name: Weiss
+
+----
+
+Begin: 2016-10-01
+
+----
+
+End: 
+
+----
+
+About: Ivan is cool. Part of Johnson/kingston
+
+----
+
+Task: digital design
+
+----
+
+Websites: 
+
+----
+
+Social: 

@@ -1,0 +1,28 @@
+title: onedayevents
+icon: ›
+
+status:
+  draft: true
+  listed: true
+
+options:
+  url: false
+  delete: false
+
+columns:
+  - width: 1/2
+    sections:
+      drafts:
+        headline: Drafts
+        type: pages
+        status: draft
+        templates: oneevent
+            
+
+  - width: 1/2
+    sections:
+          published:
+            headline: Published Events
+            type: pages
+            status: listed
+            templates: oneevent   

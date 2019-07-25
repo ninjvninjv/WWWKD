@@ -1,0 +1,95 @@
+title: project
+icon: ®
+
+status:
+  draft: true
+  listed: true
+
+options:
+  url: false
+  delete: false
+
+columns:
+  - width: 1/2
+        sections:
+            content:
+                type: fields
+                fields:
+                     kind:
+                        label: Medium
+                        type: checkboxes
+                        options:
+                            book: Book
+                            poster: Poster
+                            type: Typeface
+                            web: Website
+                            video: Video
+                            textile: Textile
+                            illu: Illustration
+                            sound: Sound
+                            space: Space
+                            exhibition: Exhibition
+                            event: Events
+                    occation:
+                        label: Occation
+                        type: radio
+                        options:
+                            seminar: Seminar
+                            free: Free Project
+                            pre: Predeploma
+                            deploma: Diploma     
+            gallery:
+                headline: Gallery
+                type: files
+                layout: list
+                template: image
+                back: white
+ 
+  - width: 1/2
+    fields:
+      prof:
+        type: structure
+        fields:
+            professor:
+                label: Professors
+                placeholder: Pro Fessor
+                type: select
+                options: query
+                query: site.children.children.template("person")
+      designer:
+        type: structure
+        fields:
+            student:
+                label: Student name
+                placeholder: Stud Ent
+                type: text
+            semester:
+                label: Semester
+                placeholder: 74
+                type: text
+      begin:
+        label: Project beginning
+        type: date
+        width: 1/2
+      end:
+        label: Project end
+        type: date
+        width: 1/2
+      about:
+        label: About
+        type: textarea
+      task:
+        label: Was there a Task?
+        type: textarea
+      link:
+        label: Link
+        type: structure
+        fields:
+          platform:
+            label: Website name
+            type: text
+            width: 1/2
+          url:
+            label: URL
+            type: url
+            width: 1/2

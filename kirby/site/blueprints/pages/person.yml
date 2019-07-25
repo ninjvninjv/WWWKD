@@ -1,0 +1,67 @@
+title: person
+icon: º
+
+status:
+  draft: true
+  listed: true
+
+options:
+  url: false
+
+columns:
+  - width: 1/2
+    fields:
+        job:
+            label: Job
+            type: radio
+            options:
+                prof: Professor
+                guest: Guest professor
+                teacher: Guest teacher
+                employee: Employee
+                hiwi: Hiwi
+        status:
+            label: Still here?
+            type: radio
+            options:
+                yes: active
+                no: former
+
+  - width: 1/2
+    fields:
+      prename:
+        label: Prename
+        placeholder: Michvan
+        type: text
+        width: 1/2
+      name:
+        label: Name
+        placeholder: Langphany
+        type: text
+        width: 1/2
+      begin:
+        label: Began at
+        type: date
+        width: 1/2
+      end:
+        label: left at
+        type: date
+        width: 1/2
+      about:
+        label: About
+        type: textarea
+      task:
+        label: Task
+        type: textarea
+      websites:
+        label: Websites
+        type: structure
+        fields:
+          platform:
+            label: Website name
+            type: text
+            width: 1/2
+          url:
+            label: URL
+            type: url
+            width: 1/2

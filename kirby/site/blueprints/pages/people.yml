@@ -1,0 +1,42 @@
+title: people
+icon: •
+
+status:
+  draft: true
+  listed: true
+
+options:
+  url: false
+  delete: false
+
+columns:
+  - width: 1/2
+    sections:
+      studentdrafts:
+            headline: Students
+            type: pages
+            status: draft
+            templates: 
+                - student
+      studentpublished:
+            headline: Published Students
+            type: pages
+            status: listed
+            templates: 
+                - student
+            
+
+  - width: 1/2
+    sections:
+          drafts:
+            headline: Employees
+            type: pages
+            status: draft
+            templates: 
+                - person
+          published:
+            headline: Published Employees
+            type: pages
+            status: listed
+            templates: 
+                - person

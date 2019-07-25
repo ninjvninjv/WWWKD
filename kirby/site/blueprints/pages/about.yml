@@ -1,0 +1,47 @@
+title: About us
+icon: Í
+
+status:
+  draft: true
+  listed: true
+
+options:
+  url: false
+  delete: false
+
+columns:
+  - width: 1/2
+    fields:
+      texttitle:
+        label: Text title
+        type: text
+      text:
+        label: About text
+        type: textarea
+        size: huge
+
+  - width: 1/2
+    fields:
+      address:
+        label: Address
+        type: textarea
+      email:
+        label: Email secretary
+        type: email
+      phone:
+        label: Phone secretary
+        type: tel
+      social:
+        label: Other HfG Websites
+        type: structure
+        fields:
+          platform:
+            label: Instance
+            type: text
+            placeholder: PD, MK, SZ/AD, KuWi
+            width: 1/2
+          url:
+            label: URL
+            type: url
+            width: 1/2
+        

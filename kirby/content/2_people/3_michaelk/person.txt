@@ -1,0 +1,37 @@
+Title: michaelk
+
+----
+
+Job: prof
+
+----
+
+Status: yes
+
+----
+
+Prename: Michael
+
+----
+
+Name: Kryenbühl
+
+----
+
+Begin: 2017-04-01
+
+----
+
+End: 
+
+----
+
+About: Michi is cool. Part of Johnson/Kingston.
+
+----
+
+Task: digital design
+
+----
+
+Websites: 
