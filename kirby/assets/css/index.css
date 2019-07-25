@@ -16,25 +16,25 @@ html {
 
 
 .header{
-    
+
     height:50px;
     background-color:red;
     text-align:center;
 }
 
 .timeline{
-    
+
     text-align:center;
-    
+
 }
 
 .footer{
-    
+
     position:absolute;
     width:100%;
     text-align:center;
     bottom:0px;
-    
-    background-color:yellow;
-    
+
+    background-color: green;
+
 }
