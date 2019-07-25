@@ -1,1 +1,495 @@
-<html></html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Seitentitel</title>
+
+	
+	<script src="dist/jquery-2.0.0.min.js"></script>
+<style>
+    body{
+        font-size: 13px;
+        line-height: 16px;
+        font-family: 'flefixx-Regular';
+        margin:0;
+        background-color: blue;
+    }
+    .filters{
+        position: fixed;
+        top:0;
+        right: 0;
+        width: 16vw;
+        height: 5vw;
+        text-transform: uppercase;
+        text-align: right;
+        
+    }
+    .filter{
+        color:white;
+        margin-left: 1vw;
+        margin-top:0.5vw;
+    }
+    .spalte{
+        display: none;
+        min-height: 95vh;
+        transition: all 0.3s ease-in-out;
+        vertical-align: top;
+        
+    }
+    #spalte01, #spalte02{
+        display: inline-block;
+    }
+    .contentblock{
+        color: white;
+        padding-top:5vw;
+        border:1px solid white;
+        padding-bottom: 5vw;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+
+    }
+    .content03{
+        height:20vw;
+    }
+    .anzahlspalten1{
+        width:calc(100vw - 2px);
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+     .anzahlspalten2{
+        width:calc(50vw - 2px);
+         font-size:4vw; 
+         line-height: 4vw;
+    }   
+    .anzahlspalten3{
+        width:calc(33vw - 2px);
+        font-size: 3vw;
+        line-height: 3vw;
+    }       
+    .anzahlspalten4{
+        width:calc(25vw - 2px);
+        font-size: 2vw;
+        line-height: 2vw;
+    }     
+    .anzahlspalten5{
+        width:calc(20vw - 2px);
+        font-size: 1vw;
+        line-height: 1vw;
+    }     
+    .active{
+        border-bottom: 1vw solid white;
+    }
+    .minusbutton{
+        text-align: right;
+        width:100%;
+    }
+    .spaltengruppen{
+        display: inline-block;
+        height:100vh;
+        max-height: 100%;
+        overflow-y: scroll;
+    }
+    #now{
+        background-color: white;
+        color:blue;
+    }
+    #line{
+        height: 1px;
+        background-color:red;
+        width:100vw;
+        position: fixed;
+    }
+    
+</style>
+
+
+</head>
+<body>
+<div class="filters">
+    <div class="filter active" id="filter01" data-spalte="spalte01" data-content="content01" data-visible="1">Vorträge</div>
+    <div class="filter active" id="filter02" data-spalte="spalte01" data-content="content02" data-visible="1">Ausstellungen / Präsentationen</div>
+    <div class="filter active" id="filter03" data-spalte="spalte02" data-content="content03" data-visible="1">Seminare</div>
+    <div class="filter active" id="filter04" data-spalte="spalte02" data-content="content04" data-visible="1">Workshops</div>
+    <div class="filter active" id="filter05" data-spalte="spalte02" data-content="content05" data-visible="1">Grundlagenkurse</div>
+    <div class="filter" id="filter06" data-spalte="spalte03" data-content="content06" data-visible="0">Studierendenprojekte</div>
+    <div class="filter" id="filter07" data-spalte="spalte03" data-content="content07" data-visible="0">Diplome</div>
+    <div class="filter" id="filter08" data-spalte="spalte03" data-content="content08" data-visible="0">Vordiplome</div>
+    <div class="filter" id="filter09" data-spalte="spalte04" data-content="content09" data-visible="0">Personen</div>
+    <div class="filter" id="filter10" data-spalte="spalte05" data-content="content10" data-visible="0">Info</div>
+</div>    
+    
+<div class="spalten">
+<div class="spaltengruppen" id="agenda">
+<div id="line"></div>
+<div class="spalte anzahlspalten2" id="spalte01" data-content-visible="2">
+    <div class="minusbutton" data-spalte="spalte01">x</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content01" style="visibility:visible">Contentblock Vortrag</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content01" style="visibility:visible">Contentblock Vortrag</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content01" style="visibility:visible">Contentblock Vortrag</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content01" style="visibility:visible">Contentblock Vortrag</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content01" style="visibility:visible">Contentblock Vortrag</div>
+    <div class="contentblock content02" id="now" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content01" style="visibility:visible">Contentblock Vortrag</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content01" style="visibility:visible">Contentblock Vortrag</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content01" style="visibility:visible">Contentblock Vortrag</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content01" style="visibility:visible">Contentblock Vortrag</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+    <div class="contentblock content02" style="visibility:visible">Contentblock Ausstellung</div>
+</div><div class="spalte anzahlspalten2" id="spalte02" data-content-visible="3">
+    <div class="minusbutton" data-spalte="spalte02">x</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content04" style="visibility:visible">Contentblock Workshop</div>
+    <div class="contentblock content03" style="visibility:visible">Contentblock Seminar</div>
+    <div class="contentblock content05" style="visibility:visible">Contentblock Grundlagenkurs</div>
+</div></div><div class="spaltengruppen" id="projekte"><div class="spalte" id="spalte03" data-content-visible="0">
+    <div class="minusbutton" data-spalte="spalte03">x</div>
+    <div class="contentblock content06">Contentblock Projekt</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content06">Contentblock Projekt</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content06">Contentblock Projekt</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content06">Contentblock Projekt</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content06">Contentblock Projekt</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content06">Contentblock Projekt</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content06">Contentblock Projekt</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content06">Contentblock Projekt</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content06">Contentblock Projekt</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content06">Contentblock Projekt</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content08">Contentblock Vordiplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+    <div class="contentblock content07">Contentblock Diplom</div>
+</div></div><div class="spaltengruppen"><div class="spalte" id="spalte04" data-content-visible="0">
+    <div class="minusbutton" data-spalte="spalte04">x</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+    <div class="contentblock content09">Contentblock Person</div>
+</div><div class="spalte" id="spalte05" data-content-visible="0">
+     <div class="minusbutton" data-spalte="spalte05">x</div>
+   <div class="contentblock content10">Contentblock Info</div>
+</div>
+</div>
+</div>    
+ 
+
+<script>
+var spalten_visible = 2; 
+var scrollPositionAgenda;
+var scrollPositionProjekte;
+var scrollfaktor;    
+
+function layout(){
+    $('.spalte').removeClass('anzahlspalten1');
+    $('.spalte').removeClass('anzahlspalten2');
+    $('.spalte').removeClass('anzahlspalten3');
+    $('.spalte').removeClass('anzahlspalten4');
+    $('.spalte').removeClass('anzahlspalten5');
+
+    $('.spalte').addClass('anzahlspalten'+spalten_visible);
+
+    scrollPositionAgenda = $("#now").offset().top+30;
+
+}    
+  
+function getscrollfaktor(){
+    
+    scrollfaktor = $('#agenda').scrollTop()/$('#spalte03').outerHeight();
+    $('#projekte').scrollTop(100000000);
+
+    console.log(scrollfaktor);
+    
+    
+}
+
+$(".filter").on('click',function(event) {
+    var visible = $(this).attr('data-visible');
+    var content = $(this).attr('data-content');
+    var spalte = $(this).attr('data-spalte');
+    var content_spalte_visible = parseInt($('#'+spalte).attr('data-content-visible'));
+    
+    if(visible == '1'){
+       $('.'+content).css('visibility','hidden');
+       $(this).removeClass('active');
+       var visible = $(this).attr('data-visible','0');
+
+       content_spalte_visible--;
+       if(content_spalte_visible == 0){
+            $('#'+spalte).css('display','none');  
+            spalten_visible--;         
+        }
+    }else{
+
+       $('.'+content).css('visibility','visible');
+        
+       $(this).addClass('active');
+       var visible = $(this).attr('data-visible','1');
+
+       content_spalte_visible++;
+        if(content_spalte_visible == 1){
+            $('#'+spalte).css('display','inline-block'); 
+
+            
+            spalten_visible++;         
+       }
+    }
+    $('#line').width((100/spalten_visible*2)+'vw');
+    
+    $('#'+spalte).attr('data-content-visible',content_spalte_visible);
+
+    layout();
+    
+    
+    if(spalte == 'spalte03'){
+        scrollPositionProjekte = $('#projekte').scrollTop();
+    }
+    
+    getscrollfaktor();
+
+
+});
+  
+    
+$(".minusbutton").on('click',function(event) {
+    var spalte = $(this).attr('data-spalte');
+    
+    $('#'+spalte).css('display','none');  
+    spalten_visible--;  
+    layout();
+    
+    $('#'+spalte).attr('data-content-visible','0');
+    
+    
+    if(spalte == 'spalte01'){
+       $('.content01').css('visibility','hidden');
+       $('.content02').css('visibility','hidden');
+       $('#filter01').removeClass('active');
+       $('#filter02').removeClass('active');
+       $('#filter01').attr('data-visible','0');
+       $('#filter02').attr('data-visible','0');
+    }else if(spalte == 'spalte02'){
+       $('.content03').css('visibility','hidden');
+       $('.content04').css('visibility','hidden');
+       $('.content05').css('visibility','hidden');
+       $('#filter03').removeClass('active');
+       $('#filter04').removeClass('active');       
+       $('#filter05').removeClass('active');       
+       $('#filter03').attr('data-visible','0');
+       $('#filter04').attr('data-visible','0');
+       $('#filter05').attr('data-visible','0');
+    }else if(spalte == 'spalte03'){
+       $('.content06').css('visibility','hidden');
+       $('.content07').css('visibility','hidden');
+       $('.content08').css('visibility','hidden');
+       $('#filter06').removeClass('active');
+       $('#filter07').removeClass('active');       
+       $('#filter08').removeClass('active');       
+       $('#filter06').attr('data-visible','0');
+       $('#filter07').attr('data-visible','0');
+       $('#filter08').attr('data-visible','0');
+    }else if(spalte == 'spalte04'){
+       $('.content09').css('visibility','hidden');
+       $('#filter09').removeClass('active');      
+        $('#filter09').attr('data-visible','0');
+   }else if(spalte == 'spalte05'){
+       $('.content10').css('visibility','hidden');
+       $('#filter10').removeClass('active');      
+       $('#filter10').attr('data-visible','0');
+    }
+});
+    
+ 
+    
+$( document ).ready(function() {
+    scrollPositionAgenda = $("#now").offset().top-200;
+
+    $('#agenda').scrollTop(scrollPositionAgenda);
+    
+    getscrollfaktor();
+});
+    
+$( "#agenda" ).scroll(function() {
+
+    var oldpositionProjekte = $('#projekte').scrollTop();
+    var newpositionAgenda = $('#agenda').scrollTop();
+
+    var delta = (newpositionAgenda-scrollPositionAgenda)/scrollfaktor;
+    
+
+    newpositionProjekte = oldpositionProjekte+delta;
+    
+    $('#projekte').scrollTop(newpositionProjekte);
+       
+    scrollPositionAgenda = newpositionAgenda;
+
+});
+
+    
+    
+$( "#projekte" ).scroll(function() {
+
+   // var oldpositionAgenda = $('#agenda').scrollTop();
+   // var newscrollPositionProjekte = $('#projekte').scrollTop();
+//
+   // var delta = (newscrollPositionProjekte-scrollPositionProjekte)/scrollfaktor;
+   // 
+   // 
+   // newpositionAgenda = oldpositionAgenda+delta;
+   // 
+   // $('#agenda').scrollTop(newpositionAgenda);
+   //    
+   // scrollPositionProjekte = newscrollPositionProjekte;
+
+});
+    
+$( "body" ).mousemove(function( event ) {
+  $('#line').css('top',event.pageY+10);
+});   
+    
+</script>
+
+    
+</body>
+</html>
