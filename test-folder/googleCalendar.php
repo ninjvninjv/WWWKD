@@ -1,6 +1,6 @@
 <?php
 $curl = curl_init();
-curl_setopt($curl, CURLOPT_URL, 'https://www.googleapis.com/calendar/v3/calendars/4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com/events?key=AIzaSyAun17rUsshrEgSRoG8c0dxlRmkgkBu-78&timeMin=2018-01-01T10:00:00-00:00&orderBy=startTime&singleEvents=true&maxResults=2500');
+curl_setopt($curl, CURLOPT_URL, 'https://www.googleapis.com/calendar/v3/calendars/4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com/events?timeMin=2018-01-01T10:00:00-00:00&orderBy=startTime&singleEvents=true&maxResults=2500');
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-type: application/json'));
 
