@@ -2,7 +2,7 @@
 
 <main>
 
-    <div class="timeline">HELLO ITS A TEST</div>
+    <div class="timeline">Don't you worry, it's still a test</div>
 
 </main>
 
