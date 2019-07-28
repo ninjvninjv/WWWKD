@@ -2,7 +2,7 @@
 
 <main>
 
-<div id="Johanna" style="font-family: serif;">
+<div id="Johanna" style="font-family: serif; colour: aquamarine;">
     <?= $site->find("people")->find("johannaschaefer")->Prename()?> <?= $site->find("people")->find("johannaschaefer")->Name()?>
 </div>
     
