@@ -2,7 +2,13 @@
 
 <main>
 
-    <?php $janosch = $site->find('people')->find('janoschbelakratz')?>
+
+<?php $janosch = $site->find('people')->find('janoschbelakratz')?>
+    
+
+<div id="Johanna" style="font-family: serif; colour: aquamarine;">
+    <?= $site->find("people")->find("johannaschaefer")->Prename()?> <?= $site->find("people")->find("johannaschaefer")->Name()?>
+</div>
     
 <div><?= $site->find("people")->find("jonadienst")->Prename() ?> was here.</div>
 
