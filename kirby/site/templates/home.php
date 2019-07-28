@@ -9,7 +9,6 @@
     <div class="timeline">Jona is a test bot.</div>
     <div class="text">Will it break?</div>
 
-
 </main>
 
 <?php snippet('footer') ?>
