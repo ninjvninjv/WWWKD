@@ -2,7 +2,7 @@
 
 <main>
 
-    <div class="timeline">Don't you worry, it's still a test</div>
+    <div class="timeline">Is it still a test? Is EVERYTHING a test?</div>
 
 </main>
 
