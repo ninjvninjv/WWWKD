@@ -2,6 +2,18 @@ Title: ninaoverkott
 
 ----
 
+Status: yes
+
+----
+
+Prename: 
+
+----
+
+Name: 
+
+----
+
 Begin: 
 
 ----
@@ -10,12 +22,12 @@ End:
 
 ----
 
+Websites: 
+
+----
+
 About: 
 
 ----
 
 Task: 
-
-----
-
-Websites: 
