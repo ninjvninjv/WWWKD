@@ -12,8 +12,6 @@
 =======
 >>>>>>> parent of ddb53de... Update home.php
 
-    <div id='ninja'>C'est mon div ici tralalalala</div>
-
 </main>
 
 <?php snippet('footer') ?>
