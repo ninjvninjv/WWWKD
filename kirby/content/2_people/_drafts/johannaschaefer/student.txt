@@ -2,7 +2,23 @@ Title: johannaschaefer
 
 ----
 
-Begin: 
+Semester: 8
+
+----
+
+Status: yes
+
+----
+
+Prename: Johanna
+
+----
+
+Name: Schäfer
+
+----
+
+Begin: 2015-10-01
 
 ----
 

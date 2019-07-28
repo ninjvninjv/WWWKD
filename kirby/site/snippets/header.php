@@ -12,6 +12,6 @@
 </head>
 <body>
 
-  <div class="header"> FILTER </div>
+  <div class="header"> <?= $site->title() ?> </div>
     
 </body>
