@@ -12,10 +12,6 @@ To work on this website you will need:
 - GitHub Desktop
 - an invitation to contribute on the repository from the owner: @ninjvninjv (Nina)
 
-### Get an invitation
-
-Once your GitHub account is set up, request an invitation from the owner: @ninjvninjv (Nina).
-
 ### Install Github Desktop
 
 Here is the link to install: https://desktop.github.com/
@@ -26,10 +22,17 @@ But, the difference is: with the repository, you make an actual copy on your com
 
 Ok, so now we can install your copy of the repository, so you can start making local changes.
 
-#### Add repository
+### Get an invitation
+
+Once your GitHub account is set up, request an invitation from the owner: @ninjvninjv (Nina).
+
+### Add repository
 
 To add the repository:
 - Open GitHub Desktop
 - In your browser, open the repository if you haven't already: https://github.com/ninjvninjv/WWWKD
 - Hover on 'Clone or Download' 
-- Click on 'Open 
+- Click on 'Open in Desktop'
+
+
+
