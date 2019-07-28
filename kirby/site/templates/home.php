@@ -2,7 +2,7 @@
 
 <main>
 
-  <p><?= echo $site->find('2_people')->find('5_ninaoverkott')->prename() ?> <?= echo $site->find('2_people')->find('5_ninaoverkott')->name() ?></p>
+  <p><?= $site->find('people')->find('ninaoverkott')->prename() ?> <?= $site->find('people')->find('ninaoverkott')->name() ?></p>
 
 
 </main>
