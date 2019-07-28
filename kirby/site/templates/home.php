@@ -2,8 +2,8 @@
 
 <main>
 
-    <div class="timeline">TIMELINE</div>
-    
+    <div class="timeline">HELLO ITS A TEST</div>
+
 </main>
 
 <?php snippet('footer') ?>
