@@ -2,7 +2,7 @@
 
 <main>
 
-
+<div><?= $site->find("people")->find("jonadienst")->Prename() ?> was here.</div>
 
 
 </main>
