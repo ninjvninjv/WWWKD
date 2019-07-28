@@ -2,19 +2,23 @@ Title: ninaoverkott
 
 ----
 
-Status: yes
+Semester: 10
 
 ----
 
-Prename: 
+Status: no
 
 ----
 
-Name: 
+Prename: Nina
 
 ----
 
-Begin: 
+Name: Overkott
+
+----
+
+Begin: 2014-10-01
 
 ----
 
