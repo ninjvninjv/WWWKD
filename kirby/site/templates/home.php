@@ -3,21 +3,26 @@
 <main>
 
 
+    <?php 
+        $janosch = $site->find('people')->find('janoschbelakratz'); 
+        $johanna = $site->find('people')->find('johannaschaefer'); 
+        $nina = $site->find('people')->find('ninaoverkott'); 
+        $jona = $site->find('people')->find('jonadienst'); 
+    ?>
 
 
-<?php $janosch = $site->find('people')->find('janoschbelakratz')?>
-    
+    <p style= 'font-family: serif; color: blue;'>
+        <?= $johanna->Prename()?> <?= $johanna->Name()?>
+    </p>
 
-<p style= 'font-family: serif; color: blue;'>
+    <p><?= $jona->Prename() ?> was here.
+    </p>
 
-    <?= $site->find('people')->find('johannaschaefer')->Prename()?> <?= $site->find('people')->find('johannaschaefer')->Name()?>
-</p>
-    
-<div><?= $site->find('people')->find('jonadienst')->Prename() ?> was here.</div>
+    <p><?= $nina->prename() ?> <?= $nina->name() ?>
+    </p>
 
-  <p><?= $site->find('people')->find('ninaoverkott')->prename() ?> <?= $site->find('people')->find('ninaoverkott')->name() ?></p>
-
-    <p id='student <?= $janosch->Title() ?>'> Mein Name ist <?= $janosch->Prename() ?> <?= $janosch->Name() ?></p>
+    <p id='student <?= $janosch->Title() ?>'> Mein Name ist <?= $janosch->Prename() ?> <?= $janosch->Name() ?>
+    </p>
 
 </main>
 
