@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
 
+<div>Hey Leute, das hier kollidiert jetzt? ich weiß nicht.</div>
+
 <main>
   <header class="intro">
     <h1><?= $page->title() ?></h1>
