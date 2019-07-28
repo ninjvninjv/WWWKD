@@ -9,8 +9,6 @@
     <div class="timeline">Jona is a test bot.</div>
     <div class="text">Will it break?</div>
 
-    <div id='ninja'>C'est mon div ici tralalalala</div>
-
 </main>
 
 <?php snippet('footer') ?>
