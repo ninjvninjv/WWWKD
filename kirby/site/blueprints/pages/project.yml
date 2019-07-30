@@ -44,7 +44,7 @@ columns:
                 layout: list
                 template: image
                 back: white
-            gallery:
+            videos:
                 headline: Gallery
                 type: files
                 layout: list
@@ -53,34 +53,30 @@ columns:
  
   - width: 1/2
     fields:
-      prof:
+      supervisor(s):
         type: structure
         fields:
-            professor:
-                label: Professors
-                placeholder: Pro Fessor
+            supervisor:
+                label: Supervisor
+                placeholder: Dr. Super Visor
                 type: select
                 options: query
                 query: site.children.children.template("person")
-      designer:
+      author(s):
         type: structure
         fields:
-            student:
-                label: Student name
+            author:
+                label: Author
                 placeholder: Stud Ent
-                type: text
-            semester:
-                label: Semester
-                placeholder: 74
-                type: text
-      begin:
-        label: Project beginning
-        type: date
-        width: 1/2
-      end:
-        label: Project end
-        type: date
-        width: 1/2
+                type: select
+                options: query
+                query: site.children.children.template("person")
+      semester:
+        label: Semester
+        type: select
+        options:
+            WS: WS 2010
+            SS: SS 2010
       about:
         label: About
         type: textarea
