@@ -15,7 +15,15 @@ columns:
             content:
                 type: fields
                 fields:
-                     kind:
+                    type:
+                        label: Type
+                        type: radio
+                        options:
+                            seminar: Seminar
+                            free: Free Project
+                            prediploma: Prediploma
+                            diploma: Diploma
+                    medium:
                         label: Medium
                         type: checkboxes
                         options:
@@ -30,19 +38,17 @@ columns:
                             space: Space
                             exhibition: Exhibition
                             event: Events
-                    occation:
-                        label: Occation
-                        type: radio
-                        options:
-                            seminar: Seminar
-                            free: Free Project
-                            pre: Predeploma
-                            deploma: Diploma     
             gallery:
                 headline: Gallery
                 type: files
                 layout: list
                 template: image
+                back: white
+            gallery:
+                headline: Gallery
+                type: files
+                layout: list
+                template: video
                 back: white
  
   - width: 1/2

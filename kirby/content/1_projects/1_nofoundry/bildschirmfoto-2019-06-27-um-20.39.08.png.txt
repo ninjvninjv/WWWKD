@@ -10,4 +10,8 @@ Photographer: Jansoch
 
 ----
 
+Titlepic: title
+
+----
+
 Template: image
