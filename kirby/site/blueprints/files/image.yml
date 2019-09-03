@@ -21,3 +21,8 @@ columns:
           photographer:
             label: Photogapher
             type: text
+          titlepic:
+            label: Titelbild?
+            type: checkboxes
+            options:
+                title: title image

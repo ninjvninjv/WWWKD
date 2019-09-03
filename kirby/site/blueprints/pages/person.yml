@@ -24,8 +24,8 @@ columns:
             label: Still here?
             type: radio
             options:
-                yes: active
-                no: former
+                yes: present
+                no: past
 
   - width: 1/2
     fields:
@@ -47,14 +47,24 @@ columns:
         label: left at
         type: date
         width: 1/2
+      task:
+        label: Job Description
+        type: textarea
       about:
         label: About
         type: textarea
-      task:
-        label: Task
-        type: textarea
+      mail:
+        label: Email
+        placeholder: professor@hfg-karlsruhe.de
+        type: email
+        width: 1/2
+      room:
+        label: Room
+        placeholder: "001"
+        type: text
+        width: 1/2
       websites:
-        label: Websites
+        label: Website
         type: structure
         fields:
           platform:

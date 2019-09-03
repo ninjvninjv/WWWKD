@@ -1,0 +1,17 @@
+Caption: Herr Janosch beantwortet wichtige Fragen über das Leben
+
+----
+
+Alt: blabla
+
+----
+
+Photographer: Jansoch
+
+----
+
+Titlepic: title
+
+----
+
+Template: image
