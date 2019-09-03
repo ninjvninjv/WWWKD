@@ -7,11 +7,7 @@
 
   <title><?= $site->title() ?> | <?= $page->title() ?></title>
 
-  <?= css(['assets/css/index.css', '@auto']) ?>
+  <?= css(['assets/css/home.css', '@auto']) ?>
 
 </head>
 <body>
-
-  <div class="header"> <?= $site->title() ?> </div>
-    
-</body>
