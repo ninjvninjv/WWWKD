@@ -136,9 +136,4 @@
 
 </script>
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> dbf526e468317a6efe8471866903c9f176fafd04
 <?php snippet('footer') ?>
