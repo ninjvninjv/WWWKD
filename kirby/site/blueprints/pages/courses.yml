@@ -16,7 +16,7 @@ columns:
         headline: Drafts
         type: pages
         status: draft
-        templates: multievent
+        templates: course
             
 
   - width: 1/2
@@ -25,4 +25,4 @@ columns:
             headline: Published Events
             type: pages
             status: listed
-            templates: multievent
+            templates: course

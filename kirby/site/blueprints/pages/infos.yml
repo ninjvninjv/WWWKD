@@ -11,7 +11,7 @@ options:
 
 columns:
   - width: 1/2
-    sections:
+    fields:
       drafts:
         headline: Drafts
         type: pages
@@ -20,9 +20,9 @@ columns:
             
 
   - width: 1/2
-    sections:
+    fields:
         published:
-            headline: Published Projects
+            headline: Published Infos
             type: pages
             status: listed
             templates: info
