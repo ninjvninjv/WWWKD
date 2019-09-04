@@ -11,8 +11,8 @@ options:
 columns:
   - width: 1/2
     fields:
-        job:
-            label: Job
+        typ:
+            label: Typ
             type: radio
             options:
                 prof: Professor
@@ -20,8 +20,10 @@ columns:
                 teacher: Guest teacher
                 employee: Employee
                 hiwi: Hiwi
+                student: Student
+                alumni: Alumni
         status:
-            label: Still here?
+            label: Status
             type: radio
             options:
                 yes: present
@@ -29,13 +31,13 @@ columns:
 
   - width: 1/2
     fields:
-      prename:
-        label: Prename
+      firstname:
+        label: First name
         placeholder: Michvan
         type: text
         width: 1/2
-      name:
-        label: Name
+      surname:
+        label: Surname
         placeholder: Langphany
         type: text
         width: 1/2
@@ -63,6 +65,8 @@ columns:
         placeholder: "001"
         type: text
         width: 1/2
+        when:
+            typ: employee
       websites:
         label: Website
         type: structure

@@ -7,7 +7,6 @@ status:
 
 options:
   url: false
-  delete: false
 
 columns:
   - width: 1/2

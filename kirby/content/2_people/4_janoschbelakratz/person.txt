@@ -1,0 +1,61 @@
+Title: janoschbelakratz
+
+----
+
+Typ: prof
+
+----
+
+Status: yes
+
+----
+
+Firstname: Janosch Bela
+
+----
+
+Surname: Kratz
+
+----
+
+Begin: 2015-10-01
+
+----
+
+End: 
+
+----
+
+Task: 
+
+----
+
+About: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
+Websites: 
+
+- 
+  platform: Homepage
+  url: http://janoschkratz.eu
+
+----
+
+Semester: 8
+
+----
+
+Prename: Janosch Bela
+
+----
+
+Name: Kratz

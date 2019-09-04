@@ -2,7 +2,7 @@ Title: Sereina Rothenberger
 
 ----
 
-Job: prof
+Typ: prof
 
 ----
 
@@ -10,11 +10,11 @@ Status: no
 
 ----
 
-Prename: Sereina
+Firstname: 
 
 ----
 
-Name: Rothenberger
+Surname: 
 
 ----
 
@@ -26,11 +26,19 @@ End: 2019-03-31
 
 ----
 
+Task: kicks your ass.
+
+----
+
 About: Sereina is cool.
 
 ----
 
-Task: kicks your ass.
+Mail: 
+
+----
+
+Room: 
 
 ----
 
@@ -39,6 +47,18 @@ Websites:
 - 
   platform: Hammer
   url: https://hammer.to
+
+----
+
+Job: prof
+
+----
+
+Prename: Sereina
+
+----
+
+Name: Rothenberger
 
 ----
 
