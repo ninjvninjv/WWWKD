@@ -64,10 +64,10 @@ body {
   font-family: 'mf_basis_monou30_p80';
   font-size: 4.15vw;
   z-index: 200;
-  position: fixed;
   left: 10px;
   font-weight: 200;
   color: #9b77d1;
+  position: absolute;
 }
 
 .siteTitle p {
@@ -101,6 +101,7 @@ body {
   border-right: black solid 1px;
   top: 0;
   left: calc(var(--column-width-six)*(2/7));
+  position: fixed;
 }
 
 #easterEgg {
