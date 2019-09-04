@@ -1,5 +1,8 @@
 <?php snippet('header') ?>
 
+  <div class='siteTitle' id='headerTitle'><p>Kommunikations<br>design</p></div>
+  <div class='siteTitle' id='footerTitle'><p>Hochschule<br>für<br>Gestaltung</p></div>
+
   <div id='calendarNavigation'></div>
 
   <img id='easterEgg' src='content/1_projects/2_wwwkd/wwwkdteam.jpeg'>
@@ -66,8 +69,6 @@
 
   </div>
 
-    <div class="ruler"></div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
 
@@ -98,16 +99,6 @@
     $('.column').css('width', 'calc(100%/' + numberOfColumns + ')');
   }
 
-
-</script>
-
-<script>
-
-    $(document).mousemove(function(){
-        
-        $('.ruler').css('top',event.pageY);
-        
-    })
 
 </script>
 

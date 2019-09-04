@@ -1,3 +1,45 @@
+@font-face {
+    font-family: 'mf_basis_monou15_p80';
+    src: url('/assets/fonts/mf_basis_mono_u15_p80-webfont.woff2') format('woff2'),
+         url('/assets/fonts/mf_basis_mono_u15_p80-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mf_basis_monou20_p80';
+    src: url('/assets/fonts/mf_basis_mono_u20_p80-webfont.woff2') format('woff2'),
+         url('/assets/fonts/mf_basis_mono_u20_p80-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'mf_basis_monou30_p80';
+    src: url('/assets/fonts/mf_basis_mono_u30_p80-webfont.woff2') format('woff2'),
+         url('/assets/fonts/mf_basis_mono_u30_p80-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mf_basis_monou40_p80';
+    src: url('/assets/fonts/mf_basis_mono_u40_p80-webfont.woff2') format('woff2'),
+         url('/assets/fonts/mf_basis_mono_u40_p80-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mf_basis_monou50_p80';
+    src: url('/assets/fonts/mf_basis_mono_u50_p80-webfont.woff2') format('woff2'),
+         url('/assets/fonts/mf_basis_mono_u50_p80-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   background-color: white;
   margin: 0;
@@ -18,8 +60,26 @@ body {
   --sidebarNavigation-width: calc(var(--column-width-six)*(5/7));
 }
 
-#vortr:hover {
-  color: #d987ff;
+.siteTitle {
+  font-family: 'mf_basis_monou30_p80';
+  font-size: 4.15vw;
+  z-index: 200;
+  position: fixed;
+  left: 10px;
+  font-weight: 200;
+  color: #9b77d1;
+}
+
+.siteTitle p {
+  margin: 0;
+}
+
+#headerTitle {
+  top: 5px;
+}
+
+#footerTitle {
+  bottom: 5px;
 }
 
 #sidebarNavigation {
@@ -69,23 +129,28 @@ body {
 }
 
 #events {
-  background-color: fuchsia;
+  /*background-color: fuchsia;*/
+  background-color: white;
 }
 
 #seminars {
-  background-color: #fc035a;
+  /*background-color: #fc035a;*/
+  background-color: white;
 }
 
 #projects {
-  background-color: red;
+  /*background-color: red;*/
+  background-color: white;
 }
 
 #information {
-  background-color: #ff6a00;
+  /*background-color: #ff6a00;*/
+  background-color: white;
 }
 
 #people {
-  background-color: yellow;
+  /*background-color: yellow;*/
+  background-color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -93,7 +158,7 @@ body {
 }
 
 .ruler{
-    
+
     position:absolute;
     left:0px;
     width:100%;
@@ -101,5 +166,5 @@ body {
     border-bottom-color:red;
     border-bottom-width:1.5pt;
     pointer-events:none;
-    
+
 }
