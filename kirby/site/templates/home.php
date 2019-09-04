@@ -1,5 +1,8 @@
 <?php snippet('header') ?>
 
+  <div class='siteTitle' id='headerTitle'><p>K<span class='hideTitle'>ommunikations<br></span>D<span class='hideTitle'>esign</span></p></div>
+  <div class='siteTitle' id='footerTitle'><p>H<span class='hideTitle'>ochschule</span><br>f<span class='hideTitle'>ür</span><br>G<span class='hideTitle'>estaltung</span></p></div>
+
   <div id='calendarNavigation'></div>
 
   <img id='easterEgg' src='content/1_projects/2_wwwkd/wwwkdteam.jpeg'>
@@ -99,15 +102,25 @@
   }
 
 
-</script>
+  var marg = 10;
+  var marg2 = 0
+  $('.column').scroll(function () {
+    marg = marg += 1.5
+    if (marg < 86.5) {
+      $('#headerTitle').css('left', marg + 'vw');
+      $('#footerTitle').css('left', marg + 'vw');
+    } else if (marg < 90) {
+      $('#headerTitle').css('font-family', 'mf_basis_monou40_p80');
+      $('#footerTitle').css('font-family', 'mf_basis_monou40_p80');
+      $('.hideTitle').css('opacity', '0.5');
+      $('.siteTitle').css('margin-left', '1vw');
+    } else {
+      $('#headerTitle').css('font-family', 'mf_basis_monou50_p80');
+      $('#footerTitle').css('font-family', 'mf_basis_monou50_p80');
+      $('.hideTitle').css('opacity', '0');
+    }
+  });
 
-<script>
-
-    $(document).mousemove(function(){
-        
-        $('.ruler').css('top',event.pageY);
-        
-    })
 
 </script>
 
