@@ -23,7 +23,10 @@
 
     <div class='column' id='projects'>
 
-      <div class='contentPlazthalter'></div>
+      <div class='contentPlazthalter'>
+          <?php snippet('column-projects') ?>
+        
+        </div>
 
     </div>
 

@@ -2,7 +2,7 @@ Title: johannaschaefer
 
 ----
 
-Semester: 8
+Typ: hiwi
 
 ----
 
@@ -10,11 +10,11 @@ Status: yes
 
 ----
 
-Prename: Johanna
+Firstname: 
 
 ----
 
-Name: Schäfer
+Surname: 
 
 ----
 
@@ -26,4 +26,32 @@ End:
 
 ----
 
+Task: 
+
+----
+
+About: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
 Websites: 
+
+----
+
+Semester: 8
+
+----
+
+Prename: Johanna
+
+----
+
+Name: Schäfer

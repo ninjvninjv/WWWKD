@@ -2,7 +2,7 @@ Title: ninaoverkott
 
 ----
 
-Semester: 10
+Typ: hiwi
 
 ----
 
@@ -10,11 +10,11 @@ Status: no
 
 ----
 
-Prename: Nina
+Firstname: 
 
 ----
 
-Name: Overkott
+Surname: 
 
 ----
 
@@ -26,7 +26,7 @@ End:
 
 ----
 
-Websites: 
+Task: 
 
 ----
 
@@ -34,4 +34,24 @@ About:
 
 ----
 
-Task: 
+Mail: 
+
+----
+
+Room: 
+
+----
+
+Websites: 
+
+----
+
+Semester: 10
+
+----
+
+Prename: Nina
+
+----
+
+Name: Overkott
