@@ -20,6 +20,8 @@
       <div class='contentPlazthalter'></div>
 
     </div>
+      
+    <div class="ruler"></div>
 
     <div class='column' id='projects'>
 
@@ -40,6 +42,7 @@
     </div>
 
   </div>
+
 
   <div id='sidebarNavigation'>
 
