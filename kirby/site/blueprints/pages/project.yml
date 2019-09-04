@@ -51,12 +51,6 @@ columns:
                 layout: list
                 template: image
                 back: white
-            videos:
-                headline: Videos
-                type: files
-                layout: list
-                template: video
-                back: white
  
   - width: 1/2
     fields:
@@ -114,6 +108,16 @@ columns:
             SS24: SS 2024
             WS24: WS 2024/2025
             SS25: SS 2025
+            WS24: WS 2024/2026
+            SS25: SS 2026
+            WS24: WS 2026/2027
+            SS25: SS 2027
+            WS24: WS 2027/2028
+            SS25: SS 2028
+            WS24: WS 2028/2029
+            SS25: SS 2029
+            WS24: WS 2029/2030
+            SS25: SS 2030
             
       about:
         label: About
@@ -125,8 +129,20 @@ columns:
         label: Link
         type: structure
         fields:
-          platform:
+          websitename:
             label: Website name
+            type: text
+            width: 1/2
+          url:
+            label: URL
+            type: url
+            width: 1/2
+      video:
+        label: Video
+        type: structure
+        fields:
+          videotitle:
+            label: Video title
             type: text
             width: 1/2
           url:

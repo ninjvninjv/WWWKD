@@ -55,6 +55,15 @@ columns:
       about:
         label: About
         type: textarea
+      seminars:
+        type: structure
+        fields:
+            seminar:
+                label: Seminar
+                placeholder: Seminar
+                type: select
+                options: query
+                query: site.children.children.template("course")
       mail:
         label: Email
         placeholder: professor@hfg-karlsruhe.de

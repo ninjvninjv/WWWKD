@@ -74,6 +74,7 @@ body {
   font-weight: 200;
   color: #9b77d1;
   position: absolute;
+    pointer-events: none;
 }
 
 .siteTitle p {

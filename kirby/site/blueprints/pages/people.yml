@@ -13,18 +13,16 @@ columns:
             
 
   - width: 1/2
-        fields:
+        sections:
           drafts:
             headline: Employees
             type: pages
             status: draft
-            templates: 
-                - person
+            templates: person
   - width: 1/2
-        fields:
+        sections:
           published:
             headline: Published Employees
             type: pages
             status: listed
-            templates: 
-                - person
+            templates: person

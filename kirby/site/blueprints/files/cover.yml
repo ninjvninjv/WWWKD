@@ -24,5 +24,7 @@ columns:
           titlepic:
             label: Titelbild?
             type: checkboxes
+            default: 
+                title: true
             options:
                 title: title image
