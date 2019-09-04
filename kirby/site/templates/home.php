@@ -107,7 +107,7 @@
   }
 
 
-  var marg = 10;
+  var marg = 0;
   var marg2 = 0
   $('.column').scroll(function () {
     marg = marg += 1.5
