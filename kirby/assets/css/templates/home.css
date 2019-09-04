@@ -19,7 +19,7 @@ body {
 }
 
 .siteTitle {
-  font-family: 'mf_basis_monou30_p80';
+  font-family: 'mf_basis_monou15_p80';
   font-size: 4.15vw;
   z-index: 200;
   left: 10px;
@@ -47,7 +47,7 @@ body {
   position: fixed;
   right: 0;
   top: 0;
-    font-family: 'flefixx_regular';
+    font-family: 'mf_basis_monou30_p80';
 }
 
 #sidebarNavigation form {
