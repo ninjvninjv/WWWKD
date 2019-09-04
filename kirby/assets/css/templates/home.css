@@ -96,7 +96,7 @@ body {
     
     position:absolute;
     left:0px;
-    width:100%;
+    width:calc(100% - var(--sidebarNavigation-width));
     border-bottom-style:solid;
     border-bottom-color:red;
     border-bottom-width:1.5pt;
