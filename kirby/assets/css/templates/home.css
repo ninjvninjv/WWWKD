@@ -91,3 +91,14 @@ body {
 @media screen and (min-width: 768px) {
   font-size: 10pt;
 }
+
+.ruler{
+    
+    position:absolute;
+    left:0px;
+    width:100%;
+    border-bottom-style:solid;
+    border-bottom-color:red;
+    border-bottom-width:1.5pt;
+    
+}
