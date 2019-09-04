@@ -38,14 +38,21 @@ columns:
                             space: Space
                             exhibition: Exhibition
                             event: Events
-            gallery:
-                headline: Gallery
+            cover:
+                headline: Cover Image
+                type: files
+                layout: list
+                template: cover
+                back: white
+                max: 1
+            images:
+                headline: Images
                 type: files
                 layout: list
                 template: image
                 back: white
             videos:
-                headline: Gallery
+                headline: Videos
                 type: files
                 layout: list
                 template: video
@@ -75,13 +82,44 @@ columns:
         label: Semester
         type: select
         options:
-            WS: WS 2010
-            SS: SS 2010
+            WS09: WS 2009/2010
+            SS10: SS 2010
+            WS10: WS 2010/2011
+            SS11: SS 2011
+            WS11: WS 2011/2012
+            SS12: SS 2012
+            WS12: WS 2012/2013
+            SS13: SS 2013
+            WS13: WS 2013/2014
+            SS14: SS 2014
+            WS14: WS 2014/2015
+            SS15: SS 2015
+            WS15: WS 2015/2016
+            SS16: SS 2016
+            WS16: WS 2016/2017
+            SS17: SS 2017
+            WS17: WS 2017/2018
+            SS18: SS 2018
+            WS18: WS 2018/2019
+            SS19: SS 2019
+            WS19: WS 2019/2020
+            SS20: SS 2020
+            WS20: WS 2020/2021
+            SS21: SS 2021
+            WS21: WS 2021/2022
+            SS22: SS 2022
+            WS22: WS 2022/2023
+            SS23: SS 2023
+            WS23: WS 2023/2024
+            SS24: SS 2024
+            WS24: WS 2024/2025
+            SS25: SS 2025
+            
       about:
         label: About
         type: textarea
       task:
-        label: Was there a Task?
+        label: Task
         type: textarea
       link:
         label: Link
