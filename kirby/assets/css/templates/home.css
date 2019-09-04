@@ -100,5 +100,6 @@ body {
     border-bottom-style:solid;
     border-bottom-color:red;
     border-bottom-width:1.5pt;
+    pointer-events:none;
     
 }
