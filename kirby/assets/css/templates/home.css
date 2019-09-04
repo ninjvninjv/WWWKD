@@ -45,9 +45,9 @@ body {
 
 #easterEgg {
   position: fixed;
-  width: calc(5*(100vw/7));
+  width: calc(4*(100vw/7));
   top: 30vh;
-  left: calc(var(--column-width-six)*(3/7));
+  left: calc(1.8*var(--column-width-six)*(3/7));
 }
 
 .column {
