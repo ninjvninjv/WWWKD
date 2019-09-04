@@ -10,35 +10,37 @@
   <div id='content'>
 
     <div class='column' id='events'>
-
-      <div class='contentPlazthalter'></div>
+        <div class='contentPlazthalter'>
+            <?php snippet('events') ?>
+        </div>
 
     </div>
 
     <div class='column' id='seminars'>
-
-      <div class='contentPlazthalter'></div>
+        <div class='contentPlazthalter'>
+            <?php snippet('seminars') ?>
+        </div>
 
     </div>
 
     <div class='column' id='projects'>
-
-      <div class='contentPlazthalter'>
-          <?php snippet('column-projects') ?>
-        
+        <div class='contentPlazthalter'>
+          <?php snippet('projects') ?>
         </div>
 
     </div>
 
     <div class='column' id='information'>
-
-      <div class='contentPlazthalter'></div>
+        <div class='contentPlazthalter'>
+           <?php snippet('information') ?>
+        </div>
 
     </div>
 
     <div class='column' id='people'>
-
-      <div class='contentPlazthalter'></div>
+        <div class='contentPlazthalter'>
+        <?php snippet('people') ?>
+        </div>
 
     </div>
 
