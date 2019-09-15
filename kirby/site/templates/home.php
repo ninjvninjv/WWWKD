@@ -108,7 +108,7 @@
 
   var marg = 0;
   var marg2 = 0
-  $('.column').scroll(function () {
+  $('.col').scroll(function () {
     marg = marg += 1.5
     if (marg < 86.5) {
       $('#headerTitle').css('left', marg + 'vw');
