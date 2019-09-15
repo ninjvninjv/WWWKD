@@ -1,8 +1,8 @@
-Title: jonadienst
+Title: Jona Dienst
 
 ----
 
-Semester: 12
+Typ: 
 
 ----
 
@@ -10,11 +10,11 @@ Status: yes
 
 ----
 
-Prename: Jona
+Firstname: Jona
 
 ----
 
-Name: Dienst
+Surname: Dienst
 
 ----
 
@@ -26,4 +26,36 @@ End:
 
 ----
 
+Task: 
+
+----
+
+About: 
+
+----
+
+Seminars: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
 Websites: 
+
+----
+
+Semester: 12
+
+----
+
+Prename: Jona
+
+----
+
+Name: Dienst

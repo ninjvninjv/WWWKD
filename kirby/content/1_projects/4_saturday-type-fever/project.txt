@@ -1,0 +1,43 @@
+Title: Saturday Type Fever
+
+----
+
+Type: free
+
+----
+
+Medium: event
+
+----
+
+Supervisor: 
+
+- 
+  supervisor: people/ivanw
+
+----
+
+Author: 
+
+- 
+  author: people/changing-student-group
+
+----
+
+Semester: WS18
+
+----
+
+About: 
+
+----
+
+Task: 
+
+----
+
+Link: 
+
+----
+
+Video: 

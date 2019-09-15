@@ -10,22 +10,35 @@ Texttitle: Robobooks
 
 ----
 
-Prof: 
+Supervisor: 
 
-- people/ivanw
-- people/michaelk
+- 
+  supervisor: people/ivanw
 
 ----
 
 Students: 
 
+- 
+  students: people/janoschbelakratz
+- 
+  students: people/jonadienst
+
 ----
 
-Begindate: 2019-04-20
+Projects: 
 
 ----
 
-Enddate: 
+Semester: SS19
+
+----
+
+Begindate: 2019-04-17
+
+----
+
+Enddate: 2019-07-21
 
 ----
 
@@ -39,9 +52,19 @@ End: 18:00
 
 Link: 
 
+- 
+  url: https://www.facebook.com/HfGRobobook/
+
 ----
 
 About: 
+
+----
+
+Prof: 
+
+- people/ivanw
+- people/michaelk
 
 ----
 
@@ -88,3 +111,7 @@ Gallery:
   selected: true
   thumb:
     url: false
+
+----
+
+Courseproject: 

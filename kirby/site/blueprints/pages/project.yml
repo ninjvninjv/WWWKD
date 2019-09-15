@@ -37,7 +37,8 @@ columns:
                             sound: Sound
                             space: Space
                             exhibition: Exhibition
-                            event: Events
+                            event: Event
+                            code: Code
             cover:
                 headline: Cover Image
                 type: files
@@ -54,7 +55,7 @@ columns:
  
   - width: 1/2
     fields:
-      supervisor(s):
+      supervisor:
         type: structure
         fields:
             supervisor:
@@ -63,7 +64,7 @@ columns:
                 type: select
                 options: query
                 query: site.children.children.template("person")
-      author(s):
+      author:
         type: structure
         fields:
             author:
@@ -140,12 +141,16 @@ columns:
       video:
         label: Video
         type: structure
+        help: https://vimeo.com/<span style="color:blue;">346073297</span> ⇢ 346073297 <br> https://www.youtube.com/watch?v=<span style="color:blue;">e11R4vxCipg</span> ⇢ e11R4vxCipg
         fields:
           videotitle:
-            label: Video title
-            type: text
+            label: Platform
+            type: select
             width: 1/2
+            options:
+                - Vimeo
+                - Youtube
           url:
-            label: URL
-            type: url
+            label: Video-ID
+            type: text
             width: 1/2

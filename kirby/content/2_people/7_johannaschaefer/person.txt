@@ -1,4 +1,4 @@
-Title: johannaschaefer
+Title: Johanna Schäfer
 
 ----
 
@@ -10,11 +10,11 @@ Status: yes
 
 ----
 
-Firstname: 
+Firstname: Johanna
 
 ----
 
-Surname: 
+Surname: Schäfer
 
 ----
 
@@ -31,6 +31,10 @@ Task:
 ----
 
 About: 
+
+----
+
+Seminars: 
 
 ----
 

@@ -1,0 +1,52 @@
+Title: Crowpalace
+
+----
+
+Type: seminar
+
+----
+
+Medium: video
+
+----
+
+Supervisor: 
+
+- 
+  supervisor: people/sereinar
+
+----
+
+Author: 
+
+----
+
+Semester: WS18
+
+----
+
+About: 
+
+----
+
+Task: 
+
+----
+
+Link: 
+
+----
+
+Video: 
+
+- 
+  videotitle: Vimeo
+  url: '346073297 '
+
+----
+
+Begin: 
+
+----
+
+End: 

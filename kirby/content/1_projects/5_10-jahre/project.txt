@@ -1,0 +1,43 @@
+Title: 10 Jahre
+
+----
+
+Type: seminar
+
+----
+
+Medium: book, code
+
+----
+
+Supervisor: 
+
+- 
+  supervisor: people/ivanw
+
+----
+
+Author: 
+
+- 
+  author: people/janoschbelakratz
+
+----
+
+Semester: SS19
+
+----
+
+About: 
+
+----
+
+Task: 
+
+----
+
+Link: 
+
+----
+
+Video: 

@@ -21,6 +21,7 @@ columns:
                 employee: Employee
                 hiwi: Hiwi
                 student: Student
+                group: Group of students
                 alumni: Alumni
         status:
             label: Status
@@ -31,6 +32,19 @@ columns:
 
   - width: 1/2
     fields:
+      members:
+        type: structure
+        fields:
+            memberprename:
+                placeholder: Mem
+                type: text
+                width: 1/2
+            membersurname:
+                placeholder: Ber
+                type: text
+                width: 1/2
+        when:
+            typ: group
       firstname:
         label: First name
         placeholder: Michvan
@@ -55,15 +69,15 @@ columns:
       about:
         label: About
         type: textarea
-      seminars:
+      projects:
         type: structure
         fields:
-            seminar:
-                label: Seminar
-                placeholder: Seminar
+            project:
+                label: Projects
+                placeholder: Project
                 type: select
                 options: query
-                query: site.children.children.template("course")
+                query: site.children.children.template("project")
       mail:
         label: Email
         placeholder: professor@hfg-karlsruhe.de
@@ -74,13 +88,11 @@ columns:
         placeholder: "001"
         type: text
         width: 1/2
-        when:
-            typ: employee
       websites:
         label: Website
         type: structure
         fields:
-          platform:
+          websitename:
             label: Website name
             type: text
             width: 1/2

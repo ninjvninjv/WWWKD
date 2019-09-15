@@ -1,4 +1,4 @@
-title: onedayevents
+title: Events
 icon: ›
 
 status:
@@ -16,7 +16,7 @@ columns:
         headline: Drafts
         type: pages
         status: draft
-        templates: oneevent
+        templates: event
             
 
   - width: 1/2
@@ -25,4 +25,4 @@ columns:
             headline: Published Events
             type: pages
             status: listed
-            templates: oneevent   
+            templates: event   

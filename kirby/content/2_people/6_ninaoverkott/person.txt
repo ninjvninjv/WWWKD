@@ -1,4 +1,4 @@
-Title: ninaoverkott
+Title: Nina Overkott
 
 ----
 
@@ -10,11 +10,11 @@ Status: no
 
 ----
 
-Firstname: 
+Firstname: Nina
 
 ----
 
-Surname: 
+Surname: Overkott
 
 ----
 
@@ -31,6 +31,10 @@ Task:
 ----
 
 About: 
+
+----
+
+Seminars: 
 
 ----
 

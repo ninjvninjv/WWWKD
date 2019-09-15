@@ -1,8 +1,8 @@
-Title: janoschbelakratz
+Title: Janosch Bela Kratz
 
 ----
 
-Typ: prof
+Typ: employee
 
 ----
 
@@ -34,6 +34,10 @@ About:
 
 ----
 
+Seminars: 
+
+----
+
 Mail: 
 
 ----
@@ -45,8 +49,9 @@ Room:
 Websites: 
 
 - 
-  platform: Homepage
+  websitename: null
   url: http://janoschkratz.eu
+  platform: Homepage
 
 ----
 
