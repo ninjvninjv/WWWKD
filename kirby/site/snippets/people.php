@@ -1,7 +1,5 @@
-<header class="intro">
-  <p>(people)</p>
-</header>
-
-<body>
+<div class="col" id="peoplecol">
     
-</body>
+    <p>(people)</p>
+    
+</div>

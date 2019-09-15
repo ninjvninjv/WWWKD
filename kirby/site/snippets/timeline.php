@@ -1,10 +1,10 @@
 <div class="col">
     
-    <p>(events)</p>
+    <p>(timeline)</p>
     
     <div class="ruler"></div>
     
-     <?php 
+    <?php 
          $period = new DatePeriod(
              new DateTime('2010-10-01'),
              new DateInterval('P1D'),
@@ -15,7 +15,7 @@
     
     ?>
     
-    <div class="day"></div>
+    <div class="day"><?= $key ?></div>
     
     <?php endforeach?>
     

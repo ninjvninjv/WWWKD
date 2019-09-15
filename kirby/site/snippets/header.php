@@ -8,6 +8,7 @@
   <title><?= $site->title() ?> | <?= $page->title() ?></title>
     <?= css(['/assets/css/templates/fonts.css', '@auto']) ?>
     <?= css(['/assets/css/templates/home.css', '@auto']) ?>
+    <?= css(['/assets/css/index.css', '@auto']) ?>
     
 
 

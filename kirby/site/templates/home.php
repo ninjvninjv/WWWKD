@@ -3,50 +3,49 @@
   <div class='siteTitle' id='headerTitle'><p>K<span class='hideTitle'>ommunikations<br></span>D<span class='hideTitle'>esign</span></p></div>
   <div class='siteTitle' id='footerTitle'><p>H<span class='hideTitle'>ochschule</span><br>f<span class='hideTitle'>ür</span><br>G<span class='hideTitle'>estaltung</span></p></div>
 
-  <div id='calendarNavigation'></div>
+    <div id='calendarNavigation'>
+
+      <?php snippet('timeline') ?>
+
+    </div>
 
   <img id='easterEgg' src='content/1_projects/2_wwwkd/wwwkdteam.jpeg'>
+
+  <div class=''></div>
 
   <div id='content'>
 
     <div class='column' id='events'>
-        <div class='contentPlazthalter'>
-            <?php snippet('events') ?>
-        </div>
+ 
+        <?php snippet('events') ?>
 
     </div>
 
     <div class='column' id='seminars'>
-        <div class='contentPlazthalter'>
-            <?php snippet('seminars') ?>
-        </div>
+
+        <?php snippet('seminars') ?>
 
     </div>
 
     <div class='column' id='projects'>
-        <div class='contentPlazthalter'>
-          <?php snippet('projects') ?>
-        </div>
+          
+        <?php snippet('projects') ?>
 
     </div>
 
     <div class='column' id='information'>
-        <div class='contentPlazthalter'>
-           <?php snippet('information') ?>
-        </div>
+        
+        <?php snippet('information') ?>
 
     </div>
 
     <div class='column' id='people'>
-        <div class='contentPlazthalter'>
+        
         <?php snippet('people') ?>
-        </div>
 
     </div>
 
   </div>
-
-<div class="ruler"></div>
 
   <div id='sidebarNavigation'>
 
@@ -126,13 +125,12 @@
     }
   });
 
+
     $(document).mousemove(function(){
 
         $('.ruler').css('top',event.pageY);
 
-    })
-
-
+    });
 
 </script>
 

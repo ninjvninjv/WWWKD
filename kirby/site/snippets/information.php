@@ -1,7 +1,5 @@
-<header class="intro">
-  <p>(information)</p>
-</header>
-
-<body>
+<div class="col" id="infocol">
     
-</body>
+    <p>(info)</p>
+    
+</div>
