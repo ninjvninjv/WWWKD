@@ -131,6 +131,22 @@
         $('.ruler').css('top',event.pageY);
 
     });
+    
+    //if you scroll in event or semianr col the whole calendar scrolls
+    
+    $('#eventcol').scroll(function(){
+        
+        $('#seminarcol').scrollTop($('#eventcol').scrollTop());
+        $('#timelinecol').scrollTop($('#eventcol').scrollTop());
+        
+    });
+    
+    $('#seminarcol').scroll(function(){
+        
+        $('#eventcol').scrollTop($('#seminarcol').scrollTop());
+        $('#timelinecol').scrollTop($('#seminarcol').scrollTop());
+        
+    });
 
 </script>
 

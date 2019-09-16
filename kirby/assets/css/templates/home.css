@@ -168,6 +168,12 @@ body {
     border-bottom-width: 1px;
 }
 
+#timelinecol{
+    
+    overflow:hidden;
+    
+}
+
 /*the red line in <timeline> <events> and <courses>*/
 .ruler{
 

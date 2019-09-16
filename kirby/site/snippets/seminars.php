@@ -1,6 +1,6 @@
 <div class="ruler"></div>
 
-<div class="col">
+<div class="col" id="seminarcol">
     
     <p>(seminars)</p>
     

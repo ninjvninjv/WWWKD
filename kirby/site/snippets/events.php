@@ -1,4 +1,4 @@
-<div class="col">
+<div class="col" id="eventcol">
     
     <p>(events)</p>
     
