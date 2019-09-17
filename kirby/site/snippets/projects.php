@@ -5,11 +5,16 @@
     
     <?php foreach($site->find('projects')->children() as $semester): ?>
 
-        <?php if ($semester->isEmpty()): ?>
+        <?php if($semester->children()->isNotEmpty()): ?>
+    
             <p><?= $semester->title() ?></p>   
-            <?php foreach ($semester->children() as $project): ?>
-                <p><?php $project->title() ?></p>
-            <?php endforeach ?>
+    
+            <?php foreach($semester->children() as $project): ?>
+    
+                <p><?= $project->title() ?></p>
+    
+            <?php endforeach ?> 
+    
         <?php endif ?> 
 
     <?php endforeach ?>
