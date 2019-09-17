@@ -78,6 +78,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
 
+// --- CHECKBOXES ---
+    
   /* On click, check if any of the column's checkboxes is :checked:
        a) If YES, display column
        b) If NO, hide column */
@@ -105,7 +107,8 @@
     $('.column').css('width', 'calc(100%/' + numberOfColumns + ')');
   }
 
-
+//--- TITLE SCROLL ---
+    
   var marg = 0;
   var marg2 = 0
   $('.col').scroll(function () {
@@ -125,14 +128,15 @@
     }
   });
 
-
+// --- RULER ---
+    
     $(document).mousemove(function(){
 
         $('.ruler').css('top',event.pageY);
 
     });
     
-    //if you scroll in event or semianr col the whole calendar scrolls
+//if you scroll in event or semianr col the whole calendar scrolls
     
     $('#eventcol').scroll(function(){
         

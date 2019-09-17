@@ -5,17 +5,21 @@
     <p>(seminars)</p>
     
     <?php 
-         $period = new DatePeriod(
-             new DateTime('2019-09-01'),
-             new DateInterval('P1D'),
-             new DateTime('2019-12-30')
+    
+        $begin = new DateTime('2019-09-01');
+        $interval = new DateInterval('P1D');
+        $end = new DateTime('2019-12-30');
+        $period = new DatePeriod(
+             $begin,
+             $interval,
+             $end
          ); 
     
     foreach ($period as $key => $value):
     
     ?>
     
-    <div class="day"></div>
+    <div class="day" id="s<?= $value->format("Ymd"); ?>"></div>
     
     <?php endforeach?>
     

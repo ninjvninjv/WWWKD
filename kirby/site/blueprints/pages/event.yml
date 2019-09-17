@@ -25,6 +25,13 @@ columns:
                         breakfast: KD-Frühstück
                         party: Party
                         presentation: Presentation 
+        cover:
+            headline: Cover Image
+            type: files
+            layout: list
+            template: cover
+            back: white
+            max: 1
         gallery:
             headline: Images
             info: name title poster image poster.png/.jpeg 
