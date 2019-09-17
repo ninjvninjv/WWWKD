@@ -19,7 +19,7 @@
     
     ?>
     
-    <div class="day" id="s<?= $value->format("Ymd"); ?>"><?= $value->format("Y.m.d"); ?></div>
+    <div class="day" id="s<?= $value->format("Ymd"); ?>"></div>
     
     <?php endforeach?>
     
