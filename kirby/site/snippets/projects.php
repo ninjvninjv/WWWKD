@@ -2,7 +2,6 @@
     
     <p>(projects)</p>
     
-    
     <?php foreach($site->find('projects')->children() as $semester): ?>
 
         <?php if($semester->children()->isNotEmpty()): ?>
@@ -11,15 +10,13 @@
             
     
             <?php foreach($semester->children() as $project): ?>
-                <p><?= $project->title() ?></p>
+                <div class="protitle"><?= $project->title() ?></div>
                 <?php foreach($project->images() as $image): ?>
                     <?php if ($image->template()=="cover"): ?>
                         <img id="proimage" src="<?= $image->url() ?>">
                     <?php endif ?>
                 <?php endforeach ?> 
             <?php endforeach ?> 
-    
-           
     
         <?php endif ?> 
 
@@ -31,5 +28,7 @@
 <script type="text/javascript">
 
   /* On click, display projectinfo */
+    
+    
 
 </script>
