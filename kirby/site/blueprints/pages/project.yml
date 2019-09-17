@@ -6,6 +6,7 @@ status:
   listed: true
 
 options:
+  url: false
   delete: false
 
 columns:
