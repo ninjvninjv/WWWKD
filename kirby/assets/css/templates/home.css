@@ -188,3 +188,21 @@ float:left;
     pointer-events:none;
 
 }
+
+/*PROJEKTS*/
+#projectcol{
+    padding: 0.8vw;
+}
+.prosemester{
+    font-family: flefixx;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: -0.7vw;
+    margin-right: -0.7vw;
+}
+#proimage{
+    width: 100%;
+    height: auto;
+}
