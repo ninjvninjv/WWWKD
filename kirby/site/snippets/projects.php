@@ -6,8 +6,9 @@
     <?php foreach($site->find('projects')->children() as $semester): ?>
 
         <?php if($semester->children()->isNotEmpty()): ?>
-    
-            <p><?= $semester->title() ?></p>   
+            <br>
+            <p><?= $semester->title() ?></p> 
+            
     
             <?php foreach($semester->children() as $project): ?>
     
