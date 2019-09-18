@@ -2,6 +2,8 @@
     
     <p>(projects)</p>
     
+    <div class="proimage">fghs</div>
+    
     <?php foreach($site->find('projects')->children() as $semester): ?>
 
         <?php if($semester->children()->isNotEmpty()): ?>
@@ -10,10 +12,10 @@
             
     
             <?php foreach($semester->children() as $project): ?>
-                <div class="protitle"><?= $project->title() ?></div>
+               
                 <?php foreach($project->images() as $image): ?>
                     <?php if ($image->template()=="cover"): ?>
-                        <img id="proimage" src="<?= $image->url() ?>">
+                        <div style="background-image:url(<?= $image->url() ?>); background-size: cover; width:94%; height: 18vh; margin: 3%;"> <div class="protitle"><?= $project->title() ?></div></div>
                     <?php endif ?>
                 <?php endforeach ?> 
             <?php endforeach ?> 

@@ -210,6 +210,11 @@ float:left;
 /*PROJEKTS*/
 .protitle{
     margin: 0.2vw 0.8vw 0.2vw 0.8vw;
+    height: 18vh;
+    text-align: center;
+    padding: 8vh 0;
+    font-size: 1.5vw;
+    color: red;
    
 }
 .prosemester{
@@ -223,7 +228,8 @@ float:left;
     margin-right: 0.1vw;
     padding: 0.2vw;
 }
-#proimage{
+.proimage{
     width: 100%;
-    height: auto;
+    height: 20vh;
+    border: solid black 1px;
 }
