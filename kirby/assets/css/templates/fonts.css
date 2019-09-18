@@ -46,3 +46,10 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'flefixx';
+    src: url('/assets/fonts/flefixx-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

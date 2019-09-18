@@ -2,7 +2,7 @@ Title: In Defense of Style
 
 ----
 
-Type: seminar
+Type: Seminar
 
 ----
 
@@ -15,6 +15,13 @@ Supervisor:
 ----
 
 Author: 
+
+- 
+  path: people/bruno-jacoby
+- 
+  path: people/lizzy-ellbruck
+- 
+  path: people/paulina-mimberg
 
 ----
 

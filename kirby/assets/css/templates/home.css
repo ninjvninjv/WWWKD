@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  font-family: flefixx;
+  font-family: 'flefixx';
   font-size: 0.9vw;
   overflow:hidden;
 }
@@ -107,7 +107,7 @@ body {
     left:0;
     overflow:hidden;
 
-    background-color: blue;
+    background-color: white;
     /*background-color: white;*/
 
 }
@@ -117,7 +117,7 @@ body {
     /*left:calc(var(--column-width-six));*/
     overflow:hidden;
 
-    background-color: blue;
+    background-color: white;
     /*background-color: white;*/
 }
 
@@ -210,27 +210,30 @@ body {
 
 /*PROJEKTS*/
 .protitle{
-    margin: 0.2vw 0.8vw 0.2vw 0.8vw;
-    height: 18vh;
-    text-align: center;
-    padding: 8vh 0;
-    font-size: 1.5vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 0.75vw;
     color: red;
+    font-family: 'flefixx';
+    margin-bottom: 1vh;
 
 }
 .prosemester{
-    font-family: flefixx;
-    font-size: 2vh;
+    font-family: 'flefixx';
+    font-size: 1.5vh;
     color: white;
     background-color: black;
     text-align: center;
     border-radius: 1vw;
     margin-left: 0.1vw;
     margin-right: 0.1vw;
-    padding: 0.2vw;
+    margin-bottom: 1vh;
+    padding: 0.3vw;
 }
 .proimage{
-    width: 100%;
-    height: 20vh;
-    border: solid black 1px;
+    width: 96%;
+    height: auto;
+    margin: 2%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
+
 }

@@ -4,6 +4,7 @@
     
     <p>(timeline)</p>
     
+<!--
     <?php 
     
         $begin = new DateTime('2019-09-01');
@@ -22,5 +23,11 @@
     <div class="day" id="tl<?= $value->format("Ymd"); ?>"><?= $value->format("Y.m.d"); ?></div>
     
     <?php endforeach?>
+-->
+    
+    
+    
+    
+    
     
 </div>

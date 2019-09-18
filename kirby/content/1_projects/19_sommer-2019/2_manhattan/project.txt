@@ -2,11 +2,22 @@ Title: Manhattan Bar
 
 ----
 
-Begin: 
+Type: Freies Projekt
 
 ----
 
-End: 
+Medium: space
+
+----
+
+Supervisor: 
+
+----
+
+Author: 
+
+- 
+  path: people/bruno-jacoby
 
 ----
 
@@ -15,6 +26,22 @@ About:
 ----
 
 Task: 
+
+----
+
+Link: 
+
+----
+
+Video: 
+
+----
+
+Begin: 
+
+----
+
+End: 
 
 ----
 

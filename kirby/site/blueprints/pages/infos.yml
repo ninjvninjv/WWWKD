@@ -11,7 +11,7 @@ options:
 
 columns:
   - width: 1/2
-    fields:
+    sections:
       drafts:
         headline: Drafts
         type: pages
@@ -20,7 +20,7 @@ columns:
             
 
   - width: 1/2
-    fields:
+    sections:
         published:
             headline: Published Infos
             type: pages

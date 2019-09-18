@@ -2,7 +2,7 @@ Title: WWWKD
 
 ----
 
-Type: free
+Type: Freies Projekt
 
 ----
 
@@ -12,25 +12,16 @@ Medium: web
 
 Supervisor: 
 
-- 
-  supervisor: people/ivanw
-
 ----
 
 Author: 
 
 - 
-  author: people/ninaoverkott
+  path: people/ninaoverkott
 - 
-  author: people/jonadienst
+  path: people/janoschbelakratz
 - 
-  author: people/johannaschaefer
-- 
-  author: people/janoschbelakratz
-
-----
-
-Semester: WS19
+  path: people/johannaschaefer
 
 ----
 
@@ -47,6 +38,10 @@ Link:
 ----
 
 Video: 
+
+----
+
+Semester: WS19
 
 ----
 

@@ -2,22 +2,32 @@
     
     <p>(projects)</p>
     
-    <div class="proimage">fghs</div>
-    
     <?php foreach($site->find('projects')->children() as $semester): ?>
 
         <?php if($semester->children()->isNotEmpty()): ?>
-            <br>
             <div class="prosemester"><?= $semester->title() ?></div> 
             
     
             <?php foreach($semester->children() as $project): ?>
-               
+                
                 <?php foreach($project->images() as $image): ?>
                     <?php if ($image->template()=="cover"): ?>
-                        <div style="background-image:url(<?= $image->url() ?>); background-size: cover; width:94%; height: 18vh; margin: 3%;"> <div class="protitle"><?= $project->title() ?></div></div>
+                        <img class="proimage" src="<?= $image->url() ?>">
                     <?php endif ?>
                 <?php endforeach ?> 
+                
+                <!-- goes into the persons textfile and takes data -->
+    
+                <?php foreach ($project->author()->toStructure() as $author): 
+    
+                    $autorpath = $author->path();
+                             
+                ?>
+    
+                <div class="protitle"><?= $project->title() ?> <br> (<?= $project->type() ?>) <?= $autorpath->pages()->toPage()->title() ?></div>
+    
+                <?php endforeach ?>
+    
             <?php endforeach ?> 
     
         <?php endif ?> 

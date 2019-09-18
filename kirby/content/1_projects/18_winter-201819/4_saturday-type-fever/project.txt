@@ -2,7 +2,7 @@ Title: Saturday Type Fever
 
 ----
 
-Type: free
+Type: Freies Projekt
 
 ----
 
@@ -12,19 +12,12 @@ Medium: event
 
 Supervisor: 
 
-- 
-  supervisor: people/ivanw
-
 ----
 
 Author: 
 
 - 
-  author: people/changing-student-group
-
-----
-
-Semester: WS18
+  path: people/no-foundry
 
 ----
 
@@ -41,3 +34,7 @@ Link:
 ----
 
 Video: 
+
+----
+
+Semester: WS18

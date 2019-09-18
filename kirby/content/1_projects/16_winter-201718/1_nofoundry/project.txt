@@ -2,7 +2,7 @@ Title: NoFoundry
 
 ----
 
-Type: free
+Type: Freies Projekt
 
 ----
 
@@ -10,21 +10,22 @@ Medium: web, type, event
 
 ----
 
+Semester: WS17
+
+----
+
 Supervisor: 
 
 - 
-  supervisor: people/ivanw
+  path: people/ivanw
 
 ----
 
 Author: 
 
 - 
-  author: people/changing-student-group
+  path: people/no-foundry
 
-----
-
-Semester: WS17
 
 ----
 
@@ -51,3 +52,7 @@ Link:
 ----
 
 Video: 
+
+----
+
+Semester: WS17
