@@ -16,9 +16,18 @@
                     <?php endif ?>
                 <?php endforeach ?> 
                 
-                <?php foreach ($project->author() as $author): ?>
-                <div class="protitle"><?= $project->title() ?> <br> (<?= $project->type() ?>), <?= $project->author() ?></div>
+                <!-- goes into the persons textfile and takes data -->
+    
+                <?php foreach ($project->author()->toStructure() as $author): 
+    
+                    $autorpath = $author->path();
+                             
+                ?>
+    
+                <div class="protitle"><?= $project->title() ?> <br> (<?= $project->type() ?>), <?= $autorpath->pages()->toPage()->title() ?></div>
+    
                 <?php endforeach ?>
+    
             <?php endforeach ?> 
     
         <?php endif ?> 
