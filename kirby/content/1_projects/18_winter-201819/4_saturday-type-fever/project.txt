@@ -10,11 +10,14 @@ Medium: event
 
 ----
 
-Supervisor: people/ivanw
+Supervisor: 
 
 ----
 
-Author: people/no-foundry
+Author: 
+
+- 
+  path: people/no-foundry
 
 ----
 

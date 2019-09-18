@@ -14,7 +14,10 @@ Supervisor:
 
 ----
 
-Author: people/janoschbelakratz
+Author: 
+
+- 
+  path: people/janoschbelakratz
 
 ----
 
