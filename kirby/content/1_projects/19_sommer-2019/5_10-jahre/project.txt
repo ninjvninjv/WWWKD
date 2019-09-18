@@ -12,19 +12,9 @@ Medium: book, code
 
 Supervisor: 
 
-- 
-  supervisor: people/ivanw
-
 ----
 
-Author: 
-
-- 
-  author: people/janoschbelakratz
-
-----
-
-Semester: SS19
+Author: people/janoschbelakratz
 
 ----
 
@@ -41,3 +31,7 @@ Link:
 ----
 
 Video: 
+
+----
+
+Semester: SS19

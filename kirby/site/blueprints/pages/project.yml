@@ -55,19 +55,13 @@ columns:
  
   - width: 1/2
     fields:
-      supervisor:
-        type: structure
-        fields:
-            supervisor:
+        supervisor:
                 label: Supervisor
                 placeholder: Dr. Super Visor
                 type: select
                 options: query
                 query: site.children.children.template("person")
-      author:
-        type: structure
-        fields:
-            author:
+        author:
                 label: Author
                 placeholder: Stud Ent
                 type: select

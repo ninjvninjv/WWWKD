@@ -10,21 +10,11 @@ Medium: event
 
 ----
 
-Supervisor: 
-
-- 
-  supervisor: people/ivanw
+Supervisor: people/ivanw
 
 ----
 
-Author: 
-
-- 
-  author: people/changing-student-group
-
-----
-
-Semester: WS18
+Author: people/no-foundry
 
 ----
 
@@ -41,3 +31,7 @@ Link:
 ----
 
 Video: 
+
+----
+
+Semester: WS18
