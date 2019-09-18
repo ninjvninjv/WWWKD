@@ -19,14 +19,10 @@ Supervisor:
 
 Author: 
 
-- 
-  author: people/ninaoverkott
-- 
-  author: people/jonadienst
-- 
-  author: people/johannaschaefer
-- 
-  author: people/janoschbelakratz
+people/ninaoverkott
+people/jonadienst
+people/johannaschaefer
+people/janoschbelakratz
 
 ----
 

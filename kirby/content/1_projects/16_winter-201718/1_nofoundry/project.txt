@@ -12,9 +12,15 @@ Medium: web, type, event
 
 Supervisor: 
 
+- 
+  path: people/ivanw
+
 ----
 
-Author: people/no-foundry
+Author: 
+
+- 
+  path: people/no-foundry
 
 ----
 
