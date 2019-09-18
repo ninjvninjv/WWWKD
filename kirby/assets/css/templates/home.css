@@ -106,7 +106,7 @@ float:left;
     left:0;
     overflow:hidden;
     
-    background-color: blue;
+    background-color: white;
     /*background-color: white;*/
     
 }
@@ -116,7 +116,7 @@ float:left;
     /*left:calc(var(--column-width-six));*/
     overflow:hidden;
     
-    background-color: blue;
+    background-color: white;
     /*background-color: white;*/
 }
 
