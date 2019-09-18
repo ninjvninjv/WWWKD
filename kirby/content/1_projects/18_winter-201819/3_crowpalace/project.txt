@@ -12,16 +12,9 @@ Medium: video
 
 Supervisor: 
 
-- 
-  supervisor: people/sereinar
-
 ----
 
-Author: 
-
-----
-
-Semester: WS18
+Author: people/johannaschaefer
 
 ----
 
@@ -42,6 +35,10 @@ Video:
 - 
   videotitle: Vimeo
   url: '346073297 '
+
+----
+
+Semester: WS18
 
 ----
 

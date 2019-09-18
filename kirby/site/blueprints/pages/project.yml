@@ -56,17 +56,25 @@ columns:
   - width: 1/2
     fields:
         supervisor:
-                label: Supervisor
-                placeholder: Dr. Super Visor
-                type: select
-                options: query
-                query: site.children.children.template("person")
+            label: Supervisors
+            type: structure
+            fields:
+                path:
+                        label: Supervisor
+                        placeholder: Dr. Super Visor
+                        type: select
+                        options: query
+                        query: site.children.children.template("person")
         author:
-                label: Author
-                placeholder: Stud Ent
-                type: select
-                options: query
-                query: site.children.children.template("person")
+            label: Authors
+            type: structure
+            fields:
+                path:
+                        label: Author
+                        placeholder: Stud Ent
+                        type: select
+                        options: query
+                        query: site.children.children.template("person")
       about:
         label: About
         type: textarea

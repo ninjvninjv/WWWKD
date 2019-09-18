@@ -14,7 +14,7 @@ Supervisor:
 
 ----
 
-Author: 
+Author: people/bruno-jacoby
 
 ----
 
