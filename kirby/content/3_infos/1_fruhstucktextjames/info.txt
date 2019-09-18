@@ -2,13 +2,11 @@ Title: Frühstücktext_James
 
 ----
 
-Texttitle: 
+Texttitle: **Frühstück**
 
 ----
 
 Text: 
-
-**Frühstuck**
 
 There is a tradition in the communication design department at the HfG. On the first morning of each semester, the staff and students gather in the school for breakfast — the most important meal of the day! The room is full, hungry. The food, brought by students, is always an unexpected mix — something home-made, something from a traditional Baden-Württemberg bakery, a Turkish delicatessen, a local bio-store, the school vending machine. Everyone fills their plate, and the conversation gradually shifts from Karlsruhe’s long summers (or short winters), from travels, experiences, and internships, to the work ahead. The atmosphere is convivial, with tinges of excitement and uncertainty.
 
