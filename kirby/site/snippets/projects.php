@@ -24,7 +24,7 @@
                              
                 ?>
     
-                <div class="protitle"><?= $project->title() ?> <br> (<?= $project->type() ?>), <?= $autorpath->pages()->toPage()->title() ?></div>
+                <div class="protitle"><?= $project->title() ?> <br> (<?= $project->type() ?>) <?= $autorpath->pages()->toPage()->title() ?></div>
     
                 <?php endforeach ?>
     

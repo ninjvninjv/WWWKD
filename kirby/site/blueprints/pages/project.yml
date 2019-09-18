@@ -19,10 +19,10 @@ columns:
                         label: Type
                         type: radio
                         options:
-                            seminar: Seminar
-                            free: Free Project
-                            prediploma: Prediploma
-                            diploma: Diploma
+                            Seminar: Seminar
+                            Freies Projekt: Free Project
+                            Vordiplom: Prediploma
+                            Diplom: Diploma
                     medium:
                         label: Medium
                         type: checkboxes
