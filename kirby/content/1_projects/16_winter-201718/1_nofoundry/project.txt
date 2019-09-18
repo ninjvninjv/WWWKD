@@ -12,19 +12,9 @@ Medium: web, type, event
 
 Supervisor: 
 
-- 
-  supervisor: people/ivanw
-
 ----
 
-Author: 
-
-- 
-  author: people/changing-student-group
-
-----
-
-Semester: WS17
+Author: people/no-foundry
 
 ----
 
@@ -51,3 +41,7 @@ Link:
 ----
 
 Video: 
+
+----
+
+Semester: WS17

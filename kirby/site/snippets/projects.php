@@ -5,7 +5,6 @@
     <?php foreach($site->find('projects')->children() as $semester): ?>
 
         <?php if($semester->children()->isNotEmpty()): ?>
-            <br>
             <div class="prosemester"><?= $semester->title() ?></div> 
             
     
