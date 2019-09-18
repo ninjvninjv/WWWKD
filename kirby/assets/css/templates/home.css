@@ -16,12 +16,12 @@ body {
   --column-width-three: calc(100%/2);
   --column-width-two: calc(100%/1);
   --calendarNavigation-width: calc(var(--column-width-six)*(2/7));
-  --sidebarNavigation-width: calc(var(--column-width-six)*(5/7));
+  --sidebarNavigation-width: calc(var(--column-width-six)*(3.8/7));
 }
 
 .siteTitle {
   font-family: 'mf_basis_monou15_p80';
-  font-size: 4.15vw;
+  font-size: 3.7vw;
   z-index: 200;
   left: 10px;
   font-weight: 200;
@@ -48,27 +48,28 @@ body {
   position: fixed;
   right: 0;
   top: 0;
-    font-family: 'mf_basis_monou30_p80';
+  font-family: 'mf_basis_monou30_p80';
 }
 
 #sidebarNavigation form {
   position: absolute;
   top: 20vh;
+  font-family: flefixx;
 }
 
 #calendarNavigation{
-    
+
   width: var(--calendarNavigation-width);
   height: 100vh;
   position: fixed;
   left: 0;
   top: 0;
-    
+
 }
 
 #content {
   position: absolute;
-  width: calc(5*(100vw/6.35));
+  width: calc(5.25*(100vw/6.35));
   border-right: black solid 1px;
   top: 0;
   left: calc(var(--column-width-six)*(2/7));
@@ -84,7 +85,7 @@ body {
 
 .column {
   position: relative;
-float:left;
+  float:left;
   width: var(--column-width-six);
   height: 100vh;
   overflow: scroll;
@@ -102,44 +103,44 @@ float:left;
 }
 
 #events {
-    
+
     left:0;
     overflow:hidden;
-    
+
     background-color: blue;
     /*background-color: white;*/
-    
+
 }
 
 #seminars {
-    
+
     /*left:calc(var(--column-width-six));*/
     overflow:hidden;
-    
+
     background-color: blue;
     /*background-color: white;*/
 }
 
 #projects {
-    
+
 /*    left:calc(var(--column-width-six)*2);*/
-    
+
     /*background-color: red;*/
     background-color: white;
 }
 
 #information {
-    
+
 /*    left:calc(var(--column-width-six)*3);*/
-    
+
     /*background-color: #ff6a00;*/
     background-color: white;
 }
 
 #people {
-    
+
 /*    left:calc(var(--column-width-six)*4);*/
-    
+
     /*background-color: yellow;*/
     background-color: white;
 }
@@ -151,18 +152,18 @@ float:left;
 /*everything in the columns*/
 
 .col{
-    
+
     width:100%;
     height:100vh;
     background: ;
     overflow:scroll;
-    
+
 }
 
 /*---CALENDAR---*/
 
 .day{
-    
+
     width:100%;
     min-height: 1vh;
     float:left;
@@ -172,9 +173,9 @@ float:left;
 }
 
 #timelinecol{
-    
+
     overflow:hidden;
-    
+
 }
 
 /*the red line in <timeline> <events> and <courses>*/
@@ -194,17 +195,17 @@ float:left;
 /*EVENTS*/
 
 .event{
-    
+
     position:relative;
     width:50%;
     float:left;
-    
+
 }
 
 .eventtitle{
-    
+
     height:10vh;
-    
+
 }
 
 /*PROJEKTS*/
@@ -215,7 +216,7 @@ float:left;
     padding: 8vh 0;
     font-size: 1.5vw;
     color: red;
-   
+
 }
 .prosemester{
     font-family: flefixx;
