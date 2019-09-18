@@ -14,7 +14,14 @@ Supervisor:
 
 ----
 
-Author: people/bruno-jacoby
+Author: 
+
+- 
+  path: people/bruno-jacoby
+- 
+  path: people/lizzy-ellbruck
+- 
+  path: people/paulina-mimberg
 
 ----
 
