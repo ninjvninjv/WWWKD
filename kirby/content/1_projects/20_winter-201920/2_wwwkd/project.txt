@@ -12,21 +12,16 @@ Medium: web
 
 Supervisor: 
 
-- 
-  supervisor: people/ivanw
-
 ----
 
 Author: 
 
-people/ninaoverkott
-people/jonadienst
-people/johannaschaefer
-people/janoschbelakratz
-
-----
-
-Semester: WS19
+- 
+  path: people/ninaoverkott
+- 
+  path: people/janoschbelakratz
+- 
+  path: people/johannaschaefer
 
 ----
 
@@ -43,6 +38,10 @@ Link:
 ----
 
 Video: 
+
+----
+
+Semester: WS19
 
 ----
 
