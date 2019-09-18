@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  font-family: flefixx;
+  font-family: 'flefixx';
   font-size: 0.9vw;
   overflow:hidden;
 }
@@ -213,12 +213,12 @@ float:left;
     margin-right: 2%;
     font-size: 0.75vw;
     color: red;
-    font-family: flefixx;
+    font-family: 'flefixx';
     margin-bottom: 1vh;
    
 }
 .prosemester{
-    font-family: flefixx;
+    font-family: 'flefixx';
     font-size: 1.5vh;
     color: white;
     background-color: black;
