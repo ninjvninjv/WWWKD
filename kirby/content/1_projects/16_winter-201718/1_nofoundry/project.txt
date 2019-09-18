@@ -10,9 +10,10 @@ Medium: web, type, event
 
 ----
 
-<<<<<<< HEAD
 Semester: WS17
-=======
+
+----
+
 Supervisor: 
 
 - 
@@ -24,7 +25,7 @@ Author:
 
 - 
   path: people/no-foundry
->>>>>>> f3e973027ed3f0760dcf2ca51a045941f69617c9
+
 
 ----
 
