@@ -24,7 +24,7 @@
     
     ?>
     
-        <div class="day" id="<?= $value->format("Y-m-d"); ?>"></div>
+        <div class="day" id="s<?= $value->format("Y-m-d"); ?>"></div>
     
     
     <?php endforeach?>
@@ -32,7 +32,7 @@
 
             <?php
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, 'https://www.googleapis.com/calendar/v3/calendars/4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com/events?key=AIzaSyAun17rUsshrEgSRoG8c0dxlRmkgkBu-78&timeMin=2010-01-01T10:00:00-00:00&orderBy=startTime&singleEvents=true&maxResults=2500');
+        curl_setopt($curl, CURLOPT_URL, 'https://www.googleapis.com/calendar/v3/calendars/4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com/events?key=AIzaSyAun17rUsshrEgSRoG8c0dxlRmkgkBu-78&timeMin=2019-01-01T10:00:00-00:00&orderBy=startTime&singleEvents=true&maxResults=4500');
 
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-type: application/json'));
@@ -52,19 +52,44 @@
         foreach($items as $item):
         ?>
 
-        <div class="day"><?= $item->summary; ?></div>
-                   <script type='text/javascript'>
+    
+            <script type='text/javascript'>
 
+                
                 $(document).ready(function(){
                     
-                    var $timestamp = <?= $item->start->dateTime; ?>;
+                    
+                    
+                    var $timestamp = '<?= $item->start->dateTime; ?>';
                     var seminardate = $timestamp.substring(0, 10);
+                    var seminarday = seminardate.substring(8, 10);
+                    var seminarmonth = seminardate.substring(5, 7);
+                    var seminaryear = seminardate.substring(0, 4);                
 
-                        $('<?= $item->start->dateTime; ?>').appendTo('#'+seminardate);
+                        $('#s'+seminardate).append('<?= $item->summary; ?>');
+                        $('#t'+seminardate).html('');
+                        $('#t'+seminardate).append(seminarday + '.' + seminarmonth);
+                
+                
+                    var sheight = $('#s'+seminardate).height();
+                    var eheight = $('#e'+seminardate).height();
+
+                    if(eheight > sheight){
+
+                        $('#s'+seminardate).height(eheight);
+                        $('#t'+seminardate).height(eheight);
+
+                    }else{
+
+                        $('#e'+seminardate).height(sheight);
+                        $('#t'+seminardate).height(sheight);
+
+                    };
                     
                 });
-
+                
             </script>
+        
     
         <?php endforeach; $filename = fopen("result.json", "w") or die("Unable to open file!");
         fwrite($filename, $json_response);
@@ -72,6 +97,8 @@
 
     
 </div>
+
+
 
 <!--html structure seminar-->
 <!--

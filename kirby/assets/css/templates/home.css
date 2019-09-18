@@ -157,6 +157,7 @@ body {
     height:100vh;
     background: ;
     overflow:scroll;
+    overflow-x: hidden;
 }
 
 .orientation{
