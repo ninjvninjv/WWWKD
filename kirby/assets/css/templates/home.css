@@ -27,7 +27,8 @@ body {
   font-weight: 200;
   color: #9b77d1;
   position: absolute;
-    pointer-events: none;
+  pointer-events: none;
+  line-height: 5vw;
 }
 
 .siteTitle p {
@@ -102,9 +103,9 @@ label input:checked ~ .checkmark:after {
 
 label .checkmark:after {
   bottom: -0.2vw;
-  left: 0.25vw;
+  left: 0.3vw;
   width: 0;
-  height: 1vw;
+  height: 1.05vw;
   border: solid black;
   border-width: 0 1px 0px 0;
   -webkit-transform: rotate(45deg);
