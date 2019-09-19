@@ -16,7 +16,7 @@
   <div id='content'>
 
     <div class='column' id='events'>
- 
+
         <?php snippet('events') ?>
 
     </div>
@@ -28,19 +28,19 @@
     </div>
 
     <div class='column' id='projects'>
-          
+
         <?php snippet('projects') ?>
 
     </div>
 
     <div class='column' id='information'>
-        
+
         <?php snippet('information') ?>
 
     </div>
 
     <div class='column' id='people'>
-        
+
         <?php snippet('people') ?>
 
     </div>
@@ -50,26 +50,153 @@
   <div id='sidebarNavigation'>
 
     <form>
-      <input type="checkbox" class='checkEvent' onClick='toggleColumn(".checkEvent", "#events")' name="checkTalks" checked>Vorträge<br>
-      <input type="checkbox" class='checkEvent' onClick='toggleColumn(".checkEvent", "#events")' name="checkPresentations">Präsentationen<br>
-      <input type="checkbox" class='checkEvent' onClick='toggleColumn(".checkEvent", "#events")' name="checkExhibitions">Austellungen<br><br>
 
-      <input type="checkbox" class='checkCourses' onClick='toggleColumn(".checkCourses", "#seminars")' name="checkSeminars" checked>Seminare<br>
-      <input type="checkbox" class='checkCourses' onClick='toggleColumn(".checkCourses", "#seminars")' name="checkBasics">Grundkurse<br>
-      <input type="checkbox" class='checkCourses' onClick='toggleColumn(".checkCourses", "#seminars")' name="checkWorkshops">Workshops<br><br>
+      <!--Events Column-->
+      <label>
+        <input
+          type="checkbox"
+          class='checkEvent'
+          onClick='toggleColumn(".checkEvent", "#events")'
+          name="checkTalks" checked>
+          <span class="checkmark"></span> Vorträge<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkEvent'
+          onClick='toggleColumn(".checkEvent", "#events")'
+          name="checkPresentations">
+          <span class="checkmark"></span> Präsentationen<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkEvent'
+          onClick='toggleColumn(".checkEvent", "#events")'
+          name="checkExhibitions">
+          <span class="checkmark"></span> Austellungen<br>
+      </label><br>
 
-      <input type="checkbox" class='checkProjects' onClick='toggleColumn(".checkProjects", "#projects")' name="checkSeminarWorks" checked>Seminararbeiten<br>
-      <input type="checkbox" class='checkProjects' onClick='toggleColumn(".checkProjects", "#projects")' name="checkFreeProjects">Freie Projekte<br>
-      <input type="checkbox" class='checkProjects' onClick='toggleColumn(".checkProjects", "#projects")' name="checkDiplomas">Diplome<br>
-      <input type="checkbox" class='checkProjects' onClick='toggleColumn(".checkProjects", "#projects")' name="checkPrediplomas">Vordiplome<br><br>
+      <!--Seminare Column-->
+      <label>
+        <input
+          type="checkbox"
+          class='checkCourses'
+          onClick='toggleColumn(".checkCourses", "#seminars")'
+          name="checkSeminars" checked>
+          <span class="checkmark"></span> Seminare<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkCourses'
+          onClick='toggleColumn(".checkCourses", "#seminars")'
+          name="checkBasics">
+          <span class="checkmark"></span> Grundkurse<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkCourses'
+          onClick='toggleColumn(".checkCourses", "#seminars")'
+          name="checkWorkshops">
+          <span class="checkmark"></span> Workshops<br>
+      </label><br>
 
-      <input type="checkbox" class='checkInfo' onClick='toggleColumn(".checkInfo", "#information")' name="checkInfo" checked>Info<br>
-      <input type="checkbox" class='checkInfo' onClick='toggleColumn(".checkInfo", "#information")' name="checkAteliers">Werkstätten<br>
-      <input type="checkbox" class='checkInfo' onClick='toggleColumn(".checkInfo", "#information")' name="checkAdmissions">Bewerbung<br>
-      <input type="checkbox" class='checkInfo' onClick='toggleColumn(".checkInfo", "#information")' name="checkContact">Kontakt<br><br>
+      <!--Projects Column-->
+      <label>
+        <input
+          type="checkbox"
+          class='checkProjects'
+          onClick='toggleColumn(".checkProjects", "#projects")'
+          name="checkSeminarWorks" checked>
+          <span class="checkmark"></span> Seminararbeiten<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkProjects'
+          onClick='toggleColumn(".checkProjects", "#projects")'
+          name="checkFreeProjects">
+          <span class="checkmark"></span> Freie Projekte<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkProjects'
+          onClick='toggleColumn(".checkProjects", "#projects")'
+          name="checkDiplomas">
+          <span class="checkmark"></span> Diplome<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkProjects'
+          onClick='toggleColumn(".checkProjects", "#projects")'
+          name="checkPrediplomas">
+          <span class="checkmark"></span> Vordiplome<br>
+      </label><br>
 
-      <input type="checkbox" class='checkPeople' onClick='toggleColumn(".checkPeople", "#people")' name="checkProfs" checked>Lehrende<br>
-      <input type="checkbox" class='checkPeople' onClick='toggleColumn(".checkPeople", "#people")' name="checkGuests">Gäste<br>
+      <!--Info Column-->
+      <label>
+        <input
+        type="checkbox"
+        class='checkInfo'
+        onClick='toggleColumn(".checkInfo", "#information")'
+        name="checkInfo" checked>
+        <span class="checkmark"></span> Info<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkInfo'
+          onClick='toggleColumn(".checkInfo", "#information")'
+          name="checkAteliers">
+          <span class="checkmark"></span> Werkstätten<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkInfo'
+          onClick='toggleColumn(".checkInfo", "#information")'
+          name="checkAdmissions">
+          <span class="checkmark"></span> Bewerbung<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkInfo'
+          onClick='toggleColumn(".checkInfo", "#information")'
+          name="checkContact">
+          <span class="checkmark"></span> Kontakt<br>
+      </label><br>
+
+      <!--People Column-->
+      <label>
+        <input
+          type="checkbox"
+          class='checkPeople'
+          onClick='toggleColumn(".checkPeople", "#people")'
+          name="checkProfs" checked>
+          <span class="checkmark"></span> Lehrende<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkPeople'
+          onClick='toggleColumn(".checkPeople", "#people")'
+          name="checkGuests">
+          <span class="checkmark"></span> Gäste<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkPeople'
+          onClick='toggleColumn(".checkPeople", "#people")'
+          name="checkStudents">
+          <span class="checkmark"></span> Studierende<br>
+      </label>
+
     </form>
 
 
@@ -79,7 +206,7 @@
 <script type="text/javascript">
 
 // --- CHECKBOXES ---
-    
+
   /* On click, check if any of the column's checkboxes is :checked:
        a) If YES, display column
        b) If NO, hide column */
@@ -108,12 +235,12 @@
   }
 
 //--- TITLE SCROLL ---
-    
+
   var marg = 0;
   var marg2 = 0
   $('.col').scroll(function () {
-    marg = marg += 1.5
-    if (marg < 86.5) {
+    marg = marg += 0.5
+    if (marg < 86) {
       $('#headerTitle').css('left', marg + 'vw');
       $('#footerTitle').css('left', marg + 'vw');
     } else if (marg < 90) {
@@ -129,7 +256,7 @@
   });
 
 // --- RULER ---
-    
+
     $(document).mousemove(function(){
 
         $('.ruler').css('top',event.pageY);
@@ -140,23 +267,23 @@
 // --- SEMINARS & EVENTS ---
     
 //if you scroll in event or semianr col the whole calendar scrolls
-    
+
     $('#eventcol').scroll(function(){
-        
+
         $('#seminarcol').scrollTop($('#eventcol').scrollTop());
         $('#timelinecol').scrollTop($('#eventcol').scrollTop());
-        
+
     });
-    
+
     $('#seminarcol').scroll(function(){
-        
+
         $('#eventcol').scrollTop($('#seminarcol').scrollTop());
         $('#timelinecol').scrollTop($('#seminarcol').scrollTop());
-        
+
     });
-    
-    
-    
+
+
+
     var today = '<?= date("Y-m-d"); ?>';
     var scrollpos = $('#s'+today).offset();
     var scroll = scrollpos.top;
@@ -166,6 +293,11 @@
     $('#seminarcol').scrollTop($('#s'+today).offset().top);
 
     
+
+
+    $('#seminarcol').scrollTop($('#s'+today).position().top);
+
+//checks heights of calendar rows
 
 </script>
 

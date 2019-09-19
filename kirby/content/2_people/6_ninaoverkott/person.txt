@@ -2,11 +2,15 @@ Title: Nina Overkott
 
 ----
 
-Typ: hiwi
+Typ: student
 
 ----
 
-Status: no
+Status: yes
+
+----
+
+Members: 
 
 ----
 
@@ -34,7 +38,7 @@ About:
 
 ----
 
-Seminars: 
+Projects: 
 
 ----
 
@@ -47,6 +51,10 @@ Room:
 ----
 
 Websites: 
+
+----
+
+Seminars: 
 
 ----
 
