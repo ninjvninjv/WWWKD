@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'mf_basis_monou15_p80';
-    src: url('assets/fonts/mf_basis_mono_u15_p80-webfont.woff2') format('woff2'),
-         url('assets/fonts/mf_basis_mono_u15_p80-webfont.woff') format('woff');
+    src: url('../../fonts/mf_basis_mono_u15_p80-webfont.woff2') format('woff2'),
+         url('../../fonts/mf_basis_mono_u15_p80-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'mf_basis_monou20_p80';
-    src: url('assets/fonts/mf_basis_mono_u20_p80-webfont.woff2') format('woff2'),
-         url('assets/fonts/mf_basis_mono_u20_p80-webfont.woff') format('woff');
+    src: url('../../fonts/mf_basis_mono_u20_p80-webfont.woff2') format('woff2'),
+         url('../../fonts/mf_basis_mono_u20_p80-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -20,8 +20,8 @@
 
 @font-face {
     font-family: 'mf_basis_monou30_p80';
-    src: url('assets/fonts/mf_basis_mono_u30_p80-webfont.woff2') format('woff2'),
-         url('assets/fonts/mf_basis_mono_u30_p80-webfont.woff') format('woff');
+    src: url('../../fonts/mf_basis_mono_u30_p80-webfont.woff2') format('woff2'),
+         url('../../fonts/mf_basis_mono_u30_p80-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -30,8 +30,8 @@
 
 @font-face {
     font-family: 'mf_basis_monou40_p80';
-    src: url('assets/fonts/mf_basis_mono_u40_p80-webfont.woff2') format('woff2'),
-         url('assets/fonts/mf_basis_mono_u40_p80-webfont.woff') format('woff');
+    src: url('../../fonts/mf_basis_mono_u40_p80-webfont.woff2') format('woff2'),
+         url('../../fonts/mf_basis_mono_u40_p80-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,8 +40,8 @@
 
 @font-face {
     font-family: 'mf_basis_monou50_p80';
-    src: url('assets/fonts/mf_basis_mono_u50_p80-webfont.woff2') format('woff2'),
-         url('assets/fonts/mf_basis_mono_u50_p80-webfont.woff') format('woff');
+    src: url('../../fonts/mf_basis_mono_u50_p80-webfont.woff2') format('woff2'),
+         url('../../fonts/mf_basis_mono_u50_p80-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -49,7 +49,7 @@
 
 @font-face {
     font-family: 'flefixx';
-    src: url('assets/fonts/flefixx-Regular.woff') format('woff');
+    src: url('../../fonts/flefixx-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
