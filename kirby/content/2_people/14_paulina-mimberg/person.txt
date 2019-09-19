@@ -6,7 +6,7 @@ Typ: student
 
 ----
 
-Status: 
+Status: yes
 
 ----
 
@@ -14,11 +14,11 @@ Members:
 
 ----
 
-Firstname: 
+Firstname: Paulina
 
 ----
 
-Surname: 
+Surname: Mimberg
 
 ----
 
