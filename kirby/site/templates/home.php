@@ -52,106 +52,143 @@
     <form>
 
       <!--Events Column-->
-      <input type="checkbox" class='checkEvent' onClick='toggleColumn(".checkEvent", "#events")' name="checkTalks" checked>
-      <span class="checkmark"></span> Vorträge<br>
-      <input
-        type="checkbox"
-        class='checkEvent'
-        onClick='toggleColumn(".checkEvent", "#events")'
-        name="checkPresentations">
-        <span class="checkmark"></span> Präsentationen<br>
-      <input
-        type="checkbox"
-        class='checkEvent'
-        onClick='toggleColumn(".checkEvent", "#events")'
-        name="checkExhibitions">
-        <span class="checkmark"></span> Austellungen<br><br>
+      <label>
+        <input
+          type="checkbox"
+          class='checkEvent'
+          onClick='toggleColumn(".checkEvent", "#events")'
+          name="checkTalks" checked>
+          <span class="checkmark"></span> Vorträge<br>
+      <label>
+        <input
+          type="checkbox"
+          class='checkEvent'
+          onClick='toggleColumn(".checkEvent", "#events")'
+          name="checkPresentations">
+          <span class="checkmark"></span> Präsentationen<br>
+      <label>
+        <input
+          type="checkbox"
+          class='checkEvent'
+          onClick='toggleColumn(".checkEvent", "#events")'
+          name="checkExhibitions">
+          <span class="checkmark"></span> Austellungen<br><br>
 
       <!--Seminare Column-->
-      <input
-        type="checkbox"
-        class='checkCourses'
-        onClick='toggleColumn(".checkCourses", "#seminars")'
-        name="checkSeminars" checked>
-        <span class="checkmark"></span> Seminare<br>
-      <input
-        type="checkbox"
-        class='checkCourses'
-        onClick='toggleColumn(".checkCourses", "#seminars")'
-        name="checkBasics">
-        <span class="checkmark"></span> Grundkurse<br>
-      <input
-        type="checkbox"
-        class='checkCourses'
-        onClick='toggleColumn(".checkCourses", "#seminars")'
-        name="checkWorkshops">
-        <span class="checkmark"></span> Workshops<br><br>
+      <label>
+        <input
+          type="checkbox"
+          class='checkCourses'
+          onClick='toggleColumn(".checkCourses", "#seminars")'
+          name="checkSeminars" checked>
+          <span class="checkmark"></span> Seminare<br>
+      <label>
+        <input
+          type="checkbox"
+          class='checkCourses'
+          onClick='toggleColumn(".checkCourses", "#seminars")'
+          name="checkBasics">
+          <span class="checkmark"></span> Grundkurse<br>
+      <label>
+        <input
+          type="checkbox"
+          class='checkCourses'
+          onClick='toggleColumn(".checkCourses", "#seminars")'
+          name="checkWorkshops">
+          <span class="checkmark"></span> Workshops<br><br>
 
       <!--Projects Column-->
-      <input
-        type="checkbox"
-        class='checkProjects'
-        onClick='toggleColumn(".checkProjects", "#projects")'
-        name="checkSeminarWorks" checked>
-        <span class="checkmark"></span> Seminararbeiten<br>
-      <input
-        type="checkbox"
-        class='checkProjects'
-        onClick='toggleColumn(".checkProjects", "#projects")'
-        name="checkFreeProjects">
-        <span class="checkmark"></span> Freie Projekte<br>
-      <input
-        type="checkbox"
-        class='checkProjects'
-        onClick='toggleColumn(".checkProjects", "#projects")'
-        name="checkDiplomas">
-        <span class="checkmark"></span> Diplome<br>
-      <input
-        type="checkbox"
-        class='checkProjects'
-        onClick='toggleColumn(".checkProjects", "#projects")'
-        name="checkPrediplomas">
-        <span class="checkmark"></span> Vordiplome<br><br>
+      <label>
+        <input
+          type="checkbox"
+          class='checkProjects'
+          onClick='toggleColumn(".checkProjects", "#projects")'
+          name="checkSeminarWorks" checked>
+          <span class="checkmark"></span> Seminararbeiten<br>
+      <label>
+        <input
+          type="checkbox"
+          class='checkProjects'
+          onClick='toggleColumn(".checkProjects", "#projects")'
+          name="checkFreeProjects">
+          <span class="checkmark"></span> Freie Projekte<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkProjects'
+          onClick='toggleColumn(".checkProjects", "#projects")'
+          name="checkDiplomas">
+          <span class="checkmark"></span> Diplome<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkProjects'
+          onClick='toggleColumn(".checkProjects", "#projects")'
+          name="checkPrediplomas">
+          <span class="checkmark"></span> Vordiplome<br><br>
+      </label>
 
       <!--Info Column-->
-      <label><input
+      <label>
+        <input
         type="checkbox"
         class='checkInfo'
         onClick='toggleColumn(".checkInfo", "#information")'
         name="checkInfo" checked>
-        <span class="checkmark"></span> Info<br></label>
-      <input
-        type="checkbox"
-        class='checkInfo'
-        onClick='toggleColumn(".checkInfo", "#information")'
-        name="checkAteliers">
-        <span class="checkmark"></span> Werkstätten<br>
-      <input
-        type="checkbox"
-        class='checkInfo'
-        onClick='toggleColumn(".checkInfo", "#information")'
-        name="checkAdmissions">
-        <span class="checkmark"></span> Bewerbung<br>
-      <input
-        type="checkbox"
-        class='checkInfo'
-        onClick='toggleColumn(".checkInfo", "#information")'
-        name="checkContact">
-        <span class="checkmark"></span> Kontakt<br><br>
+        <span class="checkmark"></span> Info<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkInfo'
+          onClick='toggleColumn(".checkInfo", "#information")'
+          name="checkAteliers">
+          <span class="checkmark"></span> Werkstätten<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkInfo'
+          onClick='toggleColumn(".checkInfo", "#information")'
+          name="checkAdmissions">
+          <span class="checkmark"></span> Bewerbung<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkInfo'
+          onClick='toggleColumn(".checkInfo", "#information")'
+          name="checkContact">
+          <span class="checkmark"></span> Kontakt<br><br>
+      </label>
 
       <!--People Column-->
-      <input
-        type="checkbox"
-        class='checkPeople'
-        onClick='toggleColumn(".checkPeople", "#people")'
-        name="checkProfs" checked>
-        <span class="checkmark"></span> Lehrende<br>
-      <input
-        type="checkbox"
-        class='checkPeople'
-        onClick='toggleColumn(".checkPeople", "#people")'
-        name="checkGuests">
-        <span class="checkmark"></span> Gäste<br>
+      <label>
+        <input
+          type="checkbox"
+          class='checkPeople'
+          onClick='toggleColumn(".checkPeople", "#people")'
+          name="checkProfs" checked>
+          <span class="checkmark"></span> Lehrende<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkPeople'
+          onClick='toggleColumn(".checkPeople", "#people")'
+          name="checkGuests">
+          <span class="checkmark"></span> Gäste<br>
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          class='checkPeople'
+          onClick='toggleColumn(".checkPeople", "#people")'
+          name="checkStudents">
+          <span class="checkmark"></span> Studierende<br>
+      </label>
 
     </form>
 
@@ -195,8 +232,8 @@
   var marg = 0;
   var marg2 = 0
   $('.col').scroll(function () {
-    marg = marg += 1.5
-    if (marg < 86.5) {
+    marg = marg += 0.5
+    if (marg < 86) {
       $('#headerTitle').css('left', marg + 'vw');
       $('#footerTitle').css('left', marg + 'vw');
     } else if (marg < 90) {
