@@ -15,8 +15,12 @@
                             <img class="proimage" src="<?= $image->url() ?>">
                         <?php endif ?>
                     <?php endforeach ?> 
+        
+                     <div class="protitle"><?= $project->title() ?> (<?= $project->type() ?>)</div>
+        
 
                     <!-- goes into the persons textfile and takes data -->
+        <div class="proauthor">
 
                     <?php foreach ($project->author()->toStructure() as $author): 
 
@@ -24,9 +28,10 @@
 
                     ?>
 
-                    <div class="protitle"><?= $project->title() ?> <br> (<?= $project->type() ?>) <?= $autorpath->pages()->toPage()->title() ?></div>
+                    <?= $autorpath->pages()->toPage()->title() ?>,
 
                     <?php endforeach ?>
+            </div>
 
                 <?php endforeach ?> 
 
