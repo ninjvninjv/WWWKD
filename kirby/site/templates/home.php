@@ -155,10 +155,8 @@
     
     
     var today = '<?= date("Y-m-d"); ?>';
-    alert(today);
     var scrollpos = $('#s'+today).position();
     var scroll = scrollpos.top;
-    alert(scroll);
 
     $('#seminarcol').scrollTop($('#s'+today).position().top);
     
