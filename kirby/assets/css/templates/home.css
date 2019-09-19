@@ -16,12 +16,12 @@ body {
   --column-width-three: calc(100%/2);
   --column-width-two: calc(100%/1);
   --calendarNavigation-width: calc(var(--column-width-six)*(2/7));
-  --sidebarNavigation-width: calc(var(--column-width-six)*(3.8/7));
+  --sidebarNavigation-width: calc(var(--column-width-six)*(5/7));
 }
 
 .siteTitle {
   font-family: 'mf_basis_monou15_p80';
-  font-size: 3.7vw;
+  font-size: 4.15vw;
   z-index: 200;
   left: 10px;
   font-weight: 200;
@@ -50,13 +50,12 @@ body {
   position: fixed;
   right: 0;
   top: 0;
-  font-family: 'mf_basis_monou30_p80';
+    font-family: 'mf_basis_monou30_p80';
 }
 
 #sidebarNavigation form {
   position: absolute;
   top: 20vh;
-  font-family: flefixx;
 }
 
 /* The container */
@@ -94,18 +93,18 @@ label input {
 
 
 #calendarNavigation{
-
+    
   width: var(--calendarNavigation-width);
   height: 100vh;
   position: fixed;
   left: 0;
   top: 0;
-
+    
 }
 
 #content {
   position: absolute;
-  width: calc(5.25*(100vw/6.35));
+  width: calc(5*(100vw/6.35));
   border-right: black solid 1px;
   top: 0;
   left: calc(var(--column-width-six)*(2/7));
@@ -121,7 +120,7 @@ label input {
 
 .column {
   position: relative;
-  float:left;
+float:left;
   width: var(--column-width-six);
   height: 100vh;
   overflow: scroll;
@@ -139,44 +138,54 @@ label input {
 }
 
 #events {
-
+    
     left:0;
     overflow:hidden;
+<<<<<<< HEAD
 
     background-color: white;
+=======
+    
+    background-color: blue;
+>>>>>>> parent of 8b12b9a... Reduced Sidebar + Title
     /*background-color: white;*/
-
+    
 }
 
 #seminars {
-
+    
     /*left:calc(var(--column-width-six));*/
     overflow:hidden;
+<<<<<<< HEAD
 
     background-color: white;
+=======
+    
+    background-color: blue;
+>>>>>>> parent of 8b12b9a... Reduced Sidebar + Title
     /*background-color: white;*/
 }
 
 #projects {
-
+    
 /*    left:calc(var(--column-width-six)*2);*/
-
+    
     /*background-color: red;*/
     background-color: white;
 }
 
 #information {
-
+    
 /*    left:calc(var(--column-width-six)*3);*/
-
+    
     /*background-color: #ff6a00;*/
     background-color: white;
 }
 
 #people {
-
+    
 /*    left:calc(var(--column-width-six)*4);*/
-
+    
     /*background-color: yellow;*/
     background-color: white;
 }
@@ -188,11 +197,12 @@ label input {
 /*everything in the columns*/
 
 .col{
-
+    
     width:100%;
     height:100vh;
     background: ;
     overflow:scroll;
+<<<<<<< HEAD
     overflow-x: hidden;
 }
 
@@ -202,12 +212,15 @@ label input {
 }
 
 .colcontent{
+=======
+    
+>>>>>>> parent of 8b12b9a... Reduced Sidebar + Title
 }
 
 /*---CALENDAR---*/
 
 .day{
-
+    
     width:100%;
     min-height: 1vh;
     float:left;
@@ -217,9 +230,9 @@ label input {
 }
 
 #timelinecol{
-
+    
     overflow:hidden;
-
+    
 }
 
 /*the red line in <timeline> <events> and <courses>*/
@@ -239,17 +252,17 @@ label input {
 /*EVENTS*/
 
 .event{
-
+    
     position:relative;
     width:50%;
     float:left;
-
+    
 }
 
 .eventtitle{
-
+    
     height:10vh;
-
+    
 }
 
 /*PROJEKTS*/
@@ -258,8 +271,12 @@ label input {
     margin-right: 2%;
     font-size: 0.75vw;
     color: red;
+<<<<<<< HEAD
     font-family: 'flefixx';
     margin-bottom: 1vh;
+=======
+   
+>>>>>>> parent of 8b12b9a... Reduced Sidebar + Title
 }
 
 .prosemester{
@@ -276,6 +293,7 @@ label input {
 }
 
 .proimage{
+<<<<<<< HEAD
     width: 96%;
     height: auto;
     margin: 2%;
@@ -290,3 +308,9 @@ label input {
     
 }
 
+=======
+    width: 100%;
+    height: 20vh;
+    border: solid black 1px;
+}
+>>>>>>> parent of 8b12b9a... Reduced Sidebar + Title
