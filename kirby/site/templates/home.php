@@ -262,7 +262,10 @@
         $('.ruler').css('top',event.pageY);
 
     });
-
+    
+    
+// --- SEMINARS & EVENTS ---
+    
 //if you scroll in event or semianr col the whole calendar scrolls
 
     $('#eventcol').scroll(function(){
@@ -282,14 +285,30 @@
 
 
     var today = '<?= date("Y-m-d"); ?>';
-    var scrollpos = $('#s'+today).position();
+    var scrollpos = $('#s'+today).offset();
     var scroll = scrollpos.top;
+    
+    $('#s'+today).css('background-color', 'red');
+
+    $('#seminarcol').scrollTop($('#s'+today).offset().top);
+
+    
+
 
     $('#seminarcol').scrollTop($('#s'+today).position().top);
 
 //checks heights of calendar rows
 
-
 </script>
+
+<style>
+
+    #events{
+        
+        cursor: url('<?= $site->find('home')->image('cursor.svg')->url() ?>');
+        
+    }
+
+</style>
 
 <?php snippet('footer') ?>
