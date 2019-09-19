@@ -86,8 +86,30 @@ label input {
   border: black solid 1px;
 }
 
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
 label:hover input ~ .checkmark {
   background-color: #eee;
+}
+
+label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+label .checkmark:after {
+  bottom: -0.2vw;
+  left: 0.25vw;
+  width: 0;
+  height: 1vw;
+  border: solid black;
+  border-width: 0 1px 0px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 #calendarNavigation{
