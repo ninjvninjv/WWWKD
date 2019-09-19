@@ -59,90 +59,106 @@
     <form>
 
       <!--Events Column-->
-      <input type="checkbox" class='checkEvent' onClick='toggleColumn(".checkEvent", "#events")' name="checkTalks" checked> Vorträge<br>
+      <input type="checkbox" class='checkEvent' onClick='toggleColumn(".checkEvent", "#events")' name="checkTalks" checked>
+      <span class="checkmark"></span> Vorträge<br>
       <input
         type="checkbox"
         class='checkEvent'
         onClick='toggleColumn(".checkEvent", "#events")'
-        name="checkPresentations"> Präsentationen<br>
+        name="checkPresentations">
+        <span class="checkmark"></span> Präsentationen<br>
       <input
         type="checkbox"
         class='checkEvent'
         onClick='toggleColumn(".checkEvent", "#events")'
-        name="checkExhibitions"> Austellungen<br><br>
+        name="checkExhibitions">
+        <span class="checkmark"></span> Austellungen<br><br>
 
       <!--Seminare Column-->
       <input
         type="checkbox"
         class='checkCourses'
         onClick='toggleColumn(".checkCourses", "#seminars")'
-        name="checkSeminars" checked> Seminare<br>
+        name="checkSeminars" checked>
+        <span class="checkmark"></span> Seminare<br>
       <input
         type="checkbox"
         class='checkCourses'
         onClick='toggleColumn(".checkCourses", "#seminars")'
-        name="checkBasics"> Grundkurse<br>
+        name="checkBasics">
+        <span class="checkmark"></span> Grundkurse<br>
       <input
         type="checkbox"
         class='checkCourses'
         onClick='toggleColumn(".checkCourses", "#seminars")'
-        name="checkWorkshops"> Workshops<br><br>
+        name="checkWorkshops">
+        <span class="checkmark"></span> Workshops<br><br>
 
       <!--Projects Column-->
       <input
         type="checkbox"
         class='checkProjects'
         onClick='toggleColumn(".checkProjects", "#projects")'
-        name="checkSeminarWorks" checked> Seminararbeiten<br>
+        name="checkSeminarWorks" checked>
+        <span class="checkmark"></span> Seminararbeiten<br>
       <input
         type="checkbox"
         class='checkProjects'
         onClick='toggleColumn(".checkProjects", "#projects")'
-        name="checkFreeProjects"> Freie Projekte<br>
+        name="checkFreeProjects">
+        <span class="checkmark"></span> Freie Projekte<br>
       <input
         type="checkbox"
         class='checkProjects'
         onClick='toggleColumn(".checkProjects", "#projects")'
-        name="checkDiplomas"> Diplome<br>
+        name="checkDiplomas">
+        <span class="checkmark"></span> Diplome<br>
       <input
         type="checkbox"
         class='checkProjects'
         onClick='toggleColumn(".checkProjects", "#projects")'
-        name="checkPrediplomas"> Vordiplome<br><br>
+        name="checkPrediplomas">
+        <span class="checkmark"></span> Vordiplome<br><br>
 
       <!--Info Column-->
+      <label><input
+        type="checkbox"
+        class='checkInfo'
+        onClick='toggleColumn(".checkInfo", "#information")'
+        name="checkInfo" checked>
+        <span class="checkmark"></span> Info<br></label>
       <input
         type="checkbox"
         class='checkInfo'
         onClick='toggleColumn(".checkInfo", "#information")'
-        name="checkInfo" checked> Info<br>
+        name="checkAteliers">
+        <span class="checkmark"></span> Werkstätten<br>
       <input
         type="checkbox"
         class='checkInfo'
         onClick='toggleColumn(".checkInfo", "#information")'
-        name="checkAteliers"> Werkstätten<br>
+        name="checkAdmissions">
+        <span class="checkmark"></span> Bewerbung<br>
       <input
         type="checkbox"
         class='checkInfo'
         onClick='toggleColumn(".checkInfo", "#information")'
-        name="checkAdmissions"> Bewerbung<br>
-      <input
-        type="checkbox"
-        class='checkInfo'
-        onClick='toggleColumn(".checkInfo", "#information")'
-        name="checkContact"> Kontakt<br><br>
+        name="checkContact">
+        <span class="checkmark"></span> Kontakt<br><br>
 
       <!--People Column-->
       <input
         type="checkbox"
         class='checkPeople'
         onClick='toggleColumn(".checkPeople", "#people")'
-        name="checkProfs" checked> Lehrende<br>
+        name="checkProfs" checked>
+        <span class="checkmark"></span> Lehrende<br>
       <input
         type="checkbox"
         class='checkPeople'
         onClick='toggleColumn(".checkPeople", "#people")'
-        name="checkGuests"> Gäste<br>
+        name="checkGuests">
+        <span class="checkmark"></span> Gäste<br>
 
     </form>
 
