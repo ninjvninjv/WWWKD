@@ -107,6 +107,7 @@ body {
     left:0;
     overflow:hidden;
 
+/*    border-left: black solid 0px;*/
     background-color: white;
     /*background-color: white;*/
 
@@ -186,6 +187,7 @@ body {
 
 }
 
+/*RULER*/
 /*the red line in <timeline> <events> and <courses>*/
 .ruler{
 
@@ -214,6 +216,16 @@ body {
 
     height:10vh;
 
+}
+
+/*SEMINARS*/
+
+.seminar{
+    
+    position:relative;
+    margin:2px;
+    border-left-style: black solid 1px;
+    
 }
 
 /*PROJEKTS*/
