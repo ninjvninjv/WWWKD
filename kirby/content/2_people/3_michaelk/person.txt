@@ -2,7 +2,7 @@ Title: Rebecca Stephany
 
 ----
 
-Job: prof
+Typ: prof
 
 ----
 
@@ -10,11 +10,15 @@ Status: yes
 
 ----
 
-Prename: Michael
+Members: 
 
 ----
 
-Name: Kryenbühl
+Firstname: Rebecca
+
+----
+
+Surname: Stephany
 
 ----
 
@@ -26,12 +30,36 @@ End:
 
 ----
 
-About: Michi is cool. Part of Johnson/Kingston.
-
-----
-
 Task: digital design
 
 ----
 
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
 Websites: 
+
+----
+
+Job: prof
+
+----
+
+Prename: Michael
+
+----
+
+Name: Kryenbühl

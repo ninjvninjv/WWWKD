@@ -2,7 +2,7 @@ Title: Johnson/Kingston
 
 ----
 
-Job: prof
+Typ: prof
 
 ----
 
@@ -10,11 +10,15 @@ Status: yes
 
 ----
 
-Prename: Ivan
+Members: 
 
 ----
 
-Name: Weiss
+Firstname: 
+
+----
+
+Surname: 
 
 ----
 
@@ -26,15 +30,39 @@ End:
 
 ----
 
-About: Ivan is cool. Part of Johnson/kingston
-
-----
-
 Task: digital design
 
 ----
 
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
 Websites: 
+
+----
+
+Job: prof
+
+----
+
+Prename: Ivan
+
+----
+
+Name: Weiss
 
 ----
 

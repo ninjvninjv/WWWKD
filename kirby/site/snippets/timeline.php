@@ -4,10 +4,11 @@
     
     <p>(timeline)</p>
     
-<!--
-    <?php 
+        <?php 
     
-        $begin = new DateTime('2019-09-01');
+        $day = array();
+        $i = 0;
+        $begin = new DateTime('2019-01-01');
         $interval = new DateInterval('P1D');
         $end = new DateTime('2019-12-30');
         $period = new DatePeriod(
@@ -16,14 +17,17 @@
              $end
          ); 
     
-    foreach ($period as $key => $value):
+        foreach ($period as $key => $value):
+    
+        $day[$i] = $value;
+        $i++;
     
     ?>
     
-    <div class="day" id="tl<?= $value->format("Ymd"); ?>"><?= $value->format("Y.m.d"); ?></div>
+        <div class="day" id="t<?= $value->format("Y-m-d"); ?>"></div>
+    
     
     <?php endforeach?>
--->
     
     
     

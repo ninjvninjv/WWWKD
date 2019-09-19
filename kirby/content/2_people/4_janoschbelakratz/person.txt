@@ -2,11 +2,15 @@ Title: Janosch Bela Kratz
 
 ----
 
-Typ: employee
+Typ: student
 
 ----
 
 Status: yes
+
+----
+
+Members: 
 
 ----
 
@@ -34,7 +38,7 @@ About:
 
 ----
 
-Seminars: 
+Projects: 
 
 ----
 
@@ -52,6 +56,10 @@ Websites:
   websitename: null
   url: http://janoschkratz.eu
   platform: Homepage
+
+----
+
+Seminars: 
 
 ----
 

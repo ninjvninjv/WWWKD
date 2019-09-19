@@ -2,7 +2,23 @@ Title: Lizzy Ellbrück
 
 ----
 
+Typ: student
+
+----
+
+Status: yes
+
+----
+
 Members: 
+
+----
+
+Firstname: Lizzy
+
+----
+
+Surname: Ellbrück
 
 ----
 
@@ -23,6 +39,14 @@ About:
 ----
 
 Projects: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
 
 ----
 

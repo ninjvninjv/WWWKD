@@ -193,7 +193,15 @@ label input {
     height:100vh;
     background: ;
     overflow:scroll;
+    overflow-x: hidden;
+}
 
+.orientation{
+    position: fixed;
+    color: red;
+}
+
+.colcontent{
 }
 
 /*---CALENDAR---*/
@@ -252,8 +260,8 @@ label input {
     color: red;
     font-family: 'flefixx';
     margin-bottom: 1vh;
-
 }
+
 .prosemester{
     font-family: 'flefixx';
     font-size: 1.5vh;
@@ -266,10 +274,19 @@ label input {
     margin-bottom: 1vh;
     padding: 0.3vw;
 }
+
 .proimage{
     width: 96%;
     height: auto;
     margin: 2%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
-
 }
+
+/*INFO*/
+.infotext{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1vh;
+    
+}
+

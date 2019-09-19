@@ -1,24 +1,17 @@
 <?php snippet('header') ?>
 
-  <div class='siteTitle' id='headerTitle'>
-    <p>K<span class='hideTitle'>ommunikations<br></span>
-      D<span class='hideTitle'>esign</span>
-    </p>
-  </div>
-  <div class='siteTitle' id='footerTitle'>
-    <p>H<span class='hideTitle'>ochschule</span><br>
-      f<span class='hideTitle'>ür</span><br>
-      G<span class='hideTitle'>estaltung</span>
-    </p>
-  </div>
+  <div class='siteTitle' id='headerTitle'><p>K<span class='hideTitle'>ommunikations<br></span>D<span class='hideTitle'>esign</span></p></div>
+  <div class='siteTitle' id='footerTitle'><p>H<span class='hideTitle'>ochschule</span><br>f<span class='hideTitle'>ür</span><br>G<span class='hideTitle'>estaltung</span></p></div>
 
-  <div id='calendarNavigation'>
+    <div id='calendarNavigation'>
 
-    <?php snippet('timeline') ?>
+      <?php snippet('timeline') ?>
 
-  </div>
+    </div>
 
   <img id='easterEgg' src='content/1_projects/2_wwwkd/wwwkdteam.jpeg'>
+
+  <div class=''></div>
 
   <div id='content'>
 
@@ -162,14 +155,15 @@
 
     </form>
 
+
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
 
-/*--- CHECKBOXES ---
+// --- CHECKBOXES ---
 
-  On click, check if any of the column's checkboxes is :checked:
+  /* On click, check if any of the column's checkboxes is :checked:
        a) If YES, display column
        b) If NO, hide column */
 
@@ -196,13 +190,13 @@
     $('.column').css('width', 'calc(100%/' + numberOfColumns + ')');
   }
 
-/*--- TITLE SCROLL ---*/
+//--- TITLE SCROLL ---
 
   var marg = 0;
   var marg2 = 0
   $('.col').scroll(function () {
-    marg = marg += 1
-    if (marg < 90) {
+    marg = marg += 1.5
+    if (marg < 86.5) {
       $('#headerTitle').css('left', marg + 'vw');
       $('#footerTitle').css('left', marg + 'vw');
     } else if (marg < 90) {
@@ -225,7 +219,7 @@
 
     });
 
-//if you scroll in event or seminar column the whole calendar scrolls
+//if you scroll in event or semianr col the whole calendar scrolls
 
     $('#eventcol').scroll(function(){
 
@@ -240,6 +234,17 @@
         $('#timelinecol').scrollTop($('#seminarcol').scrollTop());
 
     });
+
+
+
+    var today = '<?= date("Y-m-d"); ?>';
+    var scrollpos = $('#s'+today).position();
+    var scroll = scrollpos.top;
+
+    $('#seminarcol').scrollTop($('#s'+today).position().top);
+
+//checks heights of calendar rows
+
 
 </script>
 

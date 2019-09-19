@@ -2,7 +2,7 @@ Title: James Langdon
 
 ----
 
-Job: prof
+Typ: prof
 
 ----
 
@@ -10,11 +10,15 @@ Status: yes
 
 ----
 
-Prename: 
+Members: 
 
 ----
 
-Name: 
+Firstname: James
+
+----
+
+Surname: Langdon
 
 ----
 
@@ -34,6 +38,10 @@ About:
 
 ----
 
+Projects: 
+
+----
+
 Mail: 
 
 ----
@@ -43,3 +51,15 @@ Room:
 ----
 
 Websites: 
+
+----
+
+Job: prof
+
+----
+
+Prename: 
+
+----
+
+Name: 
