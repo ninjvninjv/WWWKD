@@ -265,7 +265,16 @@ float:left;
 }
 
 /*PROJEKTS*/
-.protitle, .proauthor{
+.protitle{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 0.75vw;
+    color: red;
+    font-family: 'flefixx';
+    
+}
+
+.proauthor{
     margin-left: 2%;
     margin-right: 2%;
     font-size: 0.75vw;
@@ -300,6 +309,5 @@ float:left;
     margin-right: 2%;
     margin-bottom: 1vh;
     width: 100%;
-    height: 20vh;
-    border: solid black 1px;
+   
 }

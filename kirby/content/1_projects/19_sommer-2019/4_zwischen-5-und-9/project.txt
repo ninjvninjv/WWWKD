@@ -21,6 +21,9 @@ Supervisor:
 
 Author: 
 
+- 
+  path: people/sascia-reibel
+
 ----
 
 About: 
