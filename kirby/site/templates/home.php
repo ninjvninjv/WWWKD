@@ -268,6 +268,7 @@
     
 //if you scroll in event or semianr col the whole calendar scrolls
 
+    
     $('#eventcol').scroll(function(){
 
         $('#seminarcol').scrollTop($('#eventcol').scrollTop());
@@ -288,10 +289,8 @@
     var scrollpos = $('#s'+today).offset();
     var scroll = scrollpos.top;
     
-    $('#s'+today).css('background-color', 'red');
-    $('#s'+today).css('height', '20vh');
 
-    $('#seminarcol').scrollTop($('#s'+today).offset().top - ($(window).height()/2));
+    $('#seminarcol').scrollTop($('#s'+today).offset().top - ($(window).height()/2) - ($('#s'+today).height()/2));
 
     
 
@@ -302,7 +301,7 @@
 
 <style>
 
-    #events{
+    #events:hover{
         
         cursor: url('<?= $site->find('home')->image('cursor.svg')->url() ?>');
         

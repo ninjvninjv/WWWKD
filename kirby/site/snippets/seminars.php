@@ -59,7 +59,6 @@
                 $(document).ready(function(){
                     
                     
-                    
                     var $timestamp = '<?= $item->start->dateTime; ?>';
                     var seminardate = $timestamp.substring(0, 10);
                     var seminarday = seminardate.substring(8, 10);
@@ -73,6 +72,14 @@
                 
                     var sheight = $('#s'+seminardate).height();
                     var eheight = $('#e'+seminardate).height();
+                    
+                    var today = '<?= date("Y-m-d"); ?>';
+                    $('#s'+today).css('background-color', 'yellow');
+                    $('#e'+today).css('background-color', 'yellow');
+                    $('#t'+today).css('background-color', 'yellow');
+                    $('#s'+today).css('height', '20vh');
+                    $('#e'+today).css('height', '20vh');
+                    $('#t'+today).css('height', '20vh');
 
                     if(eheight > sheight){
 
