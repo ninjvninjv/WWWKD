@@ -289,13 +289,12 @@
     var scroll = scrollpos.top;
     
     $('#s'+today).css('background-color', 'red');
+    $('#s'+today).css('height', '20vh');
 
-    $('#seminarcol').scrollTop($('#s'+today).offset().top);
+    $('#seminarcol').scrollTop($('#s'+today).offset().top - ($(window).height()/2));
 
     
 
-
-    $('#seminarcol').scrollTop($('#s'+today).position().top);
 
 //checks heights of calendar rows
 
