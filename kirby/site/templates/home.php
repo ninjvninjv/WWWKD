@@ -59,6 +59,7 @@
           onClick='toggleColumn(".checkEvent", "#events")'
           name="checkTalks" checked>
           <span class="checkmark"></span> Vorträge<br>
+      </label>
       <label>
         <input
           type="checkbox"
@@ -66,13 +67,15 @@
           onClick='toggleColumn(".checkEvent", "#events")'
           name="checkPresentations">
           <span class="checkmark"></span> Präsentationen<br>
+      </label>
       <label>
         <input
           type="checkbox"
           class='checkEvent'
           onClick='toggleColumn(".checkEvent", "#events")'
           name="checkExhibitions">
-          <span class="checkmark"></span> Austellungen<br><br>
+          <span class="checkmark"></span> Austellungen<br>
+      </label><br>
 
       <!--Seminare Column-->
       <label>
@@ -82,6 +85,7 @@
           onClick='toggleColumn(".checkCourses", "#seminars")'
           name="checkSeminars" checked>
           <span class="checkmark"></span> Seminare<br>
+      </label>
       <label>
         <input
           type="checkbox"
@@ -89,13 +93,15 @@
           onClick='toggleColumn(".checkCourses", "#seminars")'
           name="checkBasics">
           <span class="checkmark"></span> Grundkurse<br>
+      </label>
       <label>
         <input
           type="checkbox"
           class='checkCourses'
           onClick='toggleColumn(".checkCourses", "#seminars")'
           name="checkWorkshops">
-          <span class="checkmark"></span> Workshops<br><br>
+          <span class="checkmark"></span> Workshops<br>
+      </label><br>
 
       <!--Projects Column-->
       <label>
@@ -105,6 +111,7 @@
           onClick='toggleColumn(".checkProjects", "#projects")'
           name="checkSeminarWorks" checked>
           <span class="checkmark"></span> Seminararbeiten<br>
+      </label>
       <label>
         <input
           type="checkbox"
@@ -127,8 +134,8 @@
           class='checkProjects'
           onClick='toggleColumn(".checkProjects", "#projects")'
           name="checkPrediplomas">
-          <span class="checkmark"></span> Vordiplome<br><br>
-      </label>
+          <span class="checkmark"></span> Vordiplome<br>
+      </label><br>
 
       <!--Info Column-->
       <label>
@@ -161,8 +168,8 @@
           class='checkInfo'
           onClick='toggleColumn(".checkInfo", "#information")'
           name="checkContact">
-          <span class="checkmark"></span> Kontakt<br><br>
-      </label>
+          <span class="checkmark"></span> Kontakt<br>
+      </label><br>
 
       <!--People Column-->
       <label>

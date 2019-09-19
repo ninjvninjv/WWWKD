@@ -86,6 +86,10 @@ label input {
   border: black solid 1px;
 }
 
+label:hover input ~ .checkmark {
+  background-color: #eee;
+}
+
 #calendarNavigation{
 
   width: var(--calendarNavigation-width);
