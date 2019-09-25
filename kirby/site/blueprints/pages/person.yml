@@ -38,7 +38,7 @@ columns:
                 layout: list
                 template: image
                 back: white
-                max: 1
+                max: 2
 
   - width: 1/2
     fields:
