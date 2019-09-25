@@ -10,6 +10,10 @@ Status: no
 
 ----
 
+Members: 
+
+----
+
 Firstname: 
 
 ----
@@ -34,6 +38,10 @@ About: Sereina Rothenberger betreibt in Zürich zusammen mit David Schatz das St
 
 ----
 
+Projects: 
+
+----
+
 Mail: 
 
 ----
@@ -45,8 +53,13 @@ Room:
 Websites: 
 
 - 
-  platform: Hammer
+  websitename: null
   url: https://hammer.to
+  platform: Hammer
+
+----
+
+Image: 
 
 ----
 
@@ -97,3 +110,7 @@ Kirby Magazine Inc.
 Sesamestreet 1
 Gotham City
 USA
+
+----
+
+Images: 
