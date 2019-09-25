@@ -311,3 +311,23 @@ float:left;
     width: 100%;
    
 }
+
+/*PEOPLE*/
+.profile{
+    visibility: hidden;
+    z-index: 100;
+    position: fixed;
+    top: 20px;
+    right: 33%;
+    width: 33%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+#mouse_over {
+  opacity: 0;
+}
+
+#mouse_over:hover {
+  opacity: 1;
+}
+

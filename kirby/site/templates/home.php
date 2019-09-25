@@ -38,12 +38,20 @@
         <?php snippet('information') ?>
 
     </div>
+      
+    <?php foreach ($site->find ('people')->children() as $person): ?>
+        <?php foreach ($person->images() as $image): ?>
+            <img class="profile" id="<?= $person ?>" src="<?= $image->url() ?>">
+        <?php endforeach ?>
+    <?php endforeach ?>
 
     <div class='column' id='people'>
 
         <?php snippet('people') ?>
 
     </div>
+      
+    
 
   </div>
 
