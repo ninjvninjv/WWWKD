@@ -16,8 +16,6 @@
         
    
         <?php foreach ($site->find ('people')->children() as $person): ?>
-                <?php foreach ($person->images() as $image): ?>
-        
                     <br>
                     <br>
                     <div class="person" onMouseOver="show('<?= $person ?>')" onMouseOut="hide('<?= $person ?>')"> 
@@ -26,8 +24,6 @@
                     <br>
                     <br>
                     <?= $person->about() ?>
-                <?php endforeach ?>
-
         <?php endforeach ?>
     </div>  
 </div>
