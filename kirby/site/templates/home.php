@@ -39,6 +39,7 @@
 
     </div>
       
+    // --- TEST OVERLAY PEOPLE 
     <?php foreach ($site->find ('people')->children() as $person): ?>
         <?php foreach ($person->images() as $image): ?>
             <img class="profile" id="<?= $person ?>" src="<?= $image->url() ?>">
