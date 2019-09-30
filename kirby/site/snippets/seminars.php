@@ -1,5 +1,12 @@
 <div class="ruler"></div>
 
+    <script>
+    
+        var startvar = 0;
+        var seminars = [];
+    
+    </script>
+
 <div class="col" id="seminarcol">
     
     <p>(seminars)</p>
@@ -24,11 +31,14 @@
     
     ?>
     
-        <div class="day" id="s<?= $value->format("Y-m-d"); ?>"></div>
+        <div class="day" id="s<?= $value->format("Y-m-d"); ?>">
+        
+
+    
+        </div>
     
     
     <?php endforeach?>
-    
 
             <?php
         $curl = curl_init();
@@ -56,31 +66,45 @@
             <script type='text/javascript'>
 
                 
+                function timeToSeconds(time) {
+                    time = time.split(/:/);
+                    return time[0];
+                }
+                
                 $(document).ready(function(){
                     
+                    $('.seminartitle').css('font-size', $('.column').width()/20);
                     
                     var $timestamp = '<?= $item->start->dateTime; ?>';
+                    var seminarstart = $timestamp.substring(11, 16);
+                    var starttime = timeToSeconds(seminarstart);
+                    
+                    var seminarend = $timestamp.substring(20, 26);
                     var seminardate = $timestamp.substring(0, 10);
                     var seminarday = seminardate.substring(8, 10);
                     var seminarmonth = seminardate.substring(5, 7);
                     var seminaryear = seminardate.substring(0, 4);                
 
-                        $('#s'+seminardate).append('<?= $item->summary; ?>');
-                        $('#t'+seminardate).html('');
+                        $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="semianrtime">'+seminarstart + '–' + seminarend +'</div><div class="seminartitle"><?= $item->summary; ?></div></div>');
+                        $('#t'+seminardate).html(''); // this empties the date line and just prints it once
                         $('#t'+seminardate).append(seminarday + '.' + seminarmonth);
                 
                 
                     var sheight = $('#s'+seminardate).height();
                     var eheight = $('#e'+seminardate).height();
                     
+                    //values for todays row
                     var today = '<?= date("Y-m-d"); ?>';
-                    $('#s'+today).css('background-color', 'yellow');
-                    $('#e'+today).css('background-color', 'yellow');
-                    $('#t'+today).css('background-color', 'yellow');
+                    $('#t'+today).html('');
+                    $('#t'+today).append('Heute');
+                    $('#s'+today).css('background-color', 'darkseagreen');
+                    $('#e'+today).css('background-color', 'darkseagreen');
+                    $('#t'+today).css('background-color', 'darkseagreen');
                     $('#s'+today).css('height', '20vh');
                     $('#e'+today).css('height', '20vh');
                     $('#t'+today).css('height', '20vh');
 
+                    //fits the height of the day to the biggest
                     if(eheight > sheight){
 
                         $('#s'+seminardate).height(eheight);
@@ -93,7 +117,50 @@
 
                     };
                     
+                    $(window).resize(function(){
+                        
+                        var sheight = $('#s'+seminardate).height();
+                        var eheight = $('#e'+seminardate).height();
+
+                        if(eheight > sheight){
+
+                            $('#s'+seminardate).height(eheight);
+                            $('#t'+seminardate).height(eheight);
+
+                        }else{
+
+                            $('#e'+seminardate).height(sheight);
+                            $('#t'+seminardate).height(sheight);
+
+                        };
+                        
+                    }); //fits the height of the day to the biggest when resizing the window
+                    
+                    $('#sidebarNavigation').on('click', function(){
+                        
+                        var sheight = $('#s'+seminardate).height();
+                        var eheight = $('#e'+seminardate).height();
+
+                        if(eheight > sheight){
+
+                            $('#s'+seminardate).height(eheight);
+                            $('#t'+seminardate).height(eheight);
+
+                        }else{
+
+                            $('#e'+seminardate).height(sheight);
+                            $('#t'+seminardate).height(sheight);
+
+                        };      
+                        
+                        $('.seminartitle').css('font-size', $('.column').width()/20);
+                        
+                    }); //fits the height of the day to the biggest when klick on sidebar 
+                                
+                    
+    
                 });
+            
                 
             </script>
         

@@ -340,12 +340,8 @@
     var scroll = scrollpos.top;
 
 
-    $('#seminarcol').scrollTop($('#s'+today).offset().top - ($(window).height()/2) - ($('#s'+today).height()/2));
+    $('#seminarcol').scrollTop($('#s'+today).offset().top - ($(window).height()/2) - ($('#s'+today).height()/2)).delay( 100000 );
 
-
-
-
-//checks heights of calendar rows
 
 </script>
 

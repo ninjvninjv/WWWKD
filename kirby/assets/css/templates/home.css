@@ -169,6 +169,7 @@ float:left;
 #seminars {
     overflow:hidden;
     background-color: white;
+    border-left: black solid 0px;
 }
 
 #projects {
@@ -260,7 +261,23 @@ float:left;
     
     position:relative;
     margin:2px;
-    border-left-style: black solid 1px;
+    margin-bottom: 4px;
+    border-left: black solid 1px;
+    border-top: black solid 1px;
+    padding-left:2px;
+    background: ;
+    
+}
+
+.seminar:hover{
+    
+    background-color:darksalmon;
+}
+
+.seminartitle{
+    
+    font-family: 'mf_basis_monou15_p80';
+    font-size: 100%;
     
 }
 
