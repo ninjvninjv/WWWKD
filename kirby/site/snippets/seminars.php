@@ -89,7 +89,11 @@
                         $('#t'+seminardate).html(''); // this empties the date line and just prints it once
                         $('#t'+seminardate).append(seminarday + '.' + seminarmonth);
                 
+                    $('.seminartitle').css('font-size', $('.column').width()/20);
                 
+                    $('#s'+seminardate).css('height', 'auto');
+                    $('#e'+seminardate).css('height', 'auto');
+                    
                     var sheight = $('#s'+seminardate).height();
                     var eheight = $('#e'+seminardate).height();
                     
@@ -105,6 +109,7 @@
                     $('#t'+today).css('height', '20vh');
 
                     //fits the height of the day to the biggest
+                    
                     if(eheight > sheight){
 
                         $('#s'+seminardate).height(eheight);
@@ -119,6 +124,8 @@
                     
                     $(window).resize(function(){
                         
+                        $('#s'+seminardate).css('height', 'auto');
+                        $('#e'+seminardate).css('height', 'auto');
                         var sheight = $('#s'+seminardate).height();
                         var eheight = $('#e'+seminardate).height();
 
@@ -134,9 +141,14 @@
 
                         };
                         
+                        $('.seminartitle').css('font-size', $('.column').width()/20);
+                        
                     }); //fits the height of the day to the biggest when resizing the window
                     
                     $('#sidebarNavigation').on('click', function(){
+                        
+                        $('#s'+seminardate).css('height', 'auto');
+                        $('#e'+seminardate).css('height', 'auto');
                         
                         var sheight = $('#s'+seminardate).height();
                         var eheight = $('#e'+seminardate).height();

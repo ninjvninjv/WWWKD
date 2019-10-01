@@ -265,7 +265,7 @@ float:left;
     border-left: black solid 1px;
     border-top: black solid 1px;
     padding-left:2px;
-    background: ;
+    background-color: ;
     
 }
 
@@ -278,6 +278,7 @@ float:left;
     
     font-family: 'mf_basis_monou15_p80';
     font-size: 100%;
+    line-height: 1;
     
 }
 
