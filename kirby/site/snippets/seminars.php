@@ -85,17 +85,14 @@
                     var seminarmonth = seminardate.substring(5, 7);
                     var seminaryear = seminardate.substring(0, 4);                
 
-                        $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="semianrtime">'+seminarstart + '–' + seminarend +'</div><div class="seminartitle"><?= $item->summary; ?></div></div>');
-                        $('#t'+seminardate).html(''); // this empties the date line and just prints it once
-                        $('#t'+seminardate).append(seminarday + '.' + seminarmonth);
-                
-                    $('.seminartitle').css('font-size', $('.column').width()/20);
-                
-                    $('#s'+seminardate).css('height', 'auto');
-                    $('#e'+seminardate).css('height', 'auto');
+                    $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="seminartime">'+seminarstart + '–' + seminarend +'</div><div class="seminarroom">Raum '+Math.floor((Math.random() * 222) + 214)+'</div><div class="seminartitle"><?= $item->summary; ?></div><div class="endline"></div></div>'); // this adds all the informations in a seminar div to the calendar
                     
-                    var sheight = $('#s'+seminardate).height();
-                    var eheight = $('#e'+seminardate).height();
+                    $('#t'+seminardate).html(''); // this empties the date line 
+                    $('#t'+seminardate).append(seminarday + '.' + seminarmonth); // and just prints it once
+                
+                    $('.seminartitle').css('font-size', $('.column').width()/20); // sets the font-size depending on the column width
+                
+                    
                     
                     //values for todays row
                     var today = '<?= date("Y-m-d"); ?>';
@@ -109,6 +106,12 @@
                     $('#t'+today).css('height', '20vh');
 
                     //fits the height of the day to the biggest
+                    
+                    $('#s'+seminardate).css('height', 'auto'); // first sets it auto,
+                    $('#e'+seminardate).css('height', 'auto'); // so the div can fit around the content
+                    
+                    var sheight = $('#s'+seminardate).height();
+                    var eheight = $('#e'+seminardate).height();
                     
                     if(eheight > sheight){
 

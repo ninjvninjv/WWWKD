@@ -282,6 +282,29 @@ float:left;
     
 }
 
+.seminarroom, .seminartime{
+    
+    float:left;
+    width:50%;
+    
+}
+
+.seminarroom{
+    
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+
+.endline{
+    
+    border-bottom: black solid 1px;
+    width:1%;
+    padding-left:-2px;
+    margin-left:-2px;
+    
+}
+
 /*PROJEKTS*/
 .protitle{
     margin-left: 2%;
