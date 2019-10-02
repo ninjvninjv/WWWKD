@@ -1,8 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p33o8337di3tu80g\"",
+ "etag": "\"p334b9ucqp3uu80g\"",
  "summary": "Kurse Hauptstudium",
- "updated": "2019-10-01T13:08:49.526Z",
+ "description": "",
+ "updated": "2019-10-02T12:21:49.117Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -4665,6 +4666,34 @@
     "dateTime": "2019-10-24T18:00:00+02:00"
    },
    "iCalUID": "553C2F19-7134-452C-ABAF-FAE15853AD3B",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3140037818234000\"",
+   "id": "2u3bk35o959bk0bbu7drd67dfm",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MnUzYmszNW85NTliazBiYnU3ZHJkNjdkZm0gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-02T12:21:33.000Z",
+   "updated": "2019-10-02T12:21:49.117Z",
+   "summary": "Geplant: Exkursion IPDD+Moniker Mozilla Festival London",
+   "location": "London, Vereinigtes Königreich",
+   "creator": {
+    "email": "sasciareibel@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "date": "2019-10-25"
+   },
+   "end": {
+    "date": "2019-10-28"
+   },
+   "transparency": "transparent",
+   "iCalUID": "2u3bk35o959bk0bbu7drd67dfm@google.com",
    "sequence": 0
   },
   {

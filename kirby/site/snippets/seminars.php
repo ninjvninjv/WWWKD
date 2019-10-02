@@ -75,7 +75,7 @@
                     
                     $('.seminartitle').css('font-size', $('.column').width()/20);
                     
-                    var $timestamp = '<?= $item->start->dateTime; ?>';
+                    var $timestamp = '<?php if (isset($item->end->dateTime)){echo $item->end->dateTime;} ?>';
                     var seminarstart = $timestamp.substring(11, 16);
                     var starttime = timeToSeconds(seminarstart);
                     
