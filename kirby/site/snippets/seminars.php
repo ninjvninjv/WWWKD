@@ -17,7 +17,7 @@
         $i = 0;
         $begin = new DateTime('2019-01-01');
         $interval = new DateInterval('P1D');
-        $end = new DateTime('2019-12-30');
+        $end = new DateTime('2020-02-30');
         $period = new DatePeriod(
              $begin,
              $interval,
