@@ -287,7 +287,7 @@ float:left;
 .seminarroom, .seminartime{
     
     float:left;
-    width:50%;
+    width:49%;
     
 }
 
@@ -295,6 +295,15 @@ float:left;
     
     text-align: right;
     text-transform: uppercase;
+    
+}
+
+.rightline{
+    
+    float:left;
+    height:5px;
+    width:2%;
+    border-right: black solid 1px;
     
 }
 

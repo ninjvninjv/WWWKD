@@ -75,17 +75,18 @@
                     
                     $('.seminartitle').css('font-size', $('.column').width()/20);
                     
-                    var $timestamp = '<?php if (isset($item->end->dateTime)){echo $item->end->dateTime;} ?>';
+                    var $timestamp = '<?php if (isset($item->start->dateTime)){echo $item->start->dateTime;} ?>';
                     var seminarstart = $timestamp.substring(11, 16);
                     var starttime = timeToSeconds(seminarstart);
                     
-                    var seminarend = $timestamp.substring(20, 26);
+                    var $timestampend = '<?php if (isset($item->end->dateTime)){echo $item->end->dateTime;} ?>';
+                    var seminarend = $timestampend.substring(11, 16);
                     var seminardate = $timestamp.substring(0, 10);
                     var seminarday = seminardate.substring(8, 10);
                     var seminarmonth = seminardate.substring(5, 7);
                     var seminaryear = seminardate.substring(0, 4);                
 
-                    $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="seminartime">'+seminarstart + '–' + seminarend +'</div><div class="seminarroom">Raum '+Math.floor((Math.random() * 222) + 214)+'</div><div class="seminartitle"><?= $item->summary; ?></div><div class="endline"></div></div>'); // this adds all the informations in a seminar div to the calendar
+                    $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="seminartime">'+seminarstart + '–' + seminarend +'</div><div class="seminarroom">Raum '+Math.floor((Math.random() * 222) + 214)+'</div><div class="rightline"></div><div class="seminartitle"><?= $item->summary; ?></div><div class="endline"></div></div>'); // this adds all the informations in a seminar div to the calendar
                     
                     $('#t'+seminardate).html(''); // this empties the date line 
                     $('#t'+seminardate).append(seminarday + '.' + seminarmonth); // and just prints it once
