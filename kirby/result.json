@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p334b9ucqp3uu80g\"",
+ "etag": "\"p338crie3u6mea0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-10-02T12:21:49.117Z",
+ "updated": "2019-10-21T08:01:47.874Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -4436,13 +4436,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3112378617596000\"",
+   "etag": "\"3141041072804000\"",
    "id": "_8h1jedpk6923aba169334b9k8p2kcba160qjgb9g70qjce2461136cpo64",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhoMWplZHBrNjkyM2FiYTE2OTMzNGI5azhwMmtjYmExNjBxamdiOWc3MHFqY2UyNDYxMTM2Y3BvNjQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-04-25T10:48:28.000Z",
-   "updated": "2019-04-25T10:48:28.798Z",
+   "updated": "2019-10-08T07:42:16.402Z",
    "summary": "Semestereröffnung",
+   "description": "KD Frühstück",
    "creator": {
     "email": "jhohlbaum@gmail.com"
    },
@@ -4458,6 +4459,33 @@
     "dateTime": "2019-10-15T18:00:00+02:00"
    },
    "iCalUID": "DC7742D5-A2F2-4FEF-A058-08568D0B3381",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3142294359802000\"",
+   "id": "_8h248gq168s4cb9k8kq3cb9k74p38b9p8l1j0ba474pk6dq48ks34dhh88",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhoMjQ4Z3ExNjhzNGNiOWs4a3EzY2I5azc0cDM4YjlwOGwxajBiYTQ3NHBrNmRxNDhrczM0ZGhoODggNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T13:46:19.000Z",
+   "updated": "2019-10-15T13:46:19.901Z",
+   "summary": "Umtrunk",
+   "description": "Kegler Verein Karlsruhe, Kaiserallee 13. Bring your own sports shoes",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-10-15T20:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2019-10-15T21:00:00+02:00"
+   },
+   "iCalUID": "DDDCA28F-4E46-4924-9EC0-D93C7DE8261B",
    "sequence": 0
   },
   {
@@ -4618,32 +4646,6 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3126547831278000\"",
-   "id": "_8oq34d9g6l2j4ba588q38b9k8ksjaba2692jcb9j6t0kch1i6d23gc236c",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhvcTM0ZDlnNmwyajRiYTU4OHEzOGI5azhrc2phYmEyNjkyamNiOWo2dDBrY2gxaTZkMjNnYzIzNmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-07-16T10:45:15.000Z",
-   "updated": "2019-07-16T10:45:15.639Z",
-   "summary": "Prüfungstag KD",
-   "creator": {
-    "email": "jhohlbaum@gmail.com"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-10-24T09:00:00+02:00"
-   },
-   "end": {
-    "dateTime": "2019-10-24T19:30:00+02:00"
-   },
-   "iCalUID": "F42505E2-EB44-4E95-B2E6-37AFD23D80C3",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
    "etag": "\"3139869725598000\"",
    "id": "_6kqj6gpi8oojib9n64pj8b9k6kp46ba1890kcba6852j2d9o6kpk2h1j88",
    "status": "confirmed",
@@ -4670,41 +4672,13 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3140037818234000\"",
-   "id": "2u3bk35o959bk0bbu7drd67dfm",
+   "etag": "\"3141595783018000\"",
+   "id": "_8oq34d9g6l2j4ba588q38b9k8ksjaba2692jcb9j6t0kch1i6d23gc236c",
    "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=MnUzYmszNW85NTliazBiYnU3ZHJkNjdkZm0gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-02T12:21:33.000Z",
-   "updated": "2019-10-02T12:21:49.117Z",
-   "summary": "Geplant: Exkursion IPDD+Moniker Mozilla Festival London",
-   "location": "London, Vereinigtes Königreich",
-   "creator": {
-    "email": "sasciareibel@gmail.com"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "date": "2019-10-25"
-   },
-   "end": {
-    "date": "2019-10-28"
-   },
-   "transparency": "transparent",
-   "iCalUID": "2u3bk35o959bk0bbu7drd67dfm@google.com",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3126547829472000\"",
-   "id": "_8gpj2dq68p248b9n60o4ab9k8p1j6ba26sp3ib9g8ks38c1k88q46gq46s",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhncGoyZHE2OHAyNDhiOW42MG80YWI5azhwMWo2YmEyNnNwM2liOWc4a3MzOGMxazg4cTQ2Z3E0NnMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-07-16T10:45:14.000Z",
-   "updated": "2019-07-16T10:45:14.736Z",
-   "summary": "Prüfungstag KD bei Überfüllung",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhvcTM0ZDlnNmwyajRiYTU4OHEzOGI5azhrc2phYmEyNjkyamNiOWo2dDBrY2gxaTZkMjNnYzIzNmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-07-16T10:45:15.000Z",
+   "updated": "2019-10-11T12:44:51.509Z",
+   "summary": "Prüfungstag KD",
    "creator": {
     "email": "jhohlbaum@gmail.com"
    },
@@ -4714,12 +4688,39 @@
     "self": true
    },
    "start": {
-    "dateTime": "2019-10-25T09:00:00+02:00"
+    "dateTime": "2019-10-24T10:00:00+02:00"
    },
    "end": {
-    "dateTime": "2019-10-25T19:30:00+02:00"
+    "dateTime": "2019-10-24T20:30:00+02:00"
    },
-   "iCalUID": "D317FFDD-700E-4FC3-B729-0E8404B4CCD7",
+   "iCalUID": "F42505E2-EB44-4E95-B2E6-37AFD23D80C3",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3142809555620000\"",
+   "id": "_84p3echi711kcb9g8kpk6b9k6t33cb9o6p1k8ba56p1j6dhm6gq30di18o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg0cDNlY2hpNzExa2NiOWc4a3BrNmI5azZ0MzNjYjlvNnAxazhiYTU2cDFqNmRobTZncTMwZGkxOG8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-18T13:19:37.000Z",
+   "updated": "2019-10-18T13:19:37.810Z",
+   "summary": "James Exkursion Mainz",
+   "description": "Seminar\n",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-10-24T13:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2019-10-24T14:00:00+02:00"
+   },
+   "iCalUID": "A27228CF-0E3C-47F6-86CD-E6C3664406AF",
    "sequence": 0
   },
   {
@@ -4776,6 +4777,60 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3141046374636000\"",
+   "id": "_84r3ee1l68oj4b9i6sr4ab9k6l338ba2850jcb9o651jida37133ec1h6s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg0cjNlZTFsNjhvajRiOWk2c3I0YWI5azZsMzM4YmEyODUwamNiOW82NTFqaWRhMzcxMzNlYzFoNnMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T08:23:44.000Z",
+   "updated": "2019-10-08T08:26:27.318Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Pause: 18:30–19:00\nSeminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-10-29T14:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-10-29T21:00:00+01:00"
+   },
+   "iCalUID": "A6785212-276E-45F4-BAA6-81C95C8F7017",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3142622185582000\"",
+   "id": "_84sjidhk6sqj0b9o8cqj2b9k84q4aba268qjgb9g68s3cdpo6ssj2h9i6c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg0c2ppZGhrNnNxajBiOW84Y3FqMmI5azg0cTRhYmEyNjhxamdiOWc2OHMzY2RwbzZzc2oyaDlpNmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T08:23:47.000Z",
+   "updated": "2019-10-17T11:18:12.791Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Seminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-10-30T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-10-30T11:30:00+01:00"
+   },
+   "iCalUID": "A9964750-8C51-4A4E-B258-028678791E23",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139869814490000\"",
    "id": "_8d230ea164r3iba674s4ab9k6krj4ba16cr48b9k69246gpn8l0j0e9k6s",
    "status": "confirmed",
@@ -4828,39 +4883,13 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139869915312000\"",
+   "etag": "\"3141097522254000\"",
    "id": "_6cok8ea268skcb9m711j4b9k6ooj4ba1691jiba688qjee1i84rk8h9g74",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZjb2s4ZWEyNjhza2NiOW03MTFqNGI5azZvb2o0YmExNjkxamliYTY4OHFqZWUxaTg0cms4aDlnNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:02:37.000Z",
-   "updated": "2019-10-01T13:02:37.656Z",
+   "updated": "2019-10-08T15:32:41.127Z",
    "summary": "Johnson Kingston Einzelgespräche",
-   "creator": {
-    "email": "anton.stuckardt@gmail.com"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-11-05T10:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2019-11-05T18:00:00+01:00"
-   },
-   "iCalUID": "31D9B29F-68C2-4612-A2C9-FB5782A7DE09",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3139869937844000\"",
-   "id": "_6cp44ghk8h33eb9i8l330b9k8gr4cba268s3gb9l8ksj8c9i89348c9l6o",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzZjcDQ0Z2hrOGgzM2ViOWk4bDMzMGI5azhncjRjYmEyNjhzM2diOWw4a3NqOGM5aTg5MzQ4YzlsNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-01T13:02:48.000Z",
-   "updated": "2019-10-01T13:02:48.922Z",
-   "summary": "Johnson Kingston Seminar",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -4875,7 +4904,7 @@
    "end": {
     "dateTime": "2019-11-06T18:00:00+01:00"
    },
-   "iCalUID": "32BB4DF7-2EF0-4D6F-B288-5E9412BFD156",
+   "iCalUID": "31D9B29F-68C2-4612-A2C9-FB5782A7DE09",
    "sequence": 0
   },
   {
@@ -4906,6 +4935,58 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3141097579320000\"",
+   "id": "_70o3ch268cp38b9o64o34b9k651jab9p6t132b9n88s3ah9p84sjch1j70",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzcwbzNjaDI2OGNwMzhiOW82NG8zNGI5azY1MWphYjlwNnQxMzJiOW44OHMzYWg5cDg0c2pjaDFqNzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T15:33:09.000Z",
+   "updated": "2019-10-08T15:33:09.660Z",
+   "summary": "JK Exkursion Amsterdam",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-06T18:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-07T18:00:00+01:00"
+   },
+   "iCalUID": "806DFC24-8102-41C5-97B1-7B85E9A96D38",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141097518628000\"",
+   "id": "_6cp44ghk8h33eb9i8l330b9k8gr4cba268s3gb9l8ksj8c9i89348c9l6o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZjcDQ0Z2hrOGgzM2ViOWk4bDMzMGI5azhncjRjYmEyNjhzM2diOWw4a3NqOGM5aTg5MzQ4YzlsNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-01T13:02:48.000Z",
+   "updated": "2019-10-08T15:32:39.314Z",
+   "summary": "Johnson Kingston Seminar",
+   "creator": {
+    "email": "anton.stuckardt@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-07T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-07T18:00:00+01:00"
+   },
+   "iCalUID": "32BB4DF7-2EF0-4D6F-B288-5E9412BFD156",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139869895320000\"",
    "id": "_84skac236sqjaba28gsjeb9k6923gba16ko44b9p84skadq5612j0gi26k",
    "status": "confirmed",
@@ -4928,6 +5009,32 @@
     "dateTime": "2019-11-07T18:00:00+01:00"
    },
    "iCalUID": "A9E0C755-BD97-42D8-A50B-9A9E7E0E0BB5",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3142245716880000\"",
+   "id": "_71144gpn8kr42b9l71344b9k8l1k4b9o692k4ba66srk6dhk8os3cgpn8k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzcxMTQ0Z3BuOGtyNDJiOWw3MTM0NGI5azhsMWs0YjlvNjkyazRiYTY2c3JrNmRoazhvczNjZ3BuOGsgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T07:00:58.000Z",
+   "updated": "2019-10-15T07:00:58.440Z",
+   "summary": "IPDD",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-08T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-08T16:30:00+01:00"
+   },
+   "iCalUID": "8BBC7E6A-58FB-4ECB-82EB-F77C64F86C7E",
    "sequence": 0
   },
   {
@@ -4958,12 +5065,12 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139869987300000\"",
+   "etag": "\"3142622195916000\"",
    "id": "_60sj8h1l8533ab9n6kpj4b9k6oq32b9o8orj0ba36l1j8di5692jachn8k",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzYwc2o4aDFsODUzM2FiOW42a3BqNGI5azZvcTMyYjlvOG9yajBiYTM2bDFqOGRpNTY5MmphY2huOGsgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:03:13.000Z",
-   "updated": "2019-10-01T13:03:13.650Z",
+   "updated": "2019-10-17T11:18:17.958Z",
    "summary": "Reto Moser/Dominik Huber",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
@@ -4980,6 +5087,60 @@
     "dateTime": "2019-11-12T18:00:00+01:00"
    },
    "iCalUID": "094D5AF5-7532-4641-8F70-C5C46E2E527E",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141046411068000\"",
+   "id": "_752j6e1n8524aba46l23eb9k890k2ba274ojaba38p234ga36oqj2cpl6s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzc1Mmo2ZTFuODUyNGFiYTQ2bDIzZWI5azg5MGsyYmEyNzRvamFiYTM4cDIzNGdhMzZvcWoyY3BsNnMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T08:26:45.000Z",
+   "updated": "2019-10-08T08:26:45.534Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Pause: 18:30–19:00\nSeminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-12T14:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-12T21:00:00+01:00"
+   },
+   "iCalUID": "9E387ADE-D5D7-4BAA-B915-CFD2AC651357",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141060296694000\"",
+   "id": "_8cpj6dpj750jab9g710k6b9k60o48b9o64q38b9n6go4acpm6kpjch1o6s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhjcGo2ZHBqNzUwamFiOWc3MTBrNmI5azYwbzQ4YjlvNjRxMzhiOW42Z280YWNwbTZrcGpjaDFvNnMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T10:22:28.000Z",
+   "updated": "2019-10-08T10:22:28.347Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Seminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-13T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-13T11:30:00+01:00"
+   },
+   "iCalUID": "C33739A5-08AC-400D-8144-740E36536D87",
    "sequence": 0
   },
   {
@@ -5006,6 +5167,111 @@
     "dateTime": "2019-11-14T18:00:00+01:00"
    },
    "iCalUID": "84B6E454-EF77-4EB0-B0F4-9042A25318EA",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3142245733776000\"",
+   "id": "_60sk2d1n6d134ba16crj6b9k6l148ba18cp36b9k6t1jedhg6523gdhi88",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzYwc2syZDFuNmQxMzRiYTE2Y3JqNmI5azZsMTQ4YmExOGNwMzZiOWs2dDFqZWRoZzY1MjNnZGhpODggNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T07:01:06.000Z",
+   "updated": "2019-10-15T07:01:06.888Z",
+   "summary": "IPDD",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-15T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-15T16:30:00+01:00"
+   },
+   "iCalUID": "09A473B2-A373-45BD-AC23-47C7601D862B",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141068147344000\"",
+   "id": "_75242ghh652j6b9j74sj2b9k60o3iba28kpkcb9j74o48hi570rj6ca184",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzc1MjQyZ2hoNjUyajZiOWo3NHNqMmI5azYwbzNpYmEyOGtwa2NiOWo3NG80OGhpNTcwcmo2Y2ExODQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T11:27:53.000Z",
+   "updated": "2019-10-08T11:27:53.672Z",
+   "summary": "Exkursion Lyon",
+   "creator": {
+    "email": "jhohlbaum@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-18T06:45:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-18T08:00:00+01:00"
+   },
+   "iCalUID": "9DAB11E3-3991-4009-BE3F-390DFE8731AA",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3142282250808000\"",
+   "id": "_8go4aha3890jcba488qjeb9k74pkcba28934cb9h6l1kaga484qj0c9g6c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhnbzRhaGEzODkwamNiYTQ4OHFqZWI5azc0cGtjYmEyODkzNGNiOWg2bDFrYWdhNDg0cWowYzlnNmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T12:05:15.000Z",
+   "updated": "2019-10-15T12:05:25.404Z",
+   "summary": "IPDD + ABK Workshop",
+   "description": "3 Tage in Stuttgart\n3 Tage in Stuttgart",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-18T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-23T18:00:00+01:00"
+   },
+   "iCalUID": "D0EECBA6-DB57-493F-BBFF-15CEADA50103",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141068142114000\"",
+   "id": "_6kr3chhm74qj2ba56gpj2b9k89342b9o6d232b9n6sq4ce1k8gr4cgi26s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZrcjNjaGhtNzRxajJiYTU2Z3BqMmI5azg5MzQyYjlvNmQyMzJiOW42c3E0Y2UxazhncjRjZ2kyNnMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T11:27:50.000Z",
+   "updated": "2019-10-08T11:27:51.057Z",
+   "summary": "Exkursion Lyon",
+   "creator": {
+    "email": "jhohlbaum@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-19T06:45:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-19T08:00:00+01:00"
+   },
+   "iCalUID": "566F6951-E431-4BFA-83D1-774F84D6FBB7",
    "sequence": 0
   },
   {
@@ -5062,6 +5328,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3141068133928000\"",
+   "id": "_6d0k6dhm8cs3gb9o8orkcb9k68s42ba164pkab9j7123ic1n6co3ih9m6g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZkMGs2ZGhtOGNzM2diOW84b3JrY2I5azY4czQyYmExNjRwa2FiOWo3MTIzaWMxbjZjbzNpaDltNmcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T11:27:46.000Z",
+   "updated": "2019-10-08T11:27:46.964Z",
+   "summary": "Exkursion Lyon",
+   "creator": {
+    "email": "jhohlbaum@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-20T06:44:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-20T07:59:00+01:00"
+   },
+   "iCalUID": "3AC66C88-8F7F-428A-A13E-38D907309E64",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870017646000\"",
    "id": "_6h138h266gp4aba6611j8b9k68q46ba18crj0b9k6934aga66d23edpn84",
    "status": "confirmed",
@@ -5088,39 +5380,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870069318000\"",
-   "id": "_84r3cdpo68p46b9k8d348b9k74o36ba184rjiba68csjcha38ks3acq26o",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg0cjNjZHBvNjhwNDZiOWs4ZDM0OGI5azc0bzM2YmExODRyamliYTY4Y3NqY2hhMzhrczNhY3EyNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-01T13:03:54.000Z",
-   "updated": "2019-10-01T13:03:54.659Z",
-   "summary": "Rebecca Einzelgespräche",
-   "creator": {
-    "email": "anton.stuckardt@gmail.com"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-11-20T10:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2019-11-20T18:00:00+01:00"
-   },
-   "iCalUID": "A667822C-4CFD-4903-AA79-FC96ECE853B6",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3139870063318000\"",
+   "etag": "\"3142131552892000\"",
    "id": "_6gs38c1g88pjab9j8orjeb9k74rk2ba265138b9l8p13gh9l74qkachp60",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZnczM4YzFnODhwamFiOWo4b3JqZWI5azc0cmsyYmEyNjUxMzhiOWw4cDEzZ2g5bDc0cWthY2hwNjAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:03:51.000Z",
-   "updated": "2019-10-01T13:03:51.659Z",
+   "updated": "2019-10-14T15:09:36.446Z",
    "summary": "Real Talk",
+   "description": "mit Rebecca und James",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -5136,6 +5403,32 @@
     "dateTime": "2019-11-20T19:00:00+01:00"
    },
    "iCalUID": "48400B35-3F77-497A-B1B4-5FB8E595E290",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141083878314000\"",
+   "id": "_84r3cdpo68p46b9k8d348b9k74o36ba184rjiba68csjcha38ks3acq26o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg0cjNjZHBvNjhwNDZiOWs4ZDM0OGI5azc0bzM2YmExODRyamliYTY4Y3NqY2hhMzhrczNhY3EyNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-01T13:03:54.000Z",
+   "updated": "2019-10-08T13:38:59.157Z",
+   "summary": "Rebecca Einzelgespräche",
+   "creator": {
+    "email": "anton.stuckardt@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-21T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-21T18:00:00+01:00"
+   },
+   "iCalUID": "A667822C-4CFD-4903-AA79-FC96ECE853B6",
    "sequence": 0
   },
   {
@@ -5218,6 +5511,60 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3141046676424000\"",
+   "id": "_8op30d1l70r30ba360o42b9k8gojiba288pjab9j6opj6d1h6gpj0cho6g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhvcDMwZDFsNzByMzBiYTM2MG80MmI5azhnb2ppYmEyODhwamFiOWo2b3BqNmQxaDZncGowY2hvNmcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T08:28:58.000Z",
+   "updated": "2019-10-08T08:28:58.212Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Pause: 18:30–19:00\nSeminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-26T14:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-26T21:00:00+01:00"
+   },
+   "iCalUID": "F2045860-C00A-4D19-BB35-363341430284",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141060301622000\"",
+   "id": "_8l0j2c2170q36ba16kskab9k6gq36b9o88s42b9h8or3ah248h0kaci46g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhsMGoyYzIxNzBxMzZiYTE2a3NrYWI5azZncTM2YjlvODhzNDJiOWg4b3IzYWgyNDhoMGthY2k0NmcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T10:22:30.000Z",
+   "updated": "2019-10-08T10:22:30.811Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Seminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-27T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-27T11:30:00+01:00"
+   },
+   "iCalUID": "EA10A843-A59E-4443-8B8A-1F65DDDAE2D4",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870123378000\"",
    "id": "_8d334ha68kpkab9p692j8b9k6ks48b9o8cqjab9n6gr3gcpn6osjichg8g",
    "status": "confirmed",
@@ -5244,6 +5591,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3142245744964000\"",
+   "id": "_88ok8cq56h1k8ba36l330b9k84p34ba18oojcb9k8h13ig9h6spjgdq66c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg4b2s4Y3E1NmgxazhiYTM2bDMzMGI5azg0cDM0YmExOG9vamNiOWs4aDEzaWc5aDZzcGpnZHE2NmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T07:01:12.000Z",
+   "updated": "2019-10-15T07:01:12.482Z",
+   "summary": "IPDD",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-29T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-29T16:30:00+01:00"
+   },
+   "iCalUID": "B1D3E4CD-C5F0-4A22-AF16-4DB9A17387F3",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3126547418176000\"",
    "id": "_8p1jie1i8ks3eb9h84o32b9k8gojab9o6h1j4b9m6koj0d2584o48g9g6g",
    "status": "confirmed",
@@ -5266,6 +5639,32 @@
     "dateTime": "2019-12-02T09:00:00+01:00"
    },
    "iCalUID": "FC982E87-1A01-4D15-84C2-65104EA0DA04",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141090950722000\"",
+   "id": "_88p46ca38d246ba46orj2b9k751j0ba160q30ba18h24cd9p8cpj4ga66c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg4cDQ2Y2EzOGQyNDZiYTQ2b3JqMmI5azc1MWowYmExNjBxMzBiYTE4aDI0Y2Q5cDhjcGo0Z2E2NmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T14:21:22.000Z",
+   "updated": "2019-10-08T14:37:55.361Z",
+   "summary": "Rebecca Exkursion Leipzip",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-02T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-03T10:00:00+01:00"
+   },
+   "iCalUID": "B2C1CCDC-D671-49C0-A040-ADDF59C32AF3",
    "sequence": 0
   },
   {
@@ -5452,6 +5851,60 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3141046681274000\"",
+   "id": "_64ok2gi28ks3eb9g8cs3eb9k69130ba16sojgba56kpj8c246co4cci160",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY0b2syZ2kyOGtzM2ViOWc4Y3MzZWI5azY5MTMwYmExNnNvamdiYTU2a3BqOGMyNDZjbzRjY2kxNjAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T08:29:00.000Z",
+   "updated": "2019-10-08T08:29:00.637Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Pause: 18:30–19:00\nSeminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-10T14:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-10T21:00:00+01:00"
+   },
+   "iCalUID": "11ABBE87-0C87-42B0-A718-E5340D30F2A0",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141060310164000\"",
+   "id": "_6p136ea18cpk8b9h6cr44b9k89334b9o70o4cba38p1k4c26850j4gpl6c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZwMTM2ZWExOGNwazhiOWg2Y3I0NGI5azg5MzM0YjlvNzBvNGNiYTM4cDFrNGMyNjg1MGo0Z3BsNmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T10:22:35.000Z",
+   "updated": "2019-10-08T10:22:35.082Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Seminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-11T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-11T11:30:00+01:00"
+   },
+   "iCalUID": "6B39AC3D-136B-4BF2-880F-CFCB0FAA2C53",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870251226000\"",
    "id": "_8kr4cdpo64s3eb9h8p238b9k6kp3aba26l0k4b9g84s3iga26sr3ichn70",
    "status": "confirmed",
@@ -5474,6 +5927,32 @@
     "dateTime": "2019-12-12T18:00:00+01:00"
    },
    "iCalUID": "E6F78187-1FD4-4525-B5AB-0A89AB769278",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3142245757266000\"",
+   "id": "_6cqk6c9o60sjab9n8h342b9k88r4aba18l2jeba56oq42d9j88sjadq56s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZjcWs2YzlvNjBzamFiOW44aDM0MmI5azg4cjRhYmExOGwyamViYTU2b3E0MmQ5ajg4c2phZHE1NnMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T07:01:18.000Z",
+   "updated": "2019-10-15T07:01:18.633Z",
+   "summary": "IPDD",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-13T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-13T16:30:00+01:00"
+   },
+   "iCalUID": "35C18095-7DFA-4B6E-AEE7-E64A53B957E7",
    "sequence": 0
   },
   {
@@ -5530,32 +6009,6 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870305444000\"",
-   "id": "_6gqj8d236so44b9j8d130b9k751j8b9o6h2jcb9k64s4cha488o46e9o70",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzZncWo4ZDIzNnNvNDRiOWo4ZDEzMGI5azc1MWo4YjlvNmgyamNiOWs2NHM0Y2hhNDg4bzQ2ZTlvNzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-01T13:05:52.000Z",
-   "updated": "2019-10-01T13:05:52.722Z",
-   "summary": "Johnson Kingston Seminar",
-   "creator": {
-    "email": "anton.stuckardt@gmail.com"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-12-18T10:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2019-12-18T18:00:00+01:00"
-   },
-   "iCalUID": "4544C70B-3CB0-49C4-84E6-418FEDB0C988",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
    "etag": "\"3139870286016000\"",
    "id": "_68pjad1j650j8ba16p1j2b9k8l14aba28gr38ba26ookaga28cp30ha264",
    "status": "confirmed",
@@ -5582,6 +6035,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3141271279740000\"",
+   "id": "_6kq3cea388rk6b9n60sj2b9k84rjgba28kr3cb9h8osj0ha58opkcd2470",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZrcTNjZWEzODhyazZiOW42MHNqMmI5azg0cmpnYmEyOGtyM2NiOWg4b3NqMGhhNThvcGtjZDI0NzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-09T15:39:34.000Z",
+   "updated": "2019-10-09T15:40:39.870Z",
+   "summary": "KD X-MAS Party [?]",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-18T21:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-18T22:00:00+01:00"
+   },
+   "iCalUID": "5469CB7C-7091-4A78-BE66-1F90EEF3F4D8",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870292864000\"",
    "id": "_65238hi68op3gba48os48b9k74qjaba2690jiba474r4ad9l6opj8h248c",
    "status": "confirmed",
@@ -5604,6 +6083,32 @@
     "dateTime": "2019-12-19T18:00:00+01:00"
    },
    "iCalUID": "1D4FFF28-DF8D-4955-B2A9-D96E55634DDC",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141116577640000\"",
+   "id": "_6gqj8d236so44b9j8d130b9k751j8b9o6h2jcb9k64s4cha488o46e9o70",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZncWo4ZDIzNnNvNDRiOWo4ZDEzMGI5azc1MWo4YjlvNmgyamNiOWs2NHM0Y2hhNDg4bzQ2ZTlvNzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-01T13:05:52.000Z",
+   "updated": "2019-10-08T18:11:28.820Z",
+   "summary": "Johnson Kingston Seminar",
+   "creator": {
+    "email": "anton.stuckardt@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-19T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-19T18:00:00+01:00"
+   },
+   "iCalUID": "4544C70B-3CB0-49C4-84E6-418FEDB0C988",
    "sequence": 0
   },
   {
@@ -5660,6 +6165,60 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3141046775402000\"",
+   "id": "_70p3ge266cskab9m8gq46b9k89132b9o851j8b9n6cp42e1k8914cchm6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzcwcDNnZTI2NmNza2FiOW04Z3E0NmI5azg5MTMyYjlvODUxajhiOW42Y3A0MmUxazg5MTRjY2htNmsgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T08:29:47.000Z",
+   "updated": "2019-10-08T08:29:47.701Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Pause: 18:30–19:00\nSeminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-07T14:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-07T21:00:00+01:00"
+   },
+   "iCalUID": "8288F39E-6D4C-4BB1-8AC4-732A84BBF265",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141115415306000\"",
+   "id": "_84s3ae9h8d24ab9n6523cb9k8oojeba16sp3gba36ks46d256p2jgdpi6c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg0czNhZTloOGQyNGFiOW42NTIzY2I5azhvb2plYmExNnNwM2diYTM2a3M0NmQyNTZwMmpnZHBpNmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T18:01:47.000Z",
+   "updated": "2019-10-08T18:01:47.653Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Seminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-08T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-08T11:30:00+01:00"
+   },
+   "iCalUID": "A8591CDE-71D6-4F17-A728-C58C4E6E8723",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870384906000\"",
    "id": "_8533ed1j8crk2b9g8ork2b9k6koj0b9o70p34b9g68pk4d1j68o48g9p6s",
    "status": "confirmed",
@@ -5682,6 +6241,32 @@
     "dateTime": "2020-01-09T18:00:00+01:00"
    },
    "iCalUID": "AF743C7A-0F7A-4510-8822-023B4320DA97",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3142245768214000\"",
+   "id": "_70oj0cpo6123gb9o84r3ib9k60skaba268q34b9i8d1kac2264s30g9j74",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzcwb2owY3BvNjEyM2diOW84NHIzaWI5azYwc2thYmEyNjhxMzRiOWk4ZDFrYWMyMjY0czMwZzlqNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T07:01:24.000Z",
+   "updated": "2019-10-15T07:01:24.107Z",
+   "summary": "IPDD",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-10T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-10T16:30:00+01:00"
+   },
+   "iCalUID": "810380D8-8A69-409E-B242-2CCE0B180A39",
    "sequence": 0
   },
   {
@@ -5816,12 +6401,12 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870433590000\"",
+   "etag": "\"3141407416548000\"",
    "id": "_6gs4agi36cok2b9l6d334b9k70s3eba28kqk6b9m8d14achg892jecq16g",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZnczRhZ2kzNmNvazJiOWw2ZDMzNGI5azcwczNlYmEyOGtxazZiOW04ZDE0YWNoZzg5MmplY3ExNmcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:06:56.000Z",
-   "updated": "2019-10-01T13:06:56.795Z",
+   "updated": "2019-10-10T10:35:08.274Z",
    "summary": "James single talks",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
@@ -5838,6 +6423,32 @@
     "dateTime": "2020-01-17T18:00:00+01:00"
    },
    "iCalUID": "48EBC31A-53F2-4887-BE5C-6CBE20BE73A4",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3142245770420000\"",
+   "id": "_8p2jch9o84rj8ba474oj6b9k8p2k6ba264okcba38ko38ghi6t23ge1p64",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhwMmpjaDlvODRyajhiYTQ3NG9qNmI5azhwMms2YmEyNjRva2NiYTM4a28zOGdoaTZ0MjNnZTFwNjQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T07:01:25.000Z",
+   "updated": "2019-10-15T07:01:25.210Z",
+   "summary": "IPDD",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-17T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-17T16:30:00+01:00"
+   },
+   "iCalUID": "FE6E8A74-D913-4FEC-B11F-CE04B27D8891",
    "sequence": 0
   },
   {
@@ -5868,6 +6479,60 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3141106551812000\"",
+   "id": "_68pj0d1j6orkab9i6l2jib9k8h242ba2651jgb9o88rkce1k68r4cc9o74",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4cGowZDFqNm9ya2FiOWk2bDJqaWI5azhoMjQyYmEyNjUxamdiOW84OHJrY2UxazY4cjRjYzlvNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T16:47:55.000Z",
+   "updated": "2019-10-08T16:47:55.906Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Pause: 18:30–19:00\nSeminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-21T14:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-21T21:00:00+01:00"
+   },
+   "iCalUID": "2304367E-25E9-4DDA-B1C8-8B7F8426F189",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141115418030000\"",
+   "id": "_71334c1k8l346ba28d1j4b9k6h336b9o6cr4ab9h70r3ee9i8koj0c1m6g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzcxMzM0YzFrOGwzNDZiYTI4ZDFqNGI5azZoMzM2YjlvNmNyNGFiOWg3MHIzZWU5aThrb2owYzFtNmcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T18:01:48.000Z",
+   "updated": "2019-10-08T18:01:49.015Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Seminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-22T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-22T11:30:00+01:00"
+   },
+   "iCalUID": "8F204EFC-BCC2-44F3-836E-186792E10064",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870489742000\"",
    "id": "_68pj0dhk85244b9l6oq4ab9k6l0k4ba18p234ba384o3ed246ook8d9o64",
    "status": "confirmed",
@@ -5890,6 +6555,32 @@
     "dateTime": "2020-01-23T18:00:00+01:00"
    },
    "iCalUID": "23064ADB-564E-45AB-AFD2-CA074D61D581",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3142245779000000\"",
+   "id": "_6ssjidpo750j2b9k711j6b9k891j8b9o890kab9m68pk8hhm71132dq36k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZzc2ppZHBvNzUwajJiOWs3MTFqNmI5azg5MWo4YjlvODkwa2FiOW02OHBrOGhobTcxMTMyZHEzNmsgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T07:01:29.000Z",
+   "updated": "2019-10-15T07:01:29.500Z",
+   "summary": "IPDD",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-24T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-24T16:30:00+01:00"
+   },
+   "iCalUID": "799789A1-48C3-4BC4-8BAE-623DF68B17C5",
    "sequence": 0
   },
   {
@@ -6154,6 +6845,60 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3141106633714000\"",
+   "id": "_88ojechi6ksk8b9n84r3gb9k6cok8ba1692jgb9n74o48c1h64o3ihho74",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg4b2plY2hpNmtzazhiOW44NHIzZ2I5azZjb2s4YmExNjkyamdiOW43NG80OGMxaDY0bzNpaGhvNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T16:48:12.000Z",
+   "updated": "2019-10-08T16:48:36.857Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "final presentation\n\nPause: 18:30–19:00\nSeminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-04T14:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-04T21:00:00+01:00"
+   },
+   "iCalUID": "B172259D-7A68-431D-A2E8-790D01109F89",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141116567158000\"",
+   "id": "_6gs46hi470p46ba56kr30b9k652k6b9p6d13ib9n8p2k4g9p6sqj0e238c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZnczQ2aGk0NzBwNDZiYTU2a3IzMGI5azY1Mms2YjlwNmQxM2liOW44cDJrNGc5cDZzcWowZTIzOGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-08T18:01:51.000Z",
+   "updated": "2019-10-08T18:11:23.579Z",
+   "summary": "Nannet van der Kleijn",
+   "description": "Seminartitel: FLOATING IDENTITIES\nScheinerwerb: Leistungsschein fächerübergreifendes Projekt",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-05T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-05T11:30:00+01:00"
+   },
+   "iCalUID": "48CFD82C-E560-41EC-93B9-7FEBA97508CC",
+   "sequence": 2
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870556236000\"",
    "id": "_61130hhj60r46b9j8h1jcb9k6gs4cb9o6op32b9i6oqj0ci669246c9l68",
    "status": "confirmed",
@@ -6176,6 +6921,58 @@
     "dateTime": "2020-02-06T18:00:00+01:00"
    },
    "iCalUID": "0B0F306C-3DC6-448F-8621-26502F2DC152",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3142245781050000\"",
+   "id": "_75236d1g6t0jaba475346b9k68sjcba2651jaba288ok4di384qj8c1m70",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzc1MjM2ZDFnNnQwamFiYTQ3NTM0NmI5azY4c2pjYmEyNjUxamFiYTI4OG9rNGRpMzg0cWo4YzFtNzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T07:01:30.000Z",
+   "updated": "2019-10-15T07:01:30.525Z",
+   "summary": "IPDD",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-07T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-07T16:30:00+01:00"
+   },
+   "iCalUID": "9D3407A5-D9FC-4296-B1C5-BB1B6CA54068",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3141590529762000\"",
+   "id": "_6ork2h2564o3aba26or3gb9k6gskaba16514aba488rjah9m68pj2dpk60",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZvcmsyaDI1NjRvM2FiYTI2b3IzZ2I5azZnc2thYmExNjUxNGFiYTQ4OHJqYWg5bTY4cGoyZHBrNjAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-11T12:01:04.000Z",
+   "updated": "2019-10-11T12:01:04.881Z",
+   "summary": "Rebecca &Anja Seminar",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-11T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-11T18:00:00+01:00"
+   },
+   "iCalUID": "67ADE105-B668-449E-A1BE-DB75E6231740",
    "sequence": 0
   },
   {
