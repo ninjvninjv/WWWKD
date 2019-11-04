@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p338crie3u6mea0g\"",
+ "etag": "\"p33caru6dmb8ea0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-10-21T08:01:47.874Z",
+ "updated": "2019-11-04T10:56:08.759Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -4490,12 +4490,12 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139869680448000\"",
+   "etag": "\"3143470945668000\"",
    "id": "_64q30di270rjcba56t330b9k8kqjcba269238b9l6ksk6d2170okce1h6g",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cTMwZGkyNzByamNiYTU2dDMzMGI5azhrcWpjYmEyNjkyMzhiOWw2a3NrNmQyMTcwb2tjZTFoNmcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:00:40.000Z",
-   "updated": "2019-10-01T13:00:40.224Z",
+   "updated": "2019-10-22T09:11:12.834Z",
    "summary": "Anja Rebecca Workshop",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
@@ -4506,10 +4506,10 @@
     "self": true
    },
    "start": {
-    "dateTime": "2019-10-21T15:00:00+02:00"
+    "dateTime": "2019-10-21T14:00:00+02:00"
    },
    "end": {
-    "dateTime": "2019-10-21T16:00:00+02:00"
+    "dateTime": "2019-10-21T17:00:00+02:00"
    },
    "iCalUID": "1406B876-E7F0-4E56-B2D4-559C4A81F814",
    "sequence": 0
@@ -4542,6 +4542,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3143470974594000\"",
+   "id": "_8gp44e9h8krjib9g690jeb9k8or4cb9o6oojab9p852k2e9o88q4cd1k6g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhncDQ0ZTloOGtyamliOWc2OTBqZWI5azhvcjRjYjlvNm9vamFiOXA4NTJrMmU5bzg4cTRjZDFrNmcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-01T13:00:59.000Z",
+   "updated": "2019-10-22T09:11:27.297Z",
+   "summary": "Rebecca &Anja Seminar",
+   "creator": {
+    "email": "anton.stuckardt@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-10-22T09:30:00+02:00"
+   },
+   "end": {
+    "dateTime": "2019-10-22T17:30:00+02:00"
+   },
+   "iCalUID": "D2B91E79-02A7-4F6F-8615-9AEA98B4F444",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139869689944000\"",
    "id": "_6h344ca384p42b9h6ksk8b9k8koj2ba18co34ba18d34ch1n64pj6e9n6o",
    "status": "confirmed",
@@ -4564,32 +4590,6 @@
     "dateTime": "2019-10-22T18:00:00+02:00"
    },
    "iCalUID": "4FB1CA2A-159D-4E11-AC02-ACFFD7133976",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3139869719424000\"",
-   "id": "_8gp44e9h8krjib9g690jeb9k8or4cb9o6oojab9p852k2e9o88q4cd1k6g",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhncDQ0ZTloOGtyamliOWc2OTBqZWI5azhvcjRjYjlvNm9vamFiOXA4NTJrMmU5bzg4cTRjZDFrNmcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-01T13:00:59.000Z",
-   "updated": "2019-10-01T13:00:59.712Z",
-   "summary": "Rebecca &Anja Seminar",
-   "creator": {
-    "email": "anton.stuckardt@gmail.com"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-10-22T10:00:00+02:00"
-   },
-   "end": {
-    "dateTime": "2019-10-22T18:00:00+02:00"
-   },
-   "iCalUID": "D2B91E79-02A7-4F6F-8615-9AEA98B4F444",
    "sequence": 0
   },
   {
@@ -4751,13 +4751,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139869822260000\"",
+   "etag": "\"3143833435356000\"",
    "id": "_610k4cq56gokaba46l1j6b9k84ok8ba161338ba46gp4ae9k64qjac9g8c",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzYxMGs0Y3E1Nmdva2FiYTQ2bDFqNmI5azg0b2s4YmExNjEzMzhiYTQ2Z3A0YWU5azY0cWphYzlnOGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:01:51.000Z",
-   "updated": "2019-10-01T13:01:51.130Z",
+   "updated": "2019-10-24T11:31:57.678Z",
    "summary": "Reto Moser/Dominik Huber",
+   "description": "222\n",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -4831,13 +4832,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139869814490000\"",
+   "etag": "\"3143833483038000\"",
    "id": "_8d230ea164r3iba674s4ab9k6krj4ba16cr48b9k69246gpn8l0j0e9k6s",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhkMjMwZWExNjRyM2liYTY3NHM0YWI5azZrcmo0YmExNmNyNDhiOWs2OTI0NmdwbjhsMGowZTlrNnMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:01:47.000Z",
-   "updated": "2019-10-01T13:01:47.245Z",
+   "updated": "2019-10-24T11:32:21.519Z",
    "summary": "Anton Seminar",
+   "description": "216\n",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -4857,13 +4859,41 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139869922366000\"",
+   "etag": "\"3144701617408000\"",
+   "id": "_6kpk6h22891jcb9l74q46b9k89138b9o74p3aba48gs32gpj84sk4cpj70",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZrcGs2aDIyODkxamNiOWw3NHE0NmI5azg5MTM4YjlvNzRwM2FiYTQ4Z3MzMmdwajg0c2s0Y3BqNzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-29T12:06:48.000Z",
+   "updated": "2019-10-29T12:06:48.704Z",
+   "summary": "Info Veranstaltung Prüfungsordnungen!",
+   "description": "Mit Franziska Künstle und Waldemar Präg (Prüfunsamt) \nRaum 216",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-04T11:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-04T12:00:00+01:00"
+   },
+   "iCalUID": "53CDBBC6-594C-4BB4-8925-DD81C3A9B338",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143833500514000\"",
    "id": "_64rj4ga18krj6b9h6or42b9k8oo34b9o8h33ib9o64r46gi58534cca48c",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cmo0Z2ExOGtyajZiOWg2b3I0MmI5azhvbzM0YjlvOGgzM2liOW82NHI0NmdpNTg1MzRjY2E0OGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:02:41.000Z",
-   "updated": "2019-10-01T13:02:41.183Z",
+   "updated": "2019-10-24T11:32:30.257Z",
    "summary": "Rebecca &Anja Seminar",
+   "description": "222",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -4873,10 +4903,10 @@
     "self": true
    },
    "start": {
-    "dateTime": "2019-11-05T10:00:00+01:00"
+    "dateTime": "2019-11-05T09:30:00+01:00"
    },
    "end": {
-    "dateTime": "2019-11-05T18:00:00+01:00"
+    "dateTime": "2019-11-05T17:30:00+01:00"
    },
    "iCalUID": "172AAE73-166A-4F02-8DF9-816CBEAFF1DC",
    "sequence": 0
@@ -4961,13 +4991,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3141097518628000\"",
+   "etag": "\"3143833616572000\"",
    "id": "_6cp44ghk8h33eb9i8l330b9k8gr4cba268s3gb9l8ksj8c9i89348c9l6o",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZjcDQ0Z2hrOGgzM2ViOWk4bDMzMGI5azhncjRjYmEyNjhzM2diOWw4a3NqOGM5aTg5MzQ4YzlsNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:02:48.000Z",
-   "updated": "2019-10-08T15:32:39.314Z",
+   "updated": "2019-10-24T11:33:28.286Z",
    "summary": "Johnson Kingston Seminar",
+   "description": "222\n",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -4987,13 +5018,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139869895320000\"",
+   "etag": "\"3143833607322000\"",
    "id": "_84skac236sqjaba28gsjeb9k6923gba16ko44b9p84skadq5612j0gi26k",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=Xzg0c2thYzIzNnNxamFiYTI4Z3NqZWI5azY5MjNnYmExNmtvNDRiOXA4NHNrYWRxNTYxMmowZ2kyNmsgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:02:22.000Z",
-   "updated": "2019-10-01T13:02:27.660Z",
+   "updated": "2019-10-24T11:33:23.661Z",
    "summary": "James Seminar",
+   "description": "216\n",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -5065,13 +5097,67 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3142622195916000\"",
+   "etag": "\"3143836151038000\"",
+   "id": "_8kqk2g9h60rk4b9o652kcb9k8h0kab9p8krk2b9j6sq34ghn6h1jehhl74",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhrcWsyZzloNjByazRiOW82NTJrY2I5azhoMGthYjlwOGtyazJiOWo2c3EzNGdobjZoMWplaGhsNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-22T09:20:45.000Z",
+   "updated": "2019-10-24T11:54:35.519Z",
+   "summary": "Diplom Kolloquium James",
+   "description": "216 / Letterpress?\n",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-08T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-08T14:00:00+01:00"
+   },
+   "iCalUID": "E5AA107B-81EF-4DAE-9E7A-3742B74C7F59",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3144528075538000\"",
+   "id": "_6h33cda48514ab9n6oo3eb9k8ooj6ba26sok4b9k712jghi56gojggpn8g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZoMzNjZGE0ODUxNGFiOW42b28zZWI5azhvb2o2YmEyNnNvazRiOWs3MTJqZ2hpNTZnb2pnZ3BuOGcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-28T12:00:37.000Z",
+   "updated": "2019-10-28T12:00:37.769Z",
+   "summary": "Alessandro Seminar",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-11T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-11T13:00:00+01:00"
+   },
+   "iCalUID": "4F65DABE-7607-4F13-B71B-48E8FE418C7D",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143834325912000\"",
    "id": "_60sj8h1l8533ab9n6kpj4b9k6oq32b9o8orj0ba36l1j8di5692jachn8k",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzYwc2o4aDFsODUzM2FiOW42a3BqNGI5azZvcTMyYjlvOG9yajBiYTM2bDFqOGRpNTY5MmphY2huOGsgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:03:13.000Z",
-   "updated": "2019-10-17T11:18:17.958Z",
+   "updated": "2019-10-24T11:39:22.956Z",
    "summary": "Reto Moser/Dominik Huber",
+   "description": "222",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -5087,6 +5173,32 @@
     "dateTime": "2019-11-12T18:00:00+01:00"
    },
    "iCalUID": "094D5AF5-7532-4641-8F70-C5C46E2E527E",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3144528092280000\"",
+   "id": "_751j6e9m6l24cb9g8crj2b9k60sk4b9o612j2ba56p33ae9l65230ea588",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzc1MWo2ZTltNmwyNGNiOWc4Y3JqMmI5azYwc2s0YjlvNjEyajJiYTU2cDMzYWU5bDY1MjMwZWE1ODggNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-28T12:00:46.000Z",
+   "updated": "2019-10-28T12:00:46.140Z",
+   "summary": "Alessandro Seminar",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-12T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-12T13:00:00+01:00"
+   },
+   "iCalUID": "9C3965DF-0C71-409B-80E1-E6F5951D09EB",
    "sequence": 0
   },
   {
@@ -5223,33 +5335,6 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3142282250808000\"",
-   "id": "_8go4aha3890jcba488qjeb9k74pkcba28934cb9h6l1kaga484qj0c9g6c",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhnbzRhaGEzODkwamNiYTQ4OHFqZWI5azc0cGtjYmEyODkzNGNiOWg2bDFrYWdhNDg0cWowYzlnNmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-15T12:05:15.000Z",
-   "updated": "2019-10-15T12:05:25.404Z",
-   "summary": "IPDD + ABK Workshop",
-   "description": "3 Tage in Stuttgart\n3 Tage in Stuttgart",
-   "creator": {
-    "email": "jana-hofmann@live.de"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-11-18T10:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2019-11-23T18:00:00+01:00"
-   },
-   "iCalUID": "D0EECBA6-DB57-493F-BBFF-15CEADA50103",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
    "etag": "\"3141068142114000\"",
    "id": "_6kr3chhm74qj2ba56gpj2b9k89342b9o6d232b9n6sq4ce1k8gr4cgi26s",
    "status": "confirmed",
@@ -5276,13 +5361,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870052064000\"",
+   "etag": "\"3143834418002000\"",
    "id": "_652k8h9j6p0j4b9n6opk2b9k6h1jeb9o6h1j4b9n612j2h9m8oqj8h248k",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzY1Mms4aDlqNnAwajRiOW42b3BrMmI5azZoMWplYjlvNmgxajRiOW42MTJqMmg5bThvcWo4aDI0OGsgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:03:46.000Z",
-   "updated": "2019-10-01T13:03:46.032Z",
+   "updated": "2019-10-24T11:40:09.001Z",
    "summary": "Rebecca &Anja Seminar",
+   "description": "222",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -5292,10 +5378,10 @@
     "self": true
    },
    "start": {
-    "dateTime": "2019-11-19T10:00:00+01:00"
+    "dateTime": "2019-11-19T09:30:00+01:00"
    },
    "end": {
-    "dateTime": "2019-11-19T18:00:00+01:00"
+    "dateTime": "2019-11-19T17:30:00+01:00"
    },
    "iCalUID": "1EDE36A2-763A-44C7-84C2-70E1E6F54DDE",
    "sequence": 0
@@ -5354,13 +5440,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870017646000\"",
+   "etag": "\"3143834505144000\"",
    "id": "_6h138h266gp4aba6611j8b9k68q46ba18crj0b9k6934aga66d23edpn84",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZoMTM4aDI2NmdwNGFiYTY2MTFqOGI5azY4cTQ2YmExOGNyajBiOWs2OTM0YWdhNjZkMjNlZHBuODQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:03:28.000Z",
-   "updated": "2019-10-01T13:03:28.823Z",
+   "updated": "2019-10-24T11:40:52.572Z",
    "summary": "Johnson Kingston Seminar",
+   "description": "222",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -5376,6 +5463,59 @@
     "dateTime": "2019-11-20T18:00:00+01:00"
    },
    "iCalUID": "4B4DF42E-F0C4-424C-AC70-42FEAF3D777A",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3145727381346000\"",
+   "id": "_84r3cdpo68p46b9k8d348b9k74o36ba184rjiba68csjcha38ks3acq26o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg0cjNjZHBvNjhwNDZiOWs4ZDM0OGI5azc0bzM2YmExODRyamliYTY4Y3NqY2hhMzhrczNhY3EyNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-01T13:03:54.000Z",
+   "updated": "2019-11-04T10:34:50.673Z",
+   "summary": "Rebecca Einzelgespräche",
+   "creator": {
+    "email": "anton.stuckardt@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-20T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-20T18:00:00+01:00"
+   },
+   "iCalUID": "A667822C-4CFD-4903-AA79-FC96ECE853B6",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3145729937518000\"",
+   "id": "_70p30dho6so3cba184o46b9k8kojaba28gs3eba38or3agpl64oj0c9g8o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzcwcDMwZGhvNnNvM2NiYTE4NG80NmI5azhrb2phYmEyOGdzM2ViYTM4b3IzYWdwbDY0b2owYzlnOG8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-24T10:13:41.000Z",
+   "updated": "2019-11-04T10:56:08.759Z",
+   "summary": "Mappenberatung Rebecca",
+   "description": "Jana",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-20T14:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-20T16:00:00+01:00"
+   },
+   "iCalUID": "82068706-AA0C-4E15-BD87-CF65C511010F",
    "sequence": 0
   },
   {
@@ -5407,39 +5547,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3141083878314000\"",
-   "id": "_84r3cdpo68p46b9k8d348b9k74o36ba184rjiba68csjcha38ks3acq26o",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg0cjNjZHBvNjhwNDZiOWs4ZDM0OGI5azc0bzM2YmExODRyamliYTY4Y3NqY2hhMzhrczNhY3EyNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-01T13:03:54.000Z",
-   "updated": "2019-10-08T13:38:59.157Z",
-   "summary": "Rebecca Einzelgespräche",
-   "creator": {
-    "email": "anton.stuckardt@gmail.com"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-11-21T10:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2019-11-21T18:00:00+01:00"
-   },
-   "iCalUID": "A667822C-4CFD-4903-AA79-FC96ECE853B6",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3139870023470000\"",
+   "etag": "\"3143834546546000\"",
    "id": "_8coj6ea68l0jib9l74p3gb9k6t2jib9o84s3iba36l23ac9g6ss46dhi6o",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=Xzhjb2o2ZWE2OGwwamliOWw3NHAzZ2I5azZ0MmppYjlvODRzM2liYTM2bDIzYWM5ZzZzczQ2ZGhpNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:03:31.000Z",
-   "updated": "2019-10-01T13:03:31.735Z",
+   "updated": "2019-10-24T11:41:13.273Z",
    "summary": "James Seminar",
+   "description": "216",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -5485,6 +5600,59 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3144875642380000\"",
+   "id": "_8go4aha3890jcba488qjeb9k74pkcba28934cb9h6l1kaga484qj0c9g6c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhnbzRhaGEzODkwamNiYTQ4OHFqZWI5azc0cGtjYmEyODkzNGNiOWg2bDFrYWdhNDg0cWowYzlnNmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T12:05:15.000Z",
+   "updated": "2019-10-30T12:17:01.190Z",
+   "summary": "IPDD + ABK Workshop",
+   "description": "1 Tag in Stuttgart (FR)\n2 Tage in Karlsruhe (SA+SO)\nmit Studierenden der ABK + HfG\n",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-22T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-24T18:00:00+01:00"
+   },
+   "iCalUID": "D0EECBA6-DB57-493F-BBFF-15CEADA50103",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3144528097526000\"",
+   "id": "_8kp48gq28l0k8b9m8kp48b9k70s3eba189338ba66l1jgcq26t342gq574",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhrcDQ4Z3EyOGwwazhiOW04a3A0OGI5azcwczNlYmExODkzMzhiYTY2bDFqZ2NxMjZ0MzQyZ3E1NzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-28T12:00:48.000Z",
+   "updated": "2019-10-28T12:00:48.763Z",
+   "summary": "Alessandro Seminar",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-25T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-25T13:00:00+01:00"
+   },
+   "iCalUID": "E2DCBEAD-6E2D-4887-ABF4-F5C83B7FACE9",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870117700000\"",
    "id": "_84sjaca374o3ab9g8csk4b9k85130b9o70qj8ba16ksjighn6h33ccpm6s",
    "status": "confirmed",
@@ -5507,6 +5675,32 @@
     "dateTime": "2019-11-26T18:00:00+01:00"
    },
    "iCalUID": "A951C905-0C9B-4AB0-8854-A599B74F6367",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3144528100728000\"",
+   "id": "_892jgghp892jcb9g8ko3eb9k88rjcba26krkab9k88r3ec1j68pkaea66c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg5MmpnZ2hwODkyamNiOWc4a28zZWI5azg4cmpjYmEyNmtya2FiOWs4OHIzZWMxajY4cGthZWE2NmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-28T12:00:50.000Z",
+   "updated": "2019-10-28T12:00:50.364Z",
+   "summary": "Alessandro Seminar",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-26T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-26T13:00:00+01:00"
+   },
+   "iCalUID": "BE8B9BE6-0E07-4B76-B57E-4B670323E9F3",
    "sequence": 0
   },
   {
@@ -5669,6 +5863,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3143471145978000\"",
+   "id": "_8crj4dq570qjeba66h0jcb9k6h13ib9o711kcb9m710jegpl8kr42ca66o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzhjcmo0ZHE1NzBxamViYTY2aDBqY2I5azZoMTNpYjlvNzExa2NiOW03MTBqZWdwbDhrcjQyY2E2Nm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-01T13:04:51.000Z",
+   "updated": "2019-10-22T09:12:52.989Z",
+   "summary": "Rebecca &Anja Seminar",
+   "creator": {
+    "email": "anton.stuckardt@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-02T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-02T17:30:00+01:00"
+   },
+   "iCalUID": "C727E857-F4A6-44B9-88CF-68A7C5E6A1F6",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870165088000\"",
    "id": "_691jcd1m6l132b9l8h0jcb9k612jiba164ojgb9g8p2kce238l2k6dpg6s",
    "status": "confirmed",
@@ -5695,39 +5915,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870182412000\"",
-   "id": "_8crj4dq570qjeba66h0jcb9k6h13ib9o711kcb9m710jegpl8kr42ca66o",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=Xzhjcmo0ZHE1NzBxamViYTY2aDBqY2I5azZoMTNpYjlvNzExa2NiOW03MTBqZWdwbDhrcjQyY2E2Nm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-01T13:04:51.000Z",
-   "updated": "2019-10-01T13:04:51.206Z",
-   "summary": "Rebecca &Anja Seminar",
-   "creator": {
-    "email": "anton.stuckardt@gmail.com"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-12-03T10:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2019-12-03T18:00:00+01:00"
-   },
-   "iCalUID": "C727E857-F4A6-44B9-88CF-68A7C5E6A1F6",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3139870176734000\"",
+   "etag": "\"3143834761952000\"",
    "id": "_711j4ea18p0k2ba16kq48b9k8d146b9p6srj0ba46t2j0e9k74q48c218c",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzcxMWo0ZWExOHAwazJiYTE2a3E0OGI5azhkMTQ2YjlwNnNyajBiYTQ2dDJqMGU5azc0cTQ4YzIxOGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:04:48.000Z",
-   "updated": "2019-10-01T13:04:48.367Z",
+   "updated": "2019-10-24T11:43:00.976Z",
    "summary": "Johnson Kingston Seminar",
+   "description": "222\n",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -5747,13 +5942,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870170844000\"",
+   "etag": "\"3143327793964000\"",
    "id": "_8cr4adpo6p0k6b9p6133eb9k6kp38b9p8gojeb9l6osjichp61244c9h8g",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhjcjRhZHBvNnAwazZiOXA2MTMzZWI5azZrcDM4YjlwOGdvamViOWw2b3NqaWNocDYxMjQ0YzloOGcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:04:45.000Z",
-   "updated": "2019-10-01T13:04:45.422Z",
+   "updated": "2019-10-21T13:18:16.982Z",
    "summary": "Rebecca Einzelgespräche",
+   "description": "skype\n",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -5905,6 +6101,33 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3144864595230000\"",
+   "id": "_8krk4h9j60qj0ba688q46b9k8p23gba26co3ab9i8kq4agpn6h0k4h2564",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzhrcms0aDlqNjBxajBiYTY4OHE0NmI5azhwMjNnYmEyNmNvM2FiOWk4a3E0YWdwbjZoMGs0aDI1NjQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-28T11:51:50.000Z",
+   "updated": "2019-10-30T10:44:57.615Z",
+   "summary": "Workshop Alessandro",
+   "description": "Start at 2pm on the 11th\n\n",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-11T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-13T14:00:00+01:00"
+   },
+   "iCalUID": "E7BE3050-FB4C-4FD8-B305-2E4EC74ABDE1",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870251226000\"",
    "id": "_8kr4cdpo64s3eb9h8p238b9k6kp3aba26l0k4b9g84s3iga26sr3ichn70",
    "status": "confirmed",
@@ -5957,13 +6180,39 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870279356000\"",
+   "etag": "\"3143472244350000\"",
+   "id": "_6t1j8e246gs3gb9o64p32b9k6gok8b9o75238ba46oqjchhi74o34hhp74",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZ0MWo4ZTI0NmdzM2diOW82NHAzMmI5azZnb2s4YjlvNzUyMzhiYTQ2b3FqY2hoaTc0bzM0aGhwNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-22T09:21:12.000Z",
+   "updated": "2019-10-22T09:22:02.175Z",
+   "summary": "Diplom Kolloquium Juliane",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-16T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-16T14:00:00+01:00"
+   },
+   "iCalUID": "7C48D488-8121-441D-89D4-D656F2902F99",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143471294834000\"",
    "id": "_6gqk2d9p8kskab9k6d2j2b9k8p234ba264p42ba36d14agpl6gojeh1i6o",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZncWsyZDlwOGtza2FiOWs2ZDJqMmI5azhwMjM0YmEyNjRwNDJiYTM2ZDE0YWdwbDZnb2plaDFpNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:05:39.000Z",
-   "updated": "2019-10-01T13:05:39.678Z",
-   "summary": "Rebecca &Anja Seminar",
+   "updated": "2019-10-22T09:14:07.417Z",
+   "summary": "Rebecca & Anja Seminar",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -5973,10 +6222,10 @@
     "self": true
    },
    "start": {
-    "dateTime": "2019-12-17T10:00:00+01:00"
+    "dateTime": "2019-12-17T09:30:00+01:00"
    },
    "end": {
-    "dateTime": "2019-12-17T18:00:00+01:00"
+    "dateTime": "2019-12-17T17:30:00+01:00"
    },
    "iCalUID": "45A59E9E-43E1-4FD2-B12A-C3BEC5417D26",
    "sequence": 0
@@ -6005,6 +6254,33 @@
     "dateTime": "2019-12-17T18:00:00+01:00"
    },
    "iCalUID": "7C53EBD5-2A68-4A97-877D-03A4B1621E5A",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143824028784000\"",
+   "id": "_8ooj4ha574r30b9m6t2k4b9k74oj6ba18513cba584rj8gpg6t232dph68",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzhvb2o0aGE1NzRyMzBiOW02dDJrNGI5azc0b2o2YmExODUxM2NiYTU4NHJqOGdwZzZ0MjMyZHBoNjggNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-24T10:13:34.000Z",
+   "updated": "2019-10-24T10:13:34.392Z",
+   "summary": "Mappenberatung Ivan / Michi ",
+   "description": "+ Anton / Jana?",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-17T14:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-17T16:00:00+01:00"
+   },
+   "iCalUID": "F12EE960-67EB-4913-AAB6-EA74C07D1712",
    "sequence": 0
   },
   {
@@ -6061,13 +6337,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870292864000\"",
+   "etag": "\"3143833360868000\"",
    "id": "_65238hi68op3gba48os48b9k74qjaba2690jiba474r4ad9l6opj8h248c",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzY1MjM4aGk2OG9wM2diYTQ4b3M0OGI5azc0cWphYmEyNjkwamliYTQ3NHI0YWQ5bDZvcGo4aDI0OGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:05:46.000Z",
-   "updated": "2019-10-01T13:05:46.432Z",
+   "updated": "2019-10-24T11:31:20.434Z",
    "summary": "James Seminar",
+   "description": "216\n",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -6087,13 +6364,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3141116577640000\"",
+   "etag": "\"3143833337224000\"",
    "id": "_6gqj8d236so44b9j8d130b9k751j8b9o6h2jcb9k64s4cha488o46e9o70",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZncWo4ZDIzNnNvNDRiOWo4ZDEzMGI5azc1MWo4YjlvNmgyamNiOWs2NHM0Y2hhNDg4bzQ2ZTlvNzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:05:52.000Z",
-   "updated": "2019-10-08T18:11:28.820Z",
+   "updated": "2019-10-24T11:31:08.612Z",
    "summary": "Johnson Kingston Seminar",
+   "description": "222\n",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -6135,6 +6413,33 @@
     "dateTime": "2019-12-20T18:00:00+01:00"
    },
    "iCalUID": "D8F90320-B567-43E4-92FE-4E3EAA5E1C94",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143471531292000\"",
+   "id": "_68qj6gi370rjeb9k8gpk4b9k88o3aba26l2j0ba268o36h1j711k8dpm84",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY4cWo2Z2kzNzByamViOWs4Z3BrNGI5azg4bzNhYmEyNmwyajBiYTI2OG8zNmgxajcxMWs4ZHBtODQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-22T09:13:48.000Z",
+   "updated": "2019-10-22T09:16:05.646Z",
+   "summary": "Rebecca & Anja: Update via Mail",
+   "description": "PDF-Update zu eurem Projekt per Mail\nan Rebecca und Anja; Emailfeedback\n",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-07T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-07T11:00:00+01:00"
+   },
+   "iCalUID": "253BC877-4D3B-4B05-B5E0-B203D38CD76A",
    "sequence": 0
   },
   {
@@ -6271,6 +6576,58 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3144527536778000\"",
+   "id": "_64s30e246opj4b9j74pjgb9k8gqk8b9o68p3cba36ssk4chl8go3ahhp70",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY0czMwZTI0Nm9wajRiOWo3NHBqZ2I5azhncWs4YjlvNjhwM2NiYTM2c3NrNGNobDhnbzNhaGhwNzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-28T11:56:08.000Z",
+   "updated": "2019-10-28T11:56:08.389Z",
+   "summary": "Alessandro Seminar",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-13T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-13T13:00:00+01:00"
+   },
+   "iCalUID": "1808D632-3938-4D5D-8226-C79B25D05F98",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143471547518000\"",
+   "id": "_84ojechp651k6b9l6cr48b9k6p236ba16gp48ba58523ge236spk2d1i8o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg0b2plY2hwNjUxazZiOWw2Y3I0OGI5azZwMjM2YmExNmdwNDhiYTU4NTIzZ2UyMzZzcGsyZDFpOG8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-01T13:06:50.000Z",
+   "updated": "2019-10-22T09:16:13.759Z",
+   "summary": "Rebecca &Anja Seminar",
+   "creator": {
+    "email": "anton.stuckardt@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-14T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-14T17:30:00+01:00"
+   },
+   "iCalUID": "A17291CC-536D-46D3-A42D-EAD88C73A42F",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870415388000\"",
    "id": "_6p34ah1p6cs3gb9g6krk4b9k74okcb9p88o4cb9g6t2jih1n8orj2h1k74",
    "status": "confirmed",
@@ -6297,15 +6654,15 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870421224000\"",
-   "id": "_84ojechp651k6b9l6cr48b9k6p236ba16gp48ba58523ge236spk2d1i8o",
+   "etag": "\"3144527545422000\"",
+   "id": "_8cqjadq28gp42ba260rj0b9k6gqkcb9p6d144b9k6923aga46l2jagq388",
    "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg0b2plY2hwNjUxazZiOWw2Y3I0OGI5azZwMjM2YmExNmdwNDhiYTU4NTIzZ2UyMzZzcGsyZDFpOG8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-01T13:06:50.000Z",
-   "updated": "2019-10-01T13:06:50.612Z",
-   "summary": "Rebecca &Anja Seminar",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhjcWphZHEyOGdwNDJiYTI2MHJqMGI5azZncWtjYjlwNmQxNDRiOWs2OTIzYWdhNDZsMmphZ3EzODggNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-28T11:56:12.000Z",
+   "updated": "2019-10-28T11:56:12.711Z",
+   "summary": "Alessandro Seminar",
    "creator": {
-    "email": "anton.stuckardt@gmail.com"
+    "email": "jana-hofmann@live.de"
    },
    "organizer": {
     "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
@@ -6316,9 +6673,36 @@
     "dateTime": "2020-01-14T10:00:00+01:00"
    },
    "end": {
-    "dateTime": "2020-01-14T18:00:00+01:00"
+    "dateTime": "2020-01-14T13:00:00+01:00"
    },
-   "iCalUID": "A17291CC-536D-46D3-A42D-EAD88C73A42F",
+   "iCalUID": "C557BD2A-B070-445F-93BB-42D5AD5E5CCB",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143823950692000\"",
+   "id": "_64pk6dq58p230b9n8h1j0b9k8cqkab9o8h146b9i6kr3igq660skae9h8c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cGs2ZHE1OHAyMzBiOW44aDFqMGI5azhjcWthYjlvOGgxNDZiOWk2a3IzaWdxNjYwc2thZTloOGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-24T10:12:55.000Z",
+   "updated": "2019-10-24T10:12:55.346Z",
+   "summary": "Mappenberatung Juliane ",
+   "description": "+ Anton / Jana ?\n",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-14T14:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-14T16:00:00+01:00"
+   },
+   "iCalUID": "13C7EFD0-7DC0-4C5E-8DBC-2569CF09E91C",
    "sequence": 0
   },
   {
@@ -6345,6 +6729,32 @@
     "dateTime": "2020-01-15T18:00:00+01:00"
    },
    "iCalUID": "5E66ECF0-15E1-448A-8A16-C41F4DAAD443",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143472210828000\"",
+   "id": "_8cok4chk6513eba564qk6b9k6so32b9p74rkcb9i8ksk6g9m6h1j8e1m6o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzhjb2s0Y2hrNjUxM2ViYTU2NHFrNmI5azZzbzMyYjlwNzRya2NiOWk4a3NrNmc5bTZoMWo4ZTFtNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-22T09:21:45.000Z",
+   "updated": "2019-10-22T09:21:45.414Z",
+   "summary": "Diplom Kolloquium Rebecca",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-15T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-15T14:00:00+01:00"
+   },
+   "iCalUID": "C1B241B7-E15C-4701-997F-2E9CA64C4866",
    "sequence": 0
   },
   {
@@ -6611,12 +7021,12 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870513430000\"",
+   "etag": "\"3143471576788000\"",
    "id": "_6cq4ada260q30ba36oqjcb9k8l1k6ba16sp3gb9i6goj0gi26opjadhj8g",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZjcTRhZGEyNjBxMzBiYTM2b3FqY2I5azhsMWs2YmExNnNwM2diOWk2Z29qMGdpMjZvcGphZGhqOGcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:07:36.000Z",
-   "updated": "2019-10-01T13:07:36.715Z",
+   "updated": "2019-10-22T09:16:28.394Z",
    "summary": "Rebecca &Anja Seminar",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
@@ -6627,10 +7037,10 @@
     "self": true
    },
    "start": {
-    "dateTime": "2020-01-28T10:00:00+01:00"
+    "dateTime": "2020-01-28T09:30:00+01:00"
    },
    "end": {
-    "dateTime": "2020-01-28T18:00:00+01:00"
+    "dateTime": "2020-01-28T17:30:00+01:00"
    },
    "iCalUID": "34E5B040-C656-4ECC-A728-2410BB63563D",
    "sequence": 0
@@ -6689,6 +7099,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3144527978428000\"",
+   "id": "_70rj0d9p6h144b9o68q44b9k8co48b9o6oq4cba46cpk6dhj8ork6gi58c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzcwcmowZDlwNmgxNDRiOW82OHE0NGI5azhjbzQ4YjlvNm9xNGNiYTQ2Y3BrNmRoajhvcms2Z2k1OGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-28T11:59:49.000Z",
+   "updated": "2019-10-28T11:59:49.214Z",
+   "summary": "Workshop Alessandro",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-29T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-31T18:00:00+01:00"
+   },
+   "iCalUID": "870594BB-824B-4C0D-864F-D33C63F7CBEC",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870538362000\"",
    "id": "_84r32hhp6t33eb9m752j2b9k6oo4cb9p88pj4b9n8kq46gpp68o3cgq28k",
    "status": "confirmed",
@@ -6715,32 +7151,6 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3126547797940000\"",
-   "id": "_8h13cdpj8csjab9h60qjeb9k84oj6ba168sjib9h8h34cca264oj6ea374",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhoMTNjZHBqOGNzamFiOWg2MHFqZWI5azg0b2o2YmExNjhzamliOWg4aDM0Y2NhMjY0b2o2ZWEzNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-07-16T10:44:58.000Z",
-   "updated": "2019-07-16T10:44:58.970Z",
-   "summary": "Prüfungstag KD",
-   "creator": {
-    "email": "jhohlbaum@gmail.com"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2020-01-30T09:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2020-01-30T19:30:00+01:00"
-   },
-   "iCalUID": "DB673C95-1057-4A13-A299-1DFF1B1139C9",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
    "etag": "\"3139870518592000\"",
    "id": "_8krkch268go3ib9h8osk4b9k8gsj6ba28cs32b9l8cs42gph60qkce268k",
    "status": "confirmed",
@@ -6763,32 +7173,6 @@
     "dateTime": "2020-01-30T18:00:00+01:00"
    },
    "iCalUID": "E7FDFD09-1F9B-4D93-BC81-5C8AC105F8FE",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3126547806664000\"",
-   "id": "_691k4h2270rk6b9o6h130b9k68qjcba270p48b9g6cpjidhk68rk4cpm8o",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzY5MWs0aDIyNzByazZiOW82aDEzMGI5azY4cWpjYmEyNzBwNDhiOWc2Y3BqaWRoazY4cms0Y3BtOG8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-07-16T10:44:59.000Z",
-   "updated": "2019-07-16T10:45:03.332Z",
-   "summary": "Prüfungstag KD bei Überfüllung",
-   "creator": {
-    "email": "jhohlbaum@gmail.com"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2020-01-31T09:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2020-01-31T19:30:00+01:00"
-   },
-   "iCalUID": "2CBDB87C-84B0-4256-B82D-03396427B36F",
    "sequence": 0
   },
   {
@@ -6951,13 +7335,66 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3141590529762000\"",
+   "etag": "\"3143824153164000\"",
+   "id": "_6oo30d9o88s42b9n6cq3cb9k8l1jcb9p6opj2b9o8coj4da28kp32ga16o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZvbzMwZDlvODhzNDJiOW42Y3EzY2I5azhsMWpjYjlwNm9wajJiOW84Y29qNGRhMjhrcDMyZ2ExNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-24T10:14:18.000Z",
+   "updated": "2019-10-24T10:14:36.582Z",
+   "summary": "Mappenberatung James ",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-11T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-11T10:00:00+01:00"
+   },
+   "iCalUID": "60058B8A-7346-4EC6-9631-8C125BE21AA6",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143471612662000\"",
    "id": "_6ork2h2564o3aba26or3gb9k6gskaba16514aba488rjah9m68pj2dpk60",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZvcmsyaDI1NjRvM2FiYTI2b3IzZ2I5azZnc2thYmExNjUxNGFiYTQ4OHJqYWg5bTY4cGoyZHBrNjAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-11T12:01:04.000Z",
-   "updated": "2019-10-11T12:01:04.881Z",
-   "summary": "Rebecca &Anja Seminar",
+   "updated": "2019-10-22T09:16:46.331Z",
+   "summary": "Rebecca & Anja Seminar",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-11T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-11T17:30:00+01:00"
+   },
+   "iCalUID": "67ADE105-B668-449E-A1BE-DB75E6231740",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143835211334000\"",
+   "id": "_6134cdpo8crkcba368r4cb9k6d1jeb9p8l14aba364s38dhg8h1k8h9i74",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzYxMzRjZHBvOGNya2NiYTM2OHI0Y2I5azZkMWplYjlwOGwxNGFiYTM2NHMzOGRoZzhoMWs4aDlpNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-22T09:22:43.000Z",
+   "updated": "2019-10-24T11:46:45.667Z",
+   "summary": "Diplom Kolloquium Ivan+Michi",
+   "description": "Letterpress?",
    "creator": {
     "email": "jana-hofmann@live.de"
    },
@@ -6970,9 +7407,35 @@
     "dateTime": "2020-02-11T10:00:00+01:00"
    },
    "end": {
-    "dateTime": "2020-02-11T18:00:00+01:00"
+    "dateTime": "2020-02-11T14:00:00+01:00"
    },
-   "iCalUID": "67ADE105-B668-449E-A1BE-DB75E6231740",
+   "iCalUID": "0FF78C7F-C26F-43C7-9EBE-C18460DCDE29",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3144528264460000\"",
+   "id": "_6cpj0c9i6kok6b9g6srjcb9k6d2jiba1751jeba68l24cdho6l2j4cpi64",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZjcGowYzlpNmtvazZiOWc2c3JqY2I5azZkMmppYmExNzUxamViYTY4bDI0Y2RobzZsMmo0Y3BpNjQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-28T12:02:12.000Z",
+   "updated": "2019-10-28T12:02:12.230Z",
+   "summary": "Alessandro Seminar",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-11T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-11T13:00:00+01:00"
+   },
+   "iCalUID": "3301251C-0776-43E9-A9C7-FEDF685E2321",
    "sequence": 0
   },
   {
@@ -6999,6 +7462,267 @@
     "dateTime": "2020-02-12T19:30:00+01:00"
    },
    "iCalUID": "ED52B173-32E9-490A-BD57-17C95841A3F1",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3144520571888000\"",
+   "id": "_8h13cdpj8csjab9h60qjeb9k84oj6ba168sjib9h8h34cca264oj6ea374",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhoMTNjZHBqOGNzamFiOWg2MHFqZWI5azg0b2o2YmExNjhzamliOWg4aDM0Y2NhMjY0b2o2ZWEzNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-07-16T10:44:58.000Z",
+   "updated": "2019-10-28T10:58:05.944Z",
+   "summary": "Prüfungstag KD",
+   "creator": {
+    "email": "jhohlbaum@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-13T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-13T19:30:00+01:00"
+   },
+   "iCalUID": "DB673C95-1057-4A13-A299-1DFF1B1139C9",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3144520575508000\"",
+   "id": "_691k4h2270rk6b9o6h130b9k68qjcba270p48b9g6cpjidhk68rk4cpm8o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY5MWs0aDIyNzByazZiOW82aDEzMGI5azY4cWpjYmEyNzBwNDhiOWc2Y3BqaWRoazY4cms0Y3BtOG8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-07-16T10:44:59.000Z",
+   "updated": "2019-10-28T10:58:07.754Z",
+   "summary": "Prüfungstag KD bei Überfüllung",
+   "creator": {
+    "email": "jhohlbaum@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-14T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-14T19:30:00+01:00"
+   },
+   "iCalUID": "2CBDB87C-84B0-4256-B82D-03396427B36F",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143471723970000\"",
+   "id": "_6h0jad1h6gp3cba584s3ib9k68r3ib9o69234ba36srjgg9h6csj8c9l8o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZoMGphZDFoNmdwM2NiYTU4NHMzaWI5azY4cjNpYjlvNjkyMzRiYTM2c3JqZ2c5aDZjc2o4YzlsOG8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-22T09:17:41.000Z",
+   "updated": "2019-10-22T09:17:41.985Z",
+   "summary": "Symposium GfZK Leipzig",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "date": "2020-02-21"
+   },
+   "end": {
+    "date": "2020-02-24"
+   },
+   "transparency": "transparent",
+   "iCalUID": "4A541426-EA89-4269-82D2-C778A139415F",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143824225176000\"",
+   "id": "_8cojica470s42ba268s36b9k74qk2ba16op3ab9h84pjadq58opj8d256g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzhjb2ppY2E0NzBzNDJiYTI2OHMzNmI5azc0cWsyYmExNm9wM2FiOWg4NHBqYWRxNThvcGo4ZDI1NmcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-24T10:15:12.000Z",
+   "updated": "2019-10-24T10:15:12.588Z",
+   "summary": "Mappenberatung Ivan / Michi",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-03-09T14:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-03-09T16:00:00+01:00"
+   },
+   "iCalUID": "C191D88A-B283-495A-A625-1A357EF344E4",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143337100292000\"",
+   "id": "_6kpkad236t148ba18ookcb9k8os4cba18cr46ba16co4ad1o6co48dhk74",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZrcGthZDIzNnQxNDhiYTE4b29rY2I5azhvczRjYmExOGNyNDZiYTE2Y280YWQxbzZjbzQ4ZGhrNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-21T14:35:50.000Z",
+   "updated": "2019-10-21T14:35:50.146Z",
+   "summary": "Beginn Vorlesungszeit",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-04-13T09:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2020-04-13T10:00:00+02:00"
+   },
+   "iCalUID": "53E4C7BD-AF1F-4F8F-AC6C-A30E4830D649",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143348135126000\"",
+   "id": "_8os46ci661238ba2610jeb9k8gq4ab9p6p0jiba48h0k8ci46h132cph64",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhvczQ2Y2k2NjEyMzhiYTI2MTBqZWI5azhncTRhYjlwNnAwamliYTQ4aDBrOGNpNDZoMTMyY3BoNjQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-21T16:07:47.000Z",
+   "updated": "2019-10-21T16:07:47.563Z",
+   "summary": "KD PRÜFUNGEN",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-06-18T09:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2020-06-18T10:00:00+02:00"
+   },
+   "iCalUID": "F8C2F0D4-B0A7-4D4E-96A9-DDAD2D4B1311",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143348284626000\"",
+   "id": "_8gs4ag9g851j0ba588qjib9k8cqjaba16cpkcba28ks4aci56t2jiea274",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhnczRhZzlnODUxajBiYTU4OHFqaWI5azhjcWphYmExNmNwa2NiYTI4a3M0YWNpNTZ0MmppZWEyNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-21T16:09:02.000Z",
+   "updated": "2019-10-21T16:09:02.313Z",
+   "summary": "KD PRÜFUNGEN",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-06-19T09:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2020-06-19T10:00:00+02:00"
+   },
+   "iCalUID": "D8EA0AC0-EB59-4C55-A33F-BE8E2E7E99B9",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143348235416000\"",
+   "id": "_6oo4cca36grjiba264r4cb9k8oqj6ba2711j2b9j8kqj6hi17514ae1o6s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZvbzRjY2EzNmdyamliYTI2NHI0Y2I5azhvcWo2YmEyNzExajJiOWo4a3FqNmhpMTc1MTRhZTFvNnMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-21T16:08:37.000Z",
+   "updated": "2019-10-21T16:08:37.708Z",
+   "summary": "Präsitag",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-07-15T09:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2020-07-15T10:00:00+02:00"
+   },
+   "iCalUID": "60F1C479-B16F-4F53-B8C1-3E53FA9BE887",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143337067990000\"",
+   "id": "_74r48e9p64rjgba384q32b9k70rj8ba26cskab9l6t23gg9o69232ga56o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzc0cjQ4ZTlwNjRyamdiYTM4NHEzMmI5azcwcmo4YmEyNmNza2FiOWw2dDIzZ2c5bzY5MjMyZ2E1Nm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-21T14:35:33.000Z",
+   "updated": "2019-10-21T14:35:33.995Z",
+   "summary": "Rundgang",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-07-16T09:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2020-07-19T20:00:00+02:00"
+   },
+   "iCalUID": "96D99178-CA41-4874-B39E-57D8A82D1AE6",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3143337028718000\"",
+   "id": "_6kq38d9i8ookcb9l8co42b9k8or48ba26933gba560q48h9g88qk6gpp8g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZrcTM4ZDlpOG9va2NiOWw4Y280MmI5azhvcjQ4YmEyNjkzM2diYTU2MHE0OGg5Zzg4cWs2Z3BwOGcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-21T14:35:14.000Z",
+   "updated": "2019-10-21T14:35:14.359Z",
+   "summary": "Ende Vorlesungszeit",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-07-18T09:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2020-07-18T10:00:00+02:00"
+   },
+   "iCalUID": "54452F1F-5C0A-4F6D-B2F8-E04DE0B5CC9D",
    "sequence": 0
   }
  ]
