@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p32gefjleuivea0g\"",
+ "etag": "\"p33scf3vsir2ea0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-10-28T12:02:24.516Z",
+ "updated": "2019-10-30T14:20:32.555Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -4859,6 +4859,33 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3144701617408000\"",
+   "id": "_6kpk6h22891jcb9l74q46b9k89138b9o74p3aba48gs32gpj84sk4cpj70",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZrcGs2aDIyODkxamNiOWw3NHE0NmI5azg5MTM4YjlvNzRwM2FiYTQ4Z3MzMmdwajg0c2s0Y3BqNzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-29T12:06:48.000Z",
+   "updated": "2019-10-29T12:06:48.704Z",
+   "summary": "Info Veranstaltung Prüfungsordnungen!",
+   "description": "Mit Franziska Künstle und Waldemar Präg (Prüfunsamt) \nRaum 216",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-04T11:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-04T12:00:00+01:00"
+   },
+   "iCalUID": "53CDBBC6-594C-4BB4-8925-DD81C3A9B338",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3143833500514000\"",
    "id": "_64rj4ga18krj6b9h6or42b9k8oo34b9o8h33ib9o64r46gi58534cca48c",
    "status": "confirmed",
@@ -5308,33 +5335,6 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3143839939242000\"",
-   "id": "_8go4aha3890jcba488qjeb9k74pkcba28934cb9h6l1kaga484qj0c9g6c",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhnbzRhaGEzODkwamNiYTQ4OHFqZWI5azc0cGtjYmEyODkzNGNiOWg2bDFrYWdhNDg0cWowYzlnNmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-15T12:05:15.000Z",
-   "updated": "2019-10-24T12:26:09.621Z",
-   "summary": "IPDD + ABK Workshop",
-   "description": "3 Tage in Stuttgart\n3 Tage in Karlsruhe, Do, Fr, Sa, Raum 222 / Lichthof?\n20 Leute (10ABK, 10HfG)",
-   "creator": {
-    "email": "jana-hofmann@live.de"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-11-18T10:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2019-11-23T18:00:00+01:00"
-   },
-   "iCalUID": "D0EECBA6-DB57-493F-BBFF-15CEADA50103",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
    "etag": "\"3141068142114000\"",
    "id": "_6kr3chhm74qj2ba56gpj2b9k89342b9o6d232b9n6sq4ce1k8gr4cgi26s",
    "status": "confirmed",
@@ -5596,6 +5596,33 @@
     "dateTime": "2019-11-22T18:00:00+01:00"
    },
    "iCalUID": "1173ED9A-A362-498A-9EE1-4F70778D3398",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3144875642380000\"",
+   "id": "_8go4aha3890jcba488qjeb9k74pkcba28934cb9h6l1kaga484qj0c9g6c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhnbzRhaGEzODkwamNiYTQ4OHFqZWI5azc0cGtjYmEyODkzNGNiOWg2bDFrYWdhNDg0cWowYzlnNmMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-15T12:05:15.000Z",
+   "updated": "2019-10-30T12:17:01.190Z",
+   "summary": "IPDD + ABK Workshop",
+   "description": "1 Tag in Stuttgart (FR)\n2 Tage in Karlsruhe (SA+SO)\nmit Studierenden der ABK + HfG\n",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-11-22T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-11-24T18:00:00+01:00"
+   },
+   "iCalUID": "D0EECBA6-DB57-493F-BBFF-15CEADA50103",
    "sequence": 0
   },
   {
@@ -6074,6 +6101,33 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3144864595230000\"",
+   "id": "_8krk4h9j60qj0ba688q46b9k8p23gba26co3ab9i8kq4agpn6h0k4h2564",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzhrcms0aDlqNjBxajBiYTY4OHE0NmI5azhwMjNnYmEyNmNvM2FiOWk4a3E0YWdwbjZoMGs0aDI1NjQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-28T11:51:50.000Z",
+   "updated": "2019-10-30T10:44:57.615Z",
+   "summary": "Workshop Alessandro",
+   "description": "Start at 2pm on the 11th\n\n",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-11T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-13T14:00:00+01:00"
+   },
+   "iCalUID": "E7BE3050-FB4C-4FD8-B305-2E4EC74ABDE1",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870251226000\"",
    "id": "_8kr4cdpo64s3eb9h8p238b9k6kp3aba26l0k4b9g84s3iga26sr3ichn70",
    "status": "confirmed",
@@ -6227,33 +6281,6 @@
     "dateTime": "2019-12-17T16:00:00+01:00"
    },
    "iCalUID": "F12EE960-67EB-4913-AAB6-EA74C07D1712",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3144527714116000\"",
-   "id": "_8krk4h9j60qj0ba688q46b9k8p23gba26co3ab9i8kq4agpn6h0k4h2564",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=Xzhrcms0aDlqNjBxajBiYTY4OHE0NmI5azhwMjNnYmEyNmNvM2FiOWk4a3E0YWdwbjZoMGs0aDI1NjQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-28T11:51:50.000Z",
-   "updated": "2019-10-28T11:57:37.058Z",
-   "summary": "Workshop Alessandro",
-   "description": "Start at noon\n",
-   "creator": {
-    "email": "jana-hofmann@live.de"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-12-18T09:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2019-12-20T10:00:00+01:00"
-   },
-   "iCalUID": "E7BE3050-FB4C-4FD8-B305-2E4EC74ABDE1",
    "sequence": 0
   },
   {
