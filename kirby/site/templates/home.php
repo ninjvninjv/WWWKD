@@ -56,7 +56,22 @@
 
   </div>
 
-  <div id='sidebarNavigation'>
+ <!--Navigation new-->
+<div id="mainNavigation">
+    <div class="content">
+    <ul class="menu">
+        <li class="button">Events</li>
+        <li class="button">Studium</li>
+        <li class="button">Projects</li>
+        <li class="button">People</li>
+        <li class="button">Info</li>
+        </ul>
+    </div>
+</div> 
+
+
+      
+    <div id='sidebarNavigation'>
     <form>
 
       <!--Events Column-->
@@ -86,6 +101,7 @@
       </label><br>
 
       <!--Seminare Column-->
+      <div class="button">Studium</div>
       <label>
         <input
           type="checkbox"
@@ -112,6 +128,7 @@
       </label><br>
 
       <!--Projects Column-->
+      <div class="button">Projects</div>
       <label>
         <input
           type="checkbox"
@@ -146,6 +163,7 @@
       </label><br>
 
       <!--Info Column-->
+        <div class="button">Info</div>
       <label>
         <input
         type="checkbox"
@@ -180,6 +198,7 @@
       </label><br>
 
       <!--People Column-->
+        <div class="button">People</div>
       <label>
         <input
           type="checkbox"
