@@ -21,7 +21,7 @@ Kirby's license agreement here: <https://getkirby.com/license>
 
 Kirby's Starterkit comes with a small demo website and a fully
 configured panel. Feel free to modify it and play with it as
-much as you like
+much as you like.
 
 ## The Panel
 
