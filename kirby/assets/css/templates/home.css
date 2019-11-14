@@ -55,6 +55,12 @@ body {
     background: black;
 }
 
+.button{
+    width: var(--column-width-six);
+    height: 10vh;
+    background: white;
+}
+
 
 /* Navigation Sidebar */
 
