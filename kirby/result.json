@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p33caru6dmb8ea0g\"",
+ "etag": "\"p33cergucvvkua0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-11-04T10:56:08.759Z",
+ "updated": "2019-11-14T15:17:08.791Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -5045,13 +5045,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3142245716880000\"",
+   "etag": "\"3146263797908000\"",
    "id": "_71144gpn8kr42b9l71344b9k8l1k4b9o692k4ba66srk6dhk8os3cgpn8k",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzcxMTQ0Z3BuOGtyNDJiOWw3MTM0NGI5azhsMWs0YjlvNjkyazRiYTY2c3JrNmRoazhvczNjZ3BuOGsgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-15T07:00:58.000Z",
-   "updated": "2019-10-15T07:00:58.440Z",
+   "updated": "2019-11-07T13:04:58.954Z",
    "summary": "IPDD",
+   "description": "216\n",
    "creator": {
     "email": "jana-hofmann@live.de"
    },
@@ -5759,12 +5760,12 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870123378000\"",
+   "etag": "\"3147489257582000\"",
    "id": "_8d334ha68kpkab9p692j8b9k6ks48b9o8cqjab9n6gr3gcpn6osjichg8g",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhkMzM0aGE2OGtwa2FiOXA2OTJqOGI5azZrczQ4YjlvOGNxamFiOW42Z3IzZ2NwbjZvc2ppY2hnOGcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:04:21.000Z",
-   "updated": "2019-10-01T13:04:21.689Z",
+   "updated": "2019-11-14T15:17:08.791Z",
    "summary": "Anton Seminar",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
@@ -6021,13 +6022,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870236002000\"",
+   "etag": "\"3147157556314000\"",
    "id": "_8ks48hhp8l2k4b9n88p36b9k8p24ab9p68p44b9h68r48e9m69332ca670",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhrczQ4aGhwOGwyazRiOW44OHAzNmI5azhwMjRhYjlwNjhwNDRiOWg2OHI0OGU5bTY5MzMyY2E2NzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:05:17.000Z",
-   "updated": "2019-10-01T13:05:18.001Z",
+   "updated": "2019-11-12T17:12:58.157Z",
    "summary": "Reto Moser/Dominik Huber",
+   "description": "Zwischen Präsentation",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },
@@ -6285,6 +6287,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3146280531688000\"",
+   "id": "_8gs4ce9g6cp30ba26kr3eb9k6d2j8b9p6934ab9k8kpkaga16l2j2gpp6g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhnczRjZTlnNmNwMzBiYTI2a3IzZWI5azZkMmo4YjlwNjkzNGFiOWs4a3BrYWdhMTZsMmoyZ3BwNmcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-01T13:06:00.000Z",
+   "updated": "2019-11-07T15:24:25.844Z",
+   "summary": "James single talks",
+   "creator": {
+    "email": "anton.stuckardt@gmail.com"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-18T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-18T18:00:00+01:00"
+   },
+   "iCalUID": "D8F90320-B567-43E4-92FE-4E3EAA5E1C94",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870286016000\"",
    "id": "_68pjad1j650j8ba16p1j2b9k8l14aba28gr38ba26ookaga28cp30ha264",
    "status": "confirmed",
@@ -6387,32 +6415,6 @@
     "dateTime": "2019-12-19T18:00:00+01:00"
    },
    "iCalUID": "4544C70B-3CB0-49C4-84E6-418FEDB0C988",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3139870322332000\"",
-   "id": "_8gs4ce9g6cp30ba26kr3eb9k6d2j8b9p6934ab9k8kpkaga16l2j2gpp6g",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhnczRjZTlnNmNwMzBiYTI2a3IzZWI5azZkMmo4YjlwNjkzNGFiOWs4a3BrYWdhMTZsMmoyZ3BwNmcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-01T13:06:00.000Z",
-   "updated": "2019-10-01T13:06:01.166Z",
-   "summary": "James single talks",
-   "creator": {
-    "email": "anton.stuckardt@gmail.com"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-12-20T10:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2019-12-20T18:00:00+01:00"
-   },
-   "iCalUID": "D8F90320-B567-43E4-92FE-4E3EAA5E1C94",
    "sequence": 0
   },
   {
