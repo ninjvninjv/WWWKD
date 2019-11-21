@@ -9,6 +9,8 @@
 
 <div class="col" id="seminarcol">
     
+    <p class="orientation">(seminars)</p>
+    
     <div class="past" id="seminarpast">
     
         <?php foreach ($site->find('courses')->children() as $course): ?>
@@ -21,12 +23,15 @@
             </div>
         
         <?php endforeach ?>
+        
+    
     
     </div>
     
-    <div class="future">
-    <p>(seminars)</p>
+    <div class="archive" id="seminararchive">↑ Archiv ↑</div>
     
+    <div class="future">
+        
         <?php 
     
         $day = array();
@@ -118,9 +123,16 @@
                     $('#s'+today).css('background-color', 'darkseagreen');
                     $('#e'+today).css('background-color', 'darkseagreen');
                     $('#t'+today).css('background-color', 'darkseagreen');
-                    $('#s'+today).css('height', '20vh');
-                    $('#e'+today).css('height', '20vh');
-                    $('#t'+today).css('height', '20vh');
+                    $('#s'+today).css('height', '40vh');
+                    $('#e'+today).css('height', '40vh');
+                    $('#t'+today).css('height', '40vh');
+                    
+                    var tomorrow = '<?= (new DateTime("+1 day"))->format("Y-m-d"); ?>';
+                    $('#s'+tomorrow).css('background-color', 'orange');
+                    $('#e'+tomorrow).css('background-color', 'orange');
+                    $('#t'+tomorrow).css('background-color', 'orange');
+                    
+                    
 
                     //fits height of the day to the biggest
                     
@@ -130,7 +142,7 @@
                     var sheight = $('#s'+seminardate).height();
                     var eheight = $('#e'+seminardate).height();
                     
-                    if(eheight > sheight){
+                    if(eheight >= sheight){
 
                         $('#s'+seminardate).height(eheight);
                         $('#t'+seminardate).height(eheight);
@@ -142,6 +154,7 @@
 
                     };
                     
+                    //fits the height of the day to the biggest when resizing the window
                     $(window).resize(function(){
                         
                         $('#s'+seminardate).css('height', 'auto');
@@ -163,8 +176,9 @@
                         
                         $('.seminartitle').css('font-size', $('.column').width()/20);
                         
-                    }); //fits the height of the day to the biggest when resizing the window
+                    });
                     
+                    //fits the height of the day to the biggest when klick on sidebar 
                     $('#sidebarNavigation').on('click', function(){
                         
                         $('#s'+seminardate).css('height', 'auto');
@@ -187,12 +201,62 @@
                         
                         $('.seminartitle').css('font-size', $('.column').width()/20);
                         
-                    }); //fits the height of the day to the biggest when klick on sidebar 
+                    });
                                 
                     
+                    
+                    
+                    //fits height of the day to the biggest
+                    
+                    var spast = $('#seminarpast').height();
+                    var epast = $('#eventpast').height();
+                    
+                    if(epast >= spast){
+
+                        $('.past').height(epast);
+
+                    }else{
+
+                        $('.past').height(spast);
+
+                    };
+                    
+                    //fits the height of the day to the biggest when resizing the window
+                    $(window).resize(function(){
+                        
+                        var spast = $('#seminarpast').height();
+                        var epast = $('#eventpast').height();
+
+                        if(epast >= spast){
+
+                            $('.past').height(epast);
+
+                        }else{
+
+                            $('.past').height(spast);
+
+                        };
+                        
+                    });
+                    
+                    //fits the height of the day to the biggest when klick on sidebar 
+                    $('#sidebarNavigation').on('click', function(){
+                        
+                        var spast = $('#seminarpast').height();
+                        var epast = $('#eventpast').height();
+
+                        if(epast >= spast){
+
+                            $('.past').height(epast);
+
+                        }else{
+
+                            $('.past').height(spast);
+
+                        };
+                    });
     
                 });
-            
                 
             </script>
         

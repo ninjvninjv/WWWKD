@@ -249,6 +249,26 @@ float:left;
 
 }
 
+.archive, .futureheader{
+    
+    width:100%;
+    
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-top-style:solid;
+    border-top-width: 1px;
+    
+    text-align:center;
+    
+}
+
+#seminarfutureheader{
+    
+    border-left-style:solid;
+    border-left-width:1px;
+    
+}
+
 /*RULER*/
 /*the red line in <timeline> <events> and <courses>*/
 .ruler{
@@ -286,7 +306,6 @@ float:left;
     
     position:relative;
     margin:2px;
-    margin-bottom: 4px;
     border-left: black solid 1px;
     border-top: black solid 1px;
     padding-left:2px;
@@ -341,24 +360,41 @@ float:left;
     
 }
 
+#seminarpast{
+    
+    border-left-style:solid;
+    border-left-width:1px;
+    
+}
+
 .pastseminar{
     
     width:100%;
     height:auto;
     margin-bottom:3px;
-    border-bottom-style:solid;
-    border-bottom-width:1px;
+    border-top-style:solid;
+    border-top-width:1px;
     
 }
 
-.pastseminartitle{
+.pastseminartitle, .pasteventtitle{
     
     position:relative;
     float:left;
+    height:auto;
     width:50%;
+    overflow:hidden;
     
     
 }
+
+.past{
+    
+    position:relative;
+    vertical-align:bottom;
+    height:auto;
+}
+
 
 /*PROJEKTS*/
 .protitle{

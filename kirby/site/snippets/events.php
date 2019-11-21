@@ -2,8 +2,28 @@
 
 <div class="col" id="eventcol">
     
-    <p>(events)</p>
+    <p class="orientation">(events)</p>
     
+    <div class="past" id="eventpast">
+    
+        <?php foreach ($site->find('events')->children() as $event): ?>
+        
+            <div class="pastseminar">
+        
+                <div class="pasteventtitle" id="<?= $event->title() ?>title"><?= $event->title() ?></div>
+                <div class="pasteventtype" id="<?= $event->kind() ?>type"><?= $event->kind() ?></div>
+        
+            </div>
+        
+        <?php endforeach ?>
+    
+    </div>
+    
+    <div class="archive" id="eventarchive">↑ Archiv ↑</div>
+    
+    <div class="future" id="eventfuture">
+    
+        
         <?php 
     
         $day = array();
@@ -29,4 +49,6 @@
     
     <?php endforeach?>
       
+    </div>
+        
 </div>
