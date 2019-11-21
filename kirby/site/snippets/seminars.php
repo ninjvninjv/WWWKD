@@ -9,13 +9,29 @@
 
 <div class="col" id="seminarcol">
     
+    <div class="past" id="seminarpast">
+    
+        <?php foreach ($site->find('courses')->children() as $course): ?>
+        
+            <div class="pastseminar">
+        
+                <div class="pastseminartitle" id="<?= $course->title() ?>title"><?= $course->title() ?></div>
+                <div class="pastseminartype" id="<?= $course->kind() ?>type"><?= $course->kind() ?></div>
+        
+            </div>
+        
+        <?php endforeach ?>
+    
+    </div>
+    
+    <div class="future">
     <p>(seminars)</p>
     
         <?php 
     
         $day = array();
         $i = 0;
-        $begin = new DateTime('2019-01-01');
+        $begin = new DateTime(date("Y-m-d"));
         $interval = new DateInterval('P1D');
         $end = new DateTime('2020-02-30');
         $period = new DatePeriod(
@@ -106,7 +122,7 @@
                     $('#e'+today).css('height', '20vh');
                     $('#t'+today).css('height', '20vh');
 
-                    //fits the height of the day to the biggest
+                    //fits height of the day to the biggest
                     
                     $('#s'+seminardate).css('height', 'auto'); // first sets it auto,
                     $('#e'+seminardate).css('height', 'auto'); // so the div can fit around the content
@@ -185,7 +201,8 @@
         fwrite($filename, $json_response);
         fclose($filename);?>
 
-    
+    </div>
+        
 </div>
 
 
