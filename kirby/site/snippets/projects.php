@@ -10,13 +10,15 @@
 
                 <?php foreach($semester->children() as $project): ?>
 
+                    <div class="protitle"><?= $project->title() ?> (<?= $project->type() ?>)</div>
+        
                     <?php foreach($project->images() as $image): ?>
                         <?php if ($image->template()=="cover"): ?>
                             <img class="proimage" src="<?= $image->url() ?>">
                         <?php endif ?>
                     <?php endforeach ?> 
         
-                     <div class="protitle"><?= $project->title() ?> (<?= $project->type() ?>)</div>
+                     
         
 
                     <!-- goes into the persons textfile and takes data -->

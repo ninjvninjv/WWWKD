@@ -35,7 +35,7 @@
 
     <div class='column' id='information'>
 
-        <?php snippet('information') ?>
+        <?php snippet('people') ?>
 
     </div>
       
@@ -47,8 +47,8 @@
     <?php endforeach ?>
 
     <div class='column' id='people'>
-
-        <?php snippet('people') ?>
+        
+        <?php snippet('information') ?>
 
     </div>
       
@@ -336,7 +336,7 @@
 
 // --- SEMINARS & EVENTS ---
 
-//if you scroll in event or semianr col the whole calendar scrolls
+//if you scroll in event or seminar col the whole calendar scrolls
 
 
     $('#eventcol').scroll(function(){
