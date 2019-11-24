@@ -186,7 +186,7 @@
                 
             </script>
         
-        <!-- Checks the highest col and sets height of the other as well -->
+        <!-- Checks the highest row and sets height of the other as well -->
     
         <?php endforeach; $filename = fopen("result.json", "w") or die("Unable to open file!");
         fwrite($filename, $json_response);
@@ -296,6 +296,8 @@
                         $('.eventtitle').css('font-size', $('.column').width()/20);
                         $('#s'+today).css('height', ttoday);
                         $('#e'+today).css('height', ttoday);
+                        
+                        
                         
                     });
             });

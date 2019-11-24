@@ -317,6 +317,14 @@ float:left;
     
 }
 
+#datesymbol{
+    
+    position:absolute;
+    height: 1.3vw;
+    left: 40%;
+    
+}
+
 /*EVENTS*/
 
 /*SEMINARS*/
@@ -386,7 +394,7 @@ float:left;
     
 }
 
-.pastseminar{
+.pastseminar, .pastevent{
     
     width:100%;
     height:auto;

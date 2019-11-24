@@ -363,7 +363,7 @@
     $('#seminarcol').scrollTop($('#s'+today).offset().top - ($(window).height()/2) - ($('#s'+today).height()/2)).delay( 100000 );
     $('#s'+today).after( '<div class="futureheader" id="seminarfutureheader">↓ Zukunft ↓</div>' );
     $('#e'+today).after( '<div class="futureheader" id="eventfutureheader">↓ Zukunft ↓</div>' );
-    $('#t'+today).after( '<div class="futureheader" id="timelinefutureheader">↓Zukunft↓</div>' );
+    $('#t'+today).after( '<div class="futureheader" id="timelinefutureheader">↓</div>' );
 
 </script>
 

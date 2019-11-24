@@ -2,7 +2,7 @@
 
 <div class="col" id="timelinecol">
     
-    <p class="orientation">(timeline)</p>
+    <img id="datesymbol" src="<?= $site->find('home')->image('datesymbol.svg')->url() ?>">
     
     <div class="past" id="timelinepast">
     
@@ -10,7 +10,7 @@
     
     </div>
     
-    <div class="archive" id="timelinearchive">↑Archiv↑</div>
+    <div class="archive" id="timelinearchive">↑</div>
     
     
     <div class="future" id="timelinefuture">
