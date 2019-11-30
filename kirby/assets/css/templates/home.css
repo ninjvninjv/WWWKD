@@ -164,7 +164,7 @@ float:left;
   width: var(--column-width-six);
   height: 100vh;
   overflow: scroll;
-  border-left: black solid 1px;
+  
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -230,6 +230,9 @@ float:left;
 }
 
 .colcontent{
+    
+    border-bottom-style:solid;
+    border-bottom-width:1px;
 }
 
 /*---CALENDAR---*/
@@ -249,6 +252,26 @@ float:left;
 
 }
 
+.archive, .futureheader{
+    
+    width:100%;
+    
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-top-style:solid;
+    border-top-width: 1px;
+    
+    text-align:center;
+    
+}
+
+#seminarfutureheader{
+    
+    border-left-style:solid;
+    border-left-width:1px;
+    
+}
+
 /*RULER*/
 /*the red line in <timeline> <events> and <courses>*/
 .ruler{
@@ -264,29 +287,52 @@ float:left;
 
 }
 
+/*TIMELINE*/
+
+#calendarNavigation{
+    
+    border-right: black 1px solid;
+    
+}
+
+.hours{
+    
+    width:20%;
+    margin-right:0.5vw;
+    float:right;
+    
+}
+
+.hour{
+    
+    height: calc[100%/23]%;
+    width: 100%;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+}
+
+#h23{
+    
+    border-bottom-style:hidden;
+    
+}
+
+#datesymbol{
+    
+    position:absolute;
+    height: 1.3vw;
+    left: 40%;
+    
+}
+
 /*EVENTS*/
-
-.event{
-
-    position:relative;
-    width:50%;
-    float:left;
-
-}
-
-.eventtitle{
-
-    height:10vh;
-
-}
 
 /*SEMINARS*/
 
-.seminar{
+.seminar, .event{
     
     position:relative;
     margin:2px;
-    margin-bottom: 4px;
     border-left: black solid 1px;
     border-top: black solid 1px;
     padding-left:2px;
@@ -294,29 +340,29 @@ float:left;
     
 }
 
-.seminar:hover{
+.seminar:hover, .event:hover{
     
     /*background-color:darksalmon;*/
     background-color: #9b77d1;
     cursor:pointer;
 }
 
-.seminartitle{
+.seminartitle, .eventtitle{
     
-    font-family: 'mf_basis_monou15_p80';
+    font-family: 'arial_brutforce_monospacedBlk';
     font-size: 100%;
     line-height: 1;
     
 }
 
-.seminarroom, .seminartime{
+.seminarroom, .seminartime, .eventroom, .eventtime{
     
     float:left;
     width:49%;
     
 }
 
-.seminarroom{
+.seminarroom, .eventroom{
     
     text-align: right;
     text-transform: uppercase;
@@ -340,6 +386,42 @@ float:left;
     margin-left:-2px;
     
 }
+
+#seminarpast{
+    
+    border-left-style:solid;
+    border-left-width:1px;
+    
+}
+
+.pastseminar, .pastevent{
+    
+    width:100%;
+    height:auto;
+    margin-bottom:3px;
+    border-top-style:solid;
+    border-top-width:1px;
+    
+}
+
+.pastseminartitle, .pasteventtitle{
+    
+    position:relative;
+    float:left;
+    height:auto;
+    width:50%;
+    overflow:hidden;
+    
+    
+}
+
+.past{
+    
+    position:relative;
+    vertical-align:bottom;
+    height:auto;
+}
+
 
 /*PROJEKTS*/
 .protitle{
@@ -400,7 +482,6 @@ float:left;
     left:0px;
     height:100%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
-    mix-blend-mode: luminosity;
     
 }
 

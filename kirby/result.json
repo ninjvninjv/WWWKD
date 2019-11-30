@@ -1,9 +1,16 @@
 {
  "kind": "calendar#events",
+<<<<<<< HEAD
  "etag": "\"p33cfr24hka7uc0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
  "updated": "2019-11-29T11:00:09.655Z",
+=======
+ "etag": "\"p320ebbc1ubsua0g\"",
+ "summary": "Kurse Hauptstudium",
+ "description": "",
+ "updated": "2019-11-20T22:58:57.296Z",
+>>>>>>> 8c09d9dd9a6947065bd23e5d0121838fa1acc468
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -5786,12 +5793,20 @@
   },
   {
    "kind": "calendar#event",
+<<<<<<< HEAD
    "etag": "\"3149362912448000\"",
+=======
+   "etag": "\"3147489257582000\"",
+>>>>>>> 8c09d9dd9a6947065bd23e5d0121838fa1acc468
    "id": "_8d334ha68kpkab9p692j8b9k6ks48b9o8cqjab9n6gr3gcpn6osjichg8g",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhkMzM0aGE2OGtwa2FiOXA2OTJqOGI5azZrczQ4YjlvOGNxamFiOW42Z3IzZ2NwbjZvc2ppY2hnOGcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:04:21.000Z",
+<<<<<<< HEAD
    "updated": "2019-11-25T11:30:56.224Z",
+=======
+   "updated": "2019-11-14T15:17:08.791Z",
+>>>>>>> 8c09d9dd9a6947065bd23e5d0121838fa1acc468
    "summary": "Anton Seminar",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
