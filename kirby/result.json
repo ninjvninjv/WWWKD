@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p320ebbc1ubsua0g\"",
+ "etag": "\"p33cfr24hka7uc0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-11-20T22:58:57.296Z",
+ "updated": "2019-11-29T11:00:09.655Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -5786,12 +5786,12 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3147489257582000\"",
+   "etag": "\"3149362912448000\"",
    "id": "_8d334ha68kpkab9p692j8b9k6ks48b9o8cqjab9n6gr3gcpn6osjichg8g",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhkMzM0aGE2OGtwa2FiOXA2OTJqOGI5azZrczQ4YjlvOGNxamFiOW42Z3IzZ2NwbjZvc2ppY2hnOGcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:04:21.000Z",
-   "updated": "2019-11-14T15:17:08.791Z",
+   "updated": "2019-11-25T11:30:56.224Z",
    "summary": "Anton Seminar",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
@@ -5802,10 +5802,10 @@
     "self": true
    },
    "start": {
-    "dateTime": "2019-11-28T10:00:00+01:00"
+    "dateTime": "2019-11-28T22:00:00+01:00"
    },
    "end": {
-    "dateTime": "2019-11-28T18:00:00+01:00"
+    "dateTime": "2019-11-29T05:00:00+01:00"
    },
    "iCalUID": "CF2EFE3E-92E4-458D-8C55-74683769920D",
    "sequence": 0
@@ -5965,6 +5965,32 @@
     "dateTime": "2019-12-04T18:00:00+01:00"
    },
    "iCalUID": "8C29AFAA-A54D-4CBC-9770-D7E09494D0AC",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3149690917522000\"",
+   "id": "_74q3adq18oo48b9o64qk6b9k8l136b9p6d134b9k6opj4dpi71336hhn8o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzc0cTNhZHExOG9vNDhiOW82NHFrNmI5azhsMTM2YjlwNmQxMzRiOWs2b3BqNGRwaTcxMzM2aGhuOG8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-11-27T08:59:12.000Z",
+   "updated": "2019-11-27T09:04:18.761Z",
+   "summary": "Diplomsprechstunde Yannick (Letterpress)",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-04T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-04T14:00:00+01:00"
+   },
+   "iCalUID": "9457AF0D-815C-4EB3-93B2-4632728F3F7F",
    "sequence": 0
   },
   {
@@ -6365,13 +6391,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3141271279740000\"",
+   "etag": "\"3150050419310000\"",
    "id": "_6kq3cea388rk6b9n60sj2b9k84rjgba28kr3cb9h8osj0ha58opkcd2470",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZrcTNjZWEzODhyazZiOW42MHNqMmI5azg0cmpnYmEyOGtyM2NiOWg4b3NqMGhhNThvcGtjZDI0NzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-09T15:39:34.000Z",
-   "updated": "2019-10-09T15:40:39.870Z",
-   "summary": "KD X-MAS Party [?]",
+   "updated": "2019-11-29T11:00:09.655Z",
+   "summary": "KD X-MAS Party",
+   "description": "Topsy\n",
    "creator": {
     "email": "jana-hofmann@live.de"
    },

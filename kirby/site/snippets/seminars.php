@@ -96,8 +96,6 @@
                     
                 //-----PRESETS-----
                     
-                    $('.seminartitle').css('font-size', $('.column').width()/20);
-                    
                     var $timestamp = '<?php if (isset($item->start->dateTime)){echo $item->start->dateTime;} ?>';
                     var seminarstart = $timestamp.substring(11, 16);
                     var starttime = timeToSeconds(seminarstart);
@@ -109,20 +107,24 @@
                     var seminarmonth = seminardate.substring(5, 7);
                     var seminaryear = seminardate.substring(0, 4);                
 
-                    $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="seminartime">'+seminarstart + '–' + seminarend +'</div><div class="seminarroom">Raum '+Math.floor((Math.random() * 222) + 214)+'</div><div class="rightline"></div><div class="seminartitle"><?= $item->summary; ?></div><div class="endline"></div></div>'); // this adds all the informations in a seminar div to the calendar
+                    $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="seminartime">'+seminarstart + '–' + seminarend +'</div><div class="seminarroom">Raum '+Math.floor((Math.random() * 222) + 214)+'</div><div class="rightline"></div><div class="seminartitle"><?= $item->summary; ?></div><div class="endline"></div><div class="seminarGlow" id="seminarGlowSeminar"></div></div>'); // this adds all the informations in a seminar div to the calendar
                     
                     $('#t'+seminardate).html(''); // this empties the date line 
                     $('#t'+seminardate).append(seminarday + '.' + seminarmonth); // and just prints it once
                 
-                    $('.seminartitle').css('font-size', $('.column').width()/20); // sets the font-size depending on the column width
+                    $('.seminartitle').css('font-size', $('.column').width()/15); 
+                    $('.eventtitle').css('font-size', $('.column').width()/15);// sets the font-size depending on the column width
                     
                 //-----TOMORROW-----
                     
                     //marks tomorrow as well
                     var tomorrow = '<?= (new DateTime("+1 day"))->format("Y-m-d"); ?>';
-                    $('#s'+tomorrow).css('background-color', 'LightPink ');
-                    $('#e'+tomorrow).css('background-color', 'LightPink ');
-                    $('#t'+tomorrow).css('background-color', 'LightPink ');
+                    $('#s'+tomorrow).css('background-color', 'black ');
+                    $('#e'+tomorrow).css('background-color', 'black ');
+                    $('#s'+tomorrow).css('color', 'white ');
+                    $('#e'+tomorrow).css('color', 'white ');
+                    $('#t'+tomorrow).css('background-color', 'white ');
+                    $('#t'+tomorrow).css('background-color', 'white ');
                     
                 //-----FUTURE------
 
@@ -261,8 +263,8 @@
 
                         };
                         
-                        $('.seminartitle').css('font-size', $('.column').width()/20);
-                        $('.eventtitle').css('font-size', $('.column').width()/20);
+                        $('.seminartitle').css('font-size', $('.column').width()/15);
+                        $('.eventtitle').css('font-size', $('.column').width()/15);
                         $('#s'+today).css('height', ttoday);
                         $('#e'+today).css('height', ttoday);
                         
@@ -292,8 +294,8 @@
 
                         };      
                         
-                        $('.seminartitle').css('font-size', $('.column').width()/20);
-                        $('.eventtitle').css('font-size', $('.column').width()/20);
+                        $('.seminartitle').css('font-size', $('.column').width()/15);
+                        $('.eventtitle').css('font-size', $('.column').width()/15);
                         $('#s'+today).css('height', ttoday);
                         $('#e'+today).css('height', ttoday);
                         
@@ -317,9 +319,9 @@
                     $('#t'+today).html('');
                     $('#t'+today).append('<div class="hours"><div class="hour" id="h00">00</div><div class="hour" id="h01">01</div><div class="hour" id="h02">02</div><div class="hour" id="h03">03</div><div class="hour" id="h04">04</div><div class="hour" id="h05">05</div><div class="hour" id="h06">06</div><div class="hour" id="h07">07</div><div class="hour" id="h08">08</div><div class="hour" id="h09">09</div><div class="hour" id="h10">10</div><div class="hour" id="h11">11</div><div class="hour" id="h12">12</div><div class="hour" id="h13">13</div><div class="hour" id="h14">14</div><div class="hour" id="h15">15</div><div class="hour" id="h16">16</div><div class="hour" id="h17">17</div><div class="hour" id="h18">18</div><div class="hour" id="h19">19</div><div class="hour" id="h20">20</div><div class="hour" id="h21">21</div><div class="hour" id="h22">22</div><div class="hour" id="h23">23</div></div>');
                     $('#t'+today).css('height', 'auto');
-                    $('#s'+today).css('background-color', 'SkyBlue ');
-                    $('#e'+today).css('background-color', 'SkyBlue ');
-                    $('#t'+today).css('background-color', 'SkyBlue ');
+/*                    $('#s'+today).css('background-color', 'white ');
+                    $('#e'+today).css('background-color', 'white ');
+                    $('#t'+today).css('background-color', 'white ');*/
                     
                     //gets height of timelines today cell
                     var ttoday = $('#t'+today).height()+ 1;
