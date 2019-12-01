@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p33cfr24hka7uc0g\"",
+ "etag": "\"p334bvp70iniua0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-11-29T11:00:09.655Z",
+ "updated": "2019-11-12T17:12:58.157Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -5548,32 +5548,6 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3148153758754000\"",
-   "id": "_8crk2ghg851kcb9p8ooj0b9k6gq30b9o6ss36ba66gpj0d246osk4c1p6k",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhjcmsyZ2hnODUxa2NiOXA4b29qMGI5azZncTMwYjlvNnNzMzZiYTY2Z3BqMGQyNDZvc2s0YzFwNmsgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-11-18T11:34:39.000Z",
-   "updated": "2019-11-18T11:34:39.377Z",
-   "summary": "Diplomsprechstunde Yannick",
-   "creator": {
-    "email": "jana-hofmann@live.de"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-11-21T09:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2019-11-21T10:00:00+01:00"
-   },
-   "iCalUID": "C7AB0ACF-9F10-4440-8783-F4304D69B095",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
    "etag": "\"3143834546546000\"",
    "id": "_8coj6ea68l0jib9l74p3gb9k6t2jib9o84s3iba36l23ac9g6ss46dhi6o",
    "status": "confirmed",
@@ -5786,12 +5760,12 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3149362912448000\"",
+   "etag": "\"3139870123378000\"",
    "id": "_8d334ha68kpkab9p692j8b9k6ks48b9o8cqjab9n6gr3gcpn6osjichg8g",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhkMzM0aGE2OGtwa2FiOXA2OTJqOGI5azZrczQ4YjlvOGNxamFiOW42Z3IzZ2NwbjZvc2ppY2hnOGcgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:04:21.000Z",
-   "updated": "2019-11-25T11:30:56.224Z",
+   "updated": "2019-10-01T13:04:21.689Z",
    "summary": "Anton Seminar",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
@@ -5802,10 +5776,10 @@
     "self": true
    },
    "start": {
-    "dateTime": "2019-11-28T22:00:00+01:00"
+    "dateTime": "2019-11-28T10:00:00+01:00"
    },
    "end": {
-    "dateTime": "2019-11-29T05:00:00+01:00"
+    "dateTime": "2019-11-28T18:00:00+01:00"
    },
    "iCalUID": "CF2EFE3E-92E4-458D-8C55-74683769920D",
    "sequence": 0
@@ -5965,32 +5939,6 @@
     "dateTime": "2019-12-04T18:00:00+01:00"
    },
    "iCalUID": "8C29AFAA-A54D-4CBC-9770-D7E09494D0AC",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3149690917522000\"",
-   "id": "_74q3adq18oo48b9o64qk6b9k8l136b9p6d134b9k6opj4dpi71336hhn8o",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=Xzc0cTNhZHExOG9vNDhiOW82NHFrNmI5azhsMTM2YjlwNmQxMzRiOWs2b3BqNGRwaTcxMzM2aGhuOG8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-11-27T08:59:12.000Z",
-   "updated": "2019-11-27T09:04:18.761Z",
-   "summary": "Diplomsprechstunde Yannick (Letterpress)",
-   "creator": {
-    "email": "jana-hofmann@live.de"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2019-12-04T10:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2019-12-04T14:00:00+01:00"
-   },
-   "iCalUID": "9457AF0D-815C-4EB3-93B2-4632728F3F7F",
    "sequence": 0
   },
   {
@@ -6391,14 +6339,13 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3150050419310000\"",
+   "etag": "\"3141271279740000\"",
    "id": "_6kq3cea388rk6b9n60sj2b9k84rjgba28kr3cb9h8osj0ha58opkcd2470",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZrcTNjZWEzODhyazZiOW42MHNqMmI5azg0cmpnYmEyOGtyM2NiOWg4b3NqMGhhNThvcGtjZDI0NzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-09T15:39:34.000Z",
-   "updated": "2019-11-29T11:00:09.655Z",
-   "summary": "KD X-MAS Party",
-   "description": "Topsy\n",
+   "updated": "2019-10-09T15:40:39.870Z",
+   "summary": "KD X-MAS Party [?]",
    "creator": {
     "email": "jana-hofmann@live.de"
    },
@@ -7390,6 +7337,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3143824153164000\"",
+   "id": "_6oo30d9o88s42b9n6cq3cb9k8l1jcb9p6opj2b9o8coj4da28kp32ga16o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZvbzMwZDlvODhzNDJiOW42Y3EzY2I5azhsMWpjYjlwNm9wajJiOW84Y29qNGRhMjhrcDMyZ2ExNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-10-24T10:14:18.000Z",
+   "updated": "2019-10-24T10:14:36.582Z",
+   "summary": "Mappenberatung James ",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-11T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-11T10:00:00+01:00"
+   },
+   "iCalUID": "60058B8A-7346-4EC6-9631-8C125BE21AA6",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3143471612662000\"",
    "id": "_6ork2h2564o3aba26or3gb9k6gskaba16514aba488rjah9m68pj2dpk60",
    "status": "confirmed",
@@ -7465,32 +7438,6 @@
     "dateTime": "2020-02-11T13:00:00+01:00"
    },
    "iCalUID": "3301251C-0776-43E9-A9C7-FEDF685E2321",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3148317988330000\"",
-   "id": "_6oo30d9o88s42b9n6cq3cb9k8l1jcb9p6opj2b9o8coj4da28kp32ga16o",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzZvbzMwZDlvODhzNDJiOW42Y3EzY2I5azhsMWpjYjlwNm9wajJiOW84Y29qNGRhMjhrcDMyZ2ExNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-24T10:14:18.000Z",
-   "updated": "2019-11-19T10:23:14.165Z",
-   "summary": "Mappenberatung James ",
-   "creator": {
-    "email": "jana-hofmann@live.de"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2020-02-11T14:00:00+01:00"
-   },
-   "end": {
-    "dateTime": "2020-02-12T16:00:00+01:00"
-   },
-   "iCalUID": "60058B8A-7346-4EC6-9631-8C125BE21AA6",
    "sequence": 0
   },
   {
