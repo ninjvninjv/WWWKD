@@ -36,7 +36,7 @@
 
     <div class='column' id='information'>
 
-        <?php snippet('people') ?>
+        <?php snippet('information') ?>
 
     </div>
       
@@ -48,8 +48,8 @@
     <?php endforeach ?>
 
     <div class='column' id='people'>
-        
-        <?php snippet('information') ?>
+
+        <?php snippet('people') ?>
 
     </div>
       
@@ -58,7 +58,6 @@
   </div>
 
  <!--Navigation new-->
-<!--
 <div id="mainNavigation">
     <div class="content">
     <ul class="menu">
@@ -69,7 +68,7 @@
         <li class="button">Info</li>
         </ul>
     </div>
-</div> -->
+</div> 
 
 
       
@@ -337,7 +336,7 @@
 
 // --- SEMINARS & EVENTS ---
 
-//if you scroll in event or seminar col the whole calendar scrolls
+//if you scroll in event or semianr col the whole calendar scrolls
 
 
     $('#eventcol').scroll(function(){
@@ -362,9 +361,7 @@
 
 
     $('#seminarcol').scrollTop($('#s'+today).offset().top - ($(window).height()/2) - ($('#s'+today).height()/2)).delay( 100000 );
-    $('#s'+today).after( '<div class="futureheader" id="seminarfutureheader">↓ Zukunft ↓</div>' );
-    $('#e'+today).after( '<div class="futureheader" id="eventfutureheader">↓ Zukunft ↓</div>' );
-    $('#t'+today).after( '<div class="futureheader" id="timelinefutureheader">↓</div>' );
+
 
 </script>
 

@@ -2,18 +2,6 @@ Title: KD-Frühstück
 
 ----
 
-Kind: breakfast
-
-----
-
-Texttitle: 
-
-----
-
-Guest: 
-
-----
-
 Link: 
 
 ----

@@ -9,34 +9,13 @@
 
 <div class="col" id="seminarcol">
     
-    <p class="orientation">(seminars)</p>
+    <p>(seminars)</p>
     
-    <div class="past" id="seminarpast">
-    
-        <?php foreach ($site->find('courses')->children() as $course): ?>
-        
-            <div class="pastseminar">
-        
-                <div class="pastseminartitle" id="<?= $course->title() ?>title"><?= $course->title() ?></div>
-                <div class="pastseminartype" id="<?= $course->kind() ?>type"><?= $course->kind() ?></div>
-        
-            </div>
-        
-        <?php endforeach ?>
-        
-    
-    
-    </div>
-    
-    <div class="archive" id="seminararchive">↑ Archiv ↑</div>
-    
-    <div class="future">
-        
         <?php 
     
         $day = array();
         $i = 0;
-        $begin = new DateTime(date("Y-m-d"));
+        $begin = new DateTime('2019-01-01');
         $interval = new DateInterval('P1D');
         $end = new DateTime('2020-02-30');
         $period = new DatePeriod(
@@ -95,6 +74,7 @@
                 $(document).ready(function(){
                     
                 //-----PRESETS-----
+
                     
                     var $timestamp = '<?php if (isset($item->start->dateTime)){echo $item->start->dateTime;} ?>';
                     var seminarstart = $timestamp.substring(11, 16);
@@ -126,140 +106,53 @@
                     $('#t'+tomorrow).css('background-color', 'white ');
                     $('#t'+tomorrow).css('background-color', 'white ');
                     
-                //-----FUTURE------
+                    //values for todays row
+                    var today = '<?= date("Y-m-d"); ?>';
+                    $('#t'+today).html('');
+                    $('#t'+today).append('Heute');
+                    $('#s'+today).css('background-color', 'darkseagreen');
+                    $('#e'+today).css('background-color', 'darkseagreen');
+                    $('#t'+today).css('background-color', 'darkseagreen');
+                    $('#s'+today).css('height', '20vh');
+                    $('#e'+today).css('height', '20vh');
+                    $('#t'+today).css('height', '20vh');
 
-                    //fits height of the day to the biggest
-                   
-                                
+                    //fits the height of the day to the biggest
                     
-                //-----PAST-----
+                    $('#s'+seminardate).css('height', 'auto'); // first sets it auto,
+                    $('#e'+seminardate).css('height', 'auto'); // so the div can fit around the content
                     
-                    //fits height of the past section to the biggest
+                    var sheight = $('#s'+seminardate).height();
+                    var eheight = $('#e'+seminardate).height();
                     
-                    var spast = $('#seminarpast').height();
-                    var epast = $('#eventpast').height();
-                    
-                    if(epast >= spast){
+                    if(eheight > sheight){
 
-                        $('.past').height(epast);
+                        $('#s'+seminardate).height(eheight);
+                        $('#t'+seminardate).height(eheight);
 
                     }else{
 
-                        $('.past').height(spast);
+                        $('#e'+seminardate).height(sheight);
+                        $('#t'+seminardate).height(sheight);
 
                     };
                     
-                    //fits the height of the past section to the biggest when resizing the window
                     $(window).resize(function(){
                         
-                        var spast = $('#seminarpast').height();
-                        var epast = $('#eventpast').height();
-
-                        if(epast >= spast){
-
-                            $('.past').height(epast);
-
-                        }else{
-
-                            $('.past').height(spast);
-
-                        };
-                        
-                    });
-                    
-                    //fits the height of the past section to the biggest when klick on sidebar 
-                    $('#sidebarNavigation').on('click', function(){
-                        
-                        var spast = $('#seminarpast').height();
-                        var epast = $('#eventpast').height();
-
-                        if(epast >= spast){
-
-                            $('.past').height(epast);
-
-                        }else{
-
-                            $('.past').height(spast);
-
-                        };
-                    });
-    
-                });
-                
-            </script>
-        
-        <!-- Checks the highest row and sets height of the other as well -->
-    
-        <?php endforeach; $filename = fopen("result.json", "w") or die("Unable to open file!");
-        fwrite($filename, $json_response);
-        fclose($filename);?>
-        
-        <?php 
-    
-        $day = array();
-        $i = 0;
-        $begin = new DateTime(date("Y-m-d"));
-        $interval = new DateInterval('P1D');
-        $end = new DateTime('2020-02-30');
-        $period = new DatePeriod(
-             $begin,
-             $interval,
-             $end
-         ); 
-    
-        foreach ($period as $key => $value):
-    
-        $day[$i] = $value;
-        $i++;
-    
-    ?>
-        
-        <script type='text/javascript'>
-            
-            $(document).ready(function(){
-            
-            var today = '<?= date("Y-m-d"); ?>';
-            var day = '<?= $value->format("Y-m-d"); ?>';
-            
-                    $('#s'+day).css('height', 'auto'); // first sets it auto,
-                    $('#e'+day).css('height', 'auto'); // so the div can fit around the content
-                    $('#t'+today).css('height', 'auto');
-                    
-                    var sheight = $('#s'+day).height();
-                    var eheight = $('#e'+day).height();
-                    
-                    if(eheight >= sheight){
-
-                        $('#s'+day).height(eheight);
-                        $('#t'+day).height(eheight);
-
-                    }else{
-
-                        $('#e'+day).height(sheight);
-                        $('#t'+day).height(sheight);
-
-                    };
-                    
-                    //fits the height of the day to the biggest when resizing the window
-                    $(window).resize(function(){
-                        
-                        $('#s'+day).css('height', 'auto');
-                        $('#e'+day).css('height', 'auto');
-                        $('#t'+day).css('height', 'auto');
-                        $('#t'+today).css('height', 'auto');
-                        var sheight = $('#s'+day).height();
-                        var eheight = $('#e'+day).height();
-                        var ttoday = $('#t'+today).height()+ 1;
+                        $('#s'+seminardate).css('height', 'auto');
+                        $('#e'+seminardate).css('height', 'auto');
+                        var sheight = $('#s'+seminardate).height();
+                        var eheight = $('#e'+seminardate).height();
 
                         if(eheight > sheight){
 
-                            $('#s'+day).height(eheight);
-                            $('#t'+day).height(eheight);
+                            $('#s'+seminardate).height(eheight);
+                            $('#t'+seminardate).height(eheight);
 
                         }else{
 
-                            $('#e'+day).height(sheight);
-                            $('#t'+day).height(sheight);
+                            $('#e'+seminardate).height(sheight);
+                            $('#t'+seminardate).height(sheight);
 
                         };
                         
@@ -267,30 +160,27 @@
                         $('.eventtitle').css('font-size', $('.column').width()/15);
                         $('#s'+today).css('height', ttoday);
                         $('#e'+today).css('height', ttoday);
+
                         
-                    });
+                    }); //fits the height of the day to the biggest when resizing the window
                     
-                    //fits the height of the day to the biggest when klick on sidebar 
                     $('#sidebarNavigation').on('click', function(){
                         
-                        $('#s'+day).css('height', 'auto');
-                        $('#e'+day).css('height', 'auto');
-                        $('#t'+today).css('height', 'auto');
-                        $('#t'+today).css('height', 'auto');
+                        $('#s'+seminardate).css('height', 'auto');
+                        $('#e'+seminardate).css('height', 'auto');
                         
-                        var sheight = $('#s'+day).height();
-                        var eheight = $('#e'+day).height();
-                        var ttoday = $('#t'+today).height() + 1;
+                        var sheight = $('#s'+seminardate).height();
+                        var eheight = $('#e'+seminardate).height();
 
                         if(eheight > sheight){
 
-                            $('#s'+day).height(eheight);
-                            $('#t'+day).height(eheight);
+                            $('#s'+seminardate).height(eheight);
+                            $('#t'+seminardate).height(eheight);
 
                         }else{
 
-                            $('#e'+day).height(sheight);
-                            $('#t'+day).height(sheight);
+                            $('#e'+seminardate).height(sheight);
+                            $('#t'+seminardate).height(sheight);
 
                         };      
                         
@@ -326,17 +216,18 @@
                     //gets height of timelines today cell
                     var ttoday = $('#t'+today).height()+ 1;
                     
-                    //sets height of todays event and seminar on timelines height
-                    $('#s'+today).css('height', ttoday);
-                    $('#e'+today).css('height', ttoday);
+    
+                });
+            
                 
-                
+            </script>
         
-            });
-        </script>
+    
+        <?php endforeach; $filename = fopen("result.json", "w") or die("Unable to open file!");
+        fwrite($filename, $json_response);
+        fclose($filename);?>
 
-    </div>
-        
+    
 </div>
 
 

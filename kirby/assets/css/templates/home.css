@@ -179,6 +179,7 @@ label .checkmark:after {
   overflow: scroll;
     overflow-x:hidden;
   
+  border-left: black solid 1px;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -239,9 +240,6 @@ label .checkmark:after {
 }
 
 .colcontent{
-    
-    border-bottom-style:solid;
-    border-bottom-width:1px;
 }
 
 /*---CALENDAR---*/
@@ -279,7 +277,6 @@ label .checkmark:after {
     border-left-width:1px;
     
 }
-
 /*RULER*/
 /*the red line in <timeline> <events> and <courses>*/
 .ruler{
@@ -295,34 +292,21 @@ label .checkmark:after {
 
 }
 
-/*TIMELINE*/
+/*EVENTS*/
 
-#calendarNavigation{
-    
-    border-right: black 1px solid;
-    
+.event{
+
+    position:relative;
+    width:50%;
+    float:left;
+
 }
 
-.hours{
-    
-    width:20%;
-    margin-right:0.5vw;
-    float:right;
-    
-}
+.eventtitle{
 
-.hour{
-    
-    height: calc[100%/23]%;
-    width: 100%;
-    border-bottom-style:solid;
-    border-bottom-width:1px;
-}
+    height:10vh;
 
-#h23{
-    
-    border-bottom-style:hidden;
-    
+
 }
 
 #datesymbol{
@@ -333,8 +317,6 @@ label .checkmark:after {
     
     
 }
-
-/*EVENTS*/
 
 .eventGlow, .seminarGlow{
     
@@ -440,39 +422,40 @@ label .checkmark:after {
 
 /*SEMINARS*/
 
-.seminar, .event{
+.seminar{
     
     position:relative;
     margin:2px;
+    margin-bottom: 4px;
     border-left: black solid 1px;
     border-top: black solid 1px;
     padding-left:2px;
     
 }
 
-.seminar:hover, .event:hover{
+.seminar:hover{
     
     /*background-color:darksalmon;*/
     background-color: white;
     cursor:pointer;
 }
 
-.seminartitle, .eventtitle{
+.seminartitle{
     
-    font-family: 'arial_brutforce_monospacedBlk';
-    font-size: 40vw;
+    font-family: 'mf_basis_monou15_p80';
+    font-size: 100%;
     line-height: 1;
     
 }
 
-.seminarroom, .seminartime, .eventroom, .eventtime{
+.seminarroom, .seminartime{
     
     float:left;
     width:49%;
     
 }
 
-.seminarroom, .eventroom{
+.seminarroom{
     
     text-align: right;
     text-transform: uppercase;
@@ -502,42 +485,6 @@ label .checkmark:after {
     margin-left:-2px;
     
 }
-
-#seminarpast{
-    
-    border-left-style:solid;
-    border-left-width:1px;
-    
-}
-
-.pastseminar, .pastevent{
-    
-    width:100%;
-    height:auto;
-    margin-bottom:3px;
-    border-top-style:solid;
-    border-top-width:1px;
-    
-}
-
-.pastseminartitle, .pasteventtitle{
-    
-    position:relative;
-    float:left;
-    height:auto;
-    width:50%;
-    overflow:hidden;
-    
-    
-}
-
-.past{
-    
-    position:relative;
-    vertical-align:bottom;
-    height:auto;
-}
-
 
 /*PROJEKTS*/
 
