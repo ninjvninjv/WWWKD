@@ -1,0 +1,53 @@
+Title: Evi Künstle
+
+----
+
+Typ: employee
+
+----
+
+Status: yes
+
+----
+
+Members: 
+
+----
+
+Firstname: Evi
+
+----
+
+Surname: Künstle
+
+----
+
+Begin: 
+
+----
+
+End: 
+
+----
+
+Task: Technische Lehrerin für Fotografie
+
+----
+
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: ekuenstl@hfg-karlsruhe.de
+
+----
+
+Room: Fotostudio 2.OG
+
+----
+
+Websites: 

@@ -1,0 +1,111 @@
+title: project
+icon: ®
+
+status:
+  draft: true
+  listed: true
+
+options:
+  url: false
+  delete: false
+
+columns:
+  - width: 1/2
+        sections:
+            content:
+                type: fields
+                fields:
+                    type:
+                        label: Type
+                        type: radio
+                        options:
+                            Seminar: Seminar
+                            Freies Projekt: Free Project
+                            Vordiplom: Prediploma
+                            Diplom: Diploma
+                    medium:
+                        label: Medium
+                        type: checkboxes
+                        options:
+                            book: Book
+                            poster: Poster
+                            type: Typeface
+                            web: Website
+                            video: Video
+                            textile: Textile
+                            illu: Illustration
+                            sound: Sound
+                            space: Space
+                            exhibition: Exhibition
+                            event: Event
+                            code: Code
+            cover:
+                headline: Cover Image
+                type: files
+                layout: list
+                template: cover
+                back: white
+                max: 1
+            images:
+                headline: Images
+                type: files
+                layout: list
+                template: image
+                back: white
+ 
+  - width: 1/2
+    fields:
+        supervisor:
+            label: Supervisors
+            type: structure
+            fields:
+                path:
+                        label: Supervisor
+                        placeholder: Dr. Super Visor
+                        type: select
+                        options: query
+                        query: site.children.children.template("person")
+        author:
+            label: Authors
+            type: structure
+            fields:
+                path:
+                        label: Author
+                        placeholder: Stud Ent
+                        type: select
+                        options: query
+                        query: site.children.children.template("person")
+      about:
+        label: About
+        type: textarea
+      task:
+        label: Task
+        type: textarea
+      link:
+        label: Link
+        type: structure
+        fields:
+          websitename:
+            label: Website name
+            type: text
+            width: 1/2
+          url:
+            label: URL
+            type: url
+            width: 1/2
+      video:
+        label: Video
+        type: structure
+        help: https://vimeo.com/<span style="color:blue;">346073297</span> ⇢ 346073297 <br> https://www.youtube.com/watch?v=<span style="color:blue;">e11R4vxCipg</span> ⇢ e11R4vxCipg
+        fields:
+          videotitle:
+            label: Platform
+            type: select
+            width: 1/2
+            options:
+                - Vimeo
+                - Youtube
+          url:
+            label: Video-ID
+            type: text
+            width: 1/2

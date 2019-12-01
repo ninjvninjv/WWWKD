@@ -1,0 +1,52 @@
+Title: Crowpalace
+
+----
+
+Type: Seminar
+
+----
+
+Medium: video
+
+----
+
+Supervisor: 
+
+----
+
+Author: 
+
+- 
+  path: people/johannaschaefer
+
+----
+
+About: 
+
+----
+
+Task: 
+
+----
+
+Link: 
+
+----
+
+Video: 
+
+- 
+  videotitle: Vimeo
+  url: '346073297 '
+
+----
+
+Semester: WS18
+
+----
+
+Begin: 
+
+----
+
+End: 

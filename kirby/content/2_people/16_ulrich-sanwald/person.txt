@@ -1,0 +1,53 @@
+Title: Ulrich Sanwald
+
+----
+
+Typ: employee
+
+----
+
+Status: yes
+
+----
+
+Members: 
+
+----
+
+Firstname: Ulrich
+
+----
+
+Surname: Sanwald
+
+----
+
+Begin: 
+
+----
+
+End: 
+
+----
+
+Task: Technischer Lehrer für Drucktechniken
+
+----
+
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: usanwald@hfg-karlsruhe.de
+
+----
+
+Room: Siebdruckwerkstatt EG
+
+----
+
+Websites: 

@@ -1,0 +1,39 @@
+Title: Test Event A
+
+----
+
+Kind: talk
+
+----
+
+Texttitle: Test Talkshow
+
+----
+
+Guest: Td Davis
+
+----
+
+Link: 
+
+----
+
+Day: 2019-09-16
+
+----
+
+Begin: 19:00
+
+----
+
+End: 21:00
+
+----
+
+About: 
+
+Design theory has been approached and interpreted in many ways, from personal statements of design principles, through constructs of the philosophy of design to a search for a design science.
+
+The essay "Ornament and Crime" by Adolf Loos from 1908 is one of the early 'principles' design-theoretical texts. Others include Le Corbusier's Vers une architecture,[1] and Victor Papanek's Design for the real world (1972).
+
+In a 'principles' approach to design theory, the De Stijl movement promoted a geometrical abstract, "ascetic" form of purism that was limited to functionality. This modernist attitude underpinned the Bauhaus movement. Principles were drawn up for design that were applicable to all areas of modern aesthetics.

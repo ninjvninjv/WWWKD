@@ -1,0 +1,69 @@
+Title: Nina Overkott
+
+----
+
+Typ: student
+
+----
+
+Status: yes
+
+----
+
+Members: 
+
+----
+
+Firstname: Nina
+
+----
+
+Surname: Overkott
+
+----
+
+Begin: 2014-10-01
+
+----
+
+End: 
+
+----
+
+Task: 
+
+----
+
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
+Websites: 
+
+----
+
+Seminars: 
+
+----
+
+Semester: 10
+
+----
+
+Prename: Nina
+
+----
+
+Name: Overkott

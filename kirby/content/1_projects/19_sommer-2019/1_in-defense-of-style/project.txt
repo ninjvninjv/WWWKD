@@ -1,0 +1,56 @@
+Title: In Defense of Style
+
+----
+
+Type: Seminar
+
+----
+
+Medium: book
+
+----
+
+Supervisor: 
+
+----
+
+Author: 
+
+- 
+  path: people/bruno-jacoby
+- 
+  path: people/lizzy-ellbruck
+- 
+  path: people/paulina-mimberg
+
+----
+
+About: 
+
+----
+
+Task: 
+
+----
+
+Link: 
+
+----
+
+Video: 
+
+----
+
+Prof: 
+
+----
+
+Designer: 
+
+----
+
+Begin: 
+
+----
+
+End: 
