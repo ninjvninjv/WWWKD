@@ -33,6 +33,8 @@
 
                                     $autorpath = $author->path();
                                     $i++;
+                                ?>
+                                        
 
 
 
@@ -52,6 +54,7 @@
 
                                     $autorpath = $author->path();
                                     $i++;
+                                ?>
 
 
 
@@ -93,9 +96,7 @@
 
                     <?php endforeach ?> 
 
-                <?php endif ?> 
-
-            <?php endforeach ?>
+                
     </div>
 
 </div>
@@ -108,3 +109,4 @@
     
 
 </script>
+        
