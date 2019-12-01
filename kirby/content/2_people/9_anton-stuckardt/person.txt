@@ -1,0 +1,53 @@
+Title: Anton Stuckardt
+
+----
+
+Typ: employee
+
+----
+
+Status: yes
+
+----
+
+Members: 
+
+----
+
+Firstname: Anton
+
+----
+
+Surname: Stuckardt
+
+----
+
+Begin: 
+
+----
+
+End: 
+
+----
+
+Task: 
+
+----
+
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
+Websites: 

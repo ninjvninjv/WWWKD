@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'email' => 'jschaefer@hfg-karlsruhe.de',
+    'email' => 'jschaefer@hfg-karlsrhe.de',
     'language' => 'en',
     'name' => 'Johanna',
     'role' => 'admin'

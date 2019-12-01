@@ -1,0 +1,53 @@
+Title: Juliane Hohlbaum
+
+----
+
+Typ: employee
+
+----
+
+Status: yes
+
+----
+
+Members: 
+
+----
+
+Firstname: Juiane
+
+----
+
+Surname: Hohlbaum
+
+----
+
+Begin: 
+
+----
+
+End: 
+
+----
+
+Task: 
+
+----
+
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
+Websites: 

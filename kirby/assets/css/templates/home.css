@@ -1,5 +1,4 @@
 body {
-  background-color: white;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -20,12 +19,11 @@ body {
 }
 
 .siteTitle {
-  font-family: 'mf_basis_monou15_p80';
-  font-size: 4.15vw;
+  font-family: 'mf_basis_monou50_p80';
+  font-size: 5.5vw;
   z-index: 200;
-  left: 10px;
+  right: 1px;
   font-weight: 200;
-  color: #9b77d1;
   position: absolute;
   pointer-events: none;
   line-height: 5vw;
@@ -36,11 +34,25 @@ body {
 }
 
 #headerTitle {
-  top: 5px;
+  top: 0px;
+    padding-bottom: 15px;
+    border-bottom:black 1px solid;
 }
 
 #footerTitle {
-  bottom: 5px;
+  bottom: 80px;
+    border-top:black 1px solid;
+}
+
+#kaTitle{
+    
+    width: var(--sidebarNavigation-width);
+    
+    bottom:1px;
+    
+    font-family: 'mf_basis_monou15_p80';
+    text-align:center;
+    
 }
 
 
@@ -136,7 +148,8 @@ label .checkmark:after {
 
   width: var(--calendarNavigation-width);
   height: 100vh;
-  position: fixed;
+  position: relative;
+    float:left;
   left: 0;
   top: 0;
 
@@ -145,7 +158,7 @@ label .checkmark:after {
 #content {
   position: absolute;
   width: calc(5*(100vw/6.35));
-  border-right: black solid 1px;
+
   top: 0;
   left: calc(var(--column-width-six)*(2/7));
   position: fixed;
@@ -160,10 +173,11 @@ label .checkmark:after {
 
 .column {
   position: relative;
-float:left;
+    float:left;
   width: var(--column-width-six);
   height: 100vh;
   overflow: scroll;
+    overflow-x:hidden;
   
   display: inline-block;
   margin: 0;
@@ -174,31 +188,26 @@ float:left;
 .contentPlazthalter {
   height: 1000vh;
   width: 14vw;
-
+      
 }
 
 #timelinecol{
     
-     background-color: white;
+     
     
 }
 
 #events {
 
     left:0;
-    overflow:hidden;
-    background-color: white;
     /*background-color: white;*/
 }
 
 #seminars {
-    overflow:hidden;
-    background-color: white;
     border-left: black solid 0px;
 }
 
 #projects {
-    background-color: white;
 }
 
 #information {
@@ -219,9 +228,9 @@ float:left;
 
     width:100%;
     height:100vh;
-    background: ;
     overflow:scroll;
-    overflow-x: hidden;
+    overflow-x:hidden;
+    
 }
 
 .orientation{
@@ -256,8 +265,7 @@ float:left;
     
     width:100%;
     
-    border-bottom-style:solid;
-    border-bottom-width: 1px;
+
     border-top-style:solid;
     border-top-width: 1px;
     
@@ -323,9 +331,112 @@ float:left;
     height: 1.3vw;
     left: 40%;
     
+    
 }
 
 /*EVENTS*/
+
+.eventGlow, .seminarGlow{
+    
+    position:absolute;
+    width:200%;
+    padding-top: 200%;
+    
+    z-index:-1;
+    transform: translate(-50%, -50%);
+    
+}
+
+#eventGlowTalk{
+    
+    position:absolute;
+    
+    top:50%;
+    left:50%;
+    
+    border-radius: 200px 200px 0 0;
+    
+    background-image: radial-gradient(
+        yellow 0%,
+        white 70%
+    );
+
+    mix-blend-mode: multiply;
+    
+}
+
+#eventGlowSeminar{
+    
+        position:absolute;
+    
+    top:50%;
+    left:50%;
+    
+    border-radius: 200px 200px 0 0;
+    
+    background-image: radial-gradient(
+        red 0%,
+        white 70%
+    );
+    
+    mix-blend-mode: multiply;
+    
+}
+
+#eventGlowWorkshop{
+    
+        position:absolute;
+    
+    top:50%;
+    left:50%;
+    
+    border-radius: 200px 200px 0 0;
+    
+    background-image: radial-gradient(
+        orange 0%,
+        white 70%
+    );
+    
+    mix-blend-mode: multiply;
+    
+}
+
+#seminarGlowSeminar{
+    
+        position:absolute;
+    
+    top:50%;
+    left:50%;
+    
+    border-radius: 200px 200px 0 0;
+    
+    background-image: radial-gradient(
+        lightgreen 0%,
+        white 70%
+    );
+    
+    mix-blend-mode: multiply;
+    
+}
+
+#projectGlowDiplom{
+    
+        position:absolute;
+    
+    top:50%;
+    left:50%;
+    
+    border-radius: 200px 200px 0 0;
+    
+    background-image: radial-gradient(
+        blue 0%,
+        white 70%
+    );
+    
+    mix-blend-mode: multiply;
+    
+}
+
 
 /*SEMINARS*/
 
@@ -336,21 +447,20 @@ float:left;
     border-left: black solid 1px;
     border-top: black solid 1px;
     padding-left:2px;
-    background-color: ;
     
 }
 
 .seminar:hover, .event:hover{
     
     /*background-color:darksalmon;*/
-    background-color: #9b77d1;
+    background-color: white;
     cursor:pointer;
 }
 
 .seminartitle, .eventtitle{
     
     font-family: 'arial_brutforce_monospacedBlk';
-    font-size: 100%;
+    font-size: 40vw;
     line-height: 1;
     
 }
@@ -366,6 +476,12 @@ float:left;
     
     text-align: right;
     text-transform: uppercase;
+    
+}
+
+.seminartype, .eventtype{
+    
+    line-height: 0.8;
     
 }
 
@@ -424,43 +540,56 @@ float:left;
 
 
 /*PROJEKTS*/
+
+.project{
+    
+    position:relative;
+    width:100%;
+    height:auto;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom-width:1px;
+    border-top-width:1px;
+    border: black;
+}
+
+.project:hover{
+    
+    background-color: white;
+    padding-bottom: 1vh;
+    
+}
+
 .protitle{
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size: 0.75vw;
+    font-size: 1vw;
     /*color: red;*/
-    color:#9b77d1;
+/*    color:#9b77d1;*/
     font-family: 'flefixx';
+    text-align:center;
+    border-top-style: solid;
+    border-top-width:1px;
     
 }
 
 .proauthor{
-    margin-left: 2%;
-    margin-right: 2%;
     font-size: 0.75vw;
     /*color: red;*/
-    color:#9b77d1;
-    font-family: 'flefixx';
-    margin-bottom: 1vh;
+/*    color:#9b77d1;*/
+    font-family: 'arial_brutforce_monospacedBlk';
+    text-align: center;
 }
 
 .prosemester{
-    font-family: 'flefixx';
-    font-size: 1.5vh;
+    font-family: 'mf_basis_monou15_p80';
+    font-size: 1vw;
     color: white;
     background-color: black;
     text-align: center;
-    border-radius: 1vw;
-    margin-left: 0.1vw;
-    margin-right: 0.1vw;
-    margin-bottom: 1vh;
-    padding: 0.3vw;
 }
 
 .proimage{
-    width: 96%;
+    width: 100%;
     height: auto;
-    margin: 2%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -482,6 +611,7 @@ float:left;
     left:0px;
     height:100%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
+    mix-blend-mode: luminosity;
     
 }
 

@@ -1,0 +1,53 @@
+Title: Paulina Mimberg
+
+----
+
+Typ: student
+
+----
+
+Status: yes
+
+----
+
+Members: 
+
+----
+
+Firstname: Paulina
+
+----
+
+Surname: Mimberg
+
+----
+
+Begin: 
+
+----
+
+End: 
+
+----
+
+Task: 
+
+----
+
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
+Websites: 

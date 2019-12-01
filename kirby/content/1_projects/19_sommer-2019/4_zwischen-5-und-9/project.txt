@@ -1,0 +1,41 @@
+Title: Zwischen 5 und 9
+
+----
+
+Type: Diplom
+
+----
+
+Medium: book
+
+----
+
+Supervisor: 
+
+- 
+  path: people/sereinar
+- 
+  path: people/ivanw
+
+----
+
+Author: 
+
+- 
+  path: people/sascia-reibel
+
+----
+
+About: 
+
+----
+
+Task: 
+
+----
+
+Link: 
+
+----
+
+Video: 

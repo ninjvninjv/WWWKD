@@ -125,7 +125,7 @@
                     var eventmonth = eventdate.substring(5, 7);
                     var eventyear = eventdate.substring(0, 4);                
 
-                    $('#e'+eventdate).append('<div class="event" id="<?= $item->summary; ?>"><div class="eventtime">'+eventstart + '–' + eventend +'</div><div class="eventroom">'+eventlocation+'</div><div class="rightline"></div><div class="eventtitle">'+eventname+'</div><div class="eventtype">'+eventtype+'</div><div class="endline"></div></div>'); // this adds all the informations in a event div to the calendar
+                    $('#e'+eventdate).append('<div class="event" id="<?= $item->summary; ?>"><div class="eventtime">'+eventstart + '–' + eventend +'</div><div class="eventroom">'+eventlocation+'</div><div class="rightline"></div><div class="eventtitle">'+eventname+'</div><div class="eventtype">'+eventtype+'</div><div class="endline"></div><div class="eventGlow" id="eventGlow'+eventtype+'"></div></div>'); // this adds all the informations in a event div to the calendar
                     
                     $('#t'+eventdate).html(''); // this empties the date line 
                     $('#t'+eventdate).append(eventday + '.' + eventmonth); // and just prints it once

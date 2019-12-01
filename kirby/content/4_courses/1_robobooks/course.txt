@@ -1,0 +1,117 @@
+Title: Robobooks
+
+----
+
+Kind: seminar
+
+----
+
+Texttitle: Robobooks
+
+----
+
+Supervisor: 
+
+- 
+  supervisor: people/ivanw
+
+----
+
+Students: 
+
+- 
+  students: people/janoschbelakratz
+- 
+  students: people/jonadienst
+
+----
+
+Projects: 
+
+----
+
+Semester: SS19
+
+----
+
+Begindate: 2019-04-17
+
+----
+
+Enddate: 2019-07-21
+
+----
+
+Start: 10:00
+
+----
+
+End: 18:00
+
+----
+
+Link: 
+
+- 
+  url: https://www.facebook.com/HfGRobobook/
+
+----
+
+About: 
+
+----
+
+Prof: 
+
+- people/ivanw
+- people/michaelk
+
+----
+
+Guest: 
+
+----
+
+Beginning: 
+
+----
+
+Images: 
+
+----
+
+Gallery: 
+
+- 
+  filename: >
+    bildschirmfoto-2019-06-08-um-18.11.09.png
+  text: >
+    bildschirmfoto-2019-06-08-um-18.11.09.png
+  link: >
+    /pages/multi-day-event+robobooks/files/bildschirmfoto-2019-06-08-um-18.11.09.png
+  id: >
+    multi-day-event/robobooks/bildschirmfoto-2019-06-08-um-18.11.09.png
+  uuid: >
+    bildschirmfoto-2019-06-08-um-18.11.09.png
+  url: >
+    http://localhost:8888/media/pages/multi-day-event/robobooks/1785924536-1560896628/bildschirmfoto-2019-06-08-um-18.11.09.png
+  info: ""
+  image:
+    ratio: 3/2
+    back: pattern
+    cover: false
+    url: >
+      http://localhost:8888/media/pages/multi-day-event/robobooks/1785924536-1560896628/bildschirmfoto-2019-06-08-um-18-11-09-226x400-q90.png
+  icon:
+    type: file-image
+    color: '#de935f'
+    back: pattern
+    ratio: 3/2
+  type: image
+  selected: true
+  thumb:
+    url: false
+
+----
+
+Courseproject: 

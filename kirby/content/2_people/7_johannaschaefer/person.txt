@@ -1,0 +1,69 @@
+Title: Johanna Schäfer
+
+----
+
+Typ: student
+
+----
+
+Status: yes
+
+----
+
+Members: 
+
+----
+
+Firstname: Johanna
+
+----
+
+Surname: Schäfer
+
+----
+
+Begin: 2015-10-01
+
+----
+
+End: 
+
+----
+
+Task: 
+
+----
+
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
+Websites: 
+
+----
+
+Seminars: 
+
+----
+
+Semester: 8
+
+----
+
+Prename: Johanna
+
+----
+
+Name: Schäfer

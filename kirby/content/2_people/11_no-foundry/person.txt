@@ -1,0 +1,101 @@
+Title: NoFoundryTeam
+
+----
+
+Typ: group
+
+----
+
+Status: yes
+
+----
+
+Members: 
+
+- 
+  memberprename: Timothée
+  membersurname: Charon
+- 
+  memberprename: Jonathan
+  membersurname: Blaschke
+- 
+  memberprename: Adrian
+  membersurname: Dickhoff
+- 
+  memberprename: Sven
+  membersurname: Krahl
+- 
+  memberprename: Janosch Bela
+  membersurname: Kratz
+- 
+  memberprename: Calvin
+  membersurname: Kudufia
+- 
+  memberprename: Leonie
+  membersurname: Lude
+- 
+  memberprename: Isabel
+  membersurname: Motz
+- 
+  memberprename: Nina
+  membersurname: Overkott
+- 
+  memberprename: Tatjana
+  membersurname: Pfeiffer
+- 
+  memberprename: Moritz
+  membersurname: Schottmüller
+- 
+  memberprename: Moritz Kamil
+  membersurname: Simon
+
+----
+
+Firstname: 
+
+----
+
+Surname: 
+
+----
+
+Begin: 2017-10-16
+
+----
+
+End: 
+
+----
+
+Task: 
+
+----
+
+About: Die Gruppe hinter der hauseigenen Typefoundry.
+
+----
+
+Projects: 
+
+- 
+  project: projects/nofoundry
+
+----
+
+Mail: abc@nofoundry.xyz
+
+----
+
+Room: 
+
+----
+
+Websites: 
+
+- 
+  websitename: NoFoundry
+  url: http://nofoundry.xyz
+
+----
+
+Seminars: 

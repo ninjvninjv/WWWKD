@@ -1,0 +1,65 @@
+Title: Rebecca Stephany
+
+----
+
+Typ: prof
+
+----
+
+Status: yes
+
+----
+
+Members: 
+
+----
+
+Firstname: Rebecca
+
+----
+
+Surname: Stephany
+
+----
+
+Begin: 2017-04-01
+
+----
+
+End: 
+
+----
+
+Task: digital design
+
+----
+
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
+Websites: 
+
+----
+
+Job: prof
+
+----
+
+Prename: Michael
+
+----
+
+Name: Kryenbühl

@@ -1,0 +1,68 @@
+title: new
+icon: ‰
+
+status:
+  draft: true
+  listed: true
+
+options:
+  url: false
+  delete: true
+
+columns:
+  - width: 1/2
+        sections:
+            content:
+                type: fields
+                fields:
+                    titel:
+                        label: Title
+                        type: text
+                    date:
+                        label: Date
+                        type: date
+                        default: now
+                    current:
+                        label: Days in present
+                        type: range
+                        step: 1
+                        min: 0
+                        max: 14
+                        default: 5
+                        tooltip:
+                            after: days
+            gallery:
+                headline: Gallery
+                type: files
+                layout: list
+                template: gallery
+                back: white
+ 
+  - width: 1/2
+    fields:
+      news: 
+        label: Text
+        type: textarea
+      designer:
+        type: structure
+        fields:
+            people:
+                label: People
+                placeholder: Stud Ent
+                type: text
+            semester:
+                label: Semester
+                placeholder: 74
+                type: text
+      link:
+        label: Link
+        type: structure
+        fields:
+          platform:
+            label: Website name
+            type: text
+            width: 1/2
+          url:
+            label: URL
+            type: url
+            width: 1/2

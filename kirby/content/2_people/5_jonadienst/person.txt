@@ -1,0 +1,69 @@
+Title: Jona Dienst
+
+----
+
+Typ: student
+
+----
+
+Status: yes
+
+----
+
+Members: 
+
+----
+
+Firstname: Jona
+
+----
+
+Surname: Dienst
+
+----
+
+Begin: 2013-10-01
+
+----
+
+End: 
+
+----
+
+Task: 
+
+----
+
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
+Websites: 
+
+----
+
+Seminars: 
+
+----
+
+Semester: 12
+
+----
+
+Prename: Jona
+
+----
+
+Name: Dienst

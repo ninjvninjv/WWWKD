@@ -1,0 +1,40 @@
+Title: Saturday Type Fever
+
+----
+
+Type: Freies Projekt
+
+----
+
+Medium: event
+
+----
+
+Supervisor: 
+
+----
+
+Author: 
+
+- 
+  path: people/no-foundry
+
+----
+
+About: 
+
+----
+
+Task: 
+
+----
+
+Link: 
+
+----
+
+Video: 
+
+----
+
+Semester: WS18

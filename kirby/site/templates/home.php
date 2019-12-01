@@ -1,7 +1,8 @@
 <?php snippet('header') ?>
 
-  <div class='siteTitle' id='headerTitle'><p>K<span class='hideTitle'>ommunikations<br></span>D<span class='hideTitle'>esign</span></p></div>
-  <div class='siteTitle' id='footerTitle'><p>H<span class='hideTitle'>ochschule</span><br>f<span class='hideTitle'>ür</span><br>G<span class='hideTitle'>estaltung</span></p></div>
+  <div class='siteTitle' id='headerTitle'><p>K<br>D</p></div>
+  <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
+    <div class='siteTitle' id='kaTitle'><p>KA</p></div>
 
     <div id='calendarNavigation'>
 
@@ -306,14 +307,14 @@
 
 //--- TITLE SCROLL ---
 
-  var marg = 0;
+ /* var marg = 0;
   var marg2 = 0
   $('.col').scroll(function () {
-    marg = marg += 0.5
-    if (marg < 86) {
+    marg = marg += 0.4
+    if (marg < 84) {
       $('#headerTitle').css('left', marg + 'vw');
       $('#footerTitle').css('left', marg + 'vw');
-    } else if (marg < 90) {
+    } else if (marg < 85) {
       $('#headerTitle').css('font-family', 'mf_basis_monou40_p80');
       $('#footerTitle').css('font-family', 'mf_basis_monou40_p80');
       $('.hideTitle').css('opacity', '0.5');
@@ -323,7 +324,7 @@
       $('#footerTitle').css('font-family', 'mf_basis_monou50_p80');
       $('.hideTitle').css('opacity', '0');
     }
-  });
+  });*/
 
 // --- RULER ---
 
