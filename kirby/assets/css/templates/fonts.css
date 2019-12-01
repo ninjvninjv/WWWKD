@@ -53,3 +53,12 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'arial_brutforce_monospacedBlk';
+    src: url('../../fonts/arialbrutforcemonospaced-black-webfont.woff2') format('woff2'),
+         url('../../fonts/arialbrutforcemonospaced-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

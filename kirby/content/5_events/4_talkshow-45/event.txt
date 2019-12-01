@@ -2,15 +2,23 @@ Title: 2400
 
 ----
 
-Kind: 
+Kind: talk
 
 ----
 
-Designer: 
+Texttitle: 
 
 ----
 
-Prof: 
+Guest: 
+
+----
+
+Link: 
+
+----
+
+Day: 
 
 ----
 
@@ -26,8 +34,12 @@ About:
 
 ----
 
-Task: 
+Designer: 
 
 ----
 
-Link: 
+Prof: 
+
+----
+
+Task: 

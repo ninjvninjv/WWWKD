@@ -16,7 +16,6 @@
                             
                             <div class="protitle"><?= $project->title() ?> <br>(<?= $project->type() ?>)</div>
 
-
                             <?php foreach($project->images() as $image): ?>
                                 <?php if ($image->template()=="cover"): ?>
                                     <img class="proimage" src="<?= $image->url() ?>">
@@ -33,48 +32,6 @@
 
                                     $autorpath = $author->path();
                                     $i++;
-                                ?>
-                                        
-
-
-
-                            <?php foreach($project->images() as $image): ?>
-                                <?php if ($image->template()=="cover"): ?>
-                                    <img class="proimage" src="<?= $image->url() ?>">
-                                <?php endif ?>
-                            <?php endforeach ?> 
-
-
-
-
-                            <!-- goes into the persons textfile and takes data -->
-                            <div class="proauthor">
-
-                                <?php $i =0; foreach ($project->author()->toStructure() as $author): 
-
-                                    $autorpath = $author->path();
-                                    $i++;
-                                ?>
-
-
-
-                            <?php foreach($project->images() as $image): ?>
-                                <?php if ($image->template()=="cover"): ?>
-                                    <img class="proimage" src="<?= $image->url() ?>">
-                                <?php endif ?>
-                            <?php endforeach ?> 
-
-
-
-
-                            <!-- goes into the persons textfile and takes data -->
-                            <div class="proauthor">
-
-                                <?php $i =0; foreach ($project->author()->toStructure() as $author): 
-
-                                    $autorpath = $author->path();
-                                    $i++;
-
 
                                 ?>
                                 
@@ -96,7 +53,9 @@
 
                     <?php endforeach ?> 
 
-                
+                <?php endif ?> 
+
+            <?php endforeach ?>
     </div>
 
 </div>
@@ -109,4 +68,3 @@
     
 
 </script>
-        
