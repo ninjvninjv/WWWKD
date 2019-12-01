@@ -16,25 +16,6 @@
                             
                             <div class="protitle"><?= $project->title() ?> <br>(<?= $project->type() ?>)</div>
 
-<<<<<<< HEAD
-                            <?php foreach($project->images() as $image): ?>
-                                <?php if ($image->template()=="cover"): ?>
-                                    <img class="proimage" src="<?= $image->url() ?>">
-                                <?php endif ?>
-                            <?php endforeach ?> 
-
-
-
-
-                            <!-- goes into the persons textfile and takes data -->
-                            <div class="proauthor">
-
-                                <?php $i =0; foreach ($project->author()->toStructure() as $author): 
-
-                                    $autorpath = $author->path();
-                                    $i++;
-
-=======
 
                             <?php foreach($project->images() as $image): ?>
                                 <?php if ($image->template()=="cover"): ?>
@@ -53,7 +34,45 @@
                                     $autorpath = $author->path();
                                     $i++;
 
->>>>>>> 649c4d085f948c0eb5ba2b67f800a9304caf0ffa
+
+
+                            <?php foreach($project->images() as $image): ?>
+                                <?php if ($image->template()=="cover"): ?>
+                                    <img class="proimage" src="<?= $image->url() ?>">
+                                <?php endif ?>
+                            <?php endforeach ?> 
+
+
+
+
+                            <!-- goes into the persons textfile and takes data -->
+                            <div class="proauthor">
+
+                                <?php $i =0; foreach ($project->author()->toStructure() as $author): 
+
+                                    $autorpath = $author->path();
+                                    $i++;
+
+
+
+                            <?php foreach($project->images() as $image): ?>
+                                <?php if ($image->template()=="cover"): ?>
+                                    <img class="proimage" src="<?= $image->url() ?>">
+                                <?php endif ?>
+                            <?php endforeach ?> 
+
+
+
+
+                            <!-- goes into the persons textfile and takes data -->
+                            <div class="proauthor">
+
+                                <?php $i =0; foreach ($project->author()->toStructure() as $author): 
+
+                                    $autorpath = $author->path();
+                                    $i++;
+
+
                                 ?>
                                 
                                 <?php if($i > 1): ?>
