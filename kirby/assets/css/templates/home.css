@@ -297,6 +297,12 @@ label .checkmark:after {
 
 /*TIMELINE*/
 
+.futureheader{
+    
+    border-bottom: black solid 1px;
+    
+}
+
 #calendarNavigation{
     
     border-right: black 1px solid;
@@ -556,12 +562,12 @@ label .checkmark:after {
 .project:hover{
     
     background-color: white;
-    padding-bottom: 1vh;
+    cursor:pointer;
     
 }
 
 .protitle{
-    font-size: 1vw;
+    font-size: 1.5vw;
     /*color: red;*/
 /*    color:#9b77d1;*/
     font-family: 'flefixx';
@@ -569,6 +575,14 @@ label .checkmark:after {
     border-top-style: solid;
     border-top-width:1px;
     
+    
+}
+
+.protype{
+    font-size: 0.75vw;
+    font-family: 'flefixx';
+    text-align:center;
+    padding-bottom:0.3vw;
 }
 
 .proauthor{
@@ -580,17 +594,23 @@ label .checkmark:after {
 }
 
 .prosemester{
+    
+    padding-top:2px;
+    
     font-family: 'mf_basis_monou15_p80';
     font-size: 1vw;
-    color: white;
-    background-color: black;
     text-align: center;
+    border-top-style: solid;
+    border-top-width:1px;
 }
 
 .proimage{
     width: 100%;
     height: auto;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.proimage:hover{
+   mix-blend-mode: luminosity;
 }
 
 /*INFO*/
@@ -611,7 +631,7 @@ label .checkmark:after {
     left:0px;
     height:100%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
-    mix-blend-mode: luminosity;
+    mix-blend-mode:multiply;
     
 }
 

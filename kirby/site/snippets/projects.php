@@ -14,7 +14,8 @@
                             
                             <div class="seminarGlow" id="projectGlowDiplom"></div>
                             
-                            <div class="protitle"><?= $project->title() ?> <br>(<?= $project->type() ?>)</div>
+                            <div class="protitle"><?= $project->title() ?></div>
+                            <div class="protype">(<?= $project->type() ?>)</div>
 
                             <?php foreach($project->images() as $image): ?>
                                 <?php if ($image->template()=="cover"): ?>

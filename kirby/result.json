@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p33cfr24hka7uc0g\"",
+ "etag": "\"p32cbflvrkmauc0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-11-29T11:00:09.655Z",
+ "updated": "2019-12-01T20:33:16.975Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -6044,6 +6044,32 @@
     "dateTime": "2019-12-05T18:00:00+01:00"
    },
    "iCalUID": "2A2C855A-5383-41BF-B022-2FF0534DE97A",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3150464793950000\"",
+   "id": "_8osk8c1h6sokcb9j8h2kab9k6ksjaba16t1jeba26gs34gi58cpj8d1g84",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzhvc2s4YzFoNnNva2NiOWo4aDJrYWI5azZrc2phYmExNnQxamViYTI2Z3MzNGdpNThjcGo4ZDFnODQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-01T20:33:16.000Z",
+   "updated": "2019-12-01T20:33:16.975Z",
+   "summary": "Workshop Jana",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-06T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-06T18:00:00+01:00"
+   },
+   "iCalUID": "F9D0171F-3DEE-4595-A7C7-B482BEC3440A",
    "sequence": 0
   },
   {
