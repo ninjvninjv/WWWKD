@@ -269,7 +269,7 @@
                     });
 
                     //fits the height of the day to the biggest when klick on sidebar
-                    $('#sidebarNavigation').on('click', function(){
+                    $('.menu').on('click', function(){
 
                         $('#s'+day).css('height', 'auto');
                         $('#e'+day).css('height', 'auto');
