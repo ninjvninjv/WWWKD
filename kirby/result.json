@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p32cbflvrkmauc0g\"",
+ "etag": "\"p32gd9hvpr2cuc0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-12-01T20:33:16.975Z",
+ "updated": "2019-12-03T14:32:01.684Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -5942,14 +5942,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3143834761952000\"",
+   "etag": "\"3150767043368000\"",
    "id": "_711j4ea18p0k2ba16kq48b9k8d146b9p6srj0ba46t2j0e9k74q48c218c",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzcxMWo0ZWExOHAwazJiYTE2a3E0OGI5azhkMTQ2YjlwNnNyajBiYTQ2dDJqMGU5azc0cTQ4YzIxOGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:04:48.000Z",
-   "updated": "2019-10-24T11:43:00.976Z",
+   "updated": "2019-12-03T14:32:01.684Z",
    "summary": "Johnson Kingston Seminar",
-   "description": "222\n",
+   "description": "216\n",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
    },

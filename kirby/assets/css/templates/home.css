@@ -51,8 +51,9 @@ body {
 
     bottom:1px;
 
-    font-family: 'mf_basis_monou30_p80';
+    font-family: 'mf_basis_monou15_p80';
     text-align:center;
+
 
 }
 
@@ -108,7 +109,7 @@ body {
   width: var(--column-width-six);
   height: 100vh;
   overflow: scroll;
-    overflow-x:hidden;
+overflow-x:hidden;
 
   display: inline-block;
   margin: 0;
@@ -527,7 +528,7 @@ body {
 .prosemester{
     
     padding-top:2px;
-    
+    background-color:white;
     font-family: 'mf_basis_monou15_p80';
     font-size: 1vw;
     text-align: center;
