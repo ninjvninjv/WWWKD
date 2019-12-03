@@ -1,0 +1,117 @@
+label {
+  display: block;
+  position: relative;
+  padding-left: 1vw;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  bottom: 0.2vh;
+  left: 0;
+  height: 1.5vw;
+  width: 1.5vw;
+  background-color: white;
+  border: black solid 1px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+label:hover input ~ .checkmark:after {
+  background-color: white;
+  border: white solid 1px;
+  content: "X";
+  color: black;
+  font-size: 21px;
+  box-sizing: border-box;
+}
+
+label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+label .checkmark:after {
+  position: absolute;
+  height: 1.5vw;
+  width: 1.5vw;
+  background-color: black;
+  border: black solid 1px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.dropmenu {
+  display: none;
+}
+
+div.navigationMenu {
+  z-index: 100;
+  position: absolute;
+  top: 5px;
+  height: 2vw;
+  width: 200000vw;
+}
+
+.navigationMenu form {
+  position: relative;
+  width: calc(5*(100vw/6.35));
+  margin: 0;
+  font-family: 'mf_basis_monou15_p80' ;
+  font-size: 20px;
+  display: inline-block;
+}
+
+form.menuUnchecked {
+  display: inline-block;
+  position: absolute;
+  width: 200000vw;
+  height: 2vw;
+  left: calc(5*(100vw/6.35));
+}
+
+label.menu {
+  display: inline-block;
+  float: left;
+  width: calc(var(--column-width-six) - 10px);
+  margin: 5px;
+  padding: 5px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  border: black solid 2px;
+  border-radius: 20px;
+  height: 2vw;
+}
+
+label.menuUnchecked {
+  display: none;
+  float: left;
+  width: calc(var(--column-width-six) - 10px);
+  margin: 5px;
+  padding: 5px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  background-color: white;
+  border: black solid 2px;
+  border-radius: 20px;
+  height: 2vw;
+}
