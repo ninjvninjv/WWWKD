@@ -1,8 +1,5 @@
 <?php snippet('header') ?>
 
-  <div class='siteTitle' id='headerTitle'><p>K<br>D</p></div>
-  <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
-    <div class='siteTitle' id='kaTitle'><p>KA</p></div>
 
     <div id='calendarNavigation'>
 
@@ -10,11 +7,9 @@
 
     </div>
 
-  <img id='easterEgg' src='content/1_projects/2_wwwkd/wwwkdteam.jpeg'>
-
-  <div class=''></div>
-
   <div id='content'>
+
+    <?php snippet('navigation') ?>
 
     <div class='column' id='events'>
 
@@ -39,7 +34,7 @@
         <?php snippet('people') ?>
 
     </div>
-      
+
     <!-- TEST OVERLAY PEOPLE -->
     <?php foreach ($site->find ('people')->children() as $person): ?>
         <?php foreach ($person->images() as $image): ?>
@@ -48,12 +43,12 @@
     <?php endforeach ?>
 
     <div class='column' id='people'>
-        
+
         <?php snippet('information') ?>
 
     </div>
-      
-    
+
+
 
   </div>
 
@@ -72,162 +67,14 @@
 </div> -->
 
 
-      
+
     <div id='sidebarNavigation'>
-    <form>
 
-      <!--Events Column-->
-      <label>
-        <input
-          type="checkbox"
-          class='checkEvent'
-          onClick='toggleColumn(".checkEvent", "#events")'
-          name="checkTalks" checked>
-          <span class="checkmark"></span> Vorträge<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkEvent'
-          onClick='toggleColumn(".checkEvent", "#events")'
-          name="checkPresentations">
-          <span class="checkmark"></span> Präsentationen<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkEvent'
-          onClick='toggleColumn(".checkEvent", "#events")'
-          name="checkExhibitions">
-          <span class="checkmark"></span> Austellungen<br>
-      </label><br>
+      <div class='siteTitle' id='headerTitle'><p>K<br>D</p></div>
+      <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
+        <div class='siteTitle' id='kaTitle'><p>KA</p></div>
 
-      <!--Seminare Column-->
-      <div class="button">Studium</div>
-      <label>
-        <input
-          type="checkbox"
-          class='checkCourses'
-          onClick='toggleColumn(".checkCourses", "#seminars")'
-          name="checkSeminars" checked>
-          <span class="checkmark"></span> Seminare<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkCourses'
-          onClick='toggleColumn(".checkCourses", "#seminars")'
-          name="checkBasics">
-          <span class="checkmark"></span> Grundkurse<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkCourses'
-          onClick='toggleColumn(".checkCourses", "#seminars")'
-          name="checkWorkshops">
-          <span class="checkmark"></span> Workshops<br>
-      </label><br>
-
-      <!--Projects Column-->
-      <div class="button">Projects</div>
-      <label>
-        <input
-          type="checkbox"
-          class='checkProjects'
-          onClick='toggleColumn(".checkProjects", "#projects")'
-          name="checkSeminarWorks" checked>
-          <span class="checkmark"></span> Seminararbeiten<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkProjects'
-          onClick='toggleColumn(".checkProjects", "#projects")'
-          name="checkFreeProjects">
-          <span class="checkmark"></span> Freie Projekte<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkProjects'
-          onClick='toggleColumn(".checkProjects", "#projects")'
-          name="checkDiplomas">
-          <span class="checkmark"></span> Diplome<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkProjects'
-          onClick='toggleColumn(".checkProjects", "#projects")'
-          name="checkPrediplomas">
-          <span class="checkmark"></span> Vordiplome<br>
-      </label><br>
-
-      <!--Info Column-->
-        <div class="button">Info</div>
-      <label>
-        <input
-        type="checkbox"
-        class='checkInfo'
-        onClick='toggleColumn(".checkInfo", "#information")'
-        name="checkInfo" checked>
-        <span class="checkmark"></span> Info<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkInfo'
-          onClick='toggleColumn(".checkInfo", "#information")'
-          name="checkAteliers">
-          <span class="checkmark"></span> Werkstätten<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkInfo'
-          onClick='toggleColumn(".checkInfo", "#information")'
-          name="checkAdmissions">
-          <span class="checkmark"></span> Bewerbung<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkInfo'
-          onClick='toggleColumn(".checkInfo", "#information")'
-          name="checkContact">
-          <span class="checkmark"></span> Kontakt<br>
-      </label><br>
-
-      <!--People Column-->
-        <div class="button">People</div>
-      <label>
-        <input
-          type="checkbox"
-          class='checkPeople'
-          onClick='toggleColumn(".checkPeople", "#people")'
-          name="checkProfs" checked>
-          <span class="checkmark"></span> Lehrende<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkPeople'
-          onClick='toggleColumn(".checkPeople", "#people")'
-          name="checkGuests">
-          <span class="checkmark"></span> Gäste<br>
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          class='checkPeople'
-          onClick='toggleColumn(".checkPeople", "#people")'
-          name="checkStudents">
-          <span class="checkmark"></span> Studierende<br>
-      </label>
-
-    </form>
-  </div>
+    </div>
 
   <div id='displayInformation' style='display: none;'>
 
@@ -273,37 +120,72 @@
   </div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
 <script type="text/javascript">
 
 // --- CHECKBOXES ---
 
-  /* On click, check if any of the column's checkboxes is :checked:
-       a) If YES, display column
-       b) If NO, hide column */
+//Check if input has class of "menu"
+  //If yes, hide column and display "menuUnchecked"
+  //If no, check if input has class of "menuUnchecked"
+    //If yes, show column
+    //If no, check if input of same class and "menu"/"dropmenu" is isChecked
+      //
 
-  function toggleColumn(columnCheckboxes, column) {
+function toggleColumn(checkColumn, column) {
+  $("input" + checkColumn).click(function(){
     var isChecked = 0;
-    $(columnCheckboxes).each(function() {
+    $(".dropmenu" + checkColumn).each(function() {
       var checking = $( this ).prop( "checked" );
       if (checking == true) {
         isChecked = isChecked + 1;
       }
     });
-    if (isChecked > 0) {
-      $(column).css('display', 'block');
-    } else {
+    $(".menu" + checkColumn).each(function() {
+      var checking = $( this ).prop( "checked" );
+      if (checking == true) {
+        isChecked = isChecked + 1;
+      }
+    });
+    if ( $(this).hasClass("menu") ) {
+      console.log('hide');
       $(column).css('display', 'none');
+      $('label.menu' + checkColumn).css('display', 'none');
+      $('label.menuUnchecked' + checkColumn).css('display', 'inline-block');
+    }
+    else if ( $(this).hasClass("menuUnchecked") ) {
+      console.log('show');
+      $(column).css('display', 'block');
+      $('label.menu' + checkColumn).css('display', 'block');
+      $('label.menuUnchecked' + checkColumn).css('display', 'none');
+      $('input.menu' + checkColumn).prop('checked', true);
+      $('input.menuUnchecked' + checkColumn).checked = false;
+      var menuchecking = $('input.menu' + checkColumn).prop( "checked" );
+      console.log(menuchecking)
+    }
+    else if (isChecked = 0) {
+      $(column).css('display', 'none');
+      $('label.menu' + checkColumn).css('display', 'none');
+      $('label.menuUnchecked' + checkColumn).css('display', 'inline-block');
     }
     var numberOfColumns = 0;
     $('.column').each(function() {
       if($(this).is(":visible")){
-        console.log('plusone');
         numberOfColumns = numberOfColumns + 1;
       }
     });
     $('.column').css('width', 'calc(100%/' + numberOfColumns + ')');
-  }
+    $('label.menu').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
+    $('label.menuUnchecked').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
+  });
+}
+
+toggleColumn(".checkEvent", "#events");
+toggleColumn(".checkCourses", "#seminars");
+toggleColumn(".checkProject", "#projects");
+toggleColumn(".checkInfo", "#information");
+toggleColumn(".checkPeople", "#people");
+
 
 //--- TITLE SCROLL ---
 

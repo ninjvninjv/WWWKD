@@ -1,6 +1,5 @@
 <div class="col" id="infocol">
-    
-    <p class="orientation">(info)</p>
+  
     <div class="colcontent">
         <?php foreach ($site->find ('infos')->children() as $infotext): ?>
         <div class="infotext">
@@ -13,5 +12,5 @@
         </div>
 
         <?php endforeach ?>
-    </div> 
+    </div>
 </div>

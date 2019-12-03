@@ -1,39 +1,37 @@
 <div class="ruler"></div>
 
     <script>
-    
+
         var startvar = 0;
         var seminars = [];
-    
+
     </script>
 
 <div class="col" id="seminarcol">
-    
-    <p class="orientation">(seminars)</p>
-    
+
     <div class="past" id="seminarpast">
-    
+
         <?php foreach ($site->find('courses')->children() as $course): ?>
-        
+
             <div class="pastseminar">
-        
+
                 <div class="pastseminartitle" id="<?= $course->title() ?>title"><?= $course->title() ?></div>
                 <div class="pastseminartype" id="<?= $course->kind() ?>type"><?= $course->kind() ?></div>
-        
+
             </div>
-        
+
         <?php endforeach ?>
-        
-    
-    
+
+
+
     </div>
-    
+
     <div class="archive" id="seminararchive">↑ Archiv ↑</div>
-    
+
     <div class="future">
-        
-        <?php 
-    
+
+        <?php
+
         $day = array();
         $i = 0;
         $begin = new DateTime(date("Y-m-d"));
@@ -43,22 +41,22 @@
              $begin,
              $interval,
              $end
-         ); 
-    
+         );
+
         foreach ($period as $key => $value):
-    
+
         $day[$i] = $value;
         $i++;
-    
-    ?>
-    
-        <div class="day" id="s<?= $value->format("Y-m-d"); ?>">
-        
 
-    
+    ?>
+
+        <div class="day" id="s<?= $value->format("Y-m-d"); ?>">
+
+
+
         </div>
-    
-    
+
+
     <?php endforeach?>
 
             <?php
@@ -83,40 +81,40 @@
         foreach($items as $item):
         ?>
 
-    
+
             <script type='text/javascript'>
 
-                
+
                 function timeToSeconds(time) {
                     time = time.split(/:/);
                     return time[0];
                 }
-                
+
                 $(document).ready(function(){
-                    
+
                 //-----PRESETS-----
-                    
+
                     var $timestamp = '<?php if (isset($item->start->dateTime)){echo $item->start->dateTime;} ?>';
                     var seminarstart = $timestamp.substring(11, 16);
                     var starttime = timeToSeconds(seminarstart);
-                    
+
                     var $timestampend = '<?php if (isset($item->end->dateTime)){echo $item->end->dateTime;} ?>';
                     var seminarend = $timestampend.substring(11, 16);
                     var seminardate = $timestamp.substring(0, 10);
                     var seminarday = seminardate.substring(8, 10);
                     var seminarmonth = seminardate.substring(5, 7);
-                    var seminaryear = seminardate.substring(0, 4);                
+                    var seminaryear = seminardate.substring(0, 4);
 
                     $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="seminartime">'+seminarstart + '–' + seminarend +'</div><div class="seminarroom">Raum '+Math.floor((Math.random() * 222) + 214)+'</div><div class="rightline"></div><div class="seminartitle"><?= $item->summary; ?></div><div class="endline"></div><div class="seminarGlow" id="seminarGlowSeminar"></div></div>'); // this adds all the informations in a seminar div to the calendar
-                    
-                    $('#t'+seminardate).html(''); // this empties the date line 
+
+                    $('#t'+seminardate).html(''); // this empties the date line
                     $('#t'+seminardate).append(seminarday + '.' + seminarmonth); // and just prints it once
-                
-                    $('.seminartitle').css('font-size', $('.column').width()/15); 
+
+                    $('.seminartitle').css('font-size', $('.column').width()/15);
                     $('.eventtitle').css('font-size', $('.column').width()/15);// sets the font-size depending on the column width
-                    
+
                 //-----TOMORROW-----
-                    
+
                     //marks tomorrow as well
                     var tomorrow = '<?= (new DateTime("+1 day"))->format("Y-m-d"); ?>';
                     $('#s'+tomorrow).css('background-color', 'black ');
@@ -125,20 +123,20 @@
                     $('#e'+tomorrow).css('color', 'white ');
                     $('#t'+tomorrow).css('background-color', 'white ');
                     $('#t'+tomorrow).css('background-color', 'white ');
-                    
+
                 //-----FUTURE------
 
                     //fits height of the day to the biggest
-                   
-                                
-                    
+
+
+
                 //-----PAST-----
-                    
+
                     //fits height of the past section to the biggest
-                    
+
                     var spast = $('#seminarpast').height();
                     var epast = $('#eventpast').height();
-                    
+
                     if(epast >= spast){
 
                         $('.past').height(epast);
@@ -148,10 +146,10 @@
                         $('.past').height(spast);
 
                     };
-                    
+
                     //fits the height of the past section to the biggest when resizing the window
                     $(window).resize(function(){
-                        
+
                         var spast = $('#seminarpast').height();
                         var epast = $('#eventpast').height();
 
@@ -164,12 +162,12 @@
                             $('.past').height(spast);
 
                         };
-                        
+
                     });
-                    
-                    //fits the height of the past section to the biggest when klick on sidebar 
+
+                    //fits the height of the past section to the biggest when klick on sidebar
                     $('#sidebarNavigation').on('click', function(){
-                        
+
                         var spast = $('#seminarpast').height();
                         var epast = $('#eventpast').height();
 
@@ -183,19 +181,19 @@
 
                         };
                     });
-    
+
                 });
-                
+
             </script>
-        
+
         <!-- Checks the highest row and sets height of the other as well -->
-    
+
         <?php endforeach; $filename = fopen("result.json", "w") or die("Unable to open file!");
         fwrite($filename, $json_response);
         fclose($filename);?>
-        
-        <?php 
-    
+
+        <?php
+
         $day = array();
         $i = 0;
         $begin = new DateTime(date("Y-m-d"));
@@ -205,29 +203,29 @@
              $begin,
              $interval,
              $end
-         ); 
-    
+         );
+
         foreach ($period as $key => $value):
-    
+
         $day[$i] = $value;
         $i++;
-    
+
     ?>
-        
+
         <script type='text/javascript'>
-            
+
             $(document).ready(function(){
-            
+
             var today = '<?= date("Y-m-d"); ?>';
             var day = '<?= $value->format("Y-m-d"); ?>';
-            
+
                     $('#s'+day).css('height', 'auto'); // first sets it auto,
                     $('#e'+day).css('height', 'auto'); // so the div can fit around the content
                     $('#t'+today).css('height', 'auto');
-                    
+
                     var sheight = $('#s'+day).height();
                     var eheight = $('#e'+day).height();
-                    
+
                     if(eheight >= sheight){
 
                         $('#s'+day).height(eheight);
@@ -239,10 +237,10 @@
                         $('#t'+day).height(sheight);
 
                     };
-                    
+
                     //fits the height of the day to the biggest when resizing the window
                     $(window).resize(function(){
-                        
+
                         $('#s'+day).css('height', 'auto');
                         $('#e'+day).css('height', 'auto');
                         $('#t'+day).css('height', 'auto');
@@ -262,22 +260,22 @@
                             $('#t'+day).height(sheight);
 
                         };
-                        
+
                         $('.seminartitle').css('font-size', $('.column').width()/15);
                         $('.eventtitle').css('font-size', $('.column').width()/15);
                         $('#s'+today).css('height', ttoday);
                         $('#e'+today).css('height', ttoday);
-                        
+
                     });
-                    
-                    //fits the height of the day to the biggest when klick on sidebar 
+
+                    //fits the height of the day to the biggest when klick on sidebar
                     $('#sidebarNavigation').on('click', function(){
-                        
+
                         $('#s'+day).css('height', 'auto');
                         $('#e'+day).css('height', 'auto');
                         $('#t'+today).css('height', 'auto');
                         $('#t'+today).css('height', 'auto');
-                        
+
                         var sheight = $('#s'+day).height();
                         var eheight = $('#e'+day).height();
                         var ttoday = $('#t'+today).height() + 1;
@@ -292,28 +290,28 @@
                             $('#e'+day).height(sheight);
                             $('#t'+day).height(sheight);
 
-                        };      
-                        
+                        };
+
                         $('.seminartitle').css('font-size', $('.column').width()/15);
                         $('.eventtitle').css('font-size', $('.column').width()/15);
                         $('#s'+today).css('height', ttoday);
                         $('#e'+today).css('height', ttoday);
-                        
-                        
-                        
+
+
+
                     });
             });
-            
-            
+
+
         </script>
-    
+
     <?php endforeach?>
-        
+
         <script>
-        
+
             $(document).ready(function(){
                             //-----TODAY-----
-                    
+
                     //values for todays row
                     var today = '<?= date("Y-m-d"); ?>';
                     $('#t'+today).html('');
@@ -322,21 +320,21 @@
 /*                    $('#s'+today).css('background-color', 'white ');
                     $('#e'+today).css('background-color', 'white ');
                     $('#t'+today).css('background-color', 'white ');*/
-                    
+
                     //gets height of timelines today cell
                     var ttoday = $('#t'+today).height()+ 1;
-                    
+
                     //sets height of todays event and seminar on timelines height
                     $('#s'+today).css('height', ttoday);
                     $('#e'+today).css('height', ttoday);
-                
-                
-        
+
+
+
             });
         </script>
 
     </div>
-        
+
 </div>
 
 
@@ -345,10 +343,10 @@
 <!--
 <div class="day">
         <div class="course" id="">
-    
+
             <div class="seminarteacher"><?= $item->summary; ?></div>
             <div class="seminarstart"><?= $item->start->dateTime; ?></div>
             <div class="seminarend"><?= $item->end->dateTime; ?></div>
-    
+
         </div>
 </div>-->

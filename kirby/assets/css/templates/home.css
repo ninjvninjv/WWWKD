@@ -9,6 +9,7 @@ body {
 
 /* Here come the variables */
 :root {
+  --content: calc(100vw/6.35);
   --column-width-six: calc(100%/5);
   --column-width-five: calc(100%/4);
   --column-width-four: calc(100%/3);
@@ -34,25 +35,25 @@ body {
 }
 
 #headerTitle {
-  top: 0px;
+    top: 0px;
     padding-bottom: 15px;
     border-bottom:black 1px solid;
 }
 
 #footerTitle {
-  bottom: 80px;
+    bottom: 80px;
     border-top:black 1px solid;
 }
 
 #kaTitle{
-    
+
     width: var(--sidebarNavigation-width);
-    
+
     bottom:1px;
-    
-    font-family: 'mf_basis_monou15_p80';
+
+    font-family: 'mf_basis_monou30_p80';
     text-align:center;
-    
+
 }
 
 
@@ -73,76 +74,6 @@ body {
     background: white;
 }
 
-
-/* Navigation Sidebar */
-
-#sidebarNavigation {
-  width: var(--sidebarNavigation-width);
-  height: 100vh;
-  position: fixed;
-  right: 0;
-  top: 0;
-}
-
-#sidebarNavigation form {
-  position: absolute;
-  top: 20vh;
-}
-
-label {
-  display: block;
-  position: relative;
-  padding-left: 1vw;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-label input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.checkmark {
-  position: absolute;
-  bottom: 0.2vh;
-  left: 0;
-  height: 0.8vw;
-  width: 0.8vw;
-  background-color: white;
-  border: black solid 1px;
-}
-
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-label:hover input ~ .checkmark {
-  background-color: #eee;
-}
-
-label input:checked ~ .checkmark:after {
-  display: block;
-}
-
-label .checkmark:after {
-  bottom: -0.2vw;
-  left: 0.3vw;
-  width: 0;
-  height: 1.05vw;
-  border: solid black;
-  border-width: 0 1px 0px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
 
 #calendarNavigation{
 
@@ -178,7 +109,7 @@ label .checkmark:after {
   height: 100vh;
   overflow: scroll;
     overflow-x:hidden;
-  
+
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -188,13 +119,13 @@ label .checkmark:after {
 .contentPlazthalter {
   height: 1000vh;
   width: 14vw;
-      
+
 }
 
 #timelinecol{
-    
-     
-    
+
+
+
 }
 
 #events {
@@ -230,7 +161,7 @@ label .checkmark:after {
     height:100vh;
     overflow:scroll;
     overflow-x:hidden;
-    
+
 }
 
 .orientation{
@@ -239,7 +170,7 @@ label .checkmark:after {
 }
 
 .colcontent{
-    
+
     border-bottom-style:solid;
     border-bottom-width:1px;
 }
@@ -262,22 +193,22 @@ label .checkmark:after {
 }
 
 .archive, .futureheader{
-    
+
     width:100%;
-    
+
 
     border-top-style:solid;
     border-top-width: 1px;
-    
+
     text-align:center;
-    
+
 }
 
 #seminarfutureheader{
-    
+
     border-left-style:solid;
     border-left-width:1px;
-    
+
 }
 
 /*RULER*/
@@ -304,21 +235,21 @@ label .checkmark:after {
 }
 
 #calendarNavigation{
-    
+
     border-right: black 1px solid;
-    
+
 }
 
 .hours{
-    
+
     width:20%;
     margin-right:0.5vw;
     float:right;
-    
+
 }
 
 .hour{
-    
+
     height: calc[100%/23]%;
     width: 100%;
     border-bottom-style:solid;
@@ -326,219 +257,220 @@ label .checkmark:after {
 }
 
 #h23{
-    
+
     border-bottom-style:hidden;
-    
+
 }
 
 #datesymbol{
-    
+
     position:absolute;
     height: 1.3vw;
     left: 40%;
-    
-    
+
+
 }
 
 /*EVENTS*/
 
 .eventGlow, .seminarGlow{
-    
+
     position:absolute;
     width:200%;
     padding-top: 200%;
-    
+
     z-index:-1;
     transform: translate(-50%, -50%);
-    
+
 }
 
 #eventGlowTalk{
-    
+
     position:absolute;
-    
+
     top:50%;
     left:50%;
-    
+
     border-radius: 200px 200px 0 0;
-    
+
     background-image: radial-gradient(
         yellow 0%,
         white 70%
     );
 
     mix-blend-mode: multiply;
-    
+
 }
 
 #eventGlowSeminar{
-    
+
         position:absolute;
-    
+
     top:50%;
     left:50%;
-    
+
     border-radius: 200px 200px 0 0;
-    
+
     background-image: radial-gradient(
         red 0%,
         white 70%
     );
-    
+
     mix-blend-mode: multiply;
-    
+
 }
 
 #eventGlowWorkshop{
-    
+
         position:absolute;
-    
+
     top:50%;
     left:50%;
-    
+
     border-radius: 200px 200px 0 0;
-    
+
     background-image: radial-gradient(
         orange 0%,
         white 70%
     );
-    
+
     mix-blend-mode: multiply;
-    
+
 }
 
 #seminarGlowSeminar{
-    
+
         position:absolute;
-    
+
     top:50%;
     left:50%;
-    
+
     border-radius: 200px 200px 0 0;
-    
+
     background-image: radial-gradient(
         lightgreen 0%,
         white 70%
     );
-    
+
     mix-blend-mode: multiply;
-    
+
 }
 
 #projectGlowDiplom{
-    
+
         position:absolute;
-    
+
     top:50%;
     left:50%;
-    
+
     border-radius: 200px 200px 0 0;
-    
+
     background-image: radial-gradient(
         blue 0%,
         white 70%
     );
-    
+
     mix-blend-mode: multiply;
-    
+
 }
 
 
 /*SEMINARS*/
 
 .seminar, .event{
-    
+
     position:relative;
     margin:2px;
     border-left: black solid 1px;
     border-top: black solid 1px;
     padding-left:2px;
-    
+
 }
 
 .seminar:hover, .event:hover{
-    
+
     /*background-color:darksalmon;*/
     background-color: white;
     cursor:pointer;
+    color: black;
 }
 
 .seminartitle, .eventtitle{
-    
+
     font-family: 'arial_brutforce_monospacedBlk';
     font-size: 40vw;
     line-height: 1;
-    
+
 }
 
 .seminarroom, .seminartime, .eventroom, .eventtime{
-    
+
     float:left;
     width:49%;
-    
+
 }
 
 .seminarroom, .eventroom{
-    
+
     text-align: right;
     text-transform: uppercase;
-    
+
 }
 
 .seminartype, .eventtype{
-    
+
     line-height: 0.8;
-    
+
 }
 
 .rightline{
-    
+
     float:left;
     height:5px;
     width:2%;
     border-right: black solid 1px;
-    
+
 }
 
 .endline{
-    
+
     border-bottom: black solid 1px;
     width:1%;
     padding-left:-2px;
     margin-left:-2px;
-    
+
 }
 
 #seminarpast{
-    
+
     border-left-style:solid;
     border-left-width:1px;
-    
+
 }
 
 .pastseminar, .pastevent{
-    
+
     width:100%;
     height:auto;
     margin-bottom:3px;
     border-top-style:solid;
     border-top-width:1px;
-    
+
 }
 
 .pastseminartitle, .pasteventtitle{
-    
+
     position:relative;
     float:left;
     height:auto;
     width:50%;
     overflow:hidden;
-    
-    
+
+
 }
 
 .past{
-    
+
     position:relative;
     vertical-align:bottom;
     height:auto;
@@ -548,7 +480,7 @@ label .checkmark:after {
 /*PROJEKTS*/
 
 .project{
-    
+
     position:relative;
     width:100%;
     height:auto;
@@ -560,10 +492,9 @@ label .checkmark:after {
 }
 
 .project:hover{
-    
+
     background-color: white;
     cursor:pointer;
-    
 }
 
 .protitle{
@@ -619,7 +550,7 @@ label .checkmark:after {
     margin-right: 2%;
     margin-bottom: 1vh;
     width: 100%;
-   
+
 }
 
 /*PEOPLE*/
@@ -631,7 +562,6 @@ label .checkmark:after {
     left:0px;
     height:100%;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
-    mix-blend-mode:multiply;
     
 }
 
@@ -642,4 +572,3 @@ label .checkmark:after {
 #mouse_over:hover {
   opacity: 1;
 }
-

@@ -1,30 +1,29 @@
 <div class="ruler"></div>
 
 <div class="col" id="eventcol">
-    
-    <p class="orientation">(events)</p>
-    
+  
+
     <div class="past" id="eventpast">
-    
+
         <?php foreach ($site->find('events')->children() as $event): ?>
-        
+
             <div class="pastevent">
-        
+
                 <div class="pasteventtitle" id="<?= $event->title() ?>title"><?= $event->title() ?></div>
                 <div class="pasteventtype" id="<?= $event->kind() ?>type"><?= $event->kind() ?></div>
-        
+
             </div>
-        
+
         <?php endforeach ?>
-    
+
     </div>
-    
+
     <div class="archive" id="eventarchive">↑ Archiv ↑</div>
-    
+
     <div class="future" id="eventfuture">
-    
-        <?php 
-    
+
+        <?php
+
         $day = array();
         $i = 0;
         $begin = new DateTime(date("Y-m-d"));
@@ -34,29 +33,29 @@
              $begin,
              $interval,
              $end
-         ); 
-    
+         );
+
         foreach ($period as $key => $value):
-    
+
         $day[$i] = $value;
         $i++;
-    
-    ?>
-    
-        <div class="day" id="e<?= $value->format("Y-m-d"); ?>">
-        
 
-    
+    ?>
+
+        <div class="day" id="e<?= $value->format("Y-m-d"); ?>">
+
+
+
         </div>
-    
-    
+
+
     <?php endforeach?>
-        
+
         <?php
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, 'https://www.googleapis.com/calendar/v3/calendars/sbhjb68hrplr1266cesvjc5p50@group.calendar.google.com/events?key=AIzaSyDjqPZGVEKDeDWCpjcuxEn5Hxmuw1KH6xI&timeMin=2019-01-01T10:00:00-00:00&orderBy=startTime&singleEvents=true&maxResults=4500');
-                     
-                      
+
+
 
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-type: application/json'));
@@ -75,69 +74,69 @@
 
         foreach($items as $item):
         ?>
-    
-        
+
+
             <script type='text/javascript'>
 
-                
+
                 function timeToSeconds(time) {
                     time = time.split(/:/);
                     return time[0];
                 }
-                
+
                 function getCategory(summary) {
                     summary = summary.split("///");
                     return summary[0];
                 }
-                
+
                 function getType(summary) {
                     summary = summary.split("///");
                     return summary[1];
                 }
-                
+
                 function getName(summary) {
                     summary = summary.split('///');
                     return summary[2];
                 }
-                
-                
-                
+
+
+
                 $(document).ready(function(){
-                    
+
                 //-----PRESETS-----
-                    
-                    
-                    
+
+
+
                     $('.eventtitle').css('font-size', $('.column').width()/20);
-                    
+
                     var $timestamp = '<?php if (isset($item->start->dateTime)){echo $item->start->dateTime;} ?>';
                     var eventstart = $timestamp.substring(11, 16);
                     var starttime = timeToSeconds(eventstart);
-                    
+
                     var eventname = getName('<?= $item->summary; ?>');
                     var eventlocation = '<?= $item->location; ?>';
                     var eventtype = getType('<?= $item->summary; ?>');
-                    
+
                     var $timestampend = '<?php if (isset($item->end->dateTime)){echo $item->end->dateTime;} ?>';
                     var eventend = $timestampend.substring(11, 16);
                     var eventdate = $timestamp.substring(0, 10);
                     var eventday = eventdate.substring(8, 10);
                     var eventmonth = eventdate.substring(5, 7);
-                    var eventyear = eventdate.substring(0, 4);                
+                    var eventyear = eventdate.substring(0, 4);
 
                     $('#e'+eventdate).append('<div class="event" id="<?= $item->summary; ?>"><div class="eventtime">'+eventstart + '–' + eventend +'</div><div class="eventroom">'+eventlocation+'</div><div class="rightline"></div><div class="eventtitle">'+eventname+'</div><div class="eventtype">'+eventtype+'</div><div class="endline"></div><div class="eventGlow" id="eventGlow'+eventtype+'"></div></div>'); // this adds all the informations in a event div to the calendar
-                    
-                    $('#t'+eventdate).html(''); // this empties the date line 
+
+                    $('#t'+eventdate).html(''); // this empties the date line
                     $('#t'+eventdate).append(eventday + '.' + eventmonth); // and just prints it once
-                
+
                     $('.eventtitle').css('font-size', $('.column').width()/20); // sets the font-size depending on the column width
                 });
             </script>
-    
+
         <?php endforeach; $filename = fopen("result.json", "w") or die("Unable to open file!");
         fwrite($filename, $json_response);
         fclose($filename);?>
-      
+
     </div>
-        
+
 </div>
