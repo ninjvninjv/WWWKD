@@ -23,19 +23,19 @@
       name="checkProjects" checked>
       <span class="checkmark"></span> Projects<br>
   </label>
-  <label class='menu checkInfo'>
+  <label class='menu checkPeople'>
     <input
       type="checkbox"
-      class='menu checkInfo'
+      class='menu checkPeople'
       name="checkInfos" checked>
-      <span class="checkmark"></span> Info<br>
+      <span class="checkmark"></span> People<br>
   </label>
-  <label class='menu checkPeople'>
+  <label class='menu checkInfo'>
       <input
         type="checkbox"
-        class='menu checkPeople'
+        class='menu checkInfo'
         name="checkPersons" checked>
-        <span class="checkmark"></span> Persons<br>
+        <span class="checkmark"></span> Info<br>
     </label>
 </form>
 
@@ -58,17 +58,17 @@
       class='menuUnchecked checkProject'>
       <span class="checkmark"></span> Projects<br>
   </label>
-  <label class='menuUnchecked checkInfo'>
+  <label class='menuUnchecked checkPeople'>
     <input
       type="checkbox"
-      class='menuUnchecked checkInfo'>
-      <span class="checkmark"></span> Info<br>
+      class='menuUnchecked checkPeople'>
+      <span class="checkmark"></span> Persons<br>
   </label>
-  <label class='menuUnchecked checkPeople'>
+  <label class='menuUnchecked checkInfo'>
       <input
         type="checkbox"
-        class='menuUnchecked checkPeople'>
-        <span class="checkmark"></span> Persons<br>
+        class='menuUnchecked checkInfo'>
+        <span class="checkmark"></span> Info<br>
     </label>
 </form>
 

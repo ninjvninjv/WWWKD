@@ -29,7 +29,7 @@
 
     </div>
 
-    <div class='column' id='information'>
+    <div class='column' id='people'>
 
         <?php snippet('people') ?>
 
@@ -42,7 +42,7 @@
         <?php endforeach ?>
     <?php endforeach ?>
 
-    <div class='column' id='people'>
+    <div class='column' id='information'>
 
         <?php snippet('information') ?>
 
