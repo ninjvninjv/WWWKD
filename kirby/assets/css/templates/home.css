@@ -399,7 +399,7 @@ overflow-x:hidden;
 .seminartitle, .eventtitle{
 
     font-family: 'arial_brutforce_monospacedBlk';
-    font-size: 40vw;
+    /*font-size: 100%;*/
     line-height: 1;
 
 }
@@ -499,8 +499,8 @@ overflow-x:hidden;
 }
 
 .protitle{
-    font-size: 1.5vw;
-    /*color: red;*/
+/*    font-size: 1.5vw;
+*/    /*color: red;*/
 /*    color:#9b77d1;*/
     font-family: 'flefixx';
     text-align:center;

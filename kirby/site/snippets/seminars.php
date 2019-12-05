@@ -110,8 +110,8 @@
                     $('#t'+seminardate).html(''); // this empties the date line
                     $('#t'+seminardate).append(seminarday + '.' + seminarmonth); // and just prints it once
 
-                    $('.seminartitle').css('font-size', $('.column').width()/15);
-                    $('.eventtitle').css('font-size', $('.column').width()/15);// sets the font-size depending on the column width
+                    // $('.seminartitle').css('font-size', $('.column').width()/15);
+                    // $('.eventtitle').css('font-size', $('.column').width()/15);// sets the font-size depending on the column width
 
                 //-----TOMORROW-----
 

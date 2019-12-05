@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p32gd9hvpr2cuc0g\"",
+ "etag": "\"p3249pqu0rufec0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-12-03T14:32:01.684Z",
+ "updated": "2019-12-05T14:44:40.469Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -6605,6 +6605,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3151114160938000\"",
+   "id": "_89338ca168sj8b9p6p1j0b9k85146b9o70okcba560q30c226923cc1j6o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg5MzM4Y2ExNjhzajhiOXA2cDFqMGI5azg1MTQ2YjlvNzBva2NiYTU2MHEzMGMyMjY5MjNjYzFqNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-05T14:37:39.000Z",
+   "updated": "2019-12-05T14:44:40.469Z",
+   "summary": "Talk Dan",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-08T19:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-08T20:00:00+01:00"
+   },
+   "iCalUID": "BF41A294-96C0-4ABC-881F-E0400B2D6036",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870384906000\"",
    "id": "_8533ed1j8crk2b9g8ork2b9k6koj0b9o70p34b9g68pk4d1j68o48g9p6s",
    "status": "confirmed",
@@ -6888,6 +6914,32 @@
     "dateTime": "2020-01-16T18:00:00+01:00"
    },
    "iCalUID": "0A6A7AEF-FA2B-4A00-87EA-0804A6BDC5BF",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3151113504972000\"",
+   "id": "_8534ada28gojib9k6gpk4b9k7523eb9o6gs46ba16gr3eh9p8h1j6gpl74",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg1MzRhZGEyOGdvamliOWs2Z3BrNGI5azc1MjNlYjlvNmdzNDZiYTE2Z3IzZWg5cDhoMWo2Z3BsNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-05T14:39:12.000Z",
+   "updated": "2019-12-05T14:39:12.486Z",
+   "summary": "Talk Luna",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-16T18:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-16T19:00:00+01:00"
+   },
+   "iCalUID": "AFE5BD19-443B-49D7-848C-A467E9DC3C59",
    "sequence": 0
   },
   {
@@ -7280,6 +7332,32 @@
     "dateTime": "2020-01-31T18:00:00+01:00"
    },
    "iCalUID": "331D1FDC-D89F-4F2D-BB1F-6BC26113EE34",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3151114100208000\"",
+   "id": "_8cs3gca364sjab9h652jeb9k84r44ba175244ba674o3ec1n64o36e1h60",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhjczNnY2EzNjRzamFiOWg2NTJqZWI5azg0cjQ0YmExNzUyNDRiYTY3NG8zZWMxbjY0bzM2ZTFoNjAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-05T14:38:44.000Z",
+   "updated": "2019-12-05T14:44:10.104Z",
+   "summary": "Talk Reto & Dominik",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-03T19:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-03T20:00:00+01:00"
+   },
+   "iCalUID": "C881C195-11E7-4A6B-A9DB-F90707103810",
    "sequence": 0
   },
   {
