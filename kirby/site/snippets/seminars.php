@@ -261,8 +261,8 @@
 
                         };
 
-                        $('.seminartitle').css('font-size', $('.column').width()/15);
-                        $('.eventtitle').css('font-size', $('.column').width()/15);
+                        // $('.seminartitle').css('font-size', $('.column').width()/15);
+                        // $('.eventtitle').css('font-size', $('.column').width()/15);
                         $('#s'+today).css('height', ttoday);
                         $('#e'+today).css('height', ttoday);
 

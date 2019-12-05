@@ -197,6 +197,16 @@ toggleColumn(".checkInfo", "#information");
 toggleColumn(".checkPeople", "#people");
 
 
+$(window).resize(function(){
+
+    $('.seminartitle').css('font-size', $('.column').width()/15);
+    $('.eventtitle').css('font-size', $('.column').width()/15);
+    $('.protitle').css('font-size', $('.column').width()/15);
+    $('.infotext').css('font-size', $('.column').width()/20);
+    $('#peoplecol').css('font-size', $('.column').width()/20);
+
+});
+
 //--- TITLE SCROLL ---
 
  /* var marg = 0;
