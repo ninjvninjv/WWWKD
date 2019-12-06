@@ -1,0 +1,39 @@
+Title: B.R.U.N.O.
+
+----
+
+Type: Seminar
+
+----
+
+Medium: type, illu, poster
+
+----
+
+Supervisor: 
+
+- 
+  path: people/karl-nawrot
+
+----
+
+Author: 
+
+- 
+  path: people/janoschbelakratz
+
+----
+
+About: 
+
+----
+
+Task: 
+
+----
+
+Link: 
+
+----
+
+Video: 

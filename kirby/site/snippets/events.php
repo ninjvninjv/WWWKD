@@ -1,7 +1,8 @@
 <div class="ruler"></div>
 
-<div class="col" id="eventcol">
+<div class="col calendar" id="eventcol">
   
+    <div class="top"></div>
 
     <div class="past" id="eventpast">
 

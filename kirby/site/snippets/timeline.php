@@ -1,6 +1,8 @@
 <div class="ruler"></div>
 
-<div class="col" id="timelinecol">
+<div class="col calendar" id="timelinecol">
+    
+    <div class="top"></div>
     
     <img id="datesymbol" src="<?= $site->find('home')->image('datesymbol.svg')->url() ?>">
     

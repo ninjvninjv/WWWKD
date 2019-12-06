@@ -1,0 +1,45 @@
+Title: C-E-R-N
+
+----
+
+Type: Vordiplom
+
+----
+
+Medium: type, web, illu, sound
+
+----
+
+Supervisor: 
+
+- 
+  path: people/ivanw
+- 
+  path: people/sereinar
+
+----
+
+Author: 
+
+- 
+  path: people/janoschbelakratz
+
+----
+
+About: Die Teilchenphysik dringt immer weiter in die Struktur unserer Welt ein. 2012 feierte das CERN – die Europäische Organisation für Kernforschung – den Beweis für das Higgs-Boson: Die Erklärung für die Ruhemasse aller Elementarteilchen. Diese Welt ist jedoch nicht durch das bloße Auge zu sehen. Interessanter ist die Vorstellung einer solchen Welt, eine Fiktion. C-E-R-N ist also eine interaktive Science-Fiction-Geschichte: Ein Wissenschaftler wird in die Welt der Elementarteilchen katapultiert und trifft dort auf seine eigene Vorstellung dieser Welt. Alle Versatzstücke dieses Projekts wurden eigens dafür produziert: Illustration, Layout, Code, Schrift, Musik und Text. Sowohl die Vorstellungen als auch die Informationen entstammen einem Interview mit dem Teilchenphysiker Roger Wolf, der offen und mit viel Phantasie seine Ideen beschrieb und damit den Grundstein der Geschichte legte. Dabei wurden Ideen und Inszenierungen aus dem Science-Fiction-Kontext analysiert, neu interpretiert und eingewoben.
+
+----
+
+Task: 
+
+----
+
+Link: 
+
+- 
+  websitename: c-e-r-n
+  url: http://c-e-r-n.janoschkratz.eu/
+
+----
+
+Video: 
