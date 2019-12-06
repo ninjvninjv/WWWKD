@@ -108,7 +108,7 @@
 
 
 
-                    $('.eventtitle').css('font-size', $('.column').width()/20);
+                    // $('.eventtitle').css('font-size', $('.column').width()/20);
 
                     var $timestamp = '<?php if (isset($item->start->dateTime)){echo $item->start->dateTime;} ?>';
                     var eventstart = $timestamp.substring(11, 16);
@@ -130,7 +130,7 @@
                     $('#t'+eventdate).html(''); // this empties the date line
                     $('#t'+eventdate).append(eventday + '.' + eventmonth); // and just prints it once
 
-                    $('.eventtitle').css('font-size', $('.column').width()/20); // sets the font-size depending on the column width
+                    // $('.eventtitle').css('font-size', $('.column').width()/20); // sets the font-size depending on the column width
                 });
             </script>
 

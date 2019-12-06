@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p32kchp5mrqfec0g\"",
+ "etag": "\"p3249pqu0rufec0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-12-05T14:39:50.953Z",
+ "updated": "2019-12-05T14:44:40.469Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -6605,12 +6605,12 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3151113523010000\"",
+   "etag": "\"3151114160938000\"",
    "id": "_89338ca168sj8b9p6p1j0b9k85146b9o70okcba560q30c226923cc1j6o",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=Xzg5MzM4Y2ExNjhzajhiOXA2cDFqMGI5azg1MTQ2YjlvNzBva2NiYTU2MHEzMGMyMjY5MjNjYzFqNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-12-05T14:37:39.000Z",
-   "updated": "2019-12-05T14:39:21.505Z",
+   "updated": "2019-12-05T14:44:40.469Z",
    "summary": "Talk Dan",
    "creator": {
     "email": "jana-hofmann@live.de"
@@ -6621,10 +6621,10 @@
     "self": true
    },
    "start": {
-    "dateTime": "2020-01-08T18:00:00+01:00"
+    "dateTime": "2020-01-08T19:00:00+01:00"
    },
    "end": {
-    "dateTime": "2020-01-08T19:00:00+01:00"
+    "dateTime": "2020-01-08T20:00:00+01:00"
    },
    "iCalUID": "BF41A294-96C0-4ABC-881F-E0400B2D6036",
    "sequence": 0
@@ -7336,12 +7336,12 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3151113581906000\"",
+   "etag": "\"3151114100208000\"",
    "id": "_8cs3gca364sjab9h652jeb9k84r44ba175244ba674o3ec1n64o36e1h60",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhjczNnY2EzNjRzamFiOWg2NTJqZWI5azg0cjQ0YmExNzUyNDRiYTY3NG8zZWMxbjY0bzM2ZTFoNjAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-12-05T14:38:44.000Z",
-   "updated": "2019-12-05T14:39:50.953Z",
+   "updated": "2019-12-05T14:44:10.104Z",
    "summary": "Talk Reto & Dominik",
    "creator": {
     "email": "jana-hofmann@live.de"
@@ -7352,10 +7352,10 @@
     "self": true
    },
    "start": {
-    "dateTime": "2020-02-03T18:00:00+01:00"
+    "dateTime": "2020-02-03T19:00:00+01:00"
    },
    "end": {
-    "dateTime": "2020-02-03T19:00:00+01:00"
+    "dateTime": "2020-02-03T20:00:00+01:00"
    },
    "iCalUID": "C881C195-11E7-4A6B-A9DB-F90707103810",
    "sequence": 0

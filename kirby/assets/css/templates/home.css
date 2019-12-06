@@ -485,7 +485,7 @@ body {
 .seminartitle, .eventtitle{
 
     font-family: 'arial_brutforce_monospacedBlk';
-    font-size: 40vw;
+    /*font-size: 100%;*/
     line-height: 1;
 
 }
@@ -585,8 +585,8 @@ body {
 }
 
 .protitle{
-    font-size: 1.5vw;
-    /*color: red;*/
+/*    font-size: 1.5vw;
+*/    /*color: red;*/
 /*    color:#9b77d1;*/
     font-family: 'flefixx';
     text-align:center;
@@ -625,7 +625,11 @@ body {
 .proimage{
     width: 100%;
     height: auto;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
+}
 
+.proimage:hover{
+   mix-blend-mode: luminosity;
 }
 
 /*INFO*/
@@ -650,7 +654,7 @@ body {
     
     mix-blend-mode: luminosity;
     z-index: 300000000000000000;
-    
+
 }
 
 #mouse_over {
