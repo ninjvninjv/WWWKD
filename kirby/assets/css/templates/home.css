@@ -108,8 +108,7 @@ body {
     float:left;
   width: var(--column-width-six);
   height: 100vh;
-  overflow: scroll;
-overflow-x:hidden;
+    overflow:visible;
 
   display: inline-block;
   margin: 0;
@@ -120,12 +119,6 @@ overflow-x:hidden;
 .contentPlazthalter {
   height: 1000vh;
   width: 14vw;
-
-}
-
-#timelinecol{
-
-
 
 }
 
@@ -143,25 +136,76 @@ overflow-x:hidden;
 }
 
 #information {
-    background-color: white;
+
 }
 
 #people {
-    background-color: white;
+
 }
 
 @media screen and (min-width: 768px) {
   font-size: 10pt;
 }
 
-/*everything in the columns*/
+/*---OVERLAY---*/
+
+#displayInformation{
+    
+    position:fixed;
+    
+    top: 2.5%;
+    right:1vw;
+    height:95%;
+    width:15vw;
+    background-color:white;
+    z-index:20000000;
+    box-shadow: 30px 30px 100px red;
+    
+}
+
+.infotitle{
+    
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:10%;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    
+    font-size:2vw;
+    text-align:center;
+    line-height:1;
+    
+}
+
+.infoheader{
+    
+    position: absolute;
+    left:0px;
+    top:10%;
+    height:20%;
+    width:100%;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+}
+
+.informationtext{
+    
+    position: absolute;
+    left:0px;
+    top:30%;
+    height:70%;
+    width:100%;
+}
+
+/*---COLUMNS---*/
 
 .col{
 
     width:100%;
     height:100vh;
-    overflow:scroll;
-    overflow-x:hidden;
+    overflow:visible;
 
 }
 
@@ -174,6 +218,25 @@ overflow-x:hidden;
 
     border-bottom-style:solid;
     border-bottom-width:1px;
+}
+
+.top{
+    
+    position:relative;
+    height:7vw;
+    width:100%;
+    
+}
+
+.topglow{
+    
+    position: absolute;
+    top:0;
+    left:0;
+    height:7vw;
+    width:100%;
+    background-image: linear-gradient(to top, transparent 0%, red 80%)
+    
 }
 
 /*---CALENDAR---*/
@@ -190,18 +253,21 @@ overflow-x:hidden;
 #timelinecol{
 
     overflow:hidden;
+    z-index: 1000;
 
 }
 
 .archive, .futureheader{
 
     width:100%;
-
+    float:left;
 
     border-top-style:solid;
     border-top-width: 1px;
 
     text-align:center;
+    background-color:black;
+    color:white;
 
 }
 
@@ -238,6 +304,7 @@ overflow-x:hidden;
 #calendarNavigation{
 
     border-right: black 1px solid;
+    z-index:100000;
 
 }
 
@@ -274,7 +341,7 @@ overflow-x:hidden;
 
 /*EVENTS*/
 
-.eventGlow, .seminarGlow{
+.eventGlow, .seminarGlow, #projectGlow{
 
     position:absolute;
     width:200%;
@@ -295,11 +362,9 @@ overflow-x:hidden;
     border-radius: 200px 200px 0 0;
 
     background-image: radial-gradient(
-        yellow 0%,
-        white 70%
+        lightcyan 0%,
+        transparent 70%
     );
-
-    mix-blend-mode: multiply;
 
 }
 
@@ -313,11 +378,9 @@ overflow-x:hidden;
     border-radius: 200px 200px 0 0;
 
     background-image: radial-gradient(
-        red 0%,
-        white 70%
+        aqua 0%,
+        transparent 70%
     );
-
-    mix-blend-mode: multiply;
 
 }
 
@@ -331,17 +394,15 @@ overflow-x:hidden;
     border-radius: 200px 200px 0 0;
 
     background-image: radial-gradient(
-        orange 0%,
-        white 70%
+        lightgreen 0%,
+        transparent 70%
     );
-
-    mix-blend-mode: multiply;
 
 }
 
 #seminarGlowSeminar{
 
-        position:absolute;
+    position:absolute;
 
     top:50%;
     left:50%;
@@ -349,15 +410,14 @@ overflow-x:hidden;
     border-radius: 200px 200px 0 0;
 
     background-image: radial-gradient(
-        lightgreen 0%,
-        white 70%
+        yellow 0%,
+        transparent 50%
     );
 
-    mix-blend-mode: multiply;
 
 }
 
-#projectGlowDiplom{
+.projectGlowFreies{
 
         position:absolute;
 
@@ -367,16 +427,42 @@ overflow-x:hidden;
     border-radius: 200px 200px 0 0;
 
     background-image: radial-gradient(
-        blue 0%,
-        white 70%
+        slateblue 0%,
+        transparent 70%
     );
 
-    mix-blend-mode: multiply;
+
+}
+
+.projectGlowSeminar{
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    border-radius: 200px 200px 0 0;
+
+    background-image: radial-gradient(
+        orchid 0%,
+        transparent 70%
+    );
+
 
 }
 
 
 /*SEMINARS*/
+
+.col{
+    
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+    
+}
 
 .seminar, .event{
 
@@ -527,10 +613,10 @@ overflow-x:hidden;
 
 .prosemester{
     
-    padding-top:2px;
-    background-color:white;
+    padding-top:0.4vw;
     font-family: 'mf_basis_monou15_p80';
-    font-size: 1vw;
+    font-size: 2vw;
+    line-height: 1;
     text-align: center;
     border-top-style: solid;
     border-top-width:1px;
@@ -539,7 +625,6 @@ overflow-x:hidden;
 .proimage{
     width: 100%;
     height: auto;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
 .proimage:hover{
@@ -561,10 +646,14 @@ overflow-x:hidden;
     z-index: 100;
     position: fixed;
     vertical-align: middle;
-    left:0px;
-    height:100%;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.15);
+    left:7vw;
+    top:2.5%;
+    height:95%;
+    box-shadow: 10px 10px 100px 10px red;
+    
     mix-blend-mode: luminosity;
+    z-index: 300000000000000000;
+
 }
 
 #mouse_over {

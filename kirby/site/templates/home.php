@@ -3,34 +3,40 @@
     <div id='calendarNavigation'>
 
       <?php snippet('timeline') ?>
+        <div class="topglow"></div>
 
     </div>
 
   <div id='content'>
 
     <?php snippet('navigation') ?>
+      <div class="topglow"></div>
 
     <div class='column' id='events'>
 
         <?php snippet('events') ?>
+        <div class="topglow"></div>
 
     </div>
 
     <div class='column' id='seminars'>
 
         <?php snippet('seminars') ?>
+        <div class="topglow"></div>
 
     </div>
 
     <div class='column' id='projects'>
 
         <?php snippet('projects') ?>
+        <div class="topglow"></div>
 
     </div>
 
     <div class='column' id='people'>
 
         <?php snippet('people') ?>
+        <div class="topglow"></div>
 
     </div>
 
@@ -43,7 +49,9 @@
 
     <div class='column' id='information'>
 
+        
         <?php snippet('information') ?>
+        <div class="topglow"></div>
 
     </div>
 
@@ -65,58 +73,33 @@
     </div>
 </div> -->
 
-
-
     <div id='sidebarNavigation'>
+        
 
-      <div class='siteTitle' id='headerTitle'><p>K<br>D</p></div>
+      <div class='siteTitle' id='headerTitle'><p>K<br>D</p>        <div class="topglow"></div>
+</div>
       <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
         <div class='siteTitle' id='kaTitle'><p>KA</p></div>
-
+        
     </div>
 
-  <div id='displayInformation' style='display: none;'>
+    <div id='displayInformation'>
 
-    <div id='project' class='displayProject'>
-      <div class='sidebar'>
-        <div class='header'>
-          <p class='title'></p>
-          <p class='type'></p>
-          <p class='date'></p>
-          <p class='author'></p>
+        <div id='info' class='textinfo'>
+            <div class='infotitle'>a</div>
+            <div class='infoheader'>  
+                <div class='infotype'>a</div>
+                <div class='infodate'></div>
+                <div class='infoauthor'></div>
+                <div class='infosupervisor'></div>
+            </div>
+            <div class='informationtext'>a</div>
         </div>
-        <div class='text'></div>
-      </div>
-      <div class="images"></div>
+
     </div>
 
-    <div id='seminar' class='displaySeminar'>
-      <div class='sidebar'>
-        <div class='header'>
-          <p class='type'></p>
-          <p class='title'></p>
-          <p class='author'></p>
-          <p class='date'></p>
-        </div>
-        <div class='text'></div>
-      </div>
-      <div class="images"></div>
-    </div>
 
-    <div id='event' class='displayEvent'>
-      <div class='sidebar'>
-        <div class='header'>
-          <p class='title'></p>
-          <p class='type'></p>
-          <p class='date'></p>
-          <p class='author'></p>
-        </div>
-        <div class='text'></div>
-      </div>
-      <div class="images"></div>
-    </div>
-
-  </div>
+<!---SCRIPTS--->
 
 
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
@@ -240,33 +223,78 @@ $(window).resize(function(){
 
 //if you scroll in event or seminar col the whole calendar scrolls
 
+    $(document).ready(function(){
 
-    $('#eventcol').scroll(function(){
+        $('#eventcol').scroll(function(){
 
-        $('#seminarcol').scrollTop($('#eventcol').scrollTop());
-        $('#timelinecol').scrollTop($('#eventcol').scrollTop());
+            $('#seminarcol').scrollTop($('#eventcol').scrollTop());
+            $('#timelinecol').scrollTop($('#eventcol').scrollTop());
 
+        });
+
+        $('#seminarcol').scroll(function(){
+
+            $('#eventcol').scrollTop($('#seminarcol').scrollTop());
+            $('#timelinecol').scrollTop($('#seminarcol').scrollTop());
+
+        });
+
+
+
+        var today = '<?= date("Y-m-d"); ?>';
+        var scrollpos = $('#s'+today).offset();
+        var scroll = scrollpos.top;
+
+
+        $('#seminarcol').scrollTop($('#s'+today).offset().top - ($(window).height()/2) - ($('#s'+today).height()/2)).delay( 100000 );
+        $('#s'+today).after( '<div class="futureheader" id="seminarfutureheader">↓ Zukunft ↓</div>' );
+        $('#e'+today).after( '<div class="futureheader" id="eventfutureheader">↓ Zukunft ↓</div>' );
+        $('#t'+today).after( '<div class="futureheader" id="timelinefutureheader">↓</div>' );
+
+        //SCROLLING IN GENERAL without a scrollbar
+        
+        var i = 0;
+        var k = 0;
+        
+        $('.col.calendar').on('mousewheel DOMMouseScroll', function(e){
+            
+            if (typeof e.originalEvent.wheelDelta == 'number') {
+                if(e.originalEvent.wheelDelta < 0) {
+
+                    
+
+                    
+                    k = ($('#seminarcol').height() - $(window).height()) * -1;
+                    kk = ($('#eventcol').height() - $(window).height()) * -1;
+                    
+                    if(i-k > 0 || i-kk > 0){
+                        
+                        i = i-10;
+                        $('#seminarcol').css('top', i);
+                        $('#eventcol').css('top', i);
+                        $('#timelinecol').css('top', i);
+                        
+                    }
+
+                } else if(e.originalEvent.wheelDelta > 0) {
+
+                    if(i<0){
+                        i = i+10;
+                        $('#seminarcol').css('top', i);
+                        $('#eventcol').css('top', i);
+                        $('#timelinecol').css('top', i);
+                    };
+
+                };
+            };
+        }); 
+        
+        
+        
     });
-
-    $('#seminarcol').scroll(function(){
-
-        $('#eventcol').scrollTop($('#seminarcol').scrollTop());
-        $('#timelinecol').scrollTop($('#seminarcol').scrollTop());
-
-    });
-
-
-
-    var today = '<?= date("Y-m-d"); ?>';
-    var scrollpos = $('#s'+today).offset();
-    var scroll = scrollpos.top;
-
-
-    $('#seminarcol').scrollTop($('#s'+today).offset().top - ($(window).height()/2) - ($('#s'+today).height()/2)).delay( 100000 );
-    $('#s'+today).after( '<div class="futureheader" id="seminarfutureheader">↓ Zukunft ↓</div>' );
-    $('#e'+today).after( '<div class="futureheader" id="eventfutureheader">↓ Zukunft ↓</div>' );
-    $('#t'+today).after( '<div class="futureheader" id="timelinefutureheader">↓</div>' );
-
+    
+    
+    
 </script>
 
 <style>

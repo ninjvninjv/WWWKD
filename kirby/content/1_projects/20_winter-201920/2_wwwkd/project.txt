@@ -22,6 +22,8 @@ Author:
   path: people/janoschbelakratz
 - 
   path: people/johannaschaefer
+- 
+  path: people/jonadienst
 
 ----
 

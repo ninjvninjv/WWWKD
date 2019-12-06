@@ -7,7 +7,9 @@
 
     </script>
 
-<div class="col" id="seminarcol">
+<div class="col calendar" id="seminarcol">
+    
+    <div class="top"></div>
 
     <div class="past" id="seminarpast">
 
@@ -117,12 +119,7 @@
 
                     //marks tomorrow as well
                     var tomorrow = '<?= (new DateTime("+1 day"))->format("Y-m-d"); ?>';
-                    $('#s'+tomorrow).css('background-color', 'black ');
-                    $('#e'+tomorrow).css('background-color', 'black ');
-                    $('#s'+tomorrow).css('color', 'white ');
-                    $('#e'+tomorrow).css('color', 'white ');
-                    $('#t'+tomorrow).css('background-color', 'white ');
-                    $('#t'+tomorrow).css('background-color', 'white ');
+
 
                 //-----FUTURE------
 
