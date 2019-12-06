@@ -74,15 +74,14 @@
     </div>
 </div> -->
 
-<div class="topglow"></div>
-
     <div id='sidebarNavigation'>
         
 
-      <div class='siteTitle' id='headerTitle'><p>K<br>D</p></div>
+      <div class='siteTitle' id='headerTitle'><p>K<br>D</p>        <div class="topglow"></div>
+</div>
       <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
         <div class='siteTitle' id='kaTitle'><p>KA</p></div>
-
+        
     </div>
 
     <div id='displayInformation'>
