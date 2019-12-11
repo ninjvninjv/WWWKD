@@ -1,6 +1,5 @@
 <?php snippet('header') ?>
 
-
     <div id='calendarNavigation'>
 
       <?php snippet('timeline') ?>
@@ -159,17 +158,17 @@ function toggleColumn(checkColumn, column) {
     });
     ///////////////////////////
     // recalculate column width
-    $('.column').css('width', 'calc(100%/' + numberOfColumns + ')');
-    ///////////////////////////
-    // recalculate font sizes relative to column width
-    $('.seminartitle').css('font-size', $('.column').width()/15);
-    $('.eventtitle').css('font-size', $('.column').width()/15);
-    $('.protitle').css('font-size', $('.column').width()/15);
-    $('.infotext').css('font-size', $('.column').width()/20);
-    $('#peoplecol').css('font-size', $('.column').width()/20);
+      $('.column').css('width', 'calc(100%/' + numberOfColumns + ')');
+      ///////////////////////////
+      // recalculate font sizes relative to column width
+      $('.seminartitle').css('font-size', $('.column').width()/15);
+      $('.eventtitle').css('font-size', $('.column').width()/15);
+      $('.protitle').css('font-size', $('.column').width()/15);
+      $('.infotext').css('font-size', $('.column').width()/20);
+      $('#peoplecol').css('font-size', $('.column').width()/20);
 
-    $('label.menu').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
-    $('label.menuUnchecked').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
+      $('label.menu').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
+      $('label.menuUnchecked').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
   });
 }
 

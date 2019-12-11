@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p3249pqu0rufec0g\"",
+ "etag": "\"p33g85r4ho6kec0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-12-05T14:44:40.469Z",
+ "updated": "2019-12-09T11:55:26.236Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -6208,6 +6208,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3151777921604000\"",
+   "id": "_8h0j4ca48ork6b9i60pkcb9k68q4cba26t33eb9j8h1jce248crj4hhn8o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhoMGo0Y2E0OG9yazZiOWk2MHBrY2I5azY4cTRjYmEyNnQzM2ViOWo4aDFqY2UyNDhjcmo0aGhuOG8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-09T10:55:33.000Z",
+   "updated": "2019-12-09T10:56:00.802Z",
+   "summary": "Diplomsprechstunde Yannick",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2019-12-11T11:20:00+01:00"
+   },
+   "end": {
+    "dateTime": "2019-12-11T15:20:00+01:00"
+   },
+   "iCalUID": "DA21DF7C-203F-424F-B7F7-3DC68DC72F7F",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870251226000\"",
    "id": "_8kr4cdpo64s3eb9h8p238b9k6kp3aba26l0k4b9g84s3iga26sr3ichn70",
    "status": "confirmed",
@@ -7756,13 +7782,13 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3143348135126000\"",
+   "etag": "\"3151785031608000\"",
    "id": "_8os46ci661238ba2610jeb9k8gq4ab9p6p0jiba48h0k8ci46h132cph64",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhvczQ2Y2k2NjEyMzhiYTI2MTBqZWI5azhncTRhYjlwNnAwamliYTQ4aDBrOGNpNDZoMTMyY3BoNjQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-21T16:07:47.000Z",
-   "updated": "2019-10-21T16:07:47.563Z",
-   "summary": "KD PRÜFUNGEN",
+   "updated": "2019-12-09T11:55:15.804Z",
+   "summary": "KD PRÜFUNGEN ?",
    "creator": {
     "email": "jana-hofmann@live.de"
    },
@@ -7782,13 +7808,13 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3143348284626000\"",
+   "etag": "\"3151785040576000\"",
    "id": "_8gs4ag9g851j0ba588qjib9k8cqjaba16cpkcba28ks4aci56t2jiea274",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhnczRhZzlnODUxajBiYTU4OHFqaWI5azhjcWphYmExNmNwa2NiYTI4a3M0YWNpNTZ0MmppZWEyNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-21T16:09:02.000Z",
-   "updated": "2019-10-21T16:09:02.313Z",
-   "summary": "KD PRÜFUNGEN",
+   "updated": "2019-12-09T11:55:20.288Z",
+   "summary": "KD PRÜFUNGEN ?",
    "creator": {
     "email": "jana-hofmann@live.de"
    },
@@ -7804,6 +7830,58 @@
     "dateTime": "2020-06-19T10:00:00+02:00"
    },
    "iCalUID": "D8EA0AC0-EB59-4C55-A33F-BE8E2E7E99B9",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3151785052472000\"",
+   "id": "_88qkch1n8l344ba474pjab9k6h23ib9p8h0j8b9n70qj2ca46kpjce9j8c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg4cWtjaDFuOGwzNDRiYTQ3NHBqYWI5azZoMjNpYjlwOGgwajhiOW43MHFqMmNhNDZrcGpjZTlqOGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-09T11:55:26.000Z",
+   "updated": "2019-12-09T11:55:26.236Z",
+   "summary": "KD PRÜFUNGEN ?",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-07-02T09:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2020-07-02T10:00:00+02:00"
+   },
+   "iCalUID": "B5FD7EFB-D935-44D9-9DA4-78511D53693C",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3151785051686000\"",
+   "id": "_6co3ggph8534cba56kq36b9k8osk2ba28914ab9o84q38gpn6os46g9o6o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZjbzNnZ3BoODUzNGNiYTU2a3EzNmI5azhvc2syYmEyODkxNGFiOW84NHEzOGdwbjZvczQ2ZzlvNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-09T11:55:25.000Z",
+   "updated": "2019-12-09T11:55:25.843Z",
+   "summary": "KD PRÜFUNGEN ?",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-07-03T09:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2020-07-03T10:00:00+02:00"
+   },
+   "iCalUID": "308C1AFF-E543-4F9A-BBBE-8A44C768CA86",
    "sequence": 0
   },
   {
