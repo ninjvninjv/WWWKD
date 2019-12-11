@@ -7,17 +7,9 @@ div.navelement {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  z-index: 2000;
 }
 
-label.dropmenu {
-  position: relative;
-  padding-left: 1vw;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 
 .navelement p {
   cursor: pointer;
@@ -46,7 +38,12 @@ label input {
 }
 
 .checkmark {
-  background-color: black;
+  background-color: red;
+}
+
+.dropmenu .checkmark, label.dropmenu .checkmark::after, label.dropmenu:hover input ~ .checkmark:after {
+  position: inherit;
+  display: inline-block;
 }
 
 label .checkmark::after {
@@ -70,7 +67,7 @@ label:hover input ~ .checkmark:after {
 
 
 .checkmark:after {
-  background-color: black;
+  background-color: red;
 }
 
 .checkmark:after:hover ~ .checkmark:after {
@@ -133,9 +130,9 @@ label {
 label.dropmenu {
   display: none;
   width: calc(var(--column-width-six) - 10px);
-  margin: 5px;
-  padding: 0.8vw;
-  padding-left: 3.2vw;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5vw;
   box-sizing: border-box;
   color: white;
   border: black solid 2px;
@@ -143,6 +140,12 @@ label.dropmenu {
   height: 3vw;
   background-color: black;
   width: auto;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
 }
 
 label.menu {

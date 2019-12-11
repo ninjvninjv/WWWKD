@@ -23,7 +23,7 @@
       type="checkbox"
       class='checkEvent'
       onClick='toggleColumn(".checkEvent", "#events")'
-      name="checkTalks">
+      name="checkTalks" checked>
       <span class="checkmark"></span> Talks<br>
   </label>
   <label class='dropmenu checkEvent'>
@@ -31,7 +31,7 @@
       type="checkbox"
       class='checkEvent'
       onClick='toggleColumn(".checkEvent", "#events")'
-      name="checkPresentations">
+      name="checkPresentations" checked>
       <span class="checkmark"></span> Presentations<br>
   </label>
   <label class='dropmenu checkEvent'>
@@ -39,7 +39,7 @@
       type="checkbox"
       class='checkEvent'
       onClick='toggleColumn(".checkEvent", "#events")'
-      name="checkExhibitions">
+      name="checkExhibitions" checked>
       <span class="checkmark"></span> Exhibitions<br>
   </label>
 
@@ -64,7 +64,7 @@
       type="checkbox"
       class='checkCourses'
       onClick='toggleColumn(".checkCourses", "#seminars")'
-      name="checkSeminars">
+      name="checkSeminars" checked>
       <span class="checkmark"></span> Seminars<br>
   </label>
   <label class='dropmenu checkCourses'>
@@ -72,7 +72,7 @@
       type="checkbox"
       class='checkCourses'
       onClick='toggleColumn(".checkCourses", "#seminars")'
-      name="checkBasics">
+      name="checkBasics" checked>
       <span class="checkmark"></span> Grundkurse<br>
   </label>
   <label class='dropmenu checkCourses'>
@@ -80,7 +80,7 @@
       type="checkbox"
       class='checkCourses'
       onClick='toggleColumn(".checkCourses", "#seminars")'
-      name="checkWorkshops">
+      name="checkWorkshops" checked>
       <span class="checkmark"></span> Workshops<br>
   </label>
 </div>
@@ -104,7 +104,7 @@
         type="checkbox"
         class='checkProject'
         onClick='toggleColumn(".checkProject", "#projects")'
-        name="checkSeminarWorks">
+        name="checkSeminarWorks" checked>
         <span class="checkmark"></span> Seminar works<br>
     </label>
     <label class='dropmenu checkProject'>
@@ -112,7 +112,7 @@
         type="checkbox"
         class='checkProject'
         onClick='toggleColumn(".checkProject", "#projects")'
-        name="checkFreeProjects">
+        name="checkFreeProjects" checked>
         <span class="checkmark"></span> Free Projects<br>
     </label>
     <label class='dropmenu checkProject'>
@@ -120,7 +120,7 @@
         type="checkbox"
         class='checkProject'
         onClick='toggleColumn(".checkProject", "#projects")'
-        name="checkDiplomas">
+        name="checkDiplomas" checked>
         <span class="checkmark"></span> Diplomas<br>
     </label>
     <label class='dropmenu checkProject'>
@@ -128,7 +128,7 @@
         type="checkbox"
         class='checkProject'
         onClick='toggleColumn(".checkProject", "#projects")'
-        name="checkPrediplomas">
+        name="checkPrediplomas" checked>
         <span class="checkmark"></span> Prediplomas<br>
     </label>
 </div>
@@ -151,7 +151,7 @@
       <input
         type="checkbox"
         class='checkPeople'
-        name="checkProfs">
+        name="checkProfs" checked>
         <span class="checkmark" onClick='toggleColumn(".checkPeople", "#people")'></span> Profs<br>
     </label>
     <label class='dropmenu checkPeople'>
@@ -159,7 +159,7 @@
         type="checkbox"
         class='checkPeople'
         onClick='toggleColumn(".checkPeople", "#people")'
-        name="checkGuests">
+        name="checkGuests" checked>
         <span class="checkmark"></span> Guests<br>
     </label>
     <label class='dropmenu checkPeople'>
@@ -167,7 +167,7 @@
         type="checkbox"
         class='checkPeople'
         onClick='toggleColumn(".checkPeople", "#people")'
-        name="checkStudents">
+        name="checkStudents" checked>
         <span class="checkmark"></span> Students<br>
     </label>
 </div>
@@ -191,7 +191,7 @@
   type="checkbox"
   class='checkInfo'
   onClick='toggleColumn(".checkInfo", "#information")'
-  name="checkDepartment">
+  name="checkDepartment" checked>
   <span class="checkmark"></span> Department<br>
 </label>
 <label class='dropmenu checkInfo'>
@@ -199,7 +199,7 @@
     type="checkbox"
     class='checkInfo'
     onClick='toggleColumn(".checkInfo", "#information")'
-    name="checkAteliers">
+    name="checkAteliers" checked>
     <span class="checkmark"></span> Ateliers<br>
 </label>
 <label class='dropmenu checkInfo'>
@@ -207,7 +207,7 @@
     type="checkbox"
     class='checkInfo'
     onClick='toggleColumn(".checkInfo", "#information")'
-    name="checkAdmissions">
+    name="checkAdmissions" checked>
     <span class="checkmark"></span> Application<br>
 </label>
 <label class='dropmenu checkInfo'>
@@ -215,7 +215,7 @@
     type="checkbox"
     class='checkInfo'
     onClick='toggleColumn(".checkInfo", "#information")'
-    name="checkContact">
+    name="checkContact" checked>
     <span class="checkmark"></span> Contact<br>
 </label>
 </div>

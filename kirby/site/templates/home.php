@@ -161,9 +161,11 @@ toggleColumn(".checkPeople", "#people");
 // display dropdown menues
 function toggleDropMenues(checkColumn) {
   $(".navelement" + checkColumn + " p").click(function(){
+    $(".dropmenu:not(" + checkColumn +")").css('display', 'none');
     $(".dropmenu" + checkColumn).toggle();
   }
 )};
+
 toggleDropMenues(".checkEvent");
 toggleDropMenues(".checkCourses");
 toggleDropMenues(".checkPeople");
@@ -241,7 +243,7 @@ $(window).resize(function(){
         $('#s'+today).after( '<div class="futureheader" id="seminarfutureheader">↓ Zukunft ↓</div>' );
         $('#e'+today).after( '<div class="futureheader" id="eventfutureheader">↓ Zukunft ↓</div>' );
         $('#t'+today).after( '<div class="futureheader" id="timelinefutureheader">↓</div>' );
-        
+
 
         //SCROLLING IN GENERAL without a scrollbar
 
