@@ -241,6 +241,7 @@ $(window).resize(function(){
         $('#s'+today).after( '<div class="futureheader" id="seminarfutureheader">↓ Zukunft ↓</div>' );
         $('#e'+today).after( '<div class="futureheader" id="eventfutureheader">↓ Zukunft ↓</div>' );
         $('#t'+today).after( '<div class="futureheader" id="timelinefutureheader">↓</div>' );
+        
 
         //SCROLLING IN GENERAL without a scrollbar
 

@@ -53,6 +53,28 @@
     ?>
 
         <div class="day" id="s<?= $value->format("Y-m-d"); ?>">
+            
+        <script>
+        
+            $(document).ready(function(){
+                
+                //-----YEAR CHANGE-----
+                    var $timestamp = '<?php if (isset($item->start->dateTime)){echo $item->start->dateTime;} ?>';
+                    var ddate = $timestamp.substring(0, 10);
+                    var day = ddate.substring(8, 10);
+                    var month = ddate.substring(5, 7);
+                    var year = ddate.substring(0, 4);
+                
+                    if(month == '12'){
+                        
+                        $('#t'+ddate).after('<div class="year" id="year'+year+'" style="position:relative;float:left;width:100%;">'+year+'</div>' );
+                        $('#s'+ddate).after('<div class="year" id="year'+year+'" style="position:relative;float:left;width:100%;">'+year+'</div>' );
+                        $('#e'+ddate).after('<div class="year" id="year'+year+'" style="position:relative;float:left;width:100%;">'+year+'</div>' );
+                    }; 
+                
+            });
+            
+        </script>
 
 
 
@@ -106,15 +128,15 @@
                     var seminarday = seminardate.substring(8, 10);
                     var seminarmonth = seminardate.substring(5, 7);
                     var seminaryear = seminardate.substring(0, 4);
+                    var daydate = seminarday+'.'+seminarmonth;
 
                     $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="seminartime">'+seminarstart + '–' + seminarend +'</div><div class="seminarroom">Raum '+Math.floor((Math.random() * 222) + 214)+'</div><div class="rightline"></div><div class="seminartitle"><?= $item->summary; ?></div><div class="endline"></div><div class="seminarGlow" id="seminarGlowSeminar"></div></div>'); // this adds all the informations in a seminar div to the calendar
 
                     $('#t'+seminardate).html(''); // this empties the date line
                     $('#t'+seminardate).append(seminarday + '.' + seminarmonth); // and just prints it once
-
                     // $('.seminartitle').css('font-size', $('.column').width()/15);
                     // $('.eventtitle').css('font-size', $('.column').width()/15);// sets the font-size depending on the column width
-
+                    
                 //-----TOMORROW-----
 
                     //marks tomorrow as well
