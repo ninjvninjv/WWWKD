@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p33g85r4ho6kec0g\"",
+ "etag": "\"p33kcvoljlemuc0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-12-09T11:55:26.236Z",
+ "updated": "2019-12-11T10:01:30.497Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -6234,12 +6234,12 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870251226000\"",
+   "etag": "\"3152116980994000\"",
    "id": "_8kr4cdpo64s3eb9h8p238b9k6kp3aba26l0k4b9g84s3iga26sr3ichn70",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhrcjRjZHBvNjRzM2ViOWg4cDIzOGI5azZrcDNhYmEyNmwwazRiOWc4NHMzaWdhMjZzcjNpY2huNzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:05:25.000Z",
-   "updated": "2019-10-01T13:05:25.613Z",
+   "updated": "2019-12-11T10:01:30.497Z",
    "summary": "Anton Seminar",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
@@ -6250,10 +6250,10 @@
     "self": true
    },
    "start": {
-    "dateTime": "2019-12-12T10:00:00+01:00"
+    "dateTime": "2019-12-12T12:00:00+01:00"
    },
    "end": {
-    "dateTime": "2019-12-12T18:00:00+01:00"
+    "dateTime": "2019-12-12T20:00:00+01:00"
    },
    "iCalUID": "E6F78187-1FD4-4525-B5AB-0A89AB769278",
    "sequence": 0
@@ -7022,6 +7022,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3151793859288000\"",
+   "id": "_60pjcdi36srjcb9m7133ab9k690j2b9p8d2j2b9j68sj2ca375242e9i6s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcGpjZGkzNnNyamNiOW03MTMzYWI5azY5MGoyYjlwOGQyajJiOWo2OHNqMmNhMzc1MjQyZTlpNnMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-09T13:08:16.000Z",
+   "updated": "2019-12-09T13:08:49.644Z",
+   "summary": "Typemarathon",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-17T17:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-18T23:59:00+01:00"
+   },
+   "iCalUID": "0366C776-68F5-42A1-9CE1-32911C9DA927",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870480712000\"",
    "id": "_74rkad9i64p3aba56sq42b9k6h1k4b9p75330b9k8d2k4gi574p30dhl6s",
    "status": "confirmed",
@@ -7782,65 +7808,13 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3151785031608000\"",
-   "id": "_8os46ci661238ba2610jeb9k8gq4ab9p6p0jiba48h0k8ci46h132cph64",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhvczQ2Y2k2NjEyMzhiYTI2MTBqZWI5azhncTRhYjlwNnAwamliYTQ4aDBrOGNpNDZoMTMyY3BoNjQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-21T16:07:47.000Z",
-   "updated": "2019-12-09T11:55:15.804Z",
-   "summary": "KD PRÜFUNGEN ?",
-   "creator": {
-    "email": "jana-hofmann@live.de"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2020-06-18T09:00:00+02:00"
-   },
-   "end": {
-    "dateTime": "2020-06-18T10:00:00+02:00"
-   },
-   "iCalUID": "F8C2F0D4-B0A7-4D4E-96A9-DDAD2D4B1311",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3151785040576000\"",
-   "id": "_8gs4ag9g851j0ba588qjib9k8cqjaba16cpkcba28ks4aci56t2jiea274",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhnczRhZzlnODUxajBiYTU4OHFqaWI5azhjcWphYmExNmNwa2NiYTI4a3M0YWNpNTZ0MmppZWEyNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-21T16:09:02.000Z",
-   "updated": "2019-12-09T11:55:20.288Z",
-   "summary": "KD PRÜFUNGEN ?",
-   "creator": {
-    "email": "jana-hofmann@live.de"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2020-06-19T09:00:00+02:00"
-   },
-   "end": {
-    "dateTime": "2020-06-19T10:00:00+02:00"
-   },
-   "iCalUID": "D8EA0AC0-EB59-4C55-A33F-BE8E2E7E99B9",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3151785052472000\"",
+   "etag": "\"3151791797398000\"",
    "id": "_88qkch1n8l344ba474pjab9k6h23ib9p8h0j8b9n70qj2ca46kpjce9j8c",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=Xzg4cWtjaDFuOGwzNDRiYTQ3NHBqYWI5azZoMjNpYjlwOGgwajhiOW43MHFqMmNhNDZrcGpjZTlqOGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-12-09T11:55:26.000Z",
-   "updated": "2019-12-09T11:55:26.236Z",
-   "summary": "KD PRÜFUNGEN ?",
+   "updated": "2019-12-09T12:51:38.699Z",
+   "summary": "KD PRÜFUNGEN ",
    "creator": {
     "email": "jana-hofmann@live.de"
    },
@@ -7860,13 +7834,13 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3151785051686000\"",
+   "etag": "\"3151793748616000\"",
    "id": "_6co3ggph8534cba56kq36b9k8osk2ba28914ab9o84q38gpn6os46g9o6o",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZjbzNnZ3BoODUzNGNiYTU2a3EzNmI5azhvc2syYmEyODkxNGFiOW84NHEzOGdwbjZvczQ2ZzlvNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-12-09T11:55:25.000Z",
-   "updated": "2019-12-09T11:55:25.843Z",
-   "summary": "KD PRÜFUNGEN ?",
+   "updated": "2019-12-09T13:07:54.308Z",
+   "summary": "KD PRÜFUNGEN ",
    "creator": {
     "email": "jana-hofmann@live.de"
    },

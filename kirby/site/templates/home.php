@@ -9,13 +9,13 @@
 
   <div id='content'>
 
-    <?php snippet('navigation') ?>
+      <?php snippet('navigation') ?>
       <div class="topglow"></div>
 
     <div class='column' id='events'>
 
-        <?php snippet('events') ?>
-        <div class="topglow"></div>
+      <?php snippet('events') ?>
+      <div class="topglow"></div>
 
     </div>
 
@@ -49,7 +49,7 @@
 
     <div class='column' id='information'>
 
-        
+
         <?php snippet('information') ?>
         <div class="topglow"></div>
 
@@ -59,35 +59,21 @@
 
   </div>
 
- <!--Navigation new-->
-<!--
-<div id="mainNavigation">
-    <div class="content">
-    <ul class="menu">
-        <li class="button">Events</li>
-        <li class="button">Studium</li>
-        <li class="button">Projects</li>
-        <li class="button">People</li>
-        <li class="button">Info</li>
-        </ul>
-    </div>
-</div> -->
-
     <div id='sidebarNavigation'>
-        
+
 
       <div class='siteTitle' id='headerTitle'><p>K<br>D</p>        <div class="topglow"></div>
 </div>
       <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
         <div class='siteTitle' id='kaTitle'><p>KA</p></div>
-        
+
     </div>
 
     <div id='displayInformation'>
 
         <div id='info' class='textinfo'>
             <div class='infotitle'>a</div>
-            <div class='infoheader'>  
+            <div class='infoheader'>
                 <div class='infotype'>a</div>
                 <div class='infodate'></div>
                 <div class='infoauthor'></div>
@@ -101,19 +87,12 @@
 
 <!---SCRIPTS--->
 
-
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
 <script type="text/javascript">
 
-// --- CHECKBOXES ---
+// --- NAVIGATION ---
 
-//Check if input has class of "menu"
-  //If yes, hide column and display "menuUnchecked"
-  //If no, check if input has class of "menuUnchecked"
-    //If yes, show column
-    //If no, check if input of same class and "menu"/"dropmenu" is isChecked
-      //
-
+///////////////////////////
+// toggle columns
 function toggleColumn(checkColumn, column) {
   $("input" + checkColumn).click(function(){
     var isChecked = 0;
@@ -132,7 +111,7 @@ function toggleColumn(checkColumn, column) {
     if ( $(this).hasClass("menu") ) {
       console.log('hide');
       $(column).css('display', 'none');
-      $('label.menu' + checkColumn).css('display', 'none');
+      $('div.menu' + checkColumn).css('display', 'none');
       $('label.menuUnchecked' + checkColumn).css('display', 'inline-block');
     }
     else if ( $(this).hasClass("menuUnchecked") ) {
@@ -167,8 +146,8 @@ function toggleColumn(checkColumn, column) {
       $('.infotext').css('font-size', $('.column').width()/20);
       $('#peoplecol').css('font-size', $('.column').width()/20);
 
-      $('label.menu').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
-      $('label.menuUnchecked').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
+      $('div.menu').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
+      $('div.menuUnchecked').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
   });
 }
 
@@ -178,6 +157,18 @@ toggleColumn(".checkProject", "#projects");
 toggleColumn(".checkInfo", "#information");
 toggleColumn(".checkPeople", "#people");
 
+///////////////////////////
+// display dropdown menues
+function toggleDropMenues(checkColumn) {
+  $(".navelement" + checkColumn + " p").click(function(){
+    $(".dropmenu" + checkColumn).toggle();
+  }
+)};
+toggleDropMenues(".checkEvent");
+toggleDropMenues(".checkCourses");
+toggleDropMenues(".checkPeople");
+toggleDropMenues(".checkProject");
+toggleDropMenues(".checkInfo");
 
 $(window).resize(function(){
 
@@ -252,28 +243,28 @@ $(window).resize(function(){
         $('#t'+today).after( '<div class="futureheader" id="timelinefutureheader">↓</div>' );
 
         //SCROLLING IN GENERAL without a scrollbar
-        
+
         var i = 0;
         var k = 0;
-        
+
         $('.col.calendar').on('mousewheel DOMMouseScroll', function(e){
-            
+
             if (typeof e.originalEvent.wheelDelta == 'number') {
                 if(e.originalEvent.wheelDelta < 0) {
 
-                    
 
-                    
+
+
                     k = ($('#seminarcol').height() - $(window).height()) * -1;
                     kk = ($('#eventcol').height() - $(window).height()) * -1;
-                    
+
                     if(i-k > 0 || i-kk > 0){
-                        
+
                         i = i-10;
                         $('#seminarcol').css('top', i);
                         $('#eventcol').css('top', i);
                         $('#timelinecol').css('top', i);
-                        
+
                     }
 
                 } else if(e.originalEvent.wheelDelta > 0) {
@@ -287,14 +278,14 @@ $(window).resize(function(){
 
                 };
             };
-        }); 
-        
-        
-        
+        });
+
+
+
     });
-    
-    
-    
+
+
+
 </script>
 
 <style>
