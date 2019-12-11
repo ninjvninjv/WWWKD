@@ -23,26 +23,22 @@ label input {
   width: 0;
 }
 
-.checkmark, label .checkmark::after  {
+.checkmark  {
   position: absolute;
+  background-color: white;
+  width: 2.7vw;
+  height: 2.7vw;
+  border-radius: 2.7vw;
+  border: black solid 0.1vw;
   left: 0;
   top: 0;
-  height: 2.7vw;
-  width: 2.7vw;
-  background-color: white;
-  border: black solid 0.3vw;
-  border-radius: 2.7vw;
   margin: 0;
   box-sizing: border-box;
   padding: 0;
 }
 
-.checkmark {
-  background-color: red;
-}
-
 .dropmenu .checkmark, label.dropmenu .checkmark::after, label.dropmenu:hover input ~ .checkmark:after {
-  position: inherit;
+  position: relative;
   display: inline-block;
 }
 
@@ -54,21 +50,11 @@ label .checkmark::after {
 }
 
 label:hover input ~ .checkmark:after {
-  background-color: white;
-  border: black solid 0.3vw;
   content: "X";
   color: black;
-  font-size: 2.5vw;
-  box-sizing: border-box;
-  position: absolute;
-  left: 0;
-  top: 0;
+  font-size: 2.9vw;
 }
 
-
-.checkmark:after {
-  background-color: red;
-}
 
 .checkmark:after:hover ~ .checkmark:after {
   background-color: red;
