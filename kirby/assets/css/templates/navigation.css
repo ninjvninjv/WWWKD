@@ -72,8 +72,9 @@ label input:checked ~ .checkmark:after {
 div.navigationMenu {
   z-index: 100;
   position: absolute;
-  top: 5px;
-  height: 2vw;
+  top: 0;
+  margin-top: 3px;
+  height: 6vh;
   width: 200000vw;
 }
 

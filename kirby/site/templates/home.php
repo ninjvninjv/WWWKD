@@ -147,7 +147,8 @@ function toggleColumn(checkColumn, column) {
       $('#peoplecol').css('font-size', $('.column').width()/20);
 
       $('div.menu').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
-      $('div.menuUnchecked').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
+      width = $('div.menu').css('width')
+      $('label.menuUnchecked').css('width', width);
   });
 }
 
@@ -171,6 +172,19 @@ toggleDropMenues(".checkCourses");
 toggleDropMenues(".checkPeople");
 toggleDropMenues(".checkProject");
 toggleDropMenues(".checkInfo");
+
+var ent, x, num;
+$('.navigationMenu').mouseenter(function(event) {
+  ent = event.pageX;
+})
+$('.navigationMenu').mousemove(function(event) {
+  x = event.pageX
+  num = (ent - x)*1.2;
+  if (num < 0) {
+    $('.navigationMenu').css('left', num);
+  }
+
+})
 
 $(window).resize(function(){
 
@@ -297,6 +311,10 @@ $(window).resize(function(){
 
         cursor: url('<?= $site->find('home')->image('cursor.svg')->url() ?>');
 
+    }
+
+    #displayInformation {
+      display: none;
     }
 
 </style>
