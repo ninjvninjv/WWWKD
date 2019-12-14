@@ -126,9 +126,9 @@ body {
 /*---OVERLAY---*/
 
 #displayInformation{
-    
+
     position:fixed;
-    
+
     top: 2.5%;
     right:1vw;
     height:95%;
@@ -136,11 +136,11 @@ body {
     background-color:white;
     z-index:20000000;
     box-shadow: 30px 30px 100px red;
-    
+
 }
 
 .infotitle{
-    
+
     position: absolute;
     left:0px;
     top:0px;
@@ -148,15 +148,15 @@ body {
     height:10%;
     border-bottom-style:solid;
     border-bottom-width:1px;
-    
+
     font-size:2vw;
     text-align:center;
     line-height:1;
-    
+
 }
 
 .infoheader{
-    
+
     position: absolute;
     left:0px;
     top:10%;
@@ -167,7 +167,7 @@ body {
 }
 
 .informationtext{
-    
+
     position: absolute;
     left:0px;
     top:30%;
@@ -215,22 +215,22 @@ body {
 }
 
 .top{
-    
+
     position:relative;
     height:7vw;
     width:100%;
-    
+
 }
 
 .topglow{
-    
+
     position: absolute;
     top:0;
     left:0;
     height:7vw;
     width:100%;
     background-image: linear-gradient(to top, transparent 0%, red 80%)
-    
+
 }
 
 /*---CALENDAR---*/
@@ -599,8 +599,8 @@ body {
     text-align:center;
     border-top-style: solid;
     border-top-width:1px;
-    
-    
+
+
 }
 
 .protype{
@@ -619,7 +619,7 @@ body {
 }
 
 .prosemester{
-    
+
     padding-top:0.4vw;
     font-family: 'mf_basis_monou15_p80';
     font-size: 2vw;
@@ -657,7 +657,7 @@ body {
     top:2.5%;
     height:95%;
     box-shadow: 10px 10px 100px 10px red;
-    
+
     mix-blend-mode: luminosity;
     z-index: 300000000000000000;
 
