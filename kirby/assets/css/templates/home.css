@@ -76,17 +76,6 @@ body {
 }
 
 
-#calendarNavigation{
-
-  width: var(--calendarNavigation-width);
-  height: 100vh;
-  position: relative;
-    float:left;
-  left: 0;
-  top: 0;
-
-}
-
 #content {
   position: absolute;
   width: calc(5*(100vw/6.35));
@@ -101,19 +90,6 @@ body {
   width: calc(4*(100vw/7));
   top: 30vh;
   left: calc(1.8*var(--column-width-six)*(3/7));
-}
-
-.column {
-  position: relative;
-    float:left;
-  width: var(--column-width-six);
-  height: 100vh;
-    overflow:visible;
-
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .contentPlazthalter {
@@ -201,11 +177,29 @@ body {
 
 /*---COLUMNS---*/
 
+.column {
+  position: relative;
+    float:left;
+  width: var(--column-width-six);
+  height: 102.5vh;
+    overflow:scroll;
+
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+.column::-webkit-scrollbar { /* WebKit */
+  width: 0px;
+}
+
 .col{
 
     width:100%;
-    height:100vh;
-    overflow:visible;
+    height:auto;
+    overflow:hidden;
 
 }
 
@@ -250,13 +244,6 @@ body {
     border-bottom-width: 1px;
 }
 
-#timelinecol{
-
-    overflow:hidden;
-    z-index: 1000;
-
-}
-
 .archive, .futureheader{
 
     width:100%;
@@ -295,17 +282,35 @@ body {
 
 /*TIMELINE*/
 
+#calendarNavigation{
+
+    width: var(--calendarNavigation-width);
+    height: 100vh;
+    position: relative;
+    float:left;
+    left: 0;
+    top: 0;
+    overflow:hidden;
+    
+    border-right: black 1px solid;
+    z-index:100000;
+
+}
+
+#timelinecol{
+    
+    position:relative;
+    float:left;
+
+    overflow:hidden;
+    height:100vh;
+
+}
+
 .futureheader{
     
     border-bottom: black solid 1px;
     
-}
-
-#calendarNavigation{
-
-    border-right: black 1px solid;
-    z-index:100000;
-
 }
 
 .hours{
@@ -337,6 +342,14 @@ body {
     left: 40%;
 
 
+}
+
+.timelinedate{
+    
+    width:100%;
+    text-align:center;
+    padding-top:5px;
+    
 }
 
 /*EVENTS*/
@@ -454,16 +467,6 @@ body {
 
 /*SEMINARS*/
 
-.col{
-    
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:auto;
-    
-}
-
 .seminar, .event{
 
     position:relative;
@@ -537,6 +540,8 @@ body {
 
 .pastseminar, .pastevent{
 
+    position: relative;
+    float:left;
     width:100%;
     height:auto;
     margin-bottom:3px;
@@ -550,7 +555,7 @@ body {
     position:relative;
     float:left;
     height:auto;
-    width:50%;
+    width:100%;
     overflow:hidden;
 
 
@@ -559,8 +564,10 @@ body {
 .past{
 
     position:relative;
+    float:left;
     vertical-align:bottom;
     height:auto;
+    width:100%;
 }
 
 

@@ -37,7 +37,11 @@
 
         ?>
 
-            <div class="day" id="t<?= $value->format("Y-m-d"); ?>"></div>
+            <div class="day" id="t<?= $value->format("Y-m-d"); ?>">
+        
+                <div class="timelinedate" id="td<?= $value->format("Y-m-d"); ?>"></div>
+        
+            </div>
 
 
         <?php endforeach?>

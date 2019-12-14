@@ -1,0 +1,57 @@
+Title: Atlas
+
+----
+
+Kind: seminar
+
+----
+
+Texttitle: Atlas
+
+----
+
+Supervisor: 
+
+- 
+  supervisor: people/anton-stuckardt
+
+----
+
+Students: 
+
+- 
+  students: people/paulina-mimberg
+- 
+  students: people/janoschbelakratz
+
+----
+
+Projects: 
+
+----
+
+Semester: WS19
+
+----
+
+Begindate: 
+
+----
+
+Enddate: 
+
+----
+
+Start: 
+
+----
+
+End: 
+
+----
+
+Link: 
+
+----
+
+About: 

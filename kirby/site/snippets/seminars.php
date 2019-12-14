@@ -1,4 +1,4 @@
-<div class="ruler"></div>
+
 
     <script>
 
@@ -131,9 +131,11 @@
                     var daydate = seminarday+'.'+seminarmonth;
 
                     $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="seminartime">'+seminarstart + '–' + seminarend +'</div><div class="seminarroom">Raum '+Math.floor((Math.random() * 222) + 214)+'</div><div class="rightline"></div><div class="seminartitle"><?= $item->summary; ?></div><div class="endline"></div><div class="seminarGlow" id="seminarGlowSeminar"></div></div>'); // this adds all the informations in a seminar div to the calendar
+                    
+                    
 
-                    $('#t'+seminardate).html(''); // this empties the date line
-                    $('#t'+seminardate).append(seminarday + '.' + seminarmonth); // and just prints it once
+                    $('#td'+seminardate).html(''); // this empties the date line
+                    $('#td'+seminardate).append(seminarday + '.' + seminarmonth); // and just prints it once
                     // $('.seminartitle').css('font-size', $('.column').width()/15);
                     // $('.eventtitle').css('font-size', $('.column').width()/15);// sets the font-size depending on the column width
                     
@@ -256,6 +258,22 @@
                         $('#t'+day).height(sheight);
 
                     };
+                
+                    var spastheight = $('#seminarpast').height();
+                    var epastheight = $('#eventpast').height();
+                
+                    if(epastheight >= spastheight){
+                       
+                        $('#seminarpast').height(epastheight);
+                        $('#timelinepast').height(epastheight);
+                        
+                       
+                    }else{
+                       
+                        $('#eventpast').height(spastheight)
+                        $('#timelinepast').height(spastheight)
+                       
+                    }
 
                     //fits the height of the day to the biggest when resizing the window
                     $(window).resize(function(){
@@ -288,7 +306,7 @@
                     });
 
                     //fits the height of the day to the biggest when klick on sidebar
-                    $('.menu').on('click', function(){
+                    $('.navigationMenu').on('click', function(){
 
                         $('#s'+day).css('height', 'auto');
                         $('#e'+day).css('height', 'auto');
@@ -310,6 +328,15 @@
                             $('#t'+day).height(sheight);
 
                         };
+                        
+                        if($('#s'+day).height() <= 10 || $('#e'+day).height() <= 10 ){
+                            
+                            $('#td'+day).css('display', 'none');
+                        }else{
+                            
+                            $('#td'+day).css('display', 'block');
+                            
+                        }
 
                         $('.seminartitle').css('font-size', $('.column').width()/15);
                         $('.eventtitle').css('font-size', $('.column').width()/15);

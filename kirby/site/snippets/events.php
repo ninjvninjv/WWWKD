@@ -1,5 +1,3 @@
-<div class="ruler"></div>
-
 <div class="col calendar" id="eventcol">
   
     <div class="top"></div>
@@ -127,8 +125,8 @@
 
                     $('#e'+eventdate).append('<div class="event" id="<?= $item->summary; ?>"><div class="eventtime">'+eventstart + '–' + eventend +'</div><div class="eventroom">'+eventlocation+'</div><div class="rightline"></div><div class="eventtitle">'+eventname+'</div><div class="eventtype">'+eventtype+'</div><div class="endline"></div><div class="eventGlow" id="eventGlow'+eventtype+'"></div></div>'); // this adds all the informations in a event div to the calendar
 
-                    $('#t'+eventdate).html(''); // this empties the date line
-                    $('#t'+eventdate).append(eventday + '.' + eventmonth); // and just prints it once
+                    $('#td'+eventdate).html(''); // this empties the date line
+                    $('#td'+eventdate).append(eventday + '.' + eventmonth); // and just prints it once
 
                     // $('.eventtitle').css('font-size', $('.column').width()/20); // sets the font-size depending on the column width
                 });

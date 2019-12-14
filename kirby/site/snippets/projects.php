@@ -84,39 +84,6 @@
   $(document).ready(function(){
       
       
-      //-----SCROLLING-----
-      
-        var j = 0;
-        var m = 0;
-      
-        $('#projectcol').on('mousewheel DOMMouseScroll', function(e){
-            
-            if (typeof e.originalEvent.wheelDelta == 'number') {
-                if(e.originalEvent.wheelDelta < 0) {
-
-                    
-
-                    
-                    m = ($('#projectcol').height() - $(window).height()) * -1;
-                    
-                    if(j-m > 0){
-                        
-                        j = j-10;
-                        $('#projectcol').css('top', j);
-                        
-                    }
-
-                } else if(e.originalEvent.wheelDelta > 0) {
-
-                    if(j<0){
-                        j = j+10;
-                        $('#projectcol').css('top', j);
-                    };
-
-                };
-            };
-        }); 
-      
   });
 
 

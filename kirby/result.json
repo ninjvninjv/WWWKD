@@ -1,9 +1,9 @@
 {
  "kind": "calendar#events",
- "etag": "\"p33g85r4ho6kec0g\"",
+ "etag": "\"p334arhcplqoec0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
- "updated": "2019-12-09T11:55:26.236Z",
+ "updated": "2019-12-12T14:52:00.013Z",
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
@@ -6234,12 +6234,12 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3139870251226000\"",
+   "etag": "\"3152116980994000\"",
    "id": "_8kr4cdpo64s3eb9h8p238b9k6kp3aba26l0k4b9g84s3iga26sr3ichn70",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzhrcjRjZHBvNjRzM2ViOWg4cDIzOGI5azZrcDNhYmEyNmwwazRiOWc4NHMzaWdhMjZzcjNpY2huNzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-01T13:05:25.000Z",
-   "updated": "2019-10-01T13:05:25.613Z",
+   "updated": "2019-12-11T10:01:30.497Z",
    "summary": "Anton Seminar",
    "creator": {
     "email": "anton.stuckardt@gmail.com"
@@ -6250,10 +6250,10 @@
     "self": true
    },
    "start": {
-    "dateTime": "2019-12-12T10:00:00+01:00"
+    "dateTime": "2019-12-12T12:00:00+01:00"
    },
    "end": {
-    "dateTime": "2019-12-12T18:00:00+01:00"
+    "dateTime": "2019-12-12T20:00:00+01:00"
    },
    "iCalUID": "E6F78187-1FD4-4525-B5AB-0A89AB769278",
    "sequence": 0
@@ -6364,14 +6364,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3143824028784000\"",
+   "etag": "\"3152304630666000\"",
    "id": "_8ooj4ha574r30b9m6t2k4b9k74oj6ba18513cba584rj8gpg6t232dph68",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=Xzhvb2o0aGE1NzRyMzBiOW02dDJrNGI5azc0b2o2YmExODUxM2NiYTU4NHJqOGdwZzZ0MjMyZHBoNjggNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-24T10:13:34.000Z",
-   "updated": "2019-10-24T10:13:34.392Z",
-   "summary": "Mappenberatung Ivan / Michi ",
-   "description": "+ Anton / Jana?",
+   "updated": "2019-12-12T12:05:15.333Z",
+   "summary": "Mappenberatung Michi ",
+   "description": "+ Anton",
    "creator": {
     "email": "jana-hofmann@live.de"
    },
@@ -6683,6 +6683,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3152324591336000\"",
+   "id": "_8oq3adpi60q46b9i70p36b9k6t1j0ba2612kcba66ko46dhn612jic1h84",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhvcTNhZHBpNjBxNDZiOWk3MHAzNmI5azZ0MWowYmEyNjEya2NiYTY2a280NmRobjYxMmppYzFoODQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-12T14:46:26.000Z",
+   "updated": "2019-12-12T14:51:35.668Z",
+   "summary": "Workshop Jana",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-10T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-10T18:00:00+01:00"
+   },
+   "iCalUID": "F457204C-2823-47C0-B0EF-F50C670E901A",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3142245768214000\"",
    "id": "_70oj0cpo6123gb9o84r3ib9k60skaba268q34b9i8d1kac2264s30g9j74",
    "status": "confirmed",
@@ -6813,14 +6839,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3143823950692000\"",
+   "etag": "\"3152304080282000\"",
    "id": "_64pk6dq58p230b9n8h1j0b9k8cqkab9o8h146b9i6kr3igq660skae9h8c",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzY0cGs2ZHE1OHAyMzBiOW44aDFqMGI5azhjcWthYjlvOGgxNDZiOWk2a3IzaWdxNjYwc2thZTloOGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-24T10:12:55.000Z",
-   "updated": "2019-10-24T10:12:55.346Z",
+   "updated": "2019-12-12T12:00:40.141Z",
    "summary": "Mappenberatung Juliane ",
-   "description": "+ Anton / Jana ?\n",
+   "description": "+ Jana \n",
    "creator": {
     "email": "jana-hofmann@live.de"
    },
@@ -6970,6 +6996,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3152324610134000\"",
+   "id": "_8gqk4e216913ib9l8kojcb9k84p46b9o6l1j6b9j8gr46ea46crk4d9o74",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhncWs0ZTIxNjkxM2liOWw4a29qY2I5azg0cDQ2YjlvNmwxajZiOWo4Z3I0NmVhNDZjcms0ZDlvNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-12T14:51:37.000Z",
+   "updated": "2019-12-12T14:51:45.067Z",
+   "summary": "Workshop Jana",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-17T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-17T17:00:00+01:00"
+   },
+   "iCalUID": "D5B8A2B9-5E16-4A2C-85C3-3D6C9D37B589",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3141407416548000\"",
    "id": "_6gs4agi36cok2b9l6d334b9k70s3eba28kqk6b9m8d14achg892jecq16g",
    "status": "confirmed",
@@ -7018,6 +7070,32 @@
     "dateTime": "2020-01-17T16:30:00+01:00"
    },
    "iCalUID": "FE6E8A74-D913-4FEC-B11F-CE04B27D8891",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3151793859288000\"",
+   "id": "_60pjcdi36srjcb9m7133ab9k690j2b9p8d2j2b9j68sj2ca375242e9i6s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcGpjZGkzNnNyamNiOW03MTMzYWI5azY5MGoyYjlwOGQyajJiOWo2OHNqMmNhMzc1MjQyZTlpNnMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-09T13:08:16.000Z",
+   "updated": "2019-12-09T13:08:49.644Z",
+   "summary": "Typemarathon",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-17T17:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-18T23:59:00+01:00"
+   },
+   "iCalUID": "0366C776-68F5-42A1-9CE1-32911C9DA927",
    "sequence": 0
   },
   {
@@ -7336,6 +7414,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3152324619880000\"",
+   "id": "_8coj0ea268q3cb9p6or48b9k88okcba16oo48b9h60rjag9k8l230dpg6k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzhjb2owZWEyNjhxM2NiOXA2b3I0OGI5azg4b2tjYmExNm9vNDhiOWg2MHJqYWc5azhsMjMwZHBnNmsgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-12T14:51:49.000Z",
+   "updated": "2019-12-12T14:51:49.940Z",
+   "summary": "Workshop Jana",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-01-31T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-01-31T18:00:00+01:00"
+   },
+   "iCalUID": "C109B246-966D-4B1F-A60D-1075A4ED0705",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3139870532524000\"",
    "id": "_6cpj2h1h8p246ba470skcb9k8op48ba288okcb9m891j4dhh64pkah9j6g",
    "status": "confirmed",
@@ -7494,6 +7598,32 @@
   },
   {
    "kind": "calendar#event",
+   "etag": "\"3152324640026000\"",
+   "id": "_88r38d1k6gq36ba18kqjab9k68sj6ba161338b9o70pj4h2168r38ca470",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Xzg4cjM4ZDFrNmdxMzZiYTE4a3FqYWI5azY4c2o2YmExNjEzMzhiOW83MHBqNGgyMTY4cjM4Y2E0NzAgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
+   "created": "2019-12-12T14:51:59.000Z",
+   "updated": "2019-12-12T14:52:00.013Z",
+   "summary": "Workshop Jana",
+   "creator": {
+    "email": "jana-hofmann@live.de"
+   },
+   "organizer": {
+    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
+    "displayName": "Kurse Hauptstudium",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2020-02-07T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2020-02-07T18:00:00+01:00"
+   },
+   "iCalUID": "B6444443-AE55-4293-A0F4-8832DA2641D8",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
    "etag": "\"3142245781050000\"",
    "id": "_75236d1g6t0jaba475346b9k68sjcba2651jaba288ok4di384qj8c1m70",
    "status": "confirmed",
@@ -7599,13 +7729,14 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3148317988330000\"",
+   "etag": "\"3152304703644000\"",
    "id": "_6oo30d9o88s42b9n6cq3cb9k8l1jcb9p6opj2b9o8coj4da28kp32ga16o",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZvbzMwZDlvODhzNDJiOW42Y3EzY2I5azhsMWpjYjlwNm9wajJiOW84Y29qNGRhMjhrcDMyZ2ExNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-10-24T10:14:18.000Z",
-   "updated": "2019-11-19T10:23:14.165Z",
+   "updated": "2019-12-12T12:05:51.822Z",
    "summary": "Mappenberatung James ",
+   "description": "+ Anton\n",
    "creator": {
     "email": "jana-hofmann@live.de"
    },
@@ -7618,7 +7749,7 @@
     "dateTime": "2020-02-11T14:00:00+01:00"
    },
    "end": {
-    "dateTime": "2020-02-12T16:00:00+01:00"
+    "dateTime": "2020-02-11T16:00:00+01:00"
    },
    "iCalUID": "60058B8A-7346-4EC6-9631-8C125BE21AA6",
    "sequence": 0
@@ -7782,65 +7913,13 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3151785031608000\"",
-   "id": "_8os46ci661238ba2610jeb9k8gq4ab9p6p0jiba48h0k8ci46h132cph64",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhvczQ2Y2k2NjEyMzhiYTI2MTBqZWI5azhncTRhYjlwNnAwamliYTQ4aDBrOGNpNDZoMTMyY3BoNjQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-21T16:07:47.000Z",
-   "updated": "2019-12-09T11:55:15.804Z",
-   "summary": "KD PRÜFUNGEN ?",
-   "creator": {
-    "email": "jana-hofmann@live.de"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2020-06-18T09:00:00+02:00"
-   },
-   "end": {
-    "dateTime": "2020-06-18T10:00:00+02:00"
-   },
-   "iCalUID": "F8C2F0D4-B0A7-4D4E-96A9-DDAD2D4B1311",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3151785040576000\"",
-   "id": "_8gs4ag9g851j0ba588qjib9k8cqjaba16cpkcba28ks4aci56t2jiea274",
-   "status": "confirmed",
-   "htmlLink": "https://www.google.com/calendar/event?eid=XzhnczRhZzlnODUxajBiYTU4OHFqaWI5azhjcWphYmExNmNwa2NiYTI4a3M0YWNpNTZ0MmppZWEyNzQgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
-   "created": "2019-10-21T16:09:02.000Z",
-   "updated": "2019-12-09T11:55:20.288Z",
-   "summary": "KD PRÜFUNGEN ?",
-   "creator": {
-    "email": "jana-hofmann@live.de"
-   },
-   "organizer": {
-    "email": "4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com",
-    "displayName": "Kurse Hauptstudium",
-    "self": true
-   },
-   "start": {
-    "dateTime": "2020-06-19T09:00:00+02:00"
-   },
-   "end": {
-    "dateTime": "2020-06-19T10:00:00+02:00"
-   },
-   "iCalUID": "D8EA0AC0-EB59-4C55-A33F-BE8E2E7E99B9",
-   "sequence": 0
-  },
-  {
-   "kind": "calendar#event",
-   "etag": "\"3151785052472000\"",
+   "etag": "\"3151791797398000\"",
    "id": "_88qkch1n8l344ba474pjab9k6h23ib9p8h0j8b9n70qj2ca46kpjce9j8c",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=Xzg4cWtjaDFuOGwzNDRiYTQ3NHBqYWI5azZoMjNpYjlwOGgwajhiOW43MHFqMmNhNDZrcGpjZTlqOGMgNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-12-09T11:55:26.000Z",
-   "updated": "2019-12-09T11:55:26.236Z",
-   "summary": "KD PRÜFUNGEN ?",
+   "updated": "2019-12-09T12:51:38.699Z",
+   "summary": "KD PRÜFUNGEN ",
    "creator": {
     "email": "jana-hofmann@live.de"
    },
@@ -7860,13 +7939,13 @@
   },
   {
    "kind": "calendar#event",
-   "etag": "\"3151785051686000\"",
+   "etag": "\"3151793748616000\"",
    "id": "_6co3ggph8534cba56kq36b9k8osk2ba28914ab9o84q38gpn6os46g9o6o",
    "status": "confirmed",
    "htmlLink": "https://www.google.com/calendar/event?eid=XzZjbzNnZ3BoODUzNGNiYTU2a3EzNmI5azhvc2syYmEyODkxNGFiOW84NHEzOGdwbjZvczQ2ZzlvNm8gNGU3NmpxOWtwNXRvb2lsMG5ibDkydXZuNjhAZw",
    "created": "2019-12-09T11:55:25.000Z",
-   "updated": "2019-12-09T11:55:25.843Z",
-   "summary": "KD PRÜFUNGEN ?",
+   "updated": "2019-12-09T13:07:54.308Z",
+   "summary": "KD PRÜFUNGEN ",
    "creator": {
     "email": "jana-hofmann@live.de"
    },

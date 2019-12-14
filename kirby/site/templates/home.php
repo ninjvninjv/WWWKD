@@ -14,14 +14,19 @@
 
     <div class='column' id='events'>
 
+        <div class="ruler"></div>
+
         <?php snippet('events') ?>
         <div class="topglow"></div>
 
     </div>
 
     <div class='column' id='seminars'>
+        
+        <div class="ruler"></div>
 
         <?php snippet('seminars') ?>
+        <div id="seminarglowcol"></div>
         <div class="topglow"></div>
 
     </div>
@@ -225,17 +230,17 @@ $(window).resize(function(){
 
     $(document).ready(function(){
 
-        $('#eventcol').scroll(function(){
+        $('#events').on('scroll',function(){
 
-            $('#seminarcol').scrollTop($('#eventcol').scrollTop());
-            $('#timelinecol').scrollTop($('#eventcol').scrollTop());
+            $('#seminars').scrollTop($('#events').scrollTop());
+            $('#timelinecol').scrollTop($('#events').scrollTop());
 
         });
 
-        $('#seminarcol').scroll(function(){
+        $('#seminars').on('scroll',function(){
 
-            $('#eventcol').scrollTop($('#seminarcol').scrollTop());
-            $('#timelinecol').scrollTop($('#seminarcol').scrollTop());
+            $('#events').scrollTop($('#seminars').scrollTop());
+            $('#timelinecol').scrollTop($('#seminars').scrollTop());
 
         });
 
@@ -250,45 +255,6 @@ $(window).resize(function(){
         $('#s'+today).after( '<div class="futureheader" id="seminarfutureheader">↓ Zukunft ↓</div>' );
         $('#e'+today).after( '<div class="futureheader" id="eventfutureheader">↓ Zukunft ↓</div>' );
         $('#t'+today).after( '<div class="futureheader" id="timelinefutureheader">↓</div>' );
-        
-
-        //SCROLLING IN GENERAL without a scrollbar
-        
-        var i = 0;
-        var k = 0;
-        
-        $('.col.calendar').on('mousewheel DOMMouseScroll', function(e){
-            
-            if (typeof e.originalEvent.wheelDelta == 'number') {
-                if(e.originalEvent.wheelDelta < 0) {
-
-                    
-
-                    
-                    k = ($('#seminarcol').height() - $(window).height()) * -1;
-                    kk = ($('#eventcol').height() - $(window).height()) * -1;
-                    
-                    if(i-k > 0 || i-kk > 0){
-                        
-                        i = i-10;
-                        $('#seminarcol').css('top', i);
-                        $('#eventcol').css('top', i);
-                        $('#timelinecol').css('top', i);
-                        
-                    }
-
-                } else if(e.originalEvent.wheelDelta > 0) {
-
-                    if(i<0){
-                        i = i+10;
-                        $('#seminarcol').css('top', i);
-                        $('#eventcol').css('top', i);
-                        $('#timelinecol').css('top', i);
-                    };
-
-                };
-            };
-        }); 
         
         
         
