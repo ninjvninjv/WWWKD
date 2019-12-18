@@ -3,14 +3,12 @@
     <div id='calendarNavigation'>
 
       <?php snippet('timeline') ?>
-        <div class="topglow"></div>
 
     </div>
 
   <div id='content'>
 
       <?php snippet('navigation') ?>
-      <div class="topglow"></div>
 
     <div class='column' id='events'>
 
@@ -18,7 +16,6 @@
         <div class="ruler"></div>
 
         <?php snippet('events') ?>
-        <div class="topglow"></div>
 
     </div>
 
@@ -28,21 +25,18 @@
 
         <?php snippet('seminars') ?>
         <div id="seminarglowcol"></div>
-        <div class="topglow"></div>
 
     </div>
 
     <div class='column' id='projects'>
 
         <?php snippet('projects') ?>
-        <div class="topglow"></div>
 
     </div>
 
     <div class='column' id='people'>
 
         <?php snippet('people') ?>
-        <div class="topglow"></div>
 
     </div>
 
@@ -55,20 +49,18 @@
 
     <div class='column' id='information'>
 
-
+        
         <?php snippet('information') ?>
-        <div class="topglow"></div>
 
     </div>
 
-
+      <div class="topglow"></div>
 
   </div>
-
+    
     <div id='sidebarNavigation'>
 
-
-      <div class='siteTitle' id='headerTitle'><p>K<br>D</p>        <div class="topglow"></div>
+      <div class='siteTitle' id='headerTitle'><p>K<br>D</p>        
 </div>
       <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
         <div class='siteTitle' id='kaTitle'><p>KA</p></div>
@@ -231,6 +223,9 @@ $(window).resize(function(){
 
     });
 
+// --- GLOW ---
+    
+
 
 // --- SEMINARS & EVENTS ---
 
@@ -276,10 +271,6 @@ $(window).resize(function(){
 
         cursor: url('<?= $site->find('home')->image('cursor.svg')->url() ?>');
 
-    }
-
-    #displayInformation {
-      display: none;
     }
 
 </style>

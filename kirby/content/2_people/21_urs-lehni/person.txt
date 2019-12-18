@@ -1,8 +1,8 @@
-Title: Karl Nawrot
+Title: Urs Lehni
 
 ----
 
-Typ: teacher
+Typ: prof
 
 ----
 
@@ -14,19 +14,19 @@ Members:
 
 ----
 
-Firstname: Karl
+Firstname: Urs
 
 ----
 
-Surname: Nawrot
+Surname: Lehni
 
 ----
 
-Begin: 2016-04-10
+Begin: 
 
 ----
 
-End: 2016-07-23
+End: 
 
 ----
 
@@ -51,6 +51,10 @@ Room:
 ----
 
 Websites: 
+
+- 
+  websitename: Rollo Press
+  url: https://rollo-press.com/
 
 ----
 

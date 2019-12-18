@@ -26,12 +26,12 @@ columns:
                         student: Student
                         group: Group of students
                         alumni: Alumni
-                status:
+                zustand:
                     label: Status
                     type: radio
                     options:
-                        yes: present
-                        no: past
+                        present: present
+                        past: past
         image:
                 headline: Profile Image
                 type: files

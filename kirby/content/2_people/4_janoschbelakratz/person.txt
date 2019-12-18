@@ -6,7 +6,7 @@ Typ: student
 
 ----
 
-Status: yes
+Zustand: present
 
 ----
 
@@ -56,6 +56,10 @@ Websites:
   websitename: null
   url: http://janoschkratz.eu
   platform: Homepage
+
+----
+
+Status: yes
 
 ----
 

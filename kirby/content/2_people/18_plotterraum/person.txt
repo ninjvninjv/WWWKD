@@ -6,7 +6,7 @@ Typ: hiwi
 
 ----
 
-Status: yes
+Zustand: present
 
 ----
 
@@ -62,3 +62,7 @@ Room: 225
 ----
 
 Websites: 
+
+----
+
+Status: yes
