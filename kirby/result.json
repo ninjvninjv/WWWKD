@@ -1,16 +1,9 @@
 {
  "kind": "calendar#events",
-<<<<<<< HEAD
  "etag": "\"p330blgtdj61ug0g\"",
  "summary": "Kurse Hauptstudium",
  "description": "",
  "updated": "2020-03-05T11:10:29.576Z",
-=======
- "etag": "\"p334arhcplqoec0g\"",
- "summary": "Kurse Hauptstudium",
- "description": "",
- "updated": "2019-12-12T14:52:00.013Z",
->>>>>>> parent of 3a494a7... design people
  "timeZone": "Europe/Berlin",
  "accessRole": "reader",
  "defaultReminders": [],
