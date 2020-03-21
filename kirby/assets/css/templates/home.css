@@ -22,12 +22,12 @@ body {
 .siteTitle {
   font-family: 'mf_basis_monou50_p80';
   font-size: 5.5vw;
-  z-index: 200;
   right: 1px;
   font-weight: 200;
   position: absolute;
   pointer-events: none;
   line-height: 5vw;
+    
 }
 
 .siteTitle p {
@@ -35,7 +35,7 @@ body {
 }
 
 #headerTitle {
-    top: 0px;
+    top: 3vw;
     padding-bottom: 15px;
     border-bottom:black 1px solid;
 }
@@ -76,7 +76,7 @@ body {
 }
 
 
-#content {
+#content{
   position: absolute;
   width: calc(5*(100vw/6.35));
 
@@ -128,7 +128,10 @@ body {
 #displayInformation{
 
     position:fixed;
-
+    
+    opacity: 0;
+    display: none;
+    
     top: 2.5%;
     right:1vw;
     height:95%;
@@ -197,6 +200,8 @@ body {
 
 .col{
 
+    position: relative;
+    float:left;
     width:100%;
     height:auto;
     overflow:hidden;
@@ -217,7 +222,7 @@ body {
 .top{
 
     position:relative;
-    height:7vw;
+    height:5vw;
     width:100%;
 
 }
@@ -230,6 +235,7 @@ body {
     height:7vw;
     width:100%;
     background-image: linear-gradient(to top, transparent 0%, red 80%);
+    pointer-events: none;
 
 }
 
@@ -270,6 +276,7 @@ body {
 /*the red line in <timeline> <events> and <courses>*/
 .ruler{
 
+    display:none;
     position:fixed;
     left:0px;
     width:100%;
@@ -355,7 +362,7 @@ body {
 
 /*EVENTS*/
 
-.eventGlow, .seminarGlow, #projectGlow{
+.eventGlow, #projectGlow{
 
     position:absolute;
     width:200%;
@@ -415,12 +422,7 @@ body {
 }
 
 #seminarGlowSeminar{
-
-    position:absolute;
-
-    top:50%;
-    left:50%;
-
+    
     border-radius: 200px 200px 0 0;
 
     background-image: radial-gradient(
@@ -467,6 +469,21 @@ body {
 
 
 /*SEMINARS*/
+
+.seminarGlow{
+    
+    position:absolute;
+    height:200px;
+    width:200px;
+    left:-100px;
+    
+}
+
+#seminarglowcol{
+    
+    position:absolute;
+    
+}
 
 .seminar, .event{
 
@@ -636,11 +653,13 @@ body {
 
 /*INFO*/
 .infotext{
-    margin-left: 2%;
-    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
     margin-bottom: 1vh;
     width: 100%;
     word-wrap: break-word;
+    
+    border-top: solid black 1px;
 
 }
 

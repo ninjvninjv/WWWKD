@@ -31,7 +31,7 @@
     <div class="archive" id="seminararchive">↑ Archiv ↑</div>
 
     <div class="future">
-
+        
         <?php
 
         $day = array();
@@ -85,7 +85,7 @@
 
             <?php
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, 'https://www.googleapis.com/calendar/v3/calendars/4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com/events?key=AIzaSyAun17rUsshrEgSRoG8c0dxlRmkgkBu-78&timeMin=2019-01-01T10:00:00-00:00&orderBy=startTime&singleEvents=true&maxResults=4500');
+        curl_setopt($curl, CURLOPT_URL, 'https://www.googleapis.com/calendar/v3/calendars/4e76jq9kp5tooil0nbl92uvn68@group.calendar.google.com/events?key=AIzaSyAun17rUsshrEgSRoG8c0dxlRmkgkBu-78&timeMin='.date("Y-m-d").'T10:00:00-00:00&orderBy=startTime&singleEvents=true&maxResults=4500');
 
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-type: application/json'));
@@ -129,8 +129,8 @@
                     var seminarmonth = seminardate.substring(5, 7);
                     var seminaryear = seminardate.substring(0, 4);
                     var daydate = seminarday+'.'+seminarmonth;
-
-                    $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="seminartime">'+seminarstart + '–' + seminarend +'</div><div class="seminarroom">Raum '+Math.floor((Math.random() * 222) + 214)+'</div><div class="rightline"></div><div class="seminartitle"><?= $item->summary; ?></div><div class="endline"></div><div class="seminarGlow" id="seminarGlowSeminar"></div></div>'); // this adds all the informations in a seminar div to the calendar
+                    
+                    $('#s'+seminardate).append('<div class="seminar" id="<?= $item->summary; ?>"><div class="seminartime">'+seminarstart + '–' + seminarend +'</div><div class="seminarroom">Raum '+Math.floor((Math.random() * 222) + 214)+'</div><div class="rightline"></div><div class="seminartitle"><?= $item->summary; ?></div><div class="endline"></div></div>'); // this adds all the informations in a seminar div to the calendar
                     
                     
 
@@ -139,17 +139,12 @@
                     // $('.seminartitle').css('font-size', $('.column').width()/15);
                     // $('.eventtitle').css('font-size', $('.column').width()/15);// sets the font-size depending on the column width
                     
+                    
+                    
                 //-----TOMORROW-----
 
                     //marks tomorrow as well
                     var tomorrow = '<?= (new DateTime("+1 day"))->format("Y-m-d"); ?>';
-
-
-                //-----FUTURE------
-
-                    //fits height of the day to the biggest
-
-
 
                 //-----PAST-----
 
@@ -356,7 +351,8 @@
         <script>
 
             $(document).ready(function(){
-                            //-----TODAY-----
+                
+                //-----TODAY-----
 
                     //values for todays row
                     var today = '<?= date("Y-m-d"); ?>';
@@ -375,10 +371,13 @@
                     $('#e'+today).css('height', ttoday);
 
 
+                    $()
+                
+                
 
             });
         </script>
-
+        
     </div>
 
 </div>

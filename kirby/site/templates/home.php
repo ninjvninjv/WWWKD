@@ -24,7 +24,6 @@
         <div class="ruler"></div>
 
         <?php snippet('seminars') ?>
-        <div id="seminarglowcol"></div>
 
     </div>
 
@@ -60,9 +59,8 @@
     
     <div id='sidebarNavigation'>
 
-      <div class='siteTitle' id='headerTitle'><p>K<br>D</p>        
-</div>
-      <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
+        <div class='siteTitle' id='headerTitle'><p>K<br>D</p></div>
+        <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
         <div class='siteTitle' id='kaTitle'><p>KA</p></div>
 
     </div>
@@ -244,6 +242,7 @@ $(window).resize(function(){
 
             $('#events').scrollTop($('#seminars').scrollTop());
             $('#timelinecol').scrollTop($('#seminars').scrollTop());
+            $('#seminarglowcolumn').scrollTop($('#seminars').scrollTop());
 
         });
 
