@@ -1,4 +1,4 @@
-label {
+div.navelement {
   display: block;
   position: relative;
   padding-left: 1vw;
@@ -7,6 +7,12 @@ label {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  z-index: 2000;
+}
+
+
+.navelement p {
+  cursor: pointer;
 }
 
 label input {
@@ -17,33 +23,45 @@ label input {
   width: 0;
 }
 
-.checkmark, label .checkmark:after  {
+.checkmark  {
   position: absolute;
+  background-color: white;
+  width: 2.7vw;
+  height: 2.7vw;
+  border-radius: 2.7vw;
+  border: black solid 0.1vw;
   left: 0;
-  height: 3vw;
-  width: 3vw;
-  background-color: white;
-  border: black solid 1px;
-  border-radius: 3vw;
+  top: 0;
   margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
-.checkmark {
-  background-color: white;
+.dropmenu .checkmark, label.dropmenu .checkmark::after, label.dropmenu:hover input ~ .checkmark:after {
+  position: relative;
+  display: inline-block;
 }
 
-.checkmark:after {
+label .checkmark::after {
   content: "";
   position: absolute;
   display: none;
+  box-sizing: border-box;
 }
 
 label:hover input ~ .checkmark:after {
-  background-color: white;
-  border: white solid 1px;
   content: "X";
   color: black;
-  font-size: 21px;
+  font-size: 2.9vw;
+}
+
+
+.checkmark:after:hover ~ .checkmark:after {
+  background-color: red;
+  border: black solid 0.3vw;
+  content: "X";
+  color: black;
+  font-size: 2.5vw;
   box-sizing: border-box;
 }
 
@@ -51,19 +69,12 @@ label input:checked ~ .checkmark:after {
   display: block;
 }
 
-label .checkmark:after {
-  background-color: black;
-}
-
-.dropmenu {
-  display: none;
-}
-
 div.navigationMenu {
   z-index: 100;
   position: absolute;
-  top: 5px;
-  height: 2vw;
+  top: 0;
+  margin-top: 3px;
+  height: 6vh;
   width: 200000vw;
 }
 
@@ -84,24 +95,53 @@ form.menuUnchecked {
   left: calc(5*(100vw/6.35));
 }
 
-label.menu {
+div.menu {
   display: inline-block;
   float: left;
   width: calc(var(--column-width-six) - 10px);
   margin: 5px;
-  padding: 5px;
-  padding-left: 25px;
-  padding-top: 0;
+  padding: 0.8vw;
+  padding-left: 3.2vw;
   box-sizing: border-box;
-  background-color: black;
   color: white;
   border: black solid 2px;
   border-radius: 3vw;
   height: 3vw;
+  background-color: black;
+}
+
+label {
+  display: inline-block;
+}
+
+label.dropmenu {
+  display: none;
+  width: calc(var(--column-width-six) - 10px);
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5vw;
+  box-sizing: border-box;
+  color: white;
+  border: black solid 2px;
+  border-radius: 3vw;
+  height: 3vw;
+  background-color: black;
+  width: auto;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+label.menu {
+  display: block;
+  width: 0;
+  height: 0;
 }
 
 label.menuUnchecked {
-  display: none;
   float: left;
   width: calc(var(--column-width-six) - 10px);
   margin: 5px;

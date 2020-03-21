@@ -6,7 +6,7 @@ Typ: employee
 
 ----
 
-Status: yes
+Zustand: present
 
 ----
 
@@ -51,3 +51,7 @@ Room: Siebdruckwerkstatt EG
 ----
 
 Websites: 
+
+----
+
+Status: yes

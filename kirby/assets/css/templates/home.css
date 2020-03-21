@@ -126,19 +126,9 @@ body {
 /*---OVERLAY---*/
 
 #displayInformation{
-    
-    position:fixed;
-<<<<<<< HEAD
-    
-<<<<<<< HEAD
-    opacity: 0;
-    display: none;
-    
-=======
->>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
-=======
 
->>>>>>> parent of 78fa010... try to fix it, sorry
+    position:fixed;
+
     top: 2.5%;
     right:1vw;
     height:95%;
@@ -146,36 +136,27 @@ body {
     background-color:white;
     z-index:20000000;
     box-shadow: 30px 30px 100px red;
-    
+
 }
 
 .infotitle{
-<<<<<<< HEAD
 
-<<<<<<< HEAD
     position: relative;
-=======
-    
-    position: absolute;
->>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
-=======
-    position: absolute;
->>>>>>> parent of 3a494a7... design people
     left:0px;
     top:0px;
     width:100%;
     height:10%;
     border-bottom-style:solid;
     border-bottom-width:1px;
-    
+
     font-size:2vw;
     text-align:center;
     line-height:1;
-    
+
 }
 
 .infoheader{
-    
+
     position: absolute;
     left:0px;
     top:10%;
@@ -186,7 +167,7 @@ body {
 }
 
 .informationtext{
-    
+
     position: absolute;
     left:0px;
     top:30%;
@@ -234,44 +215,22 @@ body {
 }
 
 .top{
-    
+
     position:relative;
     height:7vw;
     width:100%;
-    
+
 }
 
 .topglow{
-<<<<<<< HEAD
 
-<<<<<<< HEAD
     position: fixed;
-=======
-    
-    position: absolute;
->>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
-=======
-    position: absolute;
->>>>>>> parent of 3a494a7... design people
     top:0;
     left:0;
     height:7vw;
     width:100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
     background-image: linear-gradient(to top, transparent 0%, red 80%);
-<<<<<<< HEAD
-    pointer-events: none;
-=======
-    background-image: linear-gradient(to top, transparent 0%, red 80%)
->>>>>>> parent of 3a494a7... design people
-=======
->>>>>>> parent of 78fa010... try to fix it, sorry
 
-=======
-    background-image: linear-gradient(to top, transparent 0%, red 80%)
-    
->>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
 }
 
 /*---CALENDAR---*/
@@ -296,6 +255,7 @@ body {
     text-align:center;
     background-color:black;
     color:white;
+    border-color:transparent;
 
 }
 
@@ -310,15 +270,7 @@ body {
 /*the red line in <timeline> <events> and <courses>*/
 .ruler{
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    display:none;
-=======
->>>>>>> parent of 78fa010... try to fix it, sorry
     position:fixed;
-=======
-    position:absolute;
->>>>>>> parent of 3a494a7... design people
     left:0px;
     width:100%;
     pointer-events: none;
@@ -648,16 +600,6 @@ body {
     text-align:center;
     border-top-style: solid;
     border-top-width:1px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    
-    
->>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
-=======
-
-
->>>>>>> parent of 3a494a7... design people
 }
 
 .protype{
@@ -676,7 +618,7 @@ body {
 }
 
 .prosemester{
-    
+
     padding-top:0.4vw;
     font-family: 'mf_basis_monou15_p80';
     font-size: 2vw;
@@ -691,9 +633,6 @@ body {
     height: auto;
 }
 
-.proimage:hover{
-   mix-blend-mode: luminosity;
-}
 
 /*INFO*/
 .infotext{
@@ -701,19 +640,47 @@ body {
     margin-right: 2%;
     margin-bottom: 1vh;
     width: 100%;
-<<<<<<< HEAD
     word-wrap: break-word;
-<<<<<<< HEAD
-    
-    border-top: solid black 1px;
-=======
->>>>>>> parent of 3a494a7... design people
-=======
->>>>>>> parent of 78fa010... try to fix it, sorry
 
 }
 
 /*PEOPLE*/
+
+.person{
+    
+    
+    border-top: solid black 1px;
+    
+}
+
+.person:hover{
+    
+    background:black;
+    color:white;
+    cursor:pointer;
+    
+}
+
+.prof, .hiwi, .group, .student, .employee, .teacher{
+    padding-bottom:0.2vw;
+    padding-top:-0.2vw;
+    word-wrap: break-word;
+    
+}
+
+#persontype{
+    
+
+    
+}
+
+.personname{
+    
+    font-size:2vw;
+    line-height: 1.6vw;
+    
+}
+
 .profile{
     visibility: hidden;
     z-index: 100;
@@ -723,18 +690,27 @@ body {
     top:2.5%;
     height:95%;
     box-shadow: 10px 10px 100px 10px red;
-<<<<<<< HEAD
-<<<<<<< HEAD
     pointer-events: none;
-=======
->>>>>>> parent of 3a494a7... design people
 
-=======
-    
->>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
     mix-blend-mode: luminosity;
     z-index: 300000000000000000;
 
+}
+
+.peoplespast{
+    
+    width:100%;
+    
+    padding-bottom:0.6vw;
+    padding-top:0.4vw;
+    
+    font-size:2vw;
+    line-height: 1.6vw;
+    
+    text-align: center;
+    font-family: 'arial_brutforce_monospacedBlk';
+    border-top: solid black 1px;
+    
 }
 
 #mouse_over {

@@ -3,29 +3,19 @@
     <div id='calendarNavigation'>
 
       <?php snippet('timeline') ?>
-        <div class="topglow"></div>
 
     </div>
 
   <div id='content'>
 
-<<<<<<< HEAD
       <?php snippet('navigation') ?>
-<<<<<<< HEAD
-=======
-    <?php snippet('navigation') ?>
-      <div class="topglow"></div>
->>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
-=======
-      <div class="topglow"></div>
->>>>>>> parent of 3a494a7... design people
 
     <div class='column' id='events'>
+
 
         <div class="ruler"></div>
 
         <?php snippet('events') ?>
-        <div class="topglow"></div>
 
     </div>
 
@@ -34,29 +24,19 @@
         <div class="ruler"></div>
 
         <?php snippet('seminars') ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         <div id="seminarglowcol"></div>
-        <div class="topglow"></div>
->>>>>>> parent of 3a494a7... design people
-=======
-        <div id="seminarglowcol"></div>
->>>>>>> parent of 78fa010... try to fix it, sorry
 
     </div>
 
     <div class='column' id='projects'>
 
         <?php snippet('projects') ?>
-        <div class="topglow"></div>
 
     </div>
 
     <div class='column' id='people'>
 
         <?php snippet('people') ?>
-        <div class="topglow"></div>
 
     </div>
 
@@ -69,66 +49,29 @@
 
     <div class='column' id='information'>
 
-
+        
         <?php snippet('information') ?>
-        <div class="topglow"></div>
 
     </div>
 
-
+      <div class="topglow"></div>
 
   </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
     
     <div id='sidebarNavigation'>
 
-<<<<<<< HEAD
-        <div class='siteTitle' id='headerTitle'><p>K<br>D</p></div>
-        <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
-=======
-
- <!--Navigation new-->
-<!--
-<div id="mainNavigation">
-    <div class="content">
-    <ul class="menu">
-        <li class="button">Events</li>
-        <li class="button">Studium</li>
-        <li class="button">Projects</li>
-        <li class="button">People</li>
-        <li class="button">Info</li>
-        </ul>
-    </div>
-</div> -->
-=======
       <div class='siteTitle' id='headerTitle'><p>K<br>D</p>        
 </div>
       <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
         <div class='siteTitle' id='kaTitle'><p>KA</p></div>
->>>>>>> parent of 78fa010... try to fix it, sorry
 
-    <div id='sidebarNavigation'>
-        
-=======
-
-    <div id='sidebarNavigation'>
-
->>>>>>> parent of 3a494a7... design people
-
-      <div class='siteTitle' id='headerTitle'><p>K<br>D</p>        <div class="topglow"></div>
-</div>
-      <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
->>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
-        <div class='siteTitle' id='kaTitle'><p>KA</p></div>
-        
     </div>
 
     <div id='displayInformation'>
 
         <div id='info' class='textinfo'>
             <div class='infotitle'>a</div>
-            <div class='infoheader'>  
+            <div class='infoheader'>
                 <div class='infotype'>a</div>
                 <div class='infodate'></div>
                 <div class='infoauthor'></div>
@@ -142,19 +85,12 @@
 
 <!---SCRIPTS--->
 
-
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
 <script type="text/javascript">
 
-// --- CHECKBOXES ---
+// --- NAVIGATION ---
 
-//Check if input has class of "menu"
-  //If yes, hide column and display "menuUnchecked"
-  //If no, check if input has class of "menuUnchecked"
-    //If yes, show column
-    //If no, check if input of same class and "menu"/"dropmenu" is isChecked
-      //
-
+///////////////////////////
+// toggle columns
 function toggleColumn(checkColumn, column) {
   $("input" + checkColumn).click(function(){
     var isChecked = 0;
@@ -173,7 +109,7 @@ function toggleColumn(checkColumn, column) {
     if ( $(this).hasClass("menu") ) {
       console.log('hide');
       $(column).css('display', 'none');
-      $('label.menu' + checkColumn).css('display', 'none');
+      $('div.menu' + checkColumn).css('display', 'none');
       $('label.menuUnchecked' + checkColumn).css('display', 'inline-block');
     }
     else if ( $(this).hasClass("menuUnchecked") ) {
@@ -208,8 +144,9 @@ function toggleColumn(checkColumn, column) {
       $('.infotext').css('font-size', $('.column').width()/20);
       $('#peoplecol').css('font-size', $('.column').width()/20);
 
-      $('label.menu').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
-      $('label.menuUnchecked').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
+      $('div.menu').css('width', 'calc((100%/' + numberOfColumns + ' - 10px)');
+      width = $('div.menu').css('width')
+      $('label.menuUnchecked').css('width', width);
   });
 }
 
@@ -219,6 +156,33 @@ toggleColumn(".checkProject", "#projects");
 toggleColumn(".checkInfo", "#information");
 toggleColumn(".checkPeople", "#people");
 
+///////////////////////////
+// display dropdown menues
+function toggleDropMenues(checkColumn) {
+  $(".navelement" + checkColumn + " p").click(function(){
+    $(".dropmenu:not(" + checkColumn +")").css('display', 'none');
+    $(".dropmenu" + checkColumn).toggle();
+  }
+)};
+
+toggleDropMenues(".checkEvent");
+toggleDropMenues(".checkCourses");
+toggleDropMenues(".checkPeople");
+toggleDropMenues(".checkProject");
+toggleDropMenues(".checkInfo");
+
+var ent, x, num;
+$('.navigationMenu').mouseenter(function(event) {
+  ent = event.pageX;
+})
+$('.navigationMenu').mousemove(function(event) {
+  x = event.pageX
+  num = (ent - x)*1.2;
+  if (num < 0) {
+    $('.navigationMenu').css('left', num);
+  }
+
+})
 
 $(window).resize(function(){
 
@@ -259,6 +223,9 @@ $(window).resize(function(){
 
     });
 
+// --- GLOW ---
+    
+
 
 // --- SEMINARS & EVENTS ---
 
@@ -291,13 +258,11 @@ $(window).resize(function(){
         $('#s'+today).after( '<div class="futureheader" id="seminarfutureheader">↓ Zukunft ↓</div>' );
         $('#e'+today).after( '<div class="futureheader" id="eventfutureheader">↓ Zukunft ↓</div>' );
         $('#t'+today).after( '<div class="futureheader" id="timelinefutureheader">↓</div>' );
-        
-        
-        
+
     });
-    
-    
-    
+
+
+
 </script>
 
 <style>
@@ -306,10 +271,6 @@ $(window).resize(function(){
 
         cursor: url('<?= $site->find('home')->image('cursor.svg')->url() ?>');
 
-    }
-
-    #displayInformation {
-      display: none;
     }
 
 </style>

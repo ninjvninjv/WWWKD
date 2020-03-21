@@ -6,7 +6,7 @@ Typ: group
 
 ----
 
-Status: yes
+Zustand: present
 
 ----
 
@@ -78,7 +78,7 @@ About: Die Gruppe hinter der hauseigenen Typefoundry.
 Projects: 
 
 - 
-  project: projects/nofoundry
+  project: null
 
 ----
 
@@ -95,6 +95,10 @@ Websites:
 - 
   websitename: NoFoundry
   url: http://nofoundry.xyz
+
+----
+
+Status: yes
 
 ----
 

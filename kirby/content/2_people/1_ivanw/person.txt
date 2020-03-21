@@ -1,0 +1,73 @@
+Title: Johnson/Kingston
+
+----
+
+Typ: prof
+
+----
+
+Zustand: present
+
+----
+
+Members: 
+
+----
+
+Firstname: 
+
+----
+
+Surname: 
+
+----
+
+Begin: 2016-10-01
+
+----
+
+End: 
+
+----
+
+Task: digital design
+
+----
+
+About: 
+
+----
+
+Projects: 
+
+----
+
+Mail: 
+
+----
+
+Room: 
+
+----
+
+Websites: 
+
+----
+
+Status: yes
+
+----
+
+Job: prof
+
+----
+
+Prename: Ivan
+
+----
+
+Name: Weiss
+
+----
+
+Social: 
