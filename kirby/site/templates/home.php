@@ -35,10 +35,14 @@
 
         <?php snippet('seminars') ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <div id="seminarglowcol"></div>
         <div class="topglow"></div>
 >>>>>>> parent of 3a494a7... design people
+=======
+        <div id="seminarglowcol"></div>
+>>>>>>> parent of 78fa010... try to fix it, sorry
 
     </div>
 
@@ -79,6 +83,7 @@
     
     <div id='sidebarNavigation'>
 
+<<<<<<< HEAD
         <div class='siteTitle' id='headerTitle'><p>K<br>D</p></div>
         <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
 =======
@@ -96,6 +101,12 @@
         </ul>
     </div>
 </div> -->
+=======
+      <div class='siteTitle' id='headerTitle'><p>K<br>D</p>        
+</div>
+      <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
+        <div class='siteTitle' id='kaTitle'><p>KA</p></div>
+>>>>>>> parent of 78fa010... try to fix it, sorry
 
     <div id='sidebarNavigation'>
         
@@ -266,7 +277,6 @@ $(window).resize(function(){
 
             $('#events').scrollTop($('#seminars').scrollTop());
             $('#timelinecol').scrollTop($('#seminars').scrollTop());
-            $('#seminarglowcolumn').scrollTop($('#seminars').scrollTop());
 
         });
 

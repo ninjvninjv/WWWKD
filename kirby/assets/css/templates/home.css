@@ -22,12 +22,12 @@ body {
 .siteTitle {
   font-family: 'mf_basis_monou50_p80';
   font-size: 5.5vw;
+  z-index: 200;
   right: 1px;
   font-weight: 200;
   position: absolute;
   pointer-events: none;
   line-height: 5vw;
-    
 }
 
 .siteTitle p {
@@ -35,7 +35,7 @@ body {
 }
 
 #headerTitle {
-    top: 3vw;
+    top: 0px;
     padding-bottom: 15px;
     border-bottom:black 1px solid;
 }
@@ -76,7 +76,7 @@ body {
 }
 
 
-#content{
+#content {
   position: absolute;
   width: calc(5*(100vw/6.35));
 
@@ -128,6 +128,7 @@ body {
 #displayInformation{
     
     position:fixed;
+<<<<<<< HEAD
     
 <<<<<<< HEAD
     opacity: 0;
@@ -135,6 +136,9 @@ body {
     
 =======
 >>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
+=======
+
+>>>>>>> parent of 78fa010... try to fix it, sorry
     top: 2.5%;
     right:1vw;
     height:95%;
@@ -212,8 +216,6 @@ body {
 
 .col{
 
-    position: relative;
-    float:left;
     width:100%;
     height:auto;
     overflow:hidden;
@@ -234,7 +236,7 @@ body {
 .top{
     
     position:relative;
-    height:5vw;
+    height:7vw;
     width:100%;
     
 }
@@ -258,10 +260,13 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
     background-image: linear-gradient(to top, transparent 0%, red 80%);
+<<<<<<< HEAD
     pointer-events: none;
 =======
     background-image: linear-gradient(to top, transparent 0%, red 80%)
 >>>>>>> parent of 3a494a7... design people
+=======
+>>>>>>> parent of 78fa010... try to fix it, sorry
 
 =======
     background-image: linear-gradient(to top, transparent 0%, red 80%)
@@ -306,7 +311,10 @@ body {
 .ruler{
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     display:none;
+=======
+>>>>>>> parent of 78fa010... try to fix it, sorry
     position:fixed;
 =======
     position:absolute;
@@ -395,7 +403,7 @@ body {
 
 /*EVENTS*/
 
-.eventGlow, #projectGlow{
+.eventGlow, .seminarGlow, #projectGlow{
 
     position:absolute;
     width:200%;
@@ -455,7 +463,12 @@ body {
 }
 
 #seminarGlowSeminar{
-    
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
     border-radius: 200px 200px 0 0;
 
     background-image: radial-gradient(
@@ -502,21 +515,6 @@ body {
 
 
 /*SEMINARS*/
-
-.seminarGlow{
-    
-    position:absolute;
-    height:200px;
-    width:200px;
-    left:-100px;
-    
-}
-
-#seminarglowcol{
-    
-    position:absolute;
-    
-}
 
 .seminar, .event{
 
@@ -699,16 +697,19 @@ body {
 
 /*INFO*/
 .infotext{
-    padding-left: 2%;
-    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-bottom: 1vh;
     width: 100%;
 <<<<<<< HEAD
     word-wrap: break-word;
+<<<<<<< HEAD
     
     border-top: solid black 1px;
 =======
 >>>>>>> parent of 3a494a7... design people
+=======
+>>>>>>> parent of 78fa010... try to fix it, sorry
 
 }
 

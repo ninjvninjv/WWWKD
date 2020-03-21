@@ -58,18 +58,11 @@
                         <script>
 
                                     $('#project<?= $z ?>').on('click',function(){
-                                        
+
                                         $('.infotitle').html('<?= $project->title() ?>');
                                         $('.infotype').html('<?= $project->type() ?>');
                                         $('.infoauthor').text($('#proauthor<?= $z ?>').text());
                                         $('.informationtext').text('<?= $project->about() ?>');
-                                        
-                                        $('#displayInformation').css('display','inherit');
-                                        $('#displayInformation').animate({opacity: 1}, 350, function(){});
-                                                                        
-                                        
-                                                                        
-                                       
 
                                     });
 
