@@ -126,12 +126,15 @@ body {
 /*---OVERLAY---*/
 
 #displayInformation{
-
+    
     position:fixed;
     
+<<<<<<< HEAD
     opacity: 0;
     display: none;
     
+=======
+>>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
     top: 2.5%;
     right:1vw;
     height:95%;
@@ -139,27 +142,32 @@ body {
     background-color:white;
     z-index:20000000;
     box-shadow: 30px 30px 100px red;
-
+    
 }
 
 .infotitle{
+<<<<<<< HEAD
 
     position: relative;
+=======
+    
+    position: absolute;
+>>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
     left:0px;
     top:0px;
     width:100%;
     height:10%;
     border-bottom-style:solid;
     border-bottom-width:1px;
-
+    
     font-size:2vw;
     text-align:center;
     line-height:1;
-
+    
 }
 
 .infoheader{
-
+    
     position: absolute;
     left:0px;
     top:10%;
@@ -170,7 +178,7 @@ body {
 }
 
 .informationtext{
-
+    
     position: absolute;
     left:0px;
     top:30%;
@@ -220,23 +228,33 @@ body {
 }
 
 .top{
-
+    
     position:relative;
     height:5vw;
     width:100%;
-
+    
 }
 
 .topglow{
+<<<<<<< HEAD
 
     position: fixed;
+=======
+    
+    position: absolute;
+>>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
     top:0;
     left:0;
     height:7vw;
     width:100%;
+<<<<<<< HEAD
     background-image: linear-gradient(to top, transparent 0%, red 80%);
     pointer-events: none;
 
+=======
+    background-image: linear-gradient(to top, transparent 0%, red 80%)
+    
+>>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
 }
 
 /*---CALENDAR---*/
@@ -617,6 +635,11 @@ body {
     text-align:center;
     border-top-style: solid;
     border-top-width:1px;
+<<<<<<< HEAD
+=======
+    
+    
+>>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
 }
 
 .protype{
@@ -635,7 +658,7 @@ body {
 }
 
 .prosemester{
-
+    
     padding-top:0.4vw;
     font-family: 'mf_basis_monou15_p80';
     font-size: 2vw;
@@ -709,8 +732,12 @@ body {
     top:2.5%;
     height:95%;
     box-shadow: 10px 10px 100px 10px red;
+<<<<<<< HEAD
     pointer-events: none;
 
+=======
+    
+>>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
     mix-blend-mode: luminosity;
     z-index: 300000000000000000;
 
