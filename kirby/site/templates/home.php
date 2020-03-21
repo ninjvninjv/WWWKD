@@ -3,6 +3,7 @@
     <div id='calendarNavigation'>
 
       <?php snippet('timeline') ?>
+        <div class="topglow"></div>
 
     </div>
 
@@ -10,16 +11,21 @@
 
 <<<<<<< HEAD
       <?php snippet('navigation') ?>
+<<<<<<< HEAD
 =======
     <?php snippet('navigation') ?>
       <div class="topglow"></div>
 >>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
+=======
+      <div class="topglow"></div>
+>>>>>>> parent of 3a494a7... design people
 
     <div class='column' id='events'>
 
         <div class="ruler"></div>
 
         <?php snippet('events') ?>
+        <div class="topglow"></div>
 
     </div>
 
@@ -28,18 +34,25 @@
         <div class="ruler"></div>
 
         <?php snippet('seminars') ?>
+<<<<<<< HEAD
+=======
+        <div id="seminarglowcol"></div>
+        <div class="topglow"></div>
+>>>>>>> parent of 3a494a7... design people
 
     </div>
 
     <div class='column' id='projects'>
 
         <?php snippet('projects') ?>
+        <div class="topglow"></div>
 
     </div>
 
     <div class='column' id='people'>
 
         <?php snippet('people') ?>
+        <div class="topglow"></div>
 
     </div>
 
@@ -52,14 +65,16 @@
 
     <div class='column' id='information'>
 
-        
+
         <?php snippet('information') ?>
+        <div class="topglow"></div>
 
     </div>
 
-      <div class="topglow"></div>
+
 
   </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
     
     <div id='sidebarNavigation'>
@@ -84,6 +99,11 @@
 
     <div id='sidebarNavigation'>
         
+=======
+
+    <div id='sidebarNavigation'>
+
+>>>>>>> parent of 3a494a7... design people
 
       <div class='siteTitle' id='headerTitle'><p>K<br>D</p>        <div class="topglow"></div>
 </div>
@@ -228,9 +248,6 @@ $(window).resize(function(){
 
     });
 
-// --- GLOW ---
-    
-
 
 // --- SEMINARS & EVENTS ---
 
@@ -279,6 +296,10 @@ $(window).resize(function(){
 
         cursor: url('<?= $site->find('home')->image('cursor.svg')->url() ?>');
 
+    }
+
+    #displayInformation {
+      display: none;
     }
 
 </style>

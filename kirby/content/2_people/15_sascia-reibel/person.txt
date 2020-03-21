@@ -2,23 +2,7 @@ Title: Sascia Reibel
 
 ----
 
-Typ: employee
-
-----
-
-Zustand: present
-
-----
-
 Members: 
-
-----
-
-Firstname: 
-
-----
-
-Surname: 
 
 ----
 
@@ -39,14 +23,6 @@ About:
 ----
 
 Projects: 
-
-----
-
-Mail: 
-
-----
-
-Room: 
 
 ----
 

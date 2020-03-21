@@ -148,11 +148,15 @@ body {
 .infotitle{
 <<<<<<< HEAD
 
+<<<<<<< HEAD
     position: relative;
 =======
     
     position: absolute;
 >>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
+=======
+    position: absolute;
+>>>>>>> parent of 3a494a7... design people
     left:0px;
     top:0px;
     width:100%;
@@ -238,18 +242,26 @@ body {
 .topglow{
 <<<<<<< HEAD
 
+<<<<<<< HEAD
     position: fixed;
 =======
     
     position: absolute;
 >>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
+=======
+    position: absolute;
+>>>>>>> parent of 3a494a7... design people
     top:0;
     left:0;
     height:7vw;
     width:100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-image: linear-gradient(to top, transparent 0%, red 80%);
     pointer-events: none;
+=======
+    background-image: linear-gradient(to top, transparent 0%, red 80%)
+>>>>>>> parent of 3a494a7... design people
 
 =======
     background-image: linear-gradient(to top, transparent 0%, red 80%)
@@ -279,7 +291,6 @@ body {
     text-align:center;
     background-color:black;
     color:white;
-    border-color:transparent;
 
 }
 
@@ -294,8 +305,12 @@ body {
 /*the red line in <timeline> <events> and <courses>*/
 .ruler{
 
+<<<<<<< HEAD
     display:none;
     position:fixed;
+=======
+    position:absolute;
+>>>>>>> parent of 3a494a7... design people
     left:0px;
     width:100%;
     pointer-events: none;
@@ -636,10 +651,15 @@ body {
     border-top-style: solid;
     border-top-width:1px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
     
 >>>>>>> parent of 53b626f... Merge branch 'master' of https://github.com/ninjvninjv/WWWKD
+=======
+
+
+>>>>>>> parent of 3a494a7... design people
 }
 
 .protype{
@@ -673,6 +693,9 @@ body {
     height: auto;
 }
 
+.proimage:hover{
+   mix-blend-mode: luminosity;
+}
 
 /*INFO*/
 .infotext{
@@ -680,49 +703,16 @@ body {
     padding-right: 2%;
     margin-bottom: 1vh;
     width: 100%;
+<<<<<<< HEAD
     word-wrap: break-word;
     
     border-top: solid black 1px;
+=======
+>>>>>>> parent of 3a494a7... design people
 
 }
 
 /*PEOPLE*/
-
-.person{
-    
-    
-    border-top: solid black 1px;
-    
-}
-
-.person:hover{
-    
-    background:black;
-    color:white;
-    cursor:pointer;
-    
-}
-
-.prof, .hiwi, .group, .student, .employee, .teacher{
-    padding-bottom:0.2vw;
-    padding-top:-0.2vw;
-    word-wrap: break-word;
-    
-}
-
-#persontype{
-    
-
-    
-}
-
-.personname{
-    
-    font-size:2vw;
-    line-height: 1.6vw;
-    
-}
-
 .profile{
     visibility: hidden;
     z-index: 100;
@@ -733,7 +723,10 @@ body {
     height:95%;
     box-shadow: 10px 10px 100px 10px red;
 <<<<<<< HEAD
+<<<<<<< HEAD
     pointer-events: none;
+=======
+>>>>>>> parent of 3a494a7... design people
 
 =======
     
@@ -741,22 +734,6 @@ body {
     mix-blend-mode: luminosity;
     z-index: 300000000000000000;
 
-}
-
-.peoplespast{
-    
-    width:100%;
-    
-    padding-bottom:0.6vw;
-    padding-top:0.4vw;
-    
-    font-size:2vw;
-    line-height: 1.6vw;
-    
-    text-align: center;
-    font-family: 'arial_brutforce_monospacedBlk';
-    border-top: solid black 1px;
-    
 }
 
 #mouse_over {

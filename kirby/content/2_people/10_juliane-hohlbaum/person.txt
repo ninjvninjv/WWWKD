@@ -6,7 +6,7 @@ Typ: employee
 
 ----
 
-Zustand: present
+Status: yes
 
 ----
 
@@ -51,7 +51,3 @@ Room:
 ----
 
 Websites: 
-
-----
-
-Status: yes

@@ -6,7 +6,7 @@ Typ: student
 
 ----
 
-Zustand: present
+Status: yes
 
 ----
 
@@ -51,10 +51,6 @@ Room:
 ----
 
 Websites: 
-
-----
-
-Status: yes
 
 ----
 

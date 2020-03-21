@@ -6,7 +6,7 @@ Typ: teacher
 
 ----
 
-Zustand: past
+Status: no
 
 ----
 
@@ -51,7 +51,3 @@ Room:
 ----
 
 Websites: 
-
-----
-
-Status: no
