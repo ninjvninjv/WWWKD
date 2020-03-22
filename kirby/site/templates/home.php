@@ -43,7 +43,7 @@
     <!-- TEST OVERLAY PEOPLE -->
     <?php foreach ($site->find ('people')->children() as $person): ?>
         <?php foreach ($person->images() as $image): ?>
-            <img class="profile" id="<?= $person ?>" src="<?= $image->url() ?>">
+            <img class="profile" id="profile<?= $person->firstname() ?><?= $person->surname() ?>" src="<?= $image->url() ?>">
         <?php endforeach ?>
     <?php endforeach ?>
 

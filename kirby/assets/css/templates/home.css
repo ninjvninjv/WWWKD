@@ -128,7 +128,7 @@ body {
 #displayInformation{
 
     position:fixed;
-
+    opacity:0;
     top: 2.5%;
     right:1vw;
     height:95%;

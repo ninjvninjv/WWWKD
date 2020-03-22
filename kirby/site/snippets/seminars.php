@@ -54,27 +54,7 @@
 
         <div class="day" id="s<?= $value->format("Y-m-d"); ?>">
             
-        <script>
-        
-            $(document).ready(function(){
-                
-                //-----YEAR CHANGE-----
-                    var $timestamp = '<?php if (isset($item->start->dateTime)){echo $item->start->dateTime;} ?>';
-                    var ddate = $timestamp.substring(0, 10);
-                    var day = ddate.substring(8, 10);
-                    var month = ddate.substring(5, 7);
-                    var year = ddate.substring(0, 4);
-                
-                    if(month == '12'){
-                        
-                        $('#t'+ddate).after('<div class="year" id="year'+year+'" style="position:relative;float:left;width:100%;">'+year+'</div>' );
-                        $('#s'+ddate).after('<div class="year" id="year'+year+'" style="position:relative;float:left;width:100%;">'+year+'</div>' );
-                        $('#e'+ddate).after('<div class="year" id="year'+year+'" style="position:relative;float:left;width:100%;">'+year+'</div>' );
-                    }; 
-                
-            });
-            
-        </script>
+
 
 
 
