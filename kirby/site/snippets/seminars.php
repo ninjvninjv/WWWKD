@@ -28,7 +28,7 @@
 
     </div>
 
-    <div class="archive" id="seminararchive">↑ Archiv ↑</div>
+    <div class="archive" id="seminararchive">Archive</div>
 
     <div class="future">
 
@@ -38,7 +38,7 @@
         $i = 0;
         $begin = new DateTime(date("Y-m-d"));
         $interval = new DateInterval('P1D');
-        $end = new DateTime('2020-02-30');
+        $end = new DateTime('2021-02-30');
         $period = new DatePeriod(
              $begin,
              $interval,
@@ -54,7 +54,27 @@
 
         <div class="day" id="s<?= $value->format("Y-m-d"); ?>">
             
-
+        <script>
+        
+            $(document).ready(function(){
+                
+                //-----YEAR CHANGE-----
+                    var $timestamp = '<?php if (isset($item->start->dateTime)){echo $item->start->dateTime;} ?>';
+                    var ddate = $timestamp.substring(0, 10);
+                    var day = ddate.substring(8, 10);
+                    var month = ddate.substring(5, 7);
+                    var year = ddate.substring(0, 4);
+                
+                    if(month == '12'){
+                        
+                        $('#t'+ddate).after('<div class="year" id="year'+year+'" style="position:relative;float:left;width:100%;">'+year+'</div>' );
+                        $('#s'+ddate).after('<div class="year" id="year'+year+'" style="position:relative;float:left;width:100%;">'+year+'</div>' );
+                        $('#e'+ddate).after('<div class="year" id="year'+year+'" style="position:relative;float:left;width:100%;">'+year+'</div>' );
+                    }; 
+                
+            });
+            
+        </script>
 
 
 
@@ -129,7 +149,7 @@
 
                     //fits height of the day to the biggest
 
-
+                   
 
                 //-----PAST-----
 
@@ -199,7 +219,7 @@
         $i = 0;
         $begin = new DateTime(date("Y-m-d"));
         $interval = new DateInterval('P1D');
-        $end = new DateTime('2020-02-30');
+        $end = new DateTime('2021-02-30');
         $period = new DatePeriod(
              $begin,
              $interval,
@@ -340,8 +360,9 @@
 
                     //values for todays row
                     var today = '<?= date("Y-m-d"); ?>';
+                    var tomorrow = '<?= date('Y-m-d', strtotime(date('Y-m-d') . ' +1 day')); ?>';
                     $('#t'+today).html('');
-                    $('#t'+today).append('<div class="hours"><div class="hour" id="h00">00</div><div class="hour" id="h01">01</div><div class="hour" id="h02">02</div><div class="hour" id="h03">03</div><div class="hour" id="h04">04</div><div class="hour" id="h05">05</div><div class="hour" id="h06">06</div><div class="hour" id="h07">07</div><div class="hour" id="h08">08</div><div class="hour" id="h09">09</div><div class="hour" id="h10">10</div><div class="hour" id="h11">11</div><div class="hour" id="h12">12</div><div class="hour" id="h13">13</div><div class="hour" id="h14">14</div><div class="hour" id="h15">15</div><div class="hour" id="h16">16</div><div class="hour" id="h17">17</div><div class="hour" id="h18">18</div><div class="hour" id="h19">19</div><div class="hour" id="h20">20</div><div class="hour" id="h21">21</div><div class="hour" id="h22">22</div><div class="hour" id="h23">23</div></div>');
+                    $('#t'+today).append('<div class="hours"><div class="hour" id="h00">morning</div><div class="hour" id="h01">noon</div><div class="hour" id="h02">evening</div></div>');
                     $('#t'+today).css('height', 'auto');
 /*                    $('#s'+today).css('background-color', 'white ');
                     $('#e'+today).css('background-color', 'white ');
@@ -353,6 +374,10 @@
                     //sets height of todays event and seminar on timelines height
                     $('#s'+today).css('height', ttoday);
                     $('#e'+today).css('height', ttoday);
+                    $('#s'+today).css('border-bottom-width', '0');
+                    $('#e'+today).css('border-bottom-width', '0');
+                    $('#s'+tomorrow).css('border-top-width', '0');
+                    $('#e'+tomorrow).css('border-top-width', '0');
 
 
 

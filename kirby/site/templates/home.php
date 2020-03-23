@@ -56,31 +56,23 @@
 
       <div class="topglow"></div>
 
+      
   </div>
     
     <div id='sidebarNavigation'>
 
       <div class='siteTitle' id='headerTitle'><p>K<br>D</p>        
-</div>
+        </div>
       <div class='siteTitle' id='footerTitle'><p>H<br>f<br>G</p></div>
         <div class='siteTitle' id='kaTitle'><p>KA</p></div>
-
+        
     </div>
 
-    <div id='displayInformation'>
+ <div id='displayInformation'>
 
-        <div id='info' class='textinfo'>
-            <div class='infotitle'>a</div>
-            <div class='infoheader'>
-                <div class='infotype'>a</div>
-                <div class='infodate'></div>
-                <div class='infoauthor'></div>
-                <div class='infosupervisor'></div>
-            </div>
-            <div class='informationtext'>a</div>
+        <?php snippet('overlayproject') ?>
+        
         </div>
-
-    </div>
 
 
 <!---SCRIPTS--->
@@ -255,8 +247,8 @@ $(window).resize(function(){
 
 
         $('#seminarcol').scrollTop($('#s'+today).offset().top - ($(window).height()/2) - ($('#s'+today).height()/2)).delay( 100000 );
-        $('#s'+today).after( '<div class="futureheader" id="seminarfutureheader">↓ Zukunft ↓</div>' );
-        $('#e'+today).after( '<div class="futureheader" id="eventfutureheader">↓ Zukunft ↓</div>' );
+        $('#s'+today).after( '<div class="futureheader" id="seminarfutureheader"> Future</div>' );
+        $('#e'+today).after( '<div class="futureheader" id="eventfutureheader"> Future</div>' );
         $('#t'+today).after( '<div class="futureheader" id="timelinefutureheader">↓</div>' );
 
     });

@@ -60,12 +60,21 @@
                                     $('#project<?= $z ?>').on('click',function(){
                                         
                                         $('.infotitle').html('<?= $project->title() ?>');
-                                            $('.infotype').html('<?= $project->type() ?>');
+                                         $('.infotype').html('<?= $project->type() ?>');
                                             $('.infoauthor').text($('#proauthor<?= $z ?>').text());
                                             $('.informationtext').text('<?= $project->about() ?>');
+                                            $('.infocategory').text('<?= $project->medium() ?>');
                                         
-                                        $('#displayInformation').animate({opacity:1},1000,function(){
+                                            <?php $i=0; foreach ($project->images() as $proimage): $i++; ?>
+
+                                                $('.infopiccol').append('<img class="proimage" id="proimage<?= $i ?>" src="<?= $proimage->url() ?>">');
+        
+                                            <?php endforeach ?>
+                                        
+                                        $('#proimage<?= $i ?>').css('margin-bottom', '0');
+                                        $('#displayInformation').animate({opacity:1},500,function(){
                                             
+                                            $('#displayInformation').css('pointer-events', 'all');
                                             
                                         });
                                         
@@ -73,8 +82,8 @@
                                     });
 
                         </script>
+    
         
-
                     <?php endforeach ?>
         
                 <?php endif ?>

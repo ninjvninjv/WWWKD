@@ -129,14 +129,64 @@ body {
 
     position:fixed;
     opacity:0;
-    top: 2.5%;
-    right:1vw;
-    height:95%;
-    width:15vw;
-    background-color:white;
+    top: 2vh;
+    left:1vw;
+    height:96vh;
+    width:98vw;
     z-index:20000000;
-    box-shadow: 30px 30px 100px red;
+    
+    
+    pointer-events: none;
+    
 
+}
+
+.textinfo{
+    
+    position:absolute;
+    height:100%;
+    width:20%;
+    
+    top:0;
+    right:0;
+    
+    background-color:white;
+}
+
+.informationmenu{
+    
+    position:relative;
+    width:100%;
+    height:2.5%;
+    
+    padding-right:1%;
+    
+    text-align: right;
+    
+    border-bottom: 1px solid black;
+    
+}
+
+.informationmenu img{
+    
+    position:absolute;
+    top:5%;
+    height:80%;
+    
+    cursor:pointer;
+    
+}
+
+#x{
+    
+    right:1%;
+    
+}
+
+#arrow{
+    
+    left:1%;
+    
 }
 
 .infotitle{
@@ -145,7 +195,7 @@ body {
     left:0px;
     top:0px;
     width:100%;
-    height:10%;
+    height:auto;
     border-bottom-style:solid;
     border-bottom-width:1px;
 
@@ -157,23 +207,66 @@ body {
 
 .infoheader{
 
-    position: absolute;
-    left:0px;
-    top:10%;
-    height:20%;
+    position: relative;
+    height:auto;
     width:100%;
+    
+    font-family: 'arial_brutforce_monospacedBlk';
+    text-align:center;
+    
     border-bottom-style:solid;
     border-bottom-width:1px;
+    padding: 0 2% 0 2%;
 }
 
 .informationtext{
 
-    position: absolute;
-    left:0px;
-    top:30%;
+    position: relative;
     height:70%;
     width:100%;
+    
+    overflow: scroll;
 }
+
+.infocategory{
+    
+    position: relative;
+    width:100%;
+    height:auto;
+    
+    border-top: 1px solid black;
+    
+}
+
+.infopics{
+    
+    position:absolute;
+    
+    left:0px;
+    top:0px;
+    width: 78%;
+    height:100%;
+    padding:0;
+    
+    overflow:scroll;
+
+}
+
+.infopiccol{
+    
+    width:100%;
+    height:auto;
+    
+}
+
+.proimage{
+    
+    position:relative;
+    width:100%;
+    margin-bottom: 20px;
+    
+}
+
 
 /*---COLUMNS---*/
 
@@ -248,23 +341,27 @@ body {
 
     width:100%;
     float:left;
-
-    border-top-style:solid;
-    border-top-width: 1px;
+    
+    padding:4vh 0 4vh 0;
+    
+    font-family: 'mf_basis_monou15_p80';
+    font-size: 2vw;
+    line-height: 1;
 
     text-align:center;
-    background-color:black;
-    color:white;
+
     border-color:transparent;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 
 }
 
-#seminarfutureheader{
-
-    border-left-style:solid;
-    border-left-width:1px;
-
+.archive{
+    
+    border-bottom: 1px solid black;
+    
 }
+
 
 /*RULER*/
 /*the red line in <timeline> <events> and <courses>*/
@@ -308,29 +405,23 @@ body {
 
 }
 
-.futureheader{
-    
-    border-bottom: black solid 1px;
-    
-}
 
 .hours{
 
-    width:20%;
+    width:100%;
     margin-right:0.5vw;
-    float:right;
 
 }
 
 .hour{
 
-    height: calc[100%/23]%;
+    height: calc[100%/3]%;
     width: 100%;
     border-bottom-style:solid;
     border-bottom-width:1px;
 }
 
-#h23{
+#h02{
 
     border-bottom-style:hidden;
 

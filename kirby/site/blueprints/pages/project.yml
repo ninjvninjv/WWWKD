@@ -19,7 +19,7 @@ columns:
                         label: Type
                         type: radio
                         options:
-                            Seminar: Seminar
+                            Seminararbeit: Seminar
                             Freies Projekt: Free Project
                             Vordiplom: Prediploma
                             Diplom: Diploma

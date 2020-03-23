@@ -17,7 +17,7 @@
 
     </div>
 
-    <div class="archive" id="eventarchive">↑ Archiv ↑</div>
+    <div class="archive" id="eventarchive">Archive</div>
 
     <div class="future" id="eventfuture">
 
@@ -27,7 +27,7 @@
         $i = 0;
         $begin = new DateTime(date("Y-m-d"));
         $interval = new DateInterval('P1D');
-        $end = new DateTime('2020-02-30');
+        $end = new DateTime('2021-02-30');
         $period = new DatePeriod(
              $begin,
              $interval,
